@@ -1,0 +1,19 @@
+/* 1. Font Import (MUST be at the very top) */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/* 2. Tailwind Import */
+@import "tailwindcss";
+
+/* 3. Configure the variable */
+@theme {
+  --font-sans: "Poppins", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --gradient-brand: linear-gradient(90deg, #F58220, #6C3130);
+  --color-brand: #F58220;
+  --color-surface-soft: #F4F4F4;
+}
+
+/* 4. THE FIX: Explicitly apply the variable to the body */
+/* This ensures your custom font wins over default styles */
+body {
+  font-family: var(--font-sans);
+}
