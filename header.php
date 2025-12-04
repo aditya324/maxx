@@ -11,7 +11,7 @@
 
 
 
-<nav class="fixed top-0 left-0 w-full bg-[#F4F4F4]  z-20">
+<nav class="fixed top-0 left-0 w-full bg-[#F4F4F4] z-100">
   <div class="flex items-center justify-between w-full px-6 py-3">
 
     <!-- LEFT: LOGOS -->
