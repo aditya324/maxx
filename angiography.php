@@ -146,7 +146,8 @@
           <!-- SLIDE 1 -->
           <div class="swiper-slide">
             <article
-               class="w-full h-full rounded-2xl bg-white shadow-[0_10px_30px_rgba(15,23,42,0.08)] px-6 pt-8 pb-6 flex flex-col items-center">              <div
+              class="w-full h-full rounded-2xl bg-white shadow-[0_10px_30px_rgba(15,23,42,0.08)] px-6 pt-8 pb-6 flex flex-col items-center">
+              <div
                 class="w-28 h-28 rounded-full border-[5px] border-orange-500 overflow-hidden flex items-center justify-center">
                 <img src="images/doctor-1.png" alt="Dr Prasanna B"
                   class="w-full h-full object-cover" />
@@ -162,11 +163,11 @@
 
               <div class="flex w-full mt-6 text-sm font-medium">
                 <button
-                  class="flex-1 py-2.5 bg-[#532D29] text-white rounded-l-xl">
+                  class="flex-1 py-2.5 bg-[#532D29] text-white rounded-bl-xl">
                   view profile
                 </button>
                 <button
-                  class="flex-1 py-2.5 border border-orange-500 text-orange-500 bg-white rounded-r-xl">
+                  class="flex-1 py-2.5 border border-orange-500 text-orange-500 bg-white rounded-br-xl">
                   Book Appointment
                 </button>
               </div>
@@ -176,7 +177,8 @@
           <!-- SLIDE 2 -->
           <div class="swiper-slide">
             <article
-               class="w-full h-full rounded-2xl bg-white shadow-[0_10px_30px_rgba(15,23,42,0.08)] px-6 pt-8 pb-6 flex flex-col items-center">              <div
+              class="w-full h-full rounded-2xl bg-white shadow-[0_10px_30px_rgba(15,23,42,0.08)] px-6 pt-8 pb-6 flex flex-col items-center">
+              <div
                 class="w-28 h-28 rounded-full border-[5px] border-orange-500 overflow-hidden flex items-center justify-center">
                 <img src="images/doctor-2.png" alt="Dr Anil Kumar"
                   class="w-full h-full object-cover" />
@@ -192,11 +194,11 @@
 
               <div class="flex w-full mt-6 text-sm font-medium">
                 <button
-                  class="flex-1 py-2.5 bg-[#532D29] text-white rounded-l-xl">
+                  class="flex-1 py-2.5 bg-[#532D29] text-white rounded-bl-xl">
                   view profile
                 </button>
                 <button
-                  class="flex-1 py-2.5 border border-orange-500 text-orange-500 bg-white rounded-r-xl">
+                  class="flex-1 py-2.5 border border-orange-500 text-orange-500 bg-white rounded-br-xl">
                   Book Appointment
                 </button>
               </div>
@@ -206,7 +208,8 @@
           <!-- SLIDE 3 -->
           <div class="swiper-slide">
             <article
-               class="w-full h-full rounded-2xl bg-white shadow-[0_10px_30px_rgba(15,23,42,0.08)] px-6 pt-8 pb-6 flex flex-col items-center">              <div
+              class="w-full h-full rounded-2xl bg-white shadow-[0_10px_30px_rgba(15,23,42,0.08)] px-6 pt-8 pb-6 flex flex-col items-center">
+              <div
                 class="w-28 h-28 rounded-full border-[5px] border-orange-500 overflow-hidden flex items-center justify-center">
                 <img src="images/doctor-3.png" alt="Dr Neha R"
                   class="w-full h-full object-cover" />
@@ -222,11 +225,11 @@
 
               <div class="flex w-full mt-6 text-sm font-medium">
                 <button
-                  class="flex-1 py-2.5 bg-[#532D29] text-white rounded-l-xl">
+                  class="flex-1 py-2.5 bg-[#532D29] text-white rounded-bl-xl">
                   view profile
                 </button>
                 <button
-                  class="flex-1 py-2.5 border border-orange-500 text-orange-500 bg-white rounded-r-xl">
+                  class="flex-1 py-2.5 border border-orange-500 text-orange-500 bg-white rounded-br-xl">
                   Book Appointment
                 </button>
               </div>
@@ -236,7 +239,8 @@
           <!-- SLIDE 4 -->
           <div class="swiper-slide">
             <article
-               class="w-full h-full rounded-2xl bg-white shadow-[0_10px_30px_rgba(15,23,42,0.08)] px-6 pt-8 pb-6 flex flex-col items-center">              <div
+              class="w-full h-full rounded-2xl bg-white shadow-[0_10px_30px_rgba(15,23,42,0.08)] px-6 pt-8 pb-6 flex flex-col items-center">
+              <div
                 class="w-28 h-28 rounded-full border-[5px] border-orange-500 overflow-hidden flex items-center justify-center">
                 <img src="images/doctor-4.png" alt="Dr Neha R"
                   class="w-full h-full object-cover" />
@@ -252,11 +256,11 @@
 
               <div class="flex w-full mt-6 text-sm font-medium">
                 <button
-                  class="flex-1 py-2.5 bg-[#532D29] text-white rounded-l-xl">
+                  class="flex-1 py-2.5 bg-[#532D29] text-white rounded-bl-xl">
                   view profile
                 </button>
                 <button
-                  class="flex-1 py-2.5 border border-orange-500 text-orange-500 bg-white rounded-r-xl">
+                  class="flex-1 py-2.5 border border-orange-500 text-orange-500 bg-white rounded-br-xl">
                   Book Appointment
                 </button>
               </div>
@@ -264,7 +268,8 @@
           </div>
           <div class="swiper-slide">
             <article
-               class="w-full h-full rounded-2xl bg-white shadow-[0_10px_30px_rgba(15,23,42,0.08)] px-6 pt-8 pb-6 flex flex-col items-center">              <div
+              class="w-full h-full rounded-2xl bg-white shadow-[0_10px_30px_rgba(15,23,42,0.08)] px-6 pt-8 pb-6 flex flex-col items-center">
+              <div
                 class="w-28 h-28 rounded-full border-[5px] border-orange-500 overflow-hidden flex items-center justify-center">
                 <img src="images/doctor-4.png" alt="Dr Neha R"
                   class="w-full h-full object-cover" />
@@ -280,19 +285,20 @@
 
               <div class="flex w-full mt-6 text-sm font-medium">
                 <button
-                  class="flex-1 py-2.5 bg-[#532D29] text-white rounded-l-xl">
+                  class="flex-1 py-2.5 bg-[#532D29] text-white rounded-bl-xl">
                   view profile
                 </button>
                 <button
-                  class="flex-1 py-2.5 border border-orange-500 text-orange-500 bg-white rounded-r-xl">
+                  class="flex-1 py-2.5 border border-orange-500 text-orange-500 bg-white rounded-br-xl">
                   Book Appointment
                 </button>
               </div>
             </article>
           </div>
-           <div class="swiper-slide">
+          <div class="swiper-slide">
             <article
-               class="w-full h-full rounded-2xl bg-white shadow-[0_10px_30px_rgba(15,23,42,0.08)] px-6 pt-8 pb-6 flex flex-col items-center">              <div
+              class="w-full h-full rounded-2xl bg-white shadow-[0_10px_30px_rgba(15,23,42,0.08)] px-6 pt-8 pb-6 flex flex-col items-center">
+              <div
                 class="w-28 h-28 rounded-full border-[5px] border-orange-500 overflow-hidden flex items-center justify-center">
                 <img src="images/doctor-4.png" alt="Dr Neha R"
                   class="w-full h-full object-cover" />
@@ -308,11 +314,11 @@
 
               <div class="flex w-full mt-6 text-sm font-medium">
                 <button
-                  class="flex-1 py-2.5 bg-[#532D29] text-white rounded-l-xl">
+                  class="flex-1 py-2.5 bg-[#532D29] text-white rounded-bl-xl">
                   view profile
                 </button>
                 <button
-                  class="flex-1 py-2.5 border border-orange-500 text-orange-500 bg-white rounded-r-xl">
+                  class="flex-1 py-2.5 border border-orange-500 text-orange-500 bg-white rounded-br-xl">
                   Book Appointment
                 </button>
               </div>
@@ -329,121 +335,109 @@
 
 
 
-<section class="w-full bg-[#F5F7FB] py-12">
-  <div class="max-w-6xl mx-auto px-4">
-    <!-- Top Heading -->
-    <h2 class="text-2xl md:text-3xl font-semibold text-[#1F2933]">
-      Your health matters —
-      <span class="text-[#F97316] font-semibold">get the right information today.</span>
-    </h2>
+  <section class="w-full bg-[#F5F7FB] py-12">
+    <div class="max-w-6xl mx-auto px-4">
+      <!-- Top Heading -->
+      <h2 class="text-2xl md:text-3xl font-semibold text-[#1F2933]">
+        Your health matters —
+        <span class="text-[#F97316] font-semibold">get the right information today.</span>
+      </h2>
 
-    <!-- Card -->
-    <div
-      class="mt-8 bg-white rounded-[20px] shadow-[0_10px_30px_rgba(15,23,42,0.08)] flex flex-col md:flex-row overflow-hidden"
-    >
-      <!-- Left: Image -->
-      <div class="md:w-[493px] md:h-[547px]">
-        <img
-          src="./assets/genrated-image.png"
-          alt="Doctor talking to patient"
-          class="w-full h-full object-cover"
-        />
-      </div>
+      <!-- Card -->
+      <div
+        class="mt-8 bg-white rounded-[20px] shadow-[0_10px_30px_rgba(15,23,42,0.08)] flex flex-col md:flex-row overflow-hidden">
+        <!-- Left: Image -->
+        <div class="md:w-[493px] md:h-[547px]">
+          <img
+            src="./assets/genrated-image.png"
+            alt="Doctor talking to patient"
+            class="w-full h-full object-cover" />
+        </div>
 
-      <!-- Right: Form -->
-      <div class=" md:h-[547px] px-6 md:px-10 py-8 flex items-center">
-        <div class="w-full">
-          <p class="text-xs font-semibold tracking-[0.15em] text-gray-500 uppercase">
-            Talk to our <span class="text-[#F97316]">Health Advisor</span>
-          </p>
+        <!-- Right: Form -->
+        <div class=" md:h-[547px] px-6 md:px-10 py-8 flex items-center">
+          <div class="w-full">
+            <p class="text-xs font-semibold tracking-[0.15em] text-gray-500 uppercase">
+              Talk to our <span class="text-[#F97316]">Health Advisor</span>
+            </p>
 
-          <form class="mt-6 space-y-4">
-            <!-- Full Name -->
-            <div class="flex flex-col gap-1">
-              <label
-                for="fullName"
-                class="text-sm font-medium text-gray-700"
-              >
-                Full Name<span class="text-red-500">*</span>
-              </label>
-              <input
-                id="fullName"
-                type="text"
-                class="h-11 w-full rounded-lg border border-gray-300 px-3 text-sm focus:outline-none focus:ring-2 focus:ring-[#F97316] focus:border-[#F97316]"
-                placeholder="Enter your full name"
-              />
-            </div>
-
-            <!-- Email -->
-            <div class="flex flex-col gap-1">
-              <label
-                for="email"
-                class="text-sm font-medium text-gray-700"
-              >
-                Email<span class="text-red-500">*</span>
-              </label>
-              <input
-                id="email"
-                type="email"
-                class="h-11 w-full rounded-lg border border-gray-300 px-3 text-sm focus:outline-none focus:ring-2 focus:ring-[#F97316] focus:border-[#F97316]"
-                placeholder="Enter your email"
-              />
-            </div>
-
-            <!-- Phone (Country + Number) -->
-            <div class="flex flex-col gap-1">
-              <label
-                for="mobile"
-                class="text-sm font-medium text-gray-700"
-              >
-                Mobile Number<span class="text-red-500">*</span>
-              </label>
-
-              <div class="flex gap-2">
-                <!-- Country Code -->
-                <div class="w-28">
-                  <select
-                    class="h-11 w-full rounded-lg border border-gray-300 px-2 text-sm focus:outline-none focus:ring-2 focus:ring-[#F97316] focus:border-[#F97316]"
-                  >
-                    <option value="+91">+91 IN</option>
-                    <option value="+1">+1 US</option>
-                    <option value="+44">+44 UK</option>
-                    <!-- add more if needed -->
-                  </select>
-                </div>
-
-                <!-- Mobile -->
+            <form class="mt-6 space-y-4">
+              <!-- Full Name -->
+              <div class="flex flex-col gap-1">
+                <label
+                  for="fullName"
+                  class="text-sm font-medium text-gray-700">
+                  Full Name<span class="text-red-500">*</span>
+                </label>
                 <input
-                  id="mobile"
-                  type="tel"
-                  class="h-11 flex-1 rounded-lg border border-gray-300 px-3 text-sm focus:outline-none focus:ring-2 focus:ring-[#F97316] focus:border-[#F97316]"
-                  placeholder="Enter your mobile number"
-                />
+                  id="fullName"
+                  type="text"
+                  class="h-11 w-full rounded-lg border border-gray-300 px-3 text-sm focus:outline-none focus:ring-2 focus:ring-[#F97316] focus:border-[#F97316]"
+                  placeholder="Enter your full name" />
               </div>
-            </div>
 
-            <!-- Consent -->
-            <label class="flex items-start gap-2 text-xs text-gray-600 cursor-pointer">
-              <input
-                type="checkbox"
-                class="mt-[3px] h-4 w-4 rounded border-gray-300 text-[#F97316] focus:ring-[#F97316]"
-              />
-              <span>I consent maxX hospitals to contact me</span>
-            </label>
+              <!-- Email -->
+              <div class="flex flex-col gap-1">
+                <label
+                  for="email"
+                  class="text-sm font-medium text-gray-700">
+                  Email<span class="text-red-500">*</span>
+                </label>
+                <input
+                  id="email"
+                  type="email"
+                  class="h-11 w-full rounded-lg border border-gray-300 px-3 text-sm focus:outline-none focus:ring-2 focus:ring-[#F97316] focus:border-[#F97316]"
+                  placeholder="Enter your email" />
+              </div>
 
-            <!-- Button -->
-            <button
-              type="submit"
-              class="mt-2 w-full h-11 rounded-lg bg-[#F97316] text-white text-sm font-semibold shadow-md hover:bg-[#ea6a0e] transition-colors"
-            >
-              Request a Call Back
-            </button>
-          </form>
+              <!-- Phone (Country + Number) -->
+              <div class="flex flex-col gap-1">
+                <label
+                  for="mobile"
+                  class="text-sm font-medium text-gray-700">
+                  Mobile Number<span class="text-red-500">*</span>
+                </label>
+
+                <div class="flex gap-2">
+                  <!-- Country Code -->
+                  <div class="w-28">
+                    <select
+                      class="h-11 w-full rounded-lg border border-gray-300 px-2 text-sm focus:outline-none focus:ring-2 focus:ring-[#F97316] focus:border-[#F97316]">
+                      <option value="+91">+91 IN</option>
+                      <option value="+1">+1 US</option>
+                      <option value="+44">+44 UK</option>
+                      <!-- add more if needed -->
+                    </select>
+                  </div>
+
+                  <!-- Mobile -->
+                  <input
+                    id="mobile"
+                    type="tel"
+                    class="h-11 flex-1 rounded-lg border border-gray-300 px-3 text-sm focus:outline-none focus:ring-2 focus:ring-[#F97316] focus:border-[#F97316]"
+                    placeholder="Enter your mobile number" />
+                </div>
+              </div>
+              <!-- Consent -->
+              <label class="flex items-start gap-2 text-xs text-gray-600 cursor-pointer">
+                <input
+                  type="checkbox"
+                  class="mt-[3px] h-4 w-4 rounded border-gray-300 text-[#F97316] focus:ring-[#F97316]" />
+                <span>I consent maxX hospitals to contact me</span>
+              </label>
+
+              <!-- Button -->
+              <button
+                type="submit"
+                class="mt-2 w-full h-11 rounded-lg bg-[#F97316] text-white text-sm font-semibold shadow-md hover:bg-[#ea6a0e] transition-colors">
+                Request a Call Back
+              </button>
+            </form>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
 
 
@@ -469,7 +463,7 @@
         1024: {
           slidesPerView: 3
         }, // 4 cards on desktop
-         1200: {
+        1200: {
           slidesPerView: 3
         },
       },

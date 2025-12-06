@@ -544,6 +544,135 @@
 
   </section>
 
+
+
+
+  <section class="container mx-auto mt-32 mb-10 px-5 lg:px-0 overflow-visible">
+
+    <div class="relative bg-[#6D3333] rounded-[2rem] shadow-xl flex flex-col md:flex-row md:items-center px-6 pb-8 pt-0 md:pr-8 md:pl-0 md:py-10 z-0">
+
+      <div class="relative z-20 w-full md:w-auto flex justify-center md:block -mt-32 md:mt-0 mb-6 md:mb-0">
+        <img src="./assets/banners/machine.png"
+          class="
+          w-56 h-auto drop-shadow-2xl
+          
+    
+          md:absolute md:w-[350px] md:-bottom-10 md:-left-10
+          
+
+          lg:w-[450px] lg:h-[450px] lg:-bottom-48 lg:-left-16
+          
+          max-w-none
+        "
+          alt="Robotic Surgery Machine">
+      </div>
+
+      <div class="w-full md:w-2/3 md:ml-auto lg:pl-32 text-white relative z-10">
+
+        <h2 class="text-2xl md:text-3xl font-bold mb-4 text-center md:text-left">
+          State-of-the-Art Medical infrastructure
+        </h2>
+
+        <p class="text-sm md:text-base text-gray-200 mb-8 leading-relaxed text-center md:text-left">
+          MaAx Super Specialty Hospitals offers state-of-the-art facilities and advanced technology to ensure high-quality care and better patient outcomes — all delivered with compassion and expertise.
+        </p>
+
+        <div class="bg-gradient-to-r from-orange-400 to-orange-500 rounded-2xl md:rounded-full p-5 md:px-8 md:py-4 shadow-lg">
+
+          <div class="grid grid-cols-2 lg:grid-cols-4 gap-y-6 gap-x-2 lg:gap-4 items-center">
+
+            <div class="flex flex-col sm:flex-row items-center sm:space-x-2 text-center sm:text-left lg:border-r border-orange-300/50 lg:last:border-0 border-none">
+              <img src="./assets/icons/liver.png" class="w-10 h-10 md:w-16 md:h-16 text-white mb-2 sm:mb-0 shrink-0" alt="">
+              <div>
+                <span class="block text-lg md:text-xl font-medium text-white">400+</span>
+                <span class="text-xs md:text-lg text-white/90 leading-tight block">Liver Transplants</span>
+              </div>
+            </div>
+
+            <div class="flex flex-col sm:flex-row items-center sm:space-x-2 text-center sm:text-left lg:border-r border-orange-300/50 lg:last:border-0 border-none">
+              <img src="./assets/icons/bone.png" class="w-10 h-10 md:w-16 md:h-16 text-white mb-2 sm:mb-0 shrink-0" alt="">
+              <div>
+                <span class="block text-lg md:text-xl font-medium text-white">850+</span>
+                <span class="text-xs md:text-lg text-white/90 leading-tight block">Bone Marrow</span>
+              </div>
+            </div>
+
+            <div class="flex flex-col sm:flex-row items-center sm:space-x-2 text-center sm:text-left lg:border-r border-orange-300/50 lg:last:border-0 border-none">
+              <img src="./assets/icons/brain.png" class="w-10 h-10 md:w-16 md:h-16 text-white mb-2 sm:mb-0 shrink-0" alt="">
+              <div>
+                <span class="block text-lg md:text-xl font-medium text-white">1000+</span>
+                <span class="text-xs md:text-lg text-white/90 leading-tight block">Neuro Surgeries</span>
+              </div>
+            </div>
+
+            <div class="flex flex-col sm:flex-row items-center sm:space-x-2 text-center sm:text-left">
+              <img src="./assets/icons/knife.png" class="w-10 h-10 md:w-16 md:h-16 text-white mb-2 sm:mb-0 shrink-0" alt="">
+              <div>
+                <span class="block text-lg md:text-xl font-medium text-white">20k+</span>
+                <span class="text-xs md:text-lg text-white/90 leading-tight block">General Surgeries</span>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <section class="mx-auto max-w-7xl px-4 py-10">
+
+  <!-- Heading (optional – remove if you already have one) -->
+  <h2 class="text-center text-xl md:text-2xl font-semibold text-[#6C3130] mb-6">
+    Happy Patients, Happy Stories
+  </h2>
+
+  <!-- Cards wrapper -->
+  <div
+    class="grid lg:grid-cols-4 md:grid-cols-3 grid-cols-1 gap-10"
+  >
+    <!-- Card 1 -->
+    <div class="shrink-0 w-[260px] md:w-72">
+      <img
+        src="./assets/testimonials.png"
+        alt="Patient Testimonial"
+        class="w-full h-auto rounded-2xl shadow-md object-cover"
+      />
+    </div>
+
+    <!-- Card 2 -->
+      <div class="shrink-0 w-[260px] md:w-72">
+      <img
+        src="./assets/testimonials/image 32.png"
+        alt="Patient Testimonial"
+        class="w-full h-auto rounded-2xl shadow-md object-cover"
+      />
+    </div>
+
+    <!-- Card 3 -->
+    <div class="shrink-0 w-[260px] md:w-72">
+      <img
+        src="./assets/testimonials/image 33.png"
+        alt="Patient Testimonial"
+        class="w-full h-auto rounded-2xl shadow-md object-cover"
+      />
+    </div>
+
+    <!-- Card 4 -->
+ <div class="shrink-0 w-[260px] md:w-72">
+      <img
+        src="./assets/testimonials/image 34.png"
+        alt="Patient Testimonial"
+        class="w-full h-auto rounded-2xl shadow-md object-cover"
+      />
+    </div>
+  </div>
+
+</section>
+
+
 </body>
 
 </html>
