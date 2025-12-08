@@ -292,7 +292,7 @@
       </h2>
 
       <!-- Tabs -->
-      <div class="flex justify-center gap-10 mt-6 text-brand text-lg font-medium">
+      <div class="flex justify-center gap-10 mt-6 text-brand text-lg font-medium flex-wrap">
 
         <!-- Active Tab -->
         <button class="px-5 py-2 bg-brand text-white rounded-full">
@@ -310,7 +310,7 @@
 
 
     <div class="flex flex-wrap justify-center gap-3 mt-5">
-      <div class="max-w-xs mx-auto rounded-2xl border border-[#e4d5c6] p-5 shadow-sm bg-white">
+      <div class="max-w- mx-auto rounded-2xl border border-[#e4d5c6] p-5 shadow-sm bg-white">
         <!-- Title -->
         <h3 class="text-center text-lg font-semibold text-[#5c2c20] mb-4">
           Heart & Vascular Care
@@ -622,17 +622,20 @@
 
 
 
-  <section class="mx-auto max-w-7xl px-4 py-10">
 
-    <!-- Heading (optional – remove if you already have one) -->
+
+
+
+  <!-- <section class="mx-auto max-w-7xl px-4 py-10">
+
     <h2 class="text-center text-xl md:text-2xl font-semibold text-[#6C3130] mb-6">
       Happy Patients, Happy Stories
     </h2>
 
-    <!-- Cards wrapper -->
+
     <div
       class="grid lg:grid-cols-4 md:grid-cols-3 grid-cols-1 gap-10">
-      <!-- Card 1 -->
+ 
       <div class="shrink-0 w-[260px] md:w-72">
         <img
           src="./assets/testimonials.png"
@@ -640,7 +643,7 @@
           class="w-full h-auto rounded-2xl shadow-md object-cover" />
       </div>
 
-      <!-- Card 2 -->
+  
       <div class="shrink-0 w-[260px] md:w-72">
         <img
           src="./assets/testimonials/image 32.png"
@@ -648,7 +651,7 @@
           class="w-full h-auto rounded-2xl shadow-md object-cover" />
       </div>
 
-      <!-- Card 3 -->
+
       <div class="shrink-0 w-[260px] md:w-72">
         <img
           src="./assets/testimonials/image 33.png"
@@ -656,7 +659,7 @@
           class="w-full h-auto rounded-2xl shadow-md object-cover" />
       </div>
 
-      <!-- Card 4 -->
+
       <div class="shrink-0 w-[260px] md:w-72">
         <img
           src="./assets/testimonials/image 34.png"
@@ -665,35 +668,236 @@
       </div>
     </div>
 
+  </section> -->
+
+
+
+
+
+
+
+  <section class="max-w-7xl mx-auto">
+
+    <div class="max-w-4xl mx-auto text-center ">
+
+      <!-- Heading -->
+      <h2 class="text-2xl font-semibold">
+        <span class="text-[#6C3130]">Real Patients,</span>
+        <span class="text-brand"> Real Stories</span>
+      </h2>
+
+      <!-- Tabs -->
+
+
+    </div>
+    <div class="grid md:grid-cols-3 grid-cols-1 justify-items-center gap-10 mt-5 lg:px-0 px-5 ">
+
+
+      <div class="max-w-sm rounded overflow-hidden shadow-lg">
+
+        <div class="w-full relative p-5">
+          <!-- Gradient Overlay -->
+
+          <!-- Image -->
+          <img class="w-full h-full object-cover rounded-2xl " src="./assets/testimonial.png" alt="Sunset in the mountains">
+
+          <!-- Title -->
+
+        </div>
+
+        <div class="px-6 py-4 flex gap-5">
+
+          <img src="./assets/icons/arrow.png" class="w-6 h-6" alt="">
+          <p class="text-[#525252] text-xl  font-medium ">
+            Successful Heart and lungs Treatment by Our Doctor
+          </p>
+        </div>
+
+      </div>
+      <div class="max-w-sm rounded overflow-hidden shadow-lg">
+
+        <div class="w-full relative p-5">
+          <!-- Gradient Overlay -->
+
+          <!-- Image -->
+          <img class="w-full h-full object-cover rounded-2xl " src="./assets/testimonial.png" alt="Sunset in the mountains">
+
+          <!-- Title -->
+
+        </div>
+
+        <div class="px-6 py-4 flex gap-5">
+
+          <img src="./assets/icons/arrow.png" class="w-6 h-6" alt="">
+          <p class="text-[#525252] text-xl  font-medium ">
+            Successful Heart and lungs Treatment by Our Doctor
+          </p>
+        </div>
+
+      </div>
+      <div class="max-w-sm rounded overflow-hidden shadow-lg">
+
+        <div class="w-full relative p-5">
+          <!-- Gradient Overlay -->
+
+          <!-- Image -->
+          <img class="w-full h-full object-cover rounded-2xl " src="./assets/testimonial.png" alt="Sunset in the mountains">
+
+          <!-- Title -->
+
+        </div>
+
+        <div class="px-6 py-4 flex gap-5">
+
+          <img src="./assets/icons/arrow.png" class="w-6 h-6" alt="">
+          <p class="text-[#525252] text-xl  font-medium ">
+            Successful Heart and lungs Treatment by Our Doctor
+          </p>
+        </div>
+
+      </div>
+    </div>
+
+
   </section>
 
 
+  <section class="max-w-7xl mx-auto mt-10">
+
+    <div class="max-w-4xl mx-auto text-center">
+
+      <!-- Heading -->
+      <h2 class="text-2xl font-semibold">
+        <span class="text-[#6C3130]">Explore</span>
+        <span class="text-brand">Our Health Blogs</span>
+      </h2>
+
+      <!-- Tabs -->
+      <div class="flex justify-center gap-10 mt-6 text-brand text-lg font-medium">
+
+        <!-- Active Tab -->
+        <button class="px-5 py-2 bg-brand text-white rounded-full">
+          Sucess Stories
+        </button>
+
+        <!-- Inactive Tabs -->
+        <button class="hover:text-[#c45d16] transition border border-[#c45d16] p-3 rounded-full">Blogs from Our Experts</button>
 
 
+      </div>
 
-  <section class="xl:max-w-[1600px] max-w-7xl mx-auto px-4 py-16 font-poppins pt-24">
+    </div>
+    <div class="grid md:grid-cols-3 grid-cols-1 justify-items-center gap-10 mt-5 lg:px-0 px-5 ">
+
+
+      <div class="max-w-sm rounded overflow-hidden shadow-lg">
+
+        <div class="w-full relative">
+          <!-- Gradient Overlay -->
+          <div class="absolute inset-0 bg-gradient-to-b from-[#f4f4f466] via-[#73737366] to-[#00000066]"></div>
+
+          <!-- Image -->
+          <img class="w-full h-full object-cover" src="./assets/blogs/blog-1.jpg" alt="Sunset in the mountains">
+
+          <!-- Title -->
+          <p class="absolute bottom-10 text-center w-full bg-[#F6AC6C] text-2xl p-2 text-[#6C3130] font-semibold">
+            Angioplasty
+          </p>
+        </div>
+
+        <div class="px-6 py-4">
+          <div class=" text-xl font-medium mb-2 text-[#525252]">Successful Heart and Kidney Treatment by Our Doctor
+          </div>
+          <div class="flex items-center  pt-10 gap-5 ">
+            <img src="./assets/icons/arrow.png" class="w-6 h-6" alt="">
+            <p class="text-[#6C3130] text-xl  font-medium ">
+              Patient Recovery Story </p>
+          </div>
+        </div>
+
+      </div>
+      <div class="max-w-sm rounded overflow-hidden shadow-lg">
+
+        <div class="w-full relative">
+          <!-- Gradient Overlay -->
+          <div class="absolute inset-0 bg-gradient-to-b from-[#f4f4f466] via-[#73737366] to-[#00000066]"></div>
+
+          <!-- Image -->
+          <img class="w-full h-full object-cover" src="./assets/blogs/blog-1.jpg" alt="Sunset in the mountains">
+
+          <!-- Title -->
+          <p class="absolute bottom-10 text-center w-full bg-[#F6AC6C] text-2xl p-2 text-[#6C3130] font-semibold">
+            Angioplasty
+          </p>
+        </div>
+
+        <div class="px-6 py-4">
+          <div class=" text-xl font-medium mb-2 text-[#525252]">Successful Heart and Kidney Treatment by Our Doctor
+          </div>
+          <div class="flex items-center  pt-10 gap-5 ">
+            <img src="./assets/icons/arrow.png" class="w-6 h-6" alt="">
+            <p class="text-[#6C3130] text-xl  font-medium ">
+              Patient Recovery Story </p>
+          </div>
+        </div>
+
+      </div>
+      <div class="max-w-sm rounded overflow-hidden shadow-lg">
+
+        <div class="w-full relative">
+          <!-- Gradient Overlay -->
+          <div class="absolute inset-0 bg-gradient-to-b from-[#f4f4f466] via-[#73737366] to-[#00000066]"></div>
+
+          <!-- Image -->
+          <img class="w-full h-full object-cover" src="./assets/blogs/blog-1.jpg" alt="Sunset in the mountains">
+
+          <!-- Title -->
+          <p class="absolute bottom-10 text-center w-full bg-[#F6AC6C] text-2xl p-2 text-[#6C3130] font-semibold">
+            Angioplasty
+          </p>
+        </div>
+
+        <div class="px-6 py-4">
+          <div class=" text-xl font-medium mb-2 text-[#525252]">Successful Heart and Kidney Treatment by Our Doctor
+          </div>
+          <div class="flex items-center  pt-10 gap-5 ">
+            <img src="./assets/icons/arrow.png" class="w-6 h-6" alt="">
+            <p class="text-[#6C3130] text-xl  font-medium ">
+              Patient Recovery Story </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <section class="xl:max-w-[1500px] max-w-7xl mx-auto px-4 py-16 font-poppins pt-24">
     <div class="text-center mb-12">
-      <h2 class="text-3xl md:text-4xl font-bold text-gray-900">
+      <h2 class="text-3xl md:text-4xl font-bold text-[#A85045]">
         At maAx Hospitals, <span class="text-orange-500">Get Better in 3 Easy Steps</span>
       </h2>
     </div>
 
-    <div class="relative w-full bg-[#FFDCC2] rounded-3xl">
+    <div class="relative w-full bg-transparent md:bg-[#FFDCC2] rounded-3xl">
 
-      <div class="absolute inset-0 overflow-hidden rounded-3xl z-0">
-        <div class="absolute bg-[#D9886A] opacity-30 rounded-full w-80 h-80 -bottom-10 -right-10 z-0"></div>
+      <div class="absolute inset-0 overflow-visible md:overflow-hidden rounded-3xl z-0 pointer-events-none">
+        <div class="absolute bg-[#E89F85] opacity-50 md:opacity-30 rounded-full 
+                      w-72 h-72 top-4 left-1/2 -translate-x-1/2 
+                      md:w-80 md:h-80 md:top-auto md:left-auto md:translate-x-0 md:-bottom-10 md:-right-10 z-0">
+        </div>
       </div>
 
-      <div class="relative z-10 flex flex-col md:flex-row items-center md:items-end justify-between px-6 md:px-12 pt-10 md:pt-14 pb-10 md:pb-0">
+      <div class="relative z-10 flex flex-col md:flex-row items-center md:items-center lg:items-end justify-between px-0 md:px-6 lg:px-10 pt-0 md:pt-14 pb-0 md:pb-0">
 
-        <div class="w-full md:w-1/2 space-y-6 order-2 md:order-1 pb-10 md:pb-14">
+        <div class="w-full md:w-3/5 xl:w-1/2 space-y-6 order-2 md:order-1 pb-0 md:pb-14 mt-12 md:mt-0 px-4 md:px-0">
 
-          <div class="bg-white p-5 rounded-xl shadow-sm flex items-start gap-5 w-full md:max-w-md transition-transform hover:-translate-y-1 duration-300">
+          <div class="bg-white p-5 rounded-xl shadow-md border border-gray-100 flex items-start gap-5 w-full md:max-w-md transition-transform hover:-translate-y-1 duration-300">
             <div class="bg-[#D66A6A] text-white text-3xl font-bold w-12 h-12 flex items-center justify-center rounded-lg shrink-0 leading-none">
               1
             </div>
             <div>
-              <h3 class="font-bold text-lg text-gray-800">
+              <h3 class="font-bold text-xl text-gray-800">
                 Get the <span class="text-orange-500">Right Diagnosis</span>
               </h3>
               <p class="text-gray-500 text-sm mt-1 leading-relaxed">
@@ -702,7 +906,7 @@
             </div>
           </div>
 
-          <div class="bg-white p-5 rounded-xl shadow-sm flex items-start gap-5 w-full md:max-w-md md:ml-16 transition-transform hover:-translate-y-1 duration-300">
+          <div class="bg-white p-5 rounded-xl shadow-md border border-gray-100 flex items-start gap-5 w-full md:max-w-md md:ml-6 lg:ml-12 xl:ml-28 transition-transform hover:-translate-y-1 duration-300">
             <div class="bg-[#A85045] text-white text-3xl font-bold w-12 h-12 flex items-center justify-center rounded-lg shrink-0 leading-none">
               2
             </div>
@@ -716,7 +920,7 @@
             </div>
           </div>
 
-          <div class="bg-white p-5 rounded-xl shadow-sm flex items-start gap-5 w-full md:max-w-md md:ml-32 transition-transform hover:-translate-y-1 duration-300">
+          <div class="bg-white p-5 rounded-xl shadow-md border border-gray-100 flex items-start gap-5 w-full md:max-w-md md:ml-12 lg:ml-24 xl:ml-60 transition-transform hover:-translate-y-1 duration-300">
             <div class="bg-[#5D3333] text-white text-3xl font-bold w-12 h-12 flex items-center justify-center rounded-lg shrink-0 leading-none">
               3
             </div>
@@ -732,16 +936,20 @@
 
         </div>
 
-        <div class="w-full md:w-5/12 flex justify-center md:justify-end relative order-1 md:order-2 mb-10 md:mb-0 z-20">
-          <img
-            src="./assets/3-steps-image.png"
+        <div class="w-full md:w-2/5 xl:w-5/12 flex justify-center md:justify-end relative order-1 md:order-2 z-20">
+          <img src="./assets/3-steps-image.png"
             alt="Doctor and Patient"
-            class="w-auto h-auto max-w-[300px] md:max-w-[600px] object-contain md:-mt-32">
+            class="w-auto h-auto 
+                            max-w-[280px] md:max-w-[300px] lg:max-w-[450px] xl:max-w-[650px] 
+                            object-contain 
+                            md:-mt-16 lg:-mt-24 xl:-mt-32">
         </div>
 
       </div>
     </div>
   </section>
+
+  <!-- <?php require "./demo.php" ?> -->
 
 
 

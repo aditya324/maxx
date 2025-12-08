@@ -37,7 +37,7 @@
       <li><a href="#" class="hover:text-[#a6533f]">Our Specialities</a></li>
       <li><a href="#" class="hover:text-[#a6533f]">Our Doctors</a></li>
       <li class="flex items-center gap-1">
-        <span class="text-lg">🩺</span>
+
         <a href="#" class="hover:text-[#a6533f]">Health Checkup</a>
       </li>
       <li><a href="#" class="hover:text-[#a6533f]">Patient’s Corner</a></li>
@@ -52,7 +52,7 @@
       <li><a href="#" class="block hover:text-[#a6533f]">Our Specialities</a></li>
       <li><a href="#" class="block hover:text-[#a6533f]">Our Doctors</a></li>
       <li class="flex items-center gap-2">
-        <span class="text-lg">🩺</span>
+      
         <a href="#" class="hover:text-[#a6533f]">Health Checkup</a>
       </li>
       <li><a href="#" class="block hover:text-[#a6533f]">Patient’s Corner</a></li>
