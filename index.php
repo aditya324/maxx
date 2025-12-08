@@ -624,53 +624,126 @@
 
   <section class="mx-auto max-w-7xl px-4 py-10">
 
-  <!-- Heading (optional – remove if you already have one) -->
-  <h2 class="text-center text-xl md:text-2xl font-semibold text-[#6C3130] mb-6">
-    Happy Patients, Happy Stories
-  </h2>
+    <!-- Heading (optional – remove if you already have one) -->
+    <h2 class="text-center text-xl md:text-2xl font-semibold text-[#6C3130] mb-6">
+      Happy Patients, Happy Stories
+    </h2>
 
-  <!-- Cards wrapper -->
-  <div
-    class="grid lg:grid-cols-4 md:grid-cols-3 grid-cols-1 gap-10"
-  >
-    <!-- Card 1 -->
-    <div class="shrink-0 w-[260px] md:w-72">
-      <img
-        src="./assets/testimonials.png"
-        alt="Patient Testimonial"
-        class="w-full h-auto rounded-2xl shadow-md object-cover"
-      />
-    </div>
-
-    <!-- Card 2 -->
+    <!-- Cards wrapper -->
+    <div
+      class="grid lg:grid-cols-4 md:grid-cols-3 grid-cols-1 gap-10">
+      <!-- Card 1 -->
       <div class="shrink-0 w-[260px] md:w-72">
-      <img
-        src="./assets/testimonials/image 32.png"
-        alt="Patient Testimonial"
-        class="w-full h-auto rounded-2xl shadow-md object-cover"
-      />
+        <img
+          src="./assets/testimonials.png"
+          alt="Patient Testimonial"
+          class="w-full h-auto rounded-2xl shadow-md object-cover" />
+      </div>
+
+      <!-- Card 2 -->
+      <div class="shrink-0 w-[260px] md:w-72">
+        <img
+          src="./assets/testimonials/image 32.png"
+          alt="Patient Testimonial"
+          class="w-full h-auto rounded-2xl shadow-md object-cover" />
+      </div>
+
+      <!-- Card 3 -->
+      <div class="shrink-0 w-[260px] md:w-72">
+        <img
+          src="./assets/testimonials/image 33.png"
+          alt="Patient Testimonial"
+          class="w-full h-auto rounded-2xl shadow-md object-cover" />
+      </div>
+
+      <!-- Card 4 -->
+      <div class="shrink-0 w-[260px] md:w-72">
+        <img
+          src="./assets/testimonials/image 34.png"
+          alt="Patient Testimonial"
+          class="w-full h-auto rounded-2xl shadow-md object-cover" />
+      </div>
     </div>
 
-    <!-- Card 3 -->
-    <div class="shrink-0 w-[260px] md:w-72">
-      <img
-        src="./assets/testimonials/image 33.png"
-        alt="Patient Testimonial"
-        class="w-full h-auto rounded-2xl shadow-md object-cover"
-      />
+  </section>
+
+
+
+
+
+  <section class="xl:max-w-[1600px] max-w-7xl mx-auto px-4 py-16 font-poppins pt-24">
+    <div class="text-center mb-12">
+      <h2 class="text-3xl md:text-4xl font-bold text-gray-900">
+        At maAx Hospitals, <span class="text-orange-500">Get Better in 3 Easy Steps</span>
+      </h2>
     </div>
 
-    <!-- Card 4 -->
- <div class="shrink-0 w-[260px] md:w-72">
-      <img
-        src="./assets/testimonials/image 34.png"
-        alt="Patient Testimonial"
-        class="w-full h-auto rounded-2xl shadow-md object-cover"
-      />
-    </div>
-  </div>
+    <div class="relative w-full bg-[#FFDCC2] rounded-3xl">
 
-</section>
+      <div class="absolute inset-0 overflow-hidden rounded-3xl z-0">
+        <div class="absolute bg-[#D9886A] opacity-30 rounded-full w-80 h-80 -bottom-10 -right-10 z-0"></div>
+      </div>
+
+      <div class="relative z-10 flex flex-col md:flex-row items-center md:items-end justify-between px-6 md:px-12 pt-10 md:pt-14 pb-10 md:pb-0">
+
+        <div class="w-full md:w-1/2 space-y-6 order-2 md:order-1 pb-10 md:pb-14">
+
+          <div class="bg-white p-5 rounded-xl shadow-sm flex items-start gap-5 w-full md:max-w-md transition-transform hover:-translate-y-1 duration-300">
+            <div class="bg-[#D66A6A] text-white text-3xl font-bold w-12 h-12 flex items-center justify-center rounded-lg shrink-0 leading-none">
+              1
+            </div>
+            <div>
+              <h3 class="font-bold text-lg text-gray-800">
+                Get the <span class="text-orange-500">Right Diagnosis</span>
+              </h3>
+              <p class="text-gray-500 text-sm mt-1 leading-relaxed">
+                Clear, accurate answers you can trust to understand your condition
+              </p>
+            </div>
+          </div>
+
+          <div class="bg-white p-5 rounded-xl shadow-sm flex items-start gap-5 w-full md:max-w-md md:ml-16 transition-transform hover:-translate-y-1 duration-300">
+            <div class="bg-[#A85045] text-white text-3xl font-bold w-12 h-12 flex items-center justify-center rounded-lg shrink-0 leading-none">
+              2
+            </div>
+            <div>
+              <h3 class="font-bold text-lg text-gray-800">
+                Get the <span class="text-orange-500">Right Treatment & Cost</span>
+              </h3>
+              <p class="text-gray-500 text-sm mt-1 leading-relaxed">
+                Clear, accurate answers you can trust to understand your condition
+              </p>
+            </div>
+          </div>
+
+          <div class="bg-white p-5 rounded-xl shadow-sm flex items-start gap-5 w-full md:max-w-md md:ml-32 transition-transform hover:-translate-y-1 duration-300">
+            <div class="bg-[#5D3333] text-white text-3xl font-bold w-12 h-12 flex items-center justify-center rounded-lg shrink-0 leading-none">
+              3
+            </div>
+            <div>
+              <h3 class="font-bold text-lg text-gray-800">
+                Get the <span class="text-orange-500">Right Care for Recovery</span>
+              </h3>
+              <p class="text-gray-500 text-sm mt-1 leading-relaxed">
+                Clear, accurate answers you can trust to understand your condition
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="w-full md:w-5/12 flex justify-center md:justify-end relative order-1 md:order-2 mb-10 md:mb-0 z-20">
+          <img
+            src="./assets/3-steps-image.png"
+            alt="Doctor and Patient"
+            class="w-auto h-auto max-w-[300px] md:max-w-[600px] object-contain md:-mt-32">
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
 
 
 </body>
