@@ -11,7 +11,7 @@
   <?php require "./header.php" ?>
 
 
-  <section class="w-full pt-28 pb-10">
+  <section class="w-full pt-28 ">
     <div
       class="relative w-full mx-auto h-[619px] bg-cover bg-center overflow-hidden"
       style="background-image: url('./assets/banners/blur.jpg');">
@@ -135,9 +135,34 @@
     </div>
   </section>
 
+<section class="block lg:hidden fixed bottom-0 inset-x-0 z-50 ">
+  <div class="bg-[#FFE4CF] w-full p-5 flex gap-5 font-medium text-sm text-center justify-center">
+
+    <!-- Button 1: Gradient Border Only -->
+    <div class="inline-block bg-gradient-to-r from-[#F58220] to-[#6C3130] rounded-full p-[2px]">
+      <div class="bg-white rounded-full">
+        <div class="flex items-center justify-center gap-2 px-4 py-3">
+          <img src="./assets/icons/telephone.png" class="h-5 w-5" alt="">
+          <p class="text-[#6C3130]">Request A Callback</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Button 2: Solid Gradient Fill -->
+    <div class="inline-block bg-gradient-to-r from-[#F58220] to-[#6C3130] rounded-full">
+      <div class="flex items-center justify-center gap-2 px-4 py-3">
+        <img src="./assets/icons/appointment.png" class="h-5 w-5" alt="">
+        <p class="text-white">Book An Appointment</p>
+      </div>
+    </div>
+
+  </div>
+</section>
 
 
-  <section class="flex justify-center  ">
+
+
+  <section class="flex justify-center  pt-20 ">
     <div class="flex flex-col  ">
       <div>
         <img src="./assets/banners/home-screen.png" class="lg:w-[1453px] lg:h-[840px] lg:px-0 px-5 rounded-2xl" alt="">
@@ -948,6 +973,10 @@
       </div>
     </div>
   </section>
+
+
+
+
 
   <!-- <?php require "./demo.php" ?> -->
 

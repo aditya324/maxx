@@ -94,8 +94,9 @@
         </div>
     </section>
 
-    <section>
 
+
+    <div>
         <section class="w-full py-10 ">
             <div class="max-w-4xl mx-auto text-center">
 
@@ -266,6 +267,7 @@
 
 
         </div>
+    </div>
 
 
 </body>
