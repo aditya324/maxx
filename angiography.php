@@ -9,6 +9,22 @@
   <link
     rel="stylesheet"
     href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+     <style>
+    .swiper-button-next,
+    .swiper-button-prev {
+      position: absolute !important;
+      top: 50% !important;
+      transform: translateY(-50%);
+    }
+  </style>
+  <style>
+    /* Hide default swiper arrows */
+    .swiper-button-next::after,
+    .swiper-button-prev::after {
+      display: none !important;
+    }
+  </style>
 </head>
 
 <body class="bg-surface-soft font-sans">
@@ -138,8 +154,8 @@
 
 
 
-  <section class="w-full py-12 bg-[#F5F7FB]">
-    <div class=" mx-auto px-4">
+<section class="w-full py-12 xl:px-40 bg-[#F5F7FB]">
+    <div class=" mx-auto ">
       <div class="swiper doctorSwiper">
         <div class="swiper-wrapper ">
 
@@ -163,11 +179,11 @@
 
               <div class="flex w-full mt-6 text-sm font-medium">
                 <button
-                  class="flex-1 py-2.5 bg-[#532D29] text-white rounded-bl-xl">
+                  class="flex-1 py-2.5 bg-[#532D29] text-white rounded-l-xl">
                   view profile
                 </button>
                 <button
-                  class="flex-1 py-2.5 border border-orange-500 text-orange-500 bg-white rounded-br-xl">
+                  class="flex-1 py-2.5 border border-orange-500 text-orange-500 bg-white rounded-r-xl">
                   Book Appointment
                 </button>
               </div>
@@ -194,11 +210,11 @@
 
               <div class="flex w-full mt-6 text-sm font-medium">
                 <button
-                  class="flex-1 py-2.5 bg-[#532D29] text-white rounded-bl-xl">
+                  class="flex-1 py-2.5 bg-[#532D29] text-white rounded-l-xl">
                   view profile
                 </button>
                 <button
-                  class="flex-1 py-2.5 border border-orange-500 text-orange-500 bg-white rounded-br-xl">
+                  class="flex-1 py-2.5 border border-orange-500 text-orange-500 bg-white rounded-r-xl">
                   Book Appointment
                 </button>
               </div>
@@ -225,11 +241,11 @@
 
               <div class="flex w-full mt-6 text-sm font-medium">
                 <button
-                  class="flex-1 py-2.5 bg-[#532D29] text-white rounded-bl-xl">
+                  class="flex-1 py-2.5 bg-[#532D29] text-white rounded-l-xl">
                   view profile
                 </button>
                 <button
-                  class="flex-1 py-2.5 border border-orange-500 text-orange-500 bg-white rounded-br-xl">
+                  class="flex-1 py-2.5 border border-orange-500 text-orange-500 bg-white rounded-r-xl">
                   Book Appointment
                 </button>
               </div>
@@ -256,11 +272,11 @@
 
               <div class="flex w-full mt-6 text-sm font-medium">
                 <button
-                  class="flex-1 py-2.5 bg-[#532D29] text-white rounded-bl-xl">
+                  class="flex-1 py-2.5 bg-[#532D29] text-white rounded-l-xl">
                   view profile
                 </button>
                 <button
-                  class="flex-1 py-2.5 border border-orange-500 text-orange-500 bg-white rounded-br-xl">
+                  class="flex-1 py-2.5 border border-orange-500 text-orange-500 bg-white rounded-r-xl">
                   Book Appointment
                 </button>
               </div>
@@ -285,11 +301,11 @@
 
               <div class="flex w-full mt-6 text-sm font-medium">
                 <button
-                  class="flex-1 py-2.5 bg-[#532D29] text-white rounded-bl-xl">
+                  class="flex-1 py-2.5 bg-[#532D29] text-white rounded-l-xl">
                   view profile
                 </button>
                 <button
-                  class="flex-1 py-2.5 border border-orange-500 text-orange-500 bg-white rounded-br-xl">
+                  class="flex-1 py-2.5 border border-orange-500 text-orange-500 bg-white rounded-r-xl">
                   Book Appointment
                 </button>
               </div>
@@ -314,11 +330,11 @@
 
               <div class="flex w-full mt-6 text-sm font-medium">
                 <button
-                  class="flex-1 py-2.5 bg-[#532D29] text-white rounded-bl-xl">
+                  class="flex-1 py-2.5 bg-[#532D29] text-white rounded-l-xl">
                   view profile
                 </button>
                 <button
-                  class="flex-1 py-2.5 border border-orange-500 text-orange-500 bg-white rounded-br-xl">
+                  class="flex-1 py-2.5 border border-orange-500 text-orange-500 bg-white rounded-r-xl">
                   Book Appointment
                 </button>
               </div>
@@ -326,9 +342,18 @@
           </div>
         </div>
 
+        <!-- Custom Navigation -->
+        <div class="swiper-button-prev !w-12 !h-12 !flex !items-center !justify-center !bg-white !rounded-full shadow-md hover:shadow-lg transition">
+          <img src="./assets/icons/arrow.png" class="w-5 rotate-180" alt="">
+        </div>
+
+        <div class="swiper-button-next !w-12 !h-12 !flex !items-center !justify-center !bg-white !rounded-full shadow-md hover:shadow-lg transition">
+          <img src="./assets/icons/arrow.png" class="w-5" alt="">
+        </div>
+
+        <!-- Pagination -->
         <div class="swiper-pagination mt-6"></div>
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-button-next"></div>
+
       </div>
     </div>
   </section>
@@ -447,11 +472,14 @@
 
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
-  <script>
+
+
+
+ <script>
     const doctorSwiper = new Swiper(".doctorSwiper", {
       loop: false,
       grabCursor: true,
-      spaceBetween: 100, // gap between cards
+      spaceBetween: 20, // gap between cards
 
       breakpoints: {
         0: {
@@ -464,7 +492,7 @@
           slidesPerView: 3
         }, // 4 cards on desktop
         1200: {
-          slidesPerView: 3
+          slidesPerView: 4
         },
       },
 
@@ -478,9 +506,6 @@
       },
     });
   </script>
-
-
-
 
 </body>
 

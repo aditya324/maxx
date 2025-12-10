@@ -10,6 +10,8 @@
   --gradient-brand: linear-gradient(90deg, #F58220, #6C3130);
   --color-brand: #F58220;
   --color-surface-soft: #F4F4F4;
+  --brown:#6C3130;
+  --orange:#F58220;
 }
 
 /* 4. THE FIX: Explicitly apply the variable to the body */

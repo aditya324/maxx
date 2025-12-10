@@ -11,23 +11,23 @@
   <?php require "./header.php" ?>
 
 
-  <section class="w-full pt-28 pb-10">
+  <section class="w-full pt-28 ">
     <div
       class="relative w-full mx-auto h-[619px] bg-cover bg-center overflow-hidden"
       style="background-image: url('./assets/banners/blur.jpg');">
 
       <!-- TOP PILL (HIDDEN ON MOBILE) -->
-      <div class="hidden md:flex justify-center mt-5">
+      <div class="hidden md:flex justify-center mt-5 fixed w-full z-50">
         <div class="flex w-full max-w-[1020px] items-center justify-between bg-white shadow-md rounded-full px-4 md:px-6 py-3 gap-3 md:gap-6">
 
           <!-- Request Call Back -->
-          <button class="flex items-center gap-2 text-[#6C3130] font-medium px-2 md:px-4">
+          <button class="flex items-center gap-2 text-[#6C3130] font-medium px-2 md:px-4 cursor-pointer"  onclick="openPopup()">
             <img src="./assets/icons/call.png" class="w-6 h-6 md:w-7 md:h-7" alt="">
             <span class="text-sm md:text-base">Request Call Back</span>
           </button>
 
           <!-- Book Appointment (Active) -->
-          <button class="flex items-center gap-2 text-white font-medium px-4 md:px-6 py-2 rounded-full bg-[#F58220] shadow">
+          <button data-modal-target="default-modal" data-modal-toggle="default-modal" class="flex items-center gap-2 text-white font-medium px-4 md:px-6 py-2 rounded-full bg-[#F58220] shadow">
             <img src="./assets/icons/schedule.png" class="w-6 h-6 md:w-7 md:h-7 invert" alt="">
             <span class="text-sm md:text-base">Book Appointment</span>
           </button>
@@ -60,68 +60,88 @@
 
       <!-- SEARCH BAR -->
       <!-- SEARCH BAR -->
-      <div
-        class="absolute top-[58%] sm:top-[70%] left-0 w-full px-4 z-30
-         lg:top-[80%] lg:left-1/2 lg:-translate-x-1/2
-         lg:px-0 lg:w-[1020px] lg:max-w-4xl ">
-        <div
-          class="flex flex-col gap-3
-           bg-transparent backdrop-blur-md  /* transparent glass */
-           rounded-2xl shadow-lg
-           px-4 py-4 w-full overflow-hidden
-           lg:flex-row lg:items-center lg:gap-0
-           lg:bg-white lg:backdrop-blur-0 lg:px-0 lg:py-0 lg:rounded-full">
+   <div
+  class="absolute top-[58%] sm:top-[70%] left-0 w-full px-4 z-30
+   lg:top-[80%] lg:left-1/2 lg:-translate-x-1/2
+   lg:px-0 lg:w-[1020px] lg:max-w-4xl ">
 
-          <!-- DROPDOWNS -->
-          <div class="flex flex-col flex-1 gap-3 lg:flex-row lg:items-center lg:px-5 lg:py-2">
-            <!-- Select Specialty -->
-            <div class="relative flex-1">
-              <select
-                class="w-full bg-white/70 backdrop-blur-md lg:bg-[#f4f4f4]
-                 border border-white/40 lg:border-0
-                 rounded-[10px] lg:rounded-full
-                 px-4 lg:px-8 py-3 text-sm text-[#6C3130]
-                 appearance-none outline-none cursor-pointer">
-                <option selected>Select Specialty</option>
-              </select>
-              <span
-                class="pointer-events-none absolute right-4 lg:right-6 top-1/2 -translate-y-1/2 text-[#6C3130] text-xs">
-                ▼
-              </span>
-            </div>
+  <div
+    class="flex flex-col gap-3
+     bg-transparent backdrop-blur-md
+     rounded-2xl shadow-lg
+     px-4 py-4 w-full overflow-hidden
+     lg:flex-row lg:items-center lg:gap-0
+     lg:bg-white lg:backdrop-blur-0 lg:px-0 lg:py-0 lg:rounded-full">
 
-            <!-- Find a Doctor -->
-            <div class="relative flex-1">
-              <select
-                class="w-full bg-white/70 backdrop-blur-md lg:bg-[#f4f4f4]
-                 border border-white/40 lg:border-0
-                 rounded-[10px] lg:rounded-full
-                 px-4 lg:px-8 py-3 text-sm text-[#6C3130]
-                 appearance-none outline-none cursor-pointer">
-                <option selected>Find a Doctor</option>
-              </select>
-              <span
-                class="pointer-events-none absolute right-4 lg:right-6 top-1/2 -translate-y-1/2 text-[#6C3130] text-xs">
-                ▼
-              </span>
-            </div>
-          </div>
+    <!-- DROPDOWNS -->
+    <div class="flex flex-col flex-1 gap-3 lg:flex-row lg:items-center lg:px-5 lg:py-2">
 
-          <!-- SEARCH BUTTON -->
-          <button
-            class="mt-2 w-full px-6 py-3 text-base font-semibold
-             bg-[#F58220]/90 text-white rounded-[10px]
-             backdrop-blur-md
-             flex items-center justify-center gap-2 whitespace-nowrap
-             lg:mt-0 lg:w-auto lg:px-12 lg:py-5 lg:text-lg
-             lg:rounded-none lg:rounded-r-full h-full">
-            <span>Search</span>
-            <span class="text-base">→</span>
-          </button>
-        </div>
+      <!-- Select Specialty -->
+      <div class="relative flex-1">
+        <select
+          id="specialtySelect"
+          class="w-full bg-white/70 backdrop-blur-md lg:bg-[#f4f4f4]
+             border border-white/40 lg:border-0
+             rounded-[10px] lg:rounded-full
+             px-4 lg:px-8 py-3 text-sm text-[#6C3130]
+             appearance-none outline-none cursor-pointer">
+          <option value="">Select Specialty</option>
+          <option value="./angiography.php">Cardiology</option>
+          <option value="/specialty/anaesthesia">Anaesthesia</option>
+          <option value="/specialty/dermatology">Dermatology</option>
+          <option value="/specialty/critical-care">Critical Care</option>
+          <!-- Add all specialties here -->
+        </select>
+
+        <span
+          class="pointer-events-none absolute right-4 lg:right-6 top-1/2 -translate-y-1/2 text-[#6C3130] text-xs">
+          ▼
+        </span>
       </div>
 
-      <!-- DOCTOR IMAGE -->
+      <!-- Find a Doctor -->
+      <div class="relative flex-1">
+        <select
+          id="doctorSelect"
+          class="w-full bg-white/70 backdrop-blur-md lg:bg-[#f4f4f4]
+             border border-white/40 lg:border-0
+             rounded-[10px] lg:rounded-full
+             px-4 lg:px-8 py-3 text-sm text-[#6C3130]
+             appearance-none outline-none cursor-pointer">
+          <option value="">Find a Doctor</option>
+          <option value="/doctor/dr-john-smith">Dr. John Smith</option>
+          <option value="/doctor/dr-ravi-kumar">Dr. Ravi Kumar</option>
+          <option value="/doctor/dr-anita-patil">Dr. Anita Patil</option>
+          <!-- Add all doctors with their slugs -->
+        </select>
+
+        <span
+          class="pointer-events-none absolute right-4 lg:right-6 top-1/2 -translate-y-1/2 text-[#6C3130] text-xs">
+          ▼
+        </span>
+      </div>
+    </div>
+
+    <!-- SEARCH BUTTON -->
+    <button
+      id="searchBtn"
+      class="mt-2 w-full px-6 py-3 text-base font-semibold
+         bg-[#F58220]/90 text-white rounded-[10px]
+         backdrop-blur-md
+         flex items-center justify-center gap-2 whitespace-nowrap
+         lg:mt-0 lg:w-auto lg:px-12 lg:py-5 lg:text-lg
+         lg:rounded-none lg:rounded-r-full h-full">
+      <span>Search</span>
+      <span class="text-base">→</span>
+    </button>
+  </div>
+</div>
+
+
+
+
+
+
       <div
         class="mt-6 flex justify-center z-10
          lg:mt-0 lg:absolute lg:bottom-0 lg:right-10 lg:opacity-95">
@@ -135,9 +155,34 @@
     </div>
   </section>
 
+<section class="block lg:hidden fixed bottom-0 inset-x-0 z-50 ">
+  <div class="bg-[#FFE4CF] w-full p-5 flex gap-5 font-medium text-sm text-center justify-center">
+
+    <!-- Button 1: Gradient Border Only -->
+    <div class="inline-block bg-gradient-to-r from-[#F58220] to-[#6C3130] rounded-full p-[2px]">
+      <div class="bg-white rounded-full">
+        <div class="flex items-center justify-center gap-2 px-4 py-3">
+          <img src="./assets/icons/telephone.png" class="h-5 w-5" alt="">
+          <p class="text-[#6C3130]">Request A Callback</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Button 2: Solid Gradient Fill -->
+    <div class="inline-block bg-gradient-to-r from-[#F58220] to-[#6C3130] rounded-full">
+      <div class="flex items-center justify-center gap-2 px-4 py-3">
+        <img src="./assets/icons/appointment.png" class="h-5 w-5" alt="">
+        <p class="text-white">Book An Appointment</p>
+      </div>
+    </div>
+
+  </div>
+</section>
 
 
-  <section class="flex justify-center  ">
+
+
+  <section class="flex justify-center  pt-20 ">
     <div class="flex flex-col  ">
       <div>
         <img src="./assets/banners/home-screen.png" class="lg:w-[1453px] lg:h-[840px] lg:px-0 px-5 rounded-2xl" alt="">
@@ -622,6 +667,177 @@
 
 
 
+  <div id="default-modal" tabindex="-1" aria-hidden="true" class="hidden overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 justify-center items-center w-full md:inset-0 h-[calc(100%-1rem)] max-h-full">
+    <div class="relative p-4 w-full max-w-2xl max-h-full">
+        <!-- Modal content -->
+        <div class="relative bg-neutral-primary-soft border border-default rounded-base shadow-sm p-4 md:p-6">
+            <!-- Modal header -->
+            <div class="flex items-center justify-between border-b border-default pb-4 md:pb-5">
+                <h3 class="text-lg font-medium text-heading">
+                    Terms of Service
+                </h3>
+                <button type="button" class="text-body bg-transparent hover:bg-neutral-tertiary hover:text-heading rounded-base text-sm w-9 h-9 ms-auto inline-flex justify-center items-center" data-modal-hide="default-modal">
+                    <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18 17.94 6M18 18 6.06 6"/></svg>
+                    <span class="sr-only">Close modal</span>
+                </button>
+            </div>
+            <!-- Modal body -->
+            <div class="space-y-4 md:space-y-6 py-4 md:py-6">
+                <p class="leading-relaxed text-body">
+                    With less than a month to go before the European Union enacts new consumer privacy laws for its citizens, companies around the world are updating their terms of service agreements to comply.
+                </p>
+                <p class="leading-relaxed text-body">
+                    The European Union’s General Data Protection Regulation (G.D.P.R.) goes into effect on May 25 and is meant to ensure a common set of data rights in the European Union. It requires organizations to notify users as soon as possible of high-risk data breaches that could personally affect them.
+                </p>
+            </div>
+            <!-- Modal footer -->
+            <div class="flex items-center border-t border-default space-x-4 pt-4 md:pt-5">
+                <button data-modal-hide="default-modal" type="button" class="text-white bg-brand box-border border border-transparent hover:bg-brand-strong focus:ring-4 focus:ring-brand-medium shadow-xs font-medium leading-5 rounded-base text-sm px-4 py-2.5 focus:outline-none">I accept</button>
+                <button data-modal-hide="default-modal" type="button" class="text-body bg-neutral-secondary-medium box-border border border-default-medium hover:bg-neutral-tertiary-medium hover:text-heading focus:ring-4 focus:ring-neutral-tertiary shadow-xs font-medium leading-5 rounded-base text-sm px-4 py-2.5 focus:outline-none">Decline</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<!-- OVERLAY -->
+<div id="overlay"
+     class="fixed inset-0 bg-black/60 z-40 hidden">
+</div>
+
+<!-- POPUP CONTAINER -->
+<div id="popupDialog"
+     class="fixed inset-0 z-50 hidden flex items-center justify-center p-4">
+
+  <!-- Card -->
+  <div class="bg-white rounded-2xl shadow-2xl overflow-hidden w-full max-w-3xl relative">
+
+    <!-- Close Button -->
+    <button onclick="closePopup()"
+      class="absolute right-4 top-4 text-gray-400 hover:text-gray-600 text-3xl leading-none">
+      &times;
+    </button>
+
+    <div class="flex flex-col md:flex-row">
+
+      <!-- Image -->
+      <div class="md:w-[360px] md:h-[420px]">
+        <img
+          src="./assets/genrated-image.png"
+          class="w-full h-full object-cover"
+          alt="Doctor" />
+      </div>
+
+      <!-- Form Section -->
+      <div class="px-6 md:px-8 py-6 flex items-center md:h-[420px]">
+        <div class="w-full">
+
+          <p class="text-xs font-semibold tracking-[0.15em] text-gray-500 uppercase">
+            Talk to our <span class="text-[#F97316]">Health Advisor</span>
+          </p>
+
+          <form class="mt-5 space-y-4">
+
+            <!-- Full Name -->
+            <div class="flex flex-col gap-1">
+              <label class="text-sm font-medium text-gray-700">
+                Full Name<span class="text-red-500">*</span>
+              </label>
+              <input
+                type="text"
+                class="h-10 w-full rounded-lg border border-gray-300 px-3 text-sm focus:outline-none focus:ring-2 focus:ring-[#F97316]"
+                placeholder="Enter your full name" />
+            </div>
+
+            <!-- Email -->
+            <div class="flex flex-col gap-1">
+              <label class="text-sm font-medium text-gray-700">
+                Email<span class="text-red-500">*</span>
+              </label>
+              <input
+                type="email"
+                class="h-10 w-full rounded-lg border border-gray-300 px-3 text-sm focus:outline-none focus:ring-2 focus:ring-[#F97316]"
+                placeholder="Enter your email" />
+            </div>
+
+            <!-- Mobile -->
+            <div class="flex flex-col gap-1">
+              <label class="text-sm font-medium text-gray-700">
+                Mobile Number<span class="text-red-500">*</span>
+              </label>
+
+              <div class="flex gap-2">
+                <!-- Country Code -->
+                <select
+                  class="h-10 w-24 rounded-lg border border-gray-300 px-2 text-sm focus:outline-none focus:ring-2 focus:ring-[#F97316]">
+                  <option value="+91">+91 IN</option>
+                  <option value="+1">+1 US</option>
+                  <option value="+44">+44 UK</option>
+                </select>
+
+                <!-- Number -->
+                <input
+                  type="tel"
+                  class="h-10 flex-1 rounded-lg border border-gray-300 px-3 text-sm focus:outline-none focus:ring-2 focus:ring-[#F97316]"
+                  placeholder="Enter your mobile number" />
+              </div>
+            </div>
+
+            <!-- Checkbox -->
+            <label class="flex items-start gap-2 text-xs text-gray-600 cursor-pointer">
+              <input type="checkbox"
+                     class="mt-[3px] h-4 w-4 rounded border-gray-300 text-[#F97316] focus:ring-[#F97316]" />
+              <span>I consent maxX hospitals to contact me</span>
+            </label>
+
+            <!-- Button -->
+            <button
+              class="mt-2 w-full h-10 rounded-lg bg-[#F97316] text-white text-sm font-semibold shadow hover:bg-[#ea6a0e] transition">
+              Request a Call Back
+            </button>
+
+          </form>
+
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</div>
+
+<script>
+  function openPopup() {
+    document.getElementById("overlay").classList.remove("hidden");
+    document.getElementById("popupDialog").classList.remove("hidden");
+  }
+
+  function closePopup() {
+    document.getElementById("overlay").classList.add("hidden");
+    document.getElementById("popupDialog").classList.add("hidden");
+  }
+</script>
+
+<script>
+  document.getElementById("searchBtn").addEventListener("click", function () {
+    const specialty = document.getElementById("specialtySelect").value;
+    const doctor = document.getElementById("doctorSelect").value;
+
+
+    if (doctor) {
+      window.location.href = doctor;
+      return;
+    }
+
+    if (specialty) {
+      window.location.href = specialty;
+      return;
+    }
+
+    alert("Please select a specialty or a doctor.");
+  });
+</script>
 
 
 
@@ -948,6 +1164,10 @@
       </div>
     </div>
   </section>
+
+
+
+
 
   <!-- <?php require "./demo.php" ?> -->
 
