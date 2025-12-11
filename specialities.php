@@ -713,8 +713,7 @@
     tab.addEventListener("click", () => {
       const target = tab.getAttribute("data-target");
       const targetEl = document.getElementById(target);
-
-      // remove active state from all tabs
+      
       tabs.forEach((t) =>
         t.classList.remove("bg-brand", "text-white", "active-tab")
       );
