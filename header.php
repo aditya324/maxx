@@ -173,7 +173,7 @@
 
       <!-- LEFT: LOGOS -->
       <div class="flex items-center gap-6 shrink-0">
-        <img src="./assets/logo/logo.png" class="h-full" alt="Maax Logo">
+        <a href="./index.php"><img src="./assets/logo/logo.png" class="h-full" alt="Maax Logo"></a>
         <!-- <img src="./images/10th-anniversary.png" class="h-10" alt="10th Anniversary"> -->
       </div>
 
@@ -189,43 +189,43 @@
 
       <!-- DESKTOP MENU -->
       <ul class="hidden md:flex flex-1 justify-evenly text-[#6b2e26] font-normal text-lg ">
-        <li><a href="#" class="">About Us</a></li>
+        <li><a href="./about.php" class="hover:text-[#a6533f]">About Us</a></li>
         <li class="special">
-          <a href="#" class="hover:text-[#a6533f]" id="specialToggle">Our Specialities</a>
+          <a href="#" class="" id="specialToggle">Our Specialities</a>
 
           <!-- MEGA (keeps your look but plain-css controlled visibility) -->
           <div class="mega" aria-hidden="true" id="megaMenu">
             <div class="col">
               <h3 class="text-[#F58220] font-semibold mb-4">Specialty</h3>
               <ul class="space-y-3 text-[#6C3130]">
-                <li>Heart Care</li>
-                <li>Bone &amp; Joint Care</li>
-                <li>Women’s Health</li>
-                <li>Child Care</li>
-                <li>Brain &amp; Spine Care</li>
-                <li>Kidney Care</li>
-                <li>Surgery &amp; Laparoscopy</li>
-                <li>Critical Care &amp; ICU</li>
-                <li>Emergency Care</li>
-                <li>Rehabilitation &amp; Recovery</li>
+                <li><a href="./cardiology.php">Heart Care</a></li>
+                <li><a href="./bone-and-joint.php">Bone &amp; Joint Care</a></li>
+                <li><a href="./women-health.php">Women’s Health</a></li>
+                <li><a href="./child-care.php">Child Care</a></li>
+                <li><a href="./brain-and-spine-care.php">Brain &amp; Spine Care</a></li>
+                <li><a href="./kidney-care.php">Kidney Care</a></li>
+                <li><a href="./surgery-and-laparoscopy.php">Surgery &amp; Laparoscopy</a></li>
+                <li><a href="./critical-care.php">Critical Care &amp; ICU</a></li>
+                <li><a href="./emergency-care.php">Emergency Care</a></li>
+                <li><a href="./rehablitation-and-recovery.php">Rehabilitation &amp; Recovery</a></li>
               </ul>
             </div>
 
             <div class="col col-middle">
               <h3 class="text-[#F58220] font-semibold mb-4">Procedures</h3>
               <ul class="space-y-3 text-[#6C3130]">
-                <li>Angiography</li>
-                <li>Angioplasty</li>
-                <li>Appendectomy</li>
-                <li>Biopsy</li>
-                <li>Brain Surgery</li>
-                <li>Bronchoscopy</li>
-                <li>Bypass Surgery</li>
-                <li>Cataract Surgery</li>
-                <li>C-Section</li>
-                <li>Dialysis</li>
-                <li>Endoscopy</li>
-                <li>Laser Surgery</li>
+                <li><a href="./angiography.php">Angiography</a></li>
+                <li><a href="./angioplasty.php">Angioplasty</a></li>
+                <li><a href="./appendectomy.php">Appendectomy</a></li>
+                <li><a href="./biopsy.php">Biopsy</a></li>
+                <li><a href="./Brain-surgery.php">Brain Surgery</a></li>
+                <li><a href="./bronchoscopy.php">Bronchoscopy</a></li>
+                <li><a href="./bypass-surgery.php">Bypass Surgery</a></li>
+                <li><a href="./cataract-surgery.php">Cataract Surgery</a></li>
+                <li><a href="./c-section.php">C-Section</a></li>
+                <li><a href="./dialysis.php">Dialysis</a></li>
+                <li><a href="./endoscopy.php">Endoscopy</a></li>
+                <li><a href="./laser-surgery.php">Laser Surgery</a></li>
               </ul>
             </div>
 
@@ -248,12 +248,12 @@
         </li>
 
 
-        <li><a href="#" class="hover:text-[#a6533f]">Our Doctors</a></li>
+        <li><a href="./doctors.php" class="hover:text-[#a6533f]">Our Doctors</a></li>
         <li class="flex items-center gap-1">
 
-          <a href="#" class="hover:text-[#a6533f]">Health Checkup</a>
+          <a href="./cardiology.php" class="hover:text-[#a6533f]">Health Checkup</a>
         </li>
-        <li><a href="#" class="hover:text-[#a6533f]">Patient’s Corner</a></li>
+        <li><a href="./patients-corner.php" class="hover:text-[#a6533f]">Patient’s Corner</a></li>
       </ul>
 
     </div>
@@ -261,14 +261,14 @@
     <!-- MOBILE MENU -->
     <div id="navbar-menu" class="hidden md:hidden bg-[#fdf7f3] border-t border-[#e8ddd8]">
       <ul class="flex flex-col gap-3 px-6 py-4 text-[#6b2e26] text-sm font-medium">
-        <li><a href="#" class="block hover:text-[#a6533f]">About Us</a></li>
-        <li><a href="#" class="block hover:text-[#a6533f]">Our Specialities</a></li>
-        <li><a href="#" class="block hover:text-[#a6533f]">Our Doctors</a></li>
+        <li><a href="./about.php" class="block hover:text-[#a6533f]">About Us</a></li>
+        <li><a href="./specialities.php" class="block hover:text-[#a6533f]">Our Specialities</a></li>
+        <li><a href="./doctors.php" class="block hover:text-[#a6533f]">Our Doctors</a></li>
         <li class="flex items-center gap-2">
 
-          <a href="#" class="hover:text-[#a6533f]">Health Checkup</a>
+          <a href="./cardiology.php" class="hover:text-[#a6533f]">Health Checkup</a>
         </li>
-        <li><a href="#" class="block hover:text-[#a6533f]">Patient’s Corner</a></li>
+        <li><a href="./patients-corner.php" class="block hover:text-[#a6533f]">Patient’s Corner</a></li>
       </ul>
     </div>
   </nav>
