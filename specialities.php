@@ -241,15 +241,18 @@
     class="tab-content show grid xl:grid-cols-6 lg:grid-cols-4 md:grid-cols-3 grid-cols-1 gap-5 lg:gap-10 justify-items-center mt-6 px-4">
 
     <!-- 1. Anaesthesia -->
-    <div
+    <a href="./anaesthesia.php">
+      <div
       class="speciality-card card-hover w-[241px] h-[226px] bg-white rounded-[20px] shadow-md flex flex-col items-center justify-center"
       data-name="Anaesthesia">
       <img src="./assets/icons/heart.png" class="w-20 h-20 mb-3" />
       <h3 class="text-[20px] font-semibold text-[#5c2c20] text-center">Anaesthesia</h3>
     </div>
+    </a>
 
     <!-- 2. Invasive & Non-Invasive Cardiology -->
-    <div
+   <a href="./invasive-and-non-invasive-cardiology.php">
+     <div
       class="speciality-card card-hover w-[241px] h-[226px] bg-white rounded-[20px] shadow-md flex flex-col items-center justify-center"
       data-name="Invasive & Non-Invasive Cardiology">
       <img src="./assets/icons/heart.png" class="w-20 h-20 mb-3" />
@@ -257,9 +260,11 @@
         Invasive & Non-Invasive Cardiology
       </h3>
     </div>
+   </a>
 
     <!-- 3. Cardiac Thoracic Surgery -->
-    <div
+    <a href="./cardiac-thoracic-surgery.php">
+      <div
       class="speciality-card card-hover w-[241px] h-[226px] bg-white rounded-[20px] shadow-md flex flex-col items-center justify-center"
       data-name="Cardiac Thoracic Surgery">
       <img src="./assets/icons/heart.png" class="w-20 h-20 mb-3" />
@@ -267,9 +272,11 @@
         Cardiac Thoracic Surgery
       </h3>
     </div>
+    </a>
 
     <!-- 4. Critical Care Medicine -->
-    <div
+    <a href="./critical-care.php">
+      <div
       class="speciality-card card-hover w-[241px] h-[226px] bg-white rounded-[20px] shadow-md flex flex-col items-center justify-center"
       data-name="Critical Care Medicine">
       <img src="./assets/icons/heart.png" class="w-20 h-20 mb-3" />
@@ -277,17 +284,21 @@
         Critical Care Medicine
       </h3>
     </div>
+    </a>
 
     <!-- 5. Dermatology -->
-    <div
+    <a href="./dermatology.php">
+      <div
       class="speciality-card card-hover w-[241px] h-[226px] bg-white rounded-[20px] shadow-md flex flex-col items-center justify-center"
       data-name="Dermatology">
       <img src="./assets/icons/heart.png" class="w-20 h-20 mb-3" />
       <h3 class="text-[20px] font-semibold text-[#5c2c20] text-center">Dermatology</h3>
     </div>
+    </a>
 
     <!-- 6. Emergency Medicine -->
-    <div
+    <a href="./emergency-medicine.php">
+      <div
       class="speciality-card card-hover w-[241px] h-[226px] bg-white rounded-[20px] shadow-md flex flex-col items-center justify-center"
       data-name="Emergency Medicine">
       <img src="./assets/icons/heart.png" class="w-20 h-20 mb-3" />
@@ -295,9 +306,11 @@
         Emergency Medicine
       </h3>
     </div>
+    </a>
 
     <!-- 7. Endocrine Surgery -->
-    <div
+   <a href="./endocrine-medicine.php">
+     <div
       class="speciality-card card-hover w-[241px] h-[226px] bg-white rounded-[20px] shadow-md flex flex-col items-center justify-center"
       data-name="Endocrine Surgery">
       <img src="./assets/icons/heart.png" class="w-20 h-20 mb-3" />
@@ -305,25 +318,31 @@
         Endocrine Surgery
       </h3>
     </div>
+   </a>
 
     <!-- 8. Endocrinology -->
-    <div
+    <a href="./endocrinology.php">
+      <div
       class="speciality-card card-hover w-[241px] h-[226px] bg-white rounded-[20px] shadow-md flex flex-col items-center justify-center"
       data-name="Endocrinology">
       <img src="./assets/icons/heart.png" class="w-20 h-20 mb-3" />
       <h3 class="text-[20px] font-semibold text-[#5c2c20] text-center">Endocrinology</h3>
     </div>
+    </a>
 
     <!-- 9. ENT -->
-    <div
+    <a href="./ent.php">
+      <div
       class="speciality-card card-hover w-[241px] h-[226px] bg-white rounded-[20px] shadow-md flex flex-col items-center justify-center"
       data-name="ENT">
       <img src="./assets/icons/heart.png" class="w-20 h-20 mb-3" />
       <h3 class="text-[20px] font-semibold text-[#5c2c20] text-center">ENT</h3>
     </div>
+    </a>
 
     <!-- 10. General Medicine -->
-    <div
+    <a href="./general-medicine.php">
+      <div
       class="speciality-card card-hover w-[241px] h-[226px] bg-white rounded-[20px] shadow-md flex flex-col items-center justify-center"
       data-name="General Medicine">
       <img src="./assets/icons/heart.png" class="w-20 h-20 mb-3" />
@@ -331,9 +350,11 @@
         General Medicine
       </h3>
     </div>
+    </a>
 
     <!-- 11. General & Laparoscopic Surgery -->
-    <div
+    <a href="./general-and-laproscopic-surgery.php">
+      <div
       class="speciality-card card-hover w-[241px] h-[226px] bg-white rounded-[20px] shadow-md flex flex-col items-center justify-center"
       data-name="General & Laparoscopic Surgery">
       <img src="./assets/icons/heart.png" class="w-20 h-20 mb-3" />
@@ -341,9 +362,11 @@
         General & Laparoscopic Surgery
       </h3>
     </div>
+    </a>
 
     <!-- 12. Interventional Radiology -->
-    <div
+    <a href="./interventional-radiology.php">
+      <div
       class="speciality-card card-hover w-[241px] h-[226px] bg-white rounded-[20px] shadow-md flex flex-col items-center justify-center"
       data-name="Interventional Radiology">
       <img src="./assets/icons/heart.png" class="w-20 h-20 mb-3" />
@@ -351,9 +374,11 @@
         Interventional Radiology
       </h3>
     </div>
+    </a>
 
     <!-- 13. Surgical Gastroenterology -->
-    <div
+    <a href="./surgical-gastroentology.php">
+      <div
       class="speciality-card card-hover w-[241px] h-[226px] bg-white rounded-[20px] shadow-md flex flex-col items-center justify-center"
       data-name="Surgical Gastroenterology">
       <img src="./assets/icons/heart.png" class="w-20 h-20 mb-3" />
@@ -361,9 +386,11 @@
         Surgical Gastroenterology
       </h3>
     </div>
+    </a>
 
     <!-- 14. Oral & Maxillo Facial Surgery -->
-    <div
+    <a href="./oral-and-maxillo-surgery.php">
+      <div
       class="speciality-card card-hover w-[241px] h-[226px] bg-white rounded-[20px] shadow-md flex flex-col items-center justify-center"
       data-name="Oral & Maxillo Facial Surgery">
       <img src="./assets/icons/heart.png" class="w-20 h-20 mb-3" />
@@ -371,9 +398,11 @@
         Oral & Maxillo Facial Surgery
       </h3>
     </div>
+    </a>
 
     <!-- 15. Nephrology & Dialysis -->
-    <div
+    <a href="./nephrology-and-dialysis.php">
+      <div
       class="speciality-card card-hover w-[241px] h-[226px] bg-white rounded-[20px] shadow-md flex flex-col items-center justify-center"
       data-name="Nephrology & Dialysis">
       <img src="./assets/icons/heart.png" class="w-20 h-20 mb-3" />
@@ -381,25 +410,31 @@
         Nephrology & Dialysis
       </h3>
     </div>
+    </a>
 
     <!-- 16. Neurology -->
-    <div
+    <a href="./neurology.php">
+      <div
       class="speciality-card card-hover w-[241px] h-[226px] bg-white rounded-[20px] shadow-md flex flex-col items-center justify-center"
       data-name="Neurology">
       <img src="./assets/icons/heart.png" class="w-20 h-20 mb-3" />
       <h3 class="text-[20px] font-semibold text-[#5c2c20] text-center">Neurology</h3>
     </div>
+    </a>
 
     <!-- 17. Neurosurgery -->
-    <div
+    <a href="./neurosurgery.php">
+      <div
       class="speciality-card card-hover w-[241px] h-[226px] bg-white rounded-[20px] shadow-md flex flex-col items-center justify-center"
       data-name="Neurosurgery">
       <img src="./assets/icons/heart.png" class="w-20 h-20 mb-3" />
       <h3 class="text-[20px] font-semibold text-[#5c2c20] text-center">Neurosurgery</h3>
     </div>
+    </a>
 
     <!-- 18. Ophthalmology -->
-    <div
+    <a href="./ophthalmology.php">
+      <div
       class="speciality-card card-hover w-[241px] h-[226px] bg-white rounded-[20px] shadow-md flex flex-col items-center justify-center"
       data-name="Ophthalmology">
       <img src="./assets/icons/heart.png" class="w-20 h-20 mb-3" />
@@ -407,9 +442,11 @@
         Ophthalmology
       </h3>
     </div>
+    </a>
 
     <!-- 19. Orthopedics & Joint Replacement -->
-    <div
+   <a href="./orthopedics-and-joint-replacement.php">
+     <div
       class="speciality-card card-hover w-[241px] h-[226px] bg-white rounded-[20px] shadow-md flex flex-col items-center justify-center"
       data-name="Orthopedics & Joint Replacement">
       <img src="./assets/icons/heart.png" class="w-20 h-20 mb-3" />
@@ -417,9 +454,11 @@
         Orthopedics & Joint Replacement
       </h3>
     </div>
+   </a>
 
     <!-- 20. Obstetrics & Gynecology -->
-    <div
+    <a href="./obstrcts-and-gynacology.php">
+      <div
       class="speciality-card card-hover w-[241px] h-[226px] bg-white rounded-[20px] shadow-md flex flex-col items-center justify-center"
       data-name="Obstetrics & Gynecology">
       <img src="./assets/icons/heart.png" class="w-20 h-20 mb-3" />
@@ -427,17 +466,21 @@
         Obstetrics & Gynecology
       </h3>
     </div>
+    </a>
 
     <!-- 21. Pediatrics -->
-    <div
+    <a href="./pediatrics.php">
+      <div
       class="speciality-card card-hover w-[241px] h-[226px] bg-white rounded-[20px] shadow-md flex flex-col items-center justify-center"
       data-name="Pediatrics">
       <img src="./assets/icons/heart.png" class="w-20 h-20 mb-3" />
       <h3 class="text-[20px] font-semibold text-[#5c2c20] text-center">Pediatrics</h3>
     </div>
+    </a>
 
     <!-- 22. Pediatric Surgery -->
-    <div
+    <a href="./pediatric-surgery.php">
+      <div
       class="speciality-card card-hover w-[241px] h-[226px] bg-white rounded-[20px] shadow-md flex flex-col items-center justify-center"
       data-name="Pediatric Surgery">
       <img src="./assets/icons/heart.png" class="w-20 h-20 mb-3" />
@@ -445,9 +488,11 @@
         Pediatric Surgery
       </h3>
     </div>
+    </a>
 
     <!-- 23. Plastic Surgery -->
-    <div
+    <a href="./plastic-surgery.php">
+      <div
       class="speciality-card card-hover w-[241px] h-[226px] bg-white rounded-[20px] shadow-md flex flex-col items-center justify-center"
       data-name="Plastic Surgery">
       <img src="./assets/icons/heart.png" class="w-20 h-20 mb-3" />
@@ -455,9 +500,11 @@
         Plastic Surgery
       </h3>
     </div>
+    </a>
 
     <!-- 24. Pulmonology -->
-    <div
+    <a href="./pulmonology.php">
+      <div
       class="speciality-card card-hover w-[241px] h-[226px] bg-white rounded-[20px] shadow-md flex flex-col items-center justify-center"
       data-name="Pulmonology">
       <img src="./assets/icons/heart.png" class="w-20 h-20 mb-3" />
@@ -466,8 +513,10 @@
       </h3>
     </div>
 
+    </a>
     <!-- 25. Pathology -->
-    <div
+    <a href="./pathology.php">
+      <div
       class="speciality-card card-hover w-[241px] h-[226px] bg-white rounded-[20px] shadow-md flex flex-col items-center justify-center"
       data-name="Pathology">
       <img src="./assets/icons/heart.png" class="w-20 h-20 mb-3" />
@@ -475,9 +524,11 @@
         Pathology
       </h3>
     </div>
+    </a>
 
     <!-- 26. Physiotherapy & Rehabilitation -->
-    <div
+    <a href="./psyiotherphy.php">
+      <div
       class="speciality-card card-hover w-[241px] h-[226px] bg-white rounded-[20px] shadow-md flex flex-col items-center justify-center"
       data-name="Physiotherapy & Rehabilitation">
       <img src="./assets/icons/heart.png" class="w-20 h-20 mb-3" />
@@ -485,9 +536,11 @@
         Physiotherapy & Rehabilitation
       </h3>
     </div>
+    </a>
 
     <!-- 27. Psychiatry (OPD Only) -->
-    <div
+    <a href="./psychiatry.php">
+      <div
       class="speciality-card card-hover w-[241px] h-[226px] bg-white rounded-[20px] shadow-md flex flex-col items-center justify-center"
       data-name="Psychiatry (OPD Only)">
       <img src="./assets/icons/heart.png" class="w-20 h-20 mb-3" />
@@ -495,9 +548,11 @@
         Psychiatry (OPD Only)
       </h3>
     </div>
+    </a>
 
     <!-- 28. Radiology & Imaging -->
-    <div
+    <a href="./radiology-and-imaging.php">
+      <div
       class="speciality-card card-hover w-[241px] h-[226px] bg-white rounded-[20px] shadow-md flex flex-col items-center justify-center"
       data-name="Radiology & Imaging">
       <img src="./assets/icons/heart.png" class="w-20 h-20 mb-3" />
@@ -505,14 +560,17 @@
         Radiology & Imaging
       </h3>
     </div>
+    </a>
 
     <!-- 29. Urology -->
-    <div
+    <a href="./urology.php">
+      <div
       class="speciality-card card-hover w-[241px] h-[226px] bg-white rounded-[20px] shadow-md flex flex-col items-center justify-center"
       data-name="Urology">
       <img src="./assets/icons/heart.png" class="w-20 h-20 mb-3" />
       <h3 class="text-[20px] font-semibold text-[#5c2c20] text-center">Urology</h3>
     </div>
+    </a>
 
   </div>
 
