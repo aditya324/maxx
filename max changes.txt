@@ -1,0 +1,5 @@
+todo maxx 
+1:specialite map in all banners 
+2:specialites page routing 
+3:boom an appointment mail
+4:footer
