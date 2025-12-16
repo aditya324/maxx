@@ -183,12 +183,12 @@
 
 
 
-  <section class="flex justify-center  pt-20 ">
+  <section class="flex justify-center  pt-20  ">
     <div class="flex flex-col  ">
       <div>
-        <div class="w-full flex justify-center">
+        <div class="w-full flex justify-center lg:block hidden">
           <img
-            src="./assets/banners/home-screen.png"
+            src="./assets/banners/Frame 274.png"
             class="max-w-[500px] w-full h-auto !important"
             alt="">
         </div>
@@ -200,8 +200,8 @@
             <div>
               <div class="flex justify-baseline">
                 <img src="./assets/icons/trophy-icon.png" alt="">
-                <h3 class="text-2xl font-bold ml-5 mt-5">
-                  High Quality<br />Medical Care
+                <h3 class="text-green-50  font-bold ml-5 mt-5">
+                  High Quality Medical Care
                 </h3>
               </div>
 
@@ -605,9 +605,7 @@
 
 
 
-  <section class="container mx-auto mt-32 mb-10 px-5 lg:px-0 overflow-visible"
-   >
-    <div class="max-w-4xl mx-auto text-center">
+  <section class="container mx-auto mt-32 mb-10 px-5 lg:px-0 overflow-visible" data-aos="fade-up">
 
     <div class="relative bg-[#6D3333] rounded-[2rem] shadow-xl flex flex-col md:flex-row md:items-center px-6 pb-8 pt-0 md:pr-8 md:pl-0 md:py-10 z-0">
 
@@ -995,6 +993,25 @@
   </section>
 
 
+
+  <section>
+    <h2 class="text-2xl font-semibold text-center pt-10">
+        <span class="text-[#6C3130]">Hear From Us</span>
+        <span class="text-brand">To Stay Healthy</span>
+      </h2>
+
+      
+
+      <div class="flex justify-center pt-10 gap-10 flex-wrap">
+        <img src="./assets/hear-from-us/image 35.png" alt="">
+         <img src="./assets/hear-from-us/image 42.png" alt="">
+      </div>
+  </section>
+
+
+
+
+
   <section class="max-w-7xl mx-auto mt-10">
 
     <div class="max-w-4xl mx-auto text-center">
@@ -1112,7 +1129,7 @@
       </h2>
     </div>
 
-    <div class="relative w-full bg-transparent md:bg-[#FFDCC2] rounded-3xl">
+    <div class="relative  bg-transparent md:bg-[#FFDCC2] rounded-3xl">
 
       <div class="absolute inset-0 overflow-visible md:overflow-hidden rounded-3xl z-0 pointer-events-none">
         <div class="absolute bg-[#E89F85] opacity-50 md:opacity-30 rounded-full 

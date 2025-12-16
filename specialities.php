@@ -708,7 +708,7 @@
             MRI Scan
           </h3>
         </div>
-      </div>
+      </div>  
     </div>
 
     <div class="flex flex-wrap justify-center gap-3 mt-5">
