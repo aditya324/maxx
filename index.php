@@ -333,7 +333,14 @@
   </section>
 
 
-  <section class="w-full py-10 " data-aos="fade-up">
+  <section class="w-full py-10 "  data-aos="fade-up"
+    data-aos-offset="200"
+    data-aos-delay="50"
+    data-aos-duration="1000"
+    data-aos-easing="ease-in-out"
+    data-aos-mirror="true"
+    data-aos-once="false"
+    data-aos-anchor-placement="top-center">
     <div class="max-w-4xl mx-auto text-center">
 
       <!-- Heading -->
@@ -598,7 +605,9 @@
 
 
 
-  <section class="container mx-auto mt-32 mb-10 px-5 lg:px-0 overflow-visible">
+  <section class="container mx-auto mt-32 mb-10 px-5 lg:px-0 overflow-visible"
+   >
+    <div class="max-w-4xl mx-auto text-center">
 
     <div class="relative bg-[#6D3333] rounded-[2rem] shadow-xl flex flex-col md:flex-row md:items-center px-6 pb-8 pt-0 md:pr-8 md:pl-0 md:py-10 z-0">
 
@@ -1190,7 +1199,7 @@
   // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
   offset: 120, // offset (in px) from the original trigger point
   delay: 0, // values from 0 to 3000, with step 50ms
-  duration: 1000, // values from 0 to 3000, with step 50ms
+  duration: 400, // values from 0 to 3000, with step 50ms
   easing: 'ease', // default easing for AOS animations
   once: false, // whether animation should happen only once - while scrolling down
   mirror: false, // whether elements should animate out while scrolling past them
