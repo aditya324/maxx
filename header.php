@@ -189,9 +189,9 @@
 
       <!-- DESKTOP MENU -->
       <ul class="hidden md:flex flex-1 justify-evenly text-[#6b2e26] font-normal text-lg ">
-        <li><a href="./about.php" class="hover:text-[#a6533f]">About Us</a></li>
+        <li><a href="./about.php" c lass="hover:text-[#a6533f]">About Us</a></li>
         <li class="special">
-          <a href="#" class="" id="specialToggle">Our Specialities</a>
+          <a href="./specialities.php" class="" id="specialToggle">Our Specialities</a>
 
           <!-- MEGA (keeps your look but plain-css controlled visibility) -->
           <div class="mega" aria-hidden="true" id="megaMenu">

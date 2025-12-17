@@ -137,169 +137,20 @@
 
 
 
-    <section class=" py-10">
-        <!-- Heading + Tabs -->
-
-
+    <section class="py-10">
         <!-- Doctor Cards -->
-        <div class="flex flex-wrap justify-center  gap-x-5 gap-y-5 px-10">
-
-            <!-- CARD 1 -->
-            <div class="relative  w-[400px] h-[300px] rounded-[20px] border border-[#e4d5c6] p-5 shadow-sm bg-white flex flex-col justify-between">
-                <div class="flex items-center gap-4">
-                    <div class="w-20 h-20 rounded-full border-[3px] border-orange-500 overflow-hidden">
-                        <img src="/doctor.jpg" class="w-full h-full object-cover" />
-                    </div>
-
-                    <div>
-                        <h3 class="text-[18px] font-semibold text-[#5c2c20] leading-snug">Dr Subhash S H</h3>
-                        <p class="text-gray-600 text-sm mt-1">MBBS, MS</p>
-                        <p class="text-orange-600 font-semibold text-base mt-1">Orthopedics</p>
-                    </div>
-                </div>
-
-                <div class="grid grid-cols-2 rounded-xl overflow-hidden border border-orange-500 mt-6">
-                    <button class="bg-[#582F28] text-white py-3 text-sm font-medium">View Profile</button>
-                    <button class="bg-white text-orange-600 py-3 text-sm font-semibold">Book Appointment</button>
-                </div>
-            </div>
-
-            <!-- CARD 2 -->
-            <div class="relative  w-[400px] h-[300px] rounded-[20px] border border-[#e4d5c6] p-5 shadow-sm bg-white flex flex-col justify-between">
-                <div class="flex items-center gap-4">
-                    <div class="w-20 h-20 rounded-full border-[3px] border-orange-500 overflow-hidden">
-                        <img src="/doctor.jpg" class="w-full h-full object-cover" />
-                    </div>
-
-                    <div>
-                        <h3 class="text-[18px] font-semibold text-[#5c2c20] leading-snug">Dr Jane Doe</h3>
-                        <p class="text-gray-600 text-sm mt-1">MBBS, MD</p>
-                        <p class="text-orange-600 font-semibold text-base mt-1">Cardiology</p>
-                    </div>
-                </div>
-
-                <div class="grid grid-cols-2 rounded-xl overflow-hidden border border-orange-500 mt-6">
-                    <button class="bg-[#582F28] text-white py-3 text-sm font-medium">View Profile</button>
-                    <button class="bg-white text-orange-600 py-3 text-sm font-semibold">Book Appointment</button>
-                </div>
-            </div>
-
-            <!-- CARD 3 -->
-            <div class="relative  w-[400px] h-[300px] rounded-[20px] border border-[#e4d5c6] p-5 shadow-sm bg-white flex flex-col justify-between">
-                <div class="flex items-center gap-4">
-                    <div class="w-20 h-20 rounded-full border-[3px] border-orange-500 overflow-hidden">
-                        <img src="/doctor.jpg" class="w-full h-full object-cover" />
-                    </div>
-
-                    <div>
-                        <h3 class="text-[18px] font-semibold text-[#5c2c20] leading-snug">Dr John Smith</h3>
-                        <p class="text-gray-600 text-sm mt-1">MBBS, MS</p>
-                        <p class="text-orange-600 font-semibold text-base mt-1">Neurology</p>
-                    </div>
-                </div>
-
-                <div class="grid grid-cols-2 rounded-xl overflow-hidden border border-orange-500 mt-6">
-                    <button class="bg-[#582F28] text-white py-3 text-sm font-medium">View Profile</button>
-                    <button class="bg-white text-orange-600 py-3 text-sm font-semibold">Book Appointment</button>
-                </div>
-            </div>
-            <div class="relative  w-[400px] h-[300px] rounded-[20px] border border-[#e4d5c6] p-5 shadow-sm bg-white flex flex-col justify-between">
-                <div class="flex items-center gap-4">
-                    <div class="w-20 h-20 rounded-full border-[3px] border-orange-500 overflow-hidden">
-                        <img src="/doctor.jpg" class="w-full h-full object-cover" />
-                    </div>
-
-                    <div>
-                        <h3 class="text-[18px] font-semibold text-[#5c2c20] leading-snug">Dr John Smith</h3>
-                        <p class="text-gray-600 text-sm mt-1">MBBS, MS</p>
-                        <p class="text-orange-600 font-semibold text-base mt-1">Neurology</p>
-                    </div>
-                </div>
-
-                <div class="grid grid-cols-2 rounded-xl overflow-hidden border border-orange-500 mt-6">
-                    <button class="bg-[#582F28] text-white py-3 text-sm font-medium">View Profile</button>
-                    <button class="bg-white text-orange-600 py-3 text-sm font-semibold">Book Appointment</button>
-                </div>
-            </div>
-            <div class="relative  w-[400px] h-[300px] rounded-[20px] border border-[#e4d5c6] p-5 shadow-sm bg-white flex flex-col justify-between">
-                <div class="flex items-center gap-4">
-                    <div class="w-20 h-20 rounded-full border-[3px] border-orange-500 overflow-hidden">
-                        <img src="/doctor.jpg" class="w-full h-full object-cover" />
-                    </div>
-
-                    <div>
-                        <h3 class="text-[18px] font-semibold text-[#5c2c20] leading-snug">Dr John Smith</h3>
-                        <p class="text-gray-600 text-sm mt-1">MBBS, MS</p>
-                        <p class="text-orange-600 font-semibold text-base mt-1">Neurology</p>
-                    </div>
-                </div>
-
-                <div class="grid grid-cols-2 rounded-xl overflow-hidden border border-orange-500 mt-6">
-                    <button class="bg-[#582F28] text-white py-3 text-sm font-medium">View Profile</button>
-                    <button class="bg-white text-orange-600 py-3 text-sm font-semibold">Book Appointment</button>
-                </div>
-            </div>
-            <div class="relative  w-[400px] h-[300px] rounded-[20px] border border-[#e4d5c6] p-5 shadow-sm bg-white flex flex-col justify-between">
-                <div class="flex items-center gap-4">
-                    <div class="w-20 h-20 rounded-full border-[3px] border-orange-500 overflow-hidden">
-                        <img src="/doctor.jpg" class="w-full h-full object-cover" />
-                    </div>
-
-                    <div>
-                        <h3 class="text-[18px] font-semibold text-[#5c2c20] leading-snug">Dr John Smith</h3>
-                        <p class="text-gray-600 text-sm mt-1">MBBS, MS</p>
-                        <p class="text-orange-600 font-semibold text-base mt-1">Neurology</p>
-                    </div>
-                </div>
-
-                <div class="grid grid-cols-2 rounded-xl overflow-hidden border border-orange-500 mt-6">
-                    <button class="bg-[#582F28] text-white py-3 text-sm font-medium">View Profile</button>
-                    <button class="bg-white text-orange-600 py-3 text-sm font-semibold">Book Appointment</button>
-                </div>
-            </div>
-            <div class="relative  w-[400px] h-[300px] rounded-[20px] border border-[#e4d5c6] p-5 shadow-sm bg-white flex flex-col justify-between">
-                <div class="flex items-center gap-4">
-                    <div class="w-20 h-20 rounded-full border-[3px] border-orange-500 overflow-hidden">
-                        <img src="/doctor.jpg" class="w-full h-full object-cover" />
-                    </div>
-
-                    <div>
-                        <h3 class="text-[18px] font-semibold text-[#5c2c20] leading-snug">Dr John Smith</h3>
-                        <p class="text-gray-600 text-sm mt-1">MBBS, MS</p>
-                        <p class="text-orange-600 font-semibold text-base mt-1">Neurology</p>
-                    </div>
-                </div>
-
-                <div class="grid grid-cols-2 rounded-xl overflow-hidden border border-orange-500 mt-6">
-                    <button class="bg-[#582F28] text-white py-3 text-sm font-medium">View Profile</button>
-                    <button class="bg-white text-orange-600 py-3 text-sm font-semibold">Book Appointment</button>
-                </div>
-            </div>
-            <div class="relative  w-[400px] h-[300px] rounded-[20px] border border-[#e4d5c6] p-5 shadow-sm bg-white flex flex-col justify-between">
-                <div class="flex items-center gap-4">
-                    <div class="w-20 h-20 rounded-full border-[3px] border-orange-500 overflow-hidden">
-                        <img src="/doctor.jpg" class="w-full h-full object-cover" />
-                    </div>
-
-                    <div>
-                        <h3 class="text-[18px] font-semibold text-[#5c2c20] leading-snug">Dr John Smith</h3>
-                        <p class="text-gray-600 text-sm mt-1">MBBS, MS</p>
-                        <p class="text-orange-600 font-semibold text-base mt-1">Neurology</p>
-                    </div>
-                </div>
-
-                <div class="grid grid-cols-2 rounded-xl overflow-hidden border border-orange-500 mt-6">
-                    <button class="bg-[#582F28] text-white py-3 text-sm font-medium">View Profile</button>
-                    <button class="bg-white text-orange-600 py-3 text-sm font-semibold">Book Appointment</button>
-                </div>
-            </div>
-
+        <div
+            id="doctorCards"
+            class="flex flex-wrap justify-center gap-x-5 gap-y-5 px-10">
         </div>
 
         <!-- View All Button -->
         <div class="w-full flex justify-center mt-5">
-            <button class="flex justify-center items-center gap-2 border border-[#f28c28] text-[#f28c28] px-5 py-2 rounded-full font-medium text-xl hover:bg-[#fff7ef] transition">
-                view all
+            <button
+                class="flex justify-center items-center gap-2 border border-[#f28c28]
+             text-[#f28c28] px-5 py-2 rounded-full font-medium text-xl
+             hover:bg-[#fff7ef] transition">
+                View All
                 <span class="text-lg">→</span>
             </button>
         </div>
@@ -308,77 +159,285 @@
 
 
 
-    <section>
+
+    <!-- <section>
         <div class="max-w-4xl mx-auto text-center">
 
-            <!-- Heading -->
+
             <h2 class="text-2xl font-semibold">
                 <span class="text-[#6C3130]">Explore</span>
                 <span class="text-brand">Our Specialities</span>
             </h2>
 
-            <!-- Tabs -->
+
             <div class="flex justify-center gap-10 mt-6 text-brand text-lg font-medium">
 
-                <!-- Active Tab -->
+
                 <button class="px-5 py-2 bg-brand text-white rounded-full">
                     Specialities
                 </button>
 
-                <!-- Inactive Tabs -->
+
                 <button class="hover:text-[#c45d16] transition">Procedures</button>
                 <button class="hover:text-[#c45d16] transition">Diagnostics</button>
 
             </div>
 
         </div>
-      <section class="w-full py-10">
-  <div class="max-w-md mx-auto">
-    <!-- CARD -->
-    <div class="w-[400px] h-[600px] bg-white rounded-[10px] shadow-[0_10px_30px_rgba(15,23,42,0.08)] overflow-hidden flex flex-col">
+        <section class="w-full py-10">
+            <div class="max-w-md mx-auto">
 
-      <!-- TOP IMAGE + ORANGE OVERLAY -->
-      <div class="relative w-full h-[260px]">
-        <!-- Full Image -->
-        <img
-          src="./assets/elderly-consultation.php.jpg"
-          alt="Patient & Doctor"
-          class="w-full h-full object-cover z-0"
-        />
+                <div class="w-[400px] h-[600px] bg-white rounded-[10px] shadow-[0_10px_30px_rgba(15,23,42,0.08)] overflow-hidden flex flex-col">
 
-        <!-- ORANGE BLOCK OVER IMAGE -->
-        <div class="absolute inset-y-0 right-10 w-2/5 bg-orange-500 z-100"></div>
 
-        <!-- TAG -->
-        <div
-          class="absolute left-1/2 -translate-x-1/2 top-6 bg-white px-5 py-1.5 rounded-full shadow text-sm font-semibold text-orange-500 z-30"
-        >
-          Angioplasty
-        </div>
+                    <div class="relative w-full h-[260px]">
+
+                        <img
+                            src="./assets/elderly-consultation.php.jpg"
+                            alt="Patient & Doctor"
+                            class="w-full h-full object-cover z-0" />
+
+
+                        <div class="absolute inset-y-0 right-10 w-2/5 bg-orange-500 z-100"></div>
+
+
+                        <div
+                            class="absolute left-1/2 -translate-x-1/2 top-6 bg-white px-5 py-1.5 rounded-full shadow text-sm font-semibold text-orange-500 z-30">
+                            Angioplasty
+                        </div>
+                    </div>
+
+
+                    <div class="flex-1 px-6 pt-8 pb-6 flex flex-col justify-between">
+                        <h3 class="text-lg font-semibold leading-relaxed text-[#111827]">
+                            Successful Heart and Kidney Treatment by Our Doctor
+                        </h3>
+
+                        <button
+                            class="mt-8 inline-flex items-center gap-2 font-semibold text-orange-500">
+                            <span class="text-xl leading-none">➤</span>
+                            <span>Patient Recovery Story</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+    </section> -->
+
+
+    <script>
+        const doctors = [{
+                name: "Dr. Narayan Panji",
+                degree: "MBBS, MS, MCh",
+                specialty: "Neurosurgery"
+            },
+            {
+                name: "Dr. Arun S.",
+                degree: "MBBS, DNB",
+                specialty: "Neurosurgery"
+            },
+            {
+                name: "Dr. Vinay B.M.",
+                degree: "MBBS, MS",
+                specialty: "General Surgery"
+            },
+
+            {
+                name: "Dr. Anubav Jannu",
+                degree: "MBBS, MDS",
+                specialty: "Maxillofacial Surgery"
+            },
+            {
+                name: "Dr. Mithun K.M.",
+                degree: "MBBS, MDS",
+                specialty: "Maxillofacial Surgery"
+            },
+
+            {
+                name: "Dr. Praveenkumar Devarabatti",
+                degree: "MBBS, MD",
+                specialty: "Endocrinology"
+            },
+            {
+                name: "Dr. Shreyas M.",
+                degree: "MBBS, MS",
+                specialty: "Endocrine Surgery"
+            },
+
+            {
+                name: "Dr. Manjunath P. Hasalkar",
+                degree: "MBBS, DM",
+                specialty: "Interventional Cardiology"
+            },
+            {
+                name: "Dr. Sudheer M. Bhat",
+                degree: "MBBS, MS, MCh",
+                specialty: "CTVS"
+            },
+            {
+                name: "Dr. Rakesh R.",
+                degree: "MBBS, MS",
+                specialty: "CTVS"
+            },
+
+            {
+                name: "Dr. Rakesh Bisalahalli",
+                degree: "MBBS, MS",
+                specialty: "Urology"
+            },
+            {
+                name: "Dr. Prasanna Basavarajappa",
+                degree: "MBBS, MS",
+                specialty: "Surgical Gastroenterology"
+            },
+
+            {
+                name: "Dr. Akshay Pai A.",
+                degree: "MBBS, MS, MCh",
+                specialty: "Plastic Surgery"
+            },
+            {
+                name: "Dr. Sunil Kumar K.P.",
+                degree: "MBBS, MS",
+                specialty: "General Surgery"
+            },
+
+            {
+                name: "Dr. S. Nagendra",
+                degree: "MBBS, MD",
+                specialty: "Internal Medicine"
+            },
+            {
+                name: "Dr. Satish B.C.",
+                degree: "MBBS, DNB",
+                specialty: "Internal Medicine"
+            },
+            {
+                name: "Dr. M. Fareed",
+                degree: "MBBS, DNB",
+                specialty: "General Medicine"
+            },
+            {
+                name: "Dr. Suresh B.N.",
+                degree: "MBBS, MD",
+                specialty: "General Medicine"
+            },
+
+            {
+                name: "Dr. Dayanand A.S.",
+                degree: "MBBS, DNB",
+                specialty: "Nephrology"
+            },
+            {
+                name: "Dr. Lingaraju",
+                degree: "MBBS, MD",
+                specialty: "Nephrology"
+            },
+
+            {
+                name: "Dr. Venkatesh Ballal",
+                degree: "MBBS, MS",
+                specialty: "ENT"
+            },
+            {
+                name: "Dr. Lohith S.",
+                degree: "MBBS, MS",
+                specialty: "ENT"
+            },
+
+            {
+                name: "Dr. Lata R. Telang",
+                degree: "MBBS, DGO",
+                specialty: "Obstetrics & Gynecology"
+            },
+            {
+                name: "Dr. Shonali Manjunath",
+                degree: "MBBS, MS",
+                specialty: "Obstetrics & Gynecology"
+            },
+            {
+                name: "Dr. Vangara Susmitha",
+                degree: "MBBS, DNB",
+                specialty: "Obstetrics & Gynecology"
+            },
+
+            {
+                name: "Dr. Srinivasa Hatwar",
+                degree: "MBBS, MD",
+                specialty: "Pediatrics"
+            },
+            {
+                name: "Dr. Surabhi N.K.",
+                degree: "MBBS, MD",
+                specialty: "Pediatrics"
+            },
+
+            {
+                name: "Dr. Ashok T.",
+                degree: "MBBS, DNB",
+                specialty: "Ophthalmology"
+            },
+            {
+                name: "Dr. Laxmi K.S. Murthy",
+                degree: "MBBS, MS",
+                specialty: "Ophthalmology"
+            },
+
+            {
+                name: "Dr. Shivkumar H.C.",
+                degree: "MBBS, D’Ortho",
+                specialty: "Orthopedics"
+            },
+            {
+                name: "Dr. Shishir S.M.",
+                degree: "MBBS, MS",
+                specialty: "Orthopedics"
+            },
+            {
+                name: "Dr. Sukruth P. Patel",
+                degree: "MBBS, MS",
+                specialty: "Orthopedics"
+            }
+        ];
+
+
+        const container = document.getElementById("doctorCards");
+
+        container.innerHTML = doctors.map(doc => `
+  <div class="relative w-[400px] h-[300px] rounded-[20px]
+              border border-[#e4d5c6] p-5 shadow-sm bg-white
+              flex flex-col justify-between">
+
+    <div class="flex items-center gap-4">
+      <div class="w-20 h-20 rounded-full border-[3px] border-orange-500 overflow-hidden">
+        <img src="/doctor.jpg" class="w-full h-full object-cover" />
       </div>
 
-      <!-- CONTENT -->
-      <div class="flex-1 px-6 pt-8 pb-6 flex flex-col justify-between">
-        <h3 class="text-lg font-semibold leading-relaxed text-[#111827]">
-          Successful Heart and Kidney Treatment by Our Doctor
+      <div>
+        <h3 class="text-[18px] font-semibold text-[#5c2c20] leading-snug">
+          ${doc.name}
         </h3>
-
-        <button
-          class="mt-8 inline-flex items-center gap-2 font-semibold text-orange-500"
-        >
-          <span class="text-xl leading-none">➤</span>
-          <span>Patient Recovery Story</span>
-        </button>
+        <p class="text-gray-600 text-sm mt-1">${doc.degree}</p>
+        <p class="text-orange-600 font-semibold text-base mt-1">
+          ${doc.specialty}
+        </p>
       </div>
     </div>
+
+    <div class="grid grid-cols-2 rounded-xl overflow-hidden border border-orange-500 mt-6">
+      <button class="bg-[#582F28] text-white py-3 text-sm font-medium">
+        View Profile
+      </button>
+      <button class="bg-white text-orange-600 py-3 text-sm font-semibold">
+        Book Appointment
+      </button>
+    </div>
   </div>
-</section>
-
-
-
-    </section>
-
-
+`).join("");
+    </script>
 
 
 
