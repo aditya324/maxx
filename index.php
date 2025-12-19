@@ -1734,7 +1734,7 @@
 
 
 
-  <!-- <?php require "./demo.php" ?> -->
+  <?php require "./demo.php" ?>
 
 
 
