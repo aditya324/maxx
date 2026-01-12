@@ -7,7 +7,7 @@
   <title>Horizontal Expand Slider</title>
 
 
-
+  <link href="./src/output.css" rel="stylesheet">
   <link rel="stylesheet" type="text/css"
     href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
   <link rel="stylesheet" type="text/css"
@@ -48,7 +48,7 @@
     }
   </style>
 </head>
- <?php require "./header.php" ?>
+
 
 <body class="w-full bg-gray-100 p-5 ">
 

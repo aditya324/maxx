@@ -24,8 +24,10 @@
     .mega {
       display: none;
       position: absolute;
-      left: 0;
+      right: 0;
+      transform: translateX(20rem);
       top: 100%;
+
       margin-top: 12px;
       background: #ffffff;
       box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
@@ -119,6 +121,13 @@
     .mega .col-middle>ul::-webkit-scrollbar-thumb:hover {
       background: #000 !important;
     }
+
+
+    nav {
+  position: relative;
+  z-index: 10000;
+}
+
 
     /* Firefox */
     .mega .col-middle>ul {
@@ -338,5 +347,13 @@ nav li.special .mega .col-middle { overflow-y: auto !important; }
   })();
 </script>
 
+<script>
+  const toggleBtn = document.querySelector('[data-collapse-toggle="navbar-menu"]');
+  const mobileMenu = document.getElementById('navbar-menu');
+
+  toggleBtn.addEventListener('click', () => {
+    mobileMenu.classList.toggle('hidden');
+  });
+</script>
 
 </html>

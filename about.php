@@ -240,7 +240,6 @@
            pt-12 pb-12 px-12
            transition-all duration-300
            hover:shadow-none hover:scale-[1.01]">
-
               <p class="text-lg font-semibold text-[#2A2A2A]">
                 Hon. Sri. T. Subbaramaiah
               </p>
