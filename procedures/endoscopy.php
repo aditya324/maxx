@@ -32,7 +32,7 @@
                             <div class="max-w-full">
                                 <h1 class="text-4xl md:text-4xl p-3 lg:text-4xl font-semibold rounded-md text-white w-full "
                                     style="background: linear-gradient(90deg,rgba(245, 130, 32, 1) 0%, rgba(143, 76, 19, 1) 62%);">
-                                    Endoscopy Diagnosis at<br>
+                                    Advanced Endoscopic Evaluation at<br>
                                     maAx Super Specialty Hospital, Shimoga
                                 </h1>
 
@@ -116,7 +116,7 @@
                             <div class="max-w-full">
                                 <h1 class="text-4xl md:text-4xl p-3 lg:text-4xl font-semibold rounded-md text-white w-full "
                                     style="background: linear-gradient(90deg,rgba(245, 130, 32, 1) 0%, rgba(143, 76, 19, 1) 62%);">
-                                    Endoscopy Diagnosis at<br>
+                                    Advanced Endoscopic Evaluation at<br>
                                     maAx Super Specialty Hospital, Shimoga
                                 </h1>
 
@@ -200,7 +200,7 @@
                             <div class="max-w-full">
                                 <h1 class="text-4xl md:text-4xl p-3 lg:text-4xl font-semibold rounded-md text-white w-full "
                                     style="background: linear-gradient(90deg,rgba(245, 130, 32, 1) 0%, rgba(143, 76, 19, 1) 62%);">
-                                    Endoscopy Diagnosis at<br>
+                                    Advanced Endoscopic Evaluation at<br>
                                     maAx Super Specialty Hospital, Shimoga
                                 </h1>
 
@@ -280,7 +280,7 @@
         <!-- <div class="swiper-button-next"></div>
     <div class="swiper-button-prev"></div> -->
     </div>
-    <section class="w-full bg-white py-10">
+    <section class="w-full bg-[#FFCDA6] py-10">
         <div class="container mx-auto px-5 lg:px-10 flex flex-col lg:flex-row gap-10">
 
             <!-- LEFT MENU -->
@@ -340,29 +340,59 @@
             <div class="w-full lg:w-2/3 space-y-6 ">
 
                 <h1 class="text-3xl md:text-4xl font-semibold text-[#6C3130] leading-tight">
-                    Endoscopy Diagnosis at
+                    Endoscopy Services at
                     <span class="text-[#ec8b2a]">maAx Super Specialty Hospital, Shivamoga</span>
                 </h1>
 
                 <p class="text-gray-700 leading-relaxed text-lg">
-                    MaAx Super Specialty Hospital provides advanced endoscopy services for accurate diagnosis and treatment of gastrointestinal conditions. This minimally invasive procedure allows doctors to examine the esophagus, stomach, and intestine using a flexible camera-guided tube, helping detect ulcers, inflammation, bleeding, tumors, acid reflux, swallowing issues, and digestive discomfort.
-                </p>
+                    Endoscopy is a diagnostic procedure used to examine the digestive tract using a thin, flexible tube equipped with a camera and light source. At maAx Super Speciality Hospital, endoscopy is performed to identify the cause of persistent or unexplained gastrointestinal symptoms and to support accurate clinical assessment. </p>
 
                 <p class="text-gray-700 leading-relaxed text-lg">
-                    The endoscopy procedure is performed by skilled gastroenterologists using modern high-resolution endoscopy systems in a sterile, safe clinical environment. Sedation and local anesthesia are used to enhance comfort, while continuous monitoring ensures patient safety throughout the procedure.
-                </p>
+                    The procedure allows doctors to directly visualise the inner lining of the oesophagus, stomach, and upper part of the intestine, helping detect conditions that may not be clearly identified through imaging tests alone. </p>
 
-                <p class="text-gray-700 leading-relaxed text-lg">
-                    MaAx offers diagnostic endoscopy, therapeutic endoscopy, biopsy sampling, and emergency gastrointestinal procedures, supported by expert postoperative care and timely reporting of results.
-                </p>
 
-                <p class="text-gray-700 leading-relaxed text-lg">
-                    We provide transparent and affordable endoscopy services in Shivamogga, along with clear guidance on preparation, medication requirements, aftercare, and follow-up planning.
-                </p>
 
-                <p class="text-gray-700 leading-relaxed text-lg">
-                    If you are experiencing long-term digestive symptoms or require gastrointestinal evaluation, MaAx Super Specialty Hospital is a trusted centre for endoscopy in Shivamogga, combining clinical expertise with compassionate patient care.
-                </p>
+                <div>
+                    <h3 class="text-2xl md:text-3xl font-semibold text-[#6C3130] leading-tight">
+                        When is Endoscopy Recommended? </h3>
+                    <p class="text-gray-700 leading-relaxed text-lg">
+                        Endoscopy may be advised when digestive symptoms persist, worsen, or remain unexplained despite initial treatment. Common indications include:
+                    </p>
+
+
+
+
+                    <ul class="list-disc">
+
+
+                        <li class="text-gray-700 leading-relaxed text-base">
+
+                            Persistent abdominal or stomach pain</li>
+
+                        <li class="text-gray-700 leading-relaxed text-base">
+
+                            Difficulty or pain while swallowing </li>
+
+                        <li class="text-gray-700 leading-relaxed text-base">
+                            Recurrent vomiting or nausea </li>
+                        <li class="text-gray-700 leading-relaxed text-base">
+                            Unexplained weight loss </li>
+                        <li class="text-gray-700 leading-relaxed text-base">
+
+                            Blood in vomit or black stools</li>
+                        <li class="text-gray-700 leading-relaxed text-base">
+
+                            Suspected ulcers or gastritis</li>
+                        <li class="text-gray-700 leading-relaxed text-base">
+
+                            Abnormal findings on imaging or blood tests</li>
+                        <li class="text-gray-700 leading-relaxed text-base">
+
+                            Evaluation of anaemia due to gastrointestinal causes</li>
+                        <p class="text-gray-700 leading-relaxed text-base">Early endoscopic evaluation helps in identifying the cause and guiding appropriate medical care.</p>
+
+                    </ul>
+                </div>
 
             </div>
 
@@ -391,91 +421,86 @@
                 </div>
 
                 <!-- RIGHT CONTENT -->
-                <div class="flex-1 w-full space-y-10">
-
-                    <!-- TITLE -->
-                    <h2 class="text-2xl md:text-3xl font-semibold leading-snug text-gray-800">
-                        FAQs on Endoscopy at
-                        <span class="text-[#ec8b2a]">maAx Super Specialty Hospital, Shimoga</span>
-                    </h2>
-
-                    <!-- ACCORDION BOX -->
-                    <div class="rounded-2xl border border-gray-300 divide-y">
-
-                        <details class="group">
-                            <summary class="flex justify-between items-center py-4 px-6 cursor-pointer font-medium
-            text-gray-700 group-open:text-[#ec8b2a] group-open:bg-orange-50/70 rounded-t-2xl">
-                                <span>1. What is endoscopy and why is it done?</span>
-                                <span class="transition-transform group-open:rotate-180 text-xl group-open:text-[#ec8b2a]">▲</span>
-                            </summary>
-                            <div class="px-6 pb-4 pt-2 text-gray-600 leading-relaxed bg-orange-50/70 rounded-b-2xl">
-                                Endoscopy is a diagnostic procedure that uses a flexible tube with a camera to view the digestive tract. It helps identify ulcers, inflammation, tumors, acid reflux, bleeding, swallowing issues, and infections.
-                            </div>
-                        </details>
-
-                        <details class="group">
-                            <summary class="flex justify-between items-center py-4 px-6 cursor-pointer font-medium
-            text-gray-700 group-open:text-[#ec8b2a] group-open:bg-orange-50/70">
-                                <span>2. Is endoscopy a safe procedure?</span>
-                                <span class="transition-transform group-open:rotate-180 text-xl group-open:text-[#ec8b2a]">▲</span>
-                            </summary>
-                            <div class="px-6 pb-4 pt-2 text-gray-600 leading-relaxed bg-orange-50/70">
-                                Yes. Endoscopy is considered safe when performed by trained specialists, with very low complication rates. Sedation ensures comfort during the test.
-                            </div>
-                        </details>
-
-                        <details class="group">
-                            <summary class="flex justify-between items-center py-4 px-6 cursor-pointer font-medium
-            text-gray-700 group-open:text-[#ec8b2a] group-open:bg-orange-50/70">
-                                <span>3. How much does endoscopy cost in Shivamogga?</span>
-                                <span class="transition-transform group-open:rotate-180 text-xl group-open:text-[#ec8b2a]">▲</span>
-                            </summary>
-                            <div class="px-6 pb-4 pt-2 text-gray-600 leading-relaxed bg-orange-50/70">
-                                Costs depend on the type of endoscopy, sedation, and whether biopsy or therapeutic procedures are required. All pricing details are shared clearly before the test.
-                            </div>
-                        </details>
-
-                        <details class="group">
-                            <summary class="flex justify-between items-center py-4 px-6 cursor-pointer font-medium
-            text-gray-700 group-open:text-[#ec8b2a] group-open:bg-orange-50/70">
-                                <span>4. Why choose MaAx Super Specialty Hospital for endoscopy?</span>
-                                <span class="transition-transform group-open:rotate-180 text-xl group-open:text-[#ec8b2a]">▲</span>
-                            </summary>
-                            <div class="px-6 pb-4 pt-2 text-gray-600 leading-relaxed bg-orange-50/70">
-                                MaAx offers expert gastroenterologists, advanced endoscopy systems, sterile facilities, accurate reporting, and comprehensive digestive care under one roof.
-                            </div>
-                        </details>
-
-                        <details class="group">
-                            <summary class="flex justify-between items-center py-4 px-6 cursor-pointer font-medium
-            text-gray-700 group-open:text-[#ec8b2a] group-open:bg-orange-50/70">
-                                <span>5. How long does the endoscopy procedure and recovery take?</span>
-                                <span class="transition-transform group-open:rotate-180 text-xl group-open:text-[#ec8b2a]">▲</span>
-                            </summary>
-                            <div class="px-6 pb-4 pt-2 text-gray-600 leading-relaxed bg-orange-50/70">
-                                The endoscopy usually takes 15–30 minutes. Most patients return home the same day and resume daily activities shortly after sedation wears off.
-                            </div>
-                        </details>
-
-                    </div>
+                <div>
+                    <h3 class="text-2xl md:text-3xl font-semibold text-[#6C3130] leading-tight">
+                        What Conditions Can Be Evaluated Through Endoscopy? </h3>
+                    <p class="text-gray-700 leading-relaxed text-lg">
+                        Endoscopy is used to assess and diagnose a wide range of gastrointestinal conditions, including: </p>
 
 
 
 
-                    <!-- BUTTON -->
-                    <div class="w-full flex justify-center">
-                        <button class="border border-[#ec8b2a] text-[#ec8b2a] rounded-lg py-3 px-10 font-semibold hover:bg-[#fff7ef] transition">
-                            Request a Call Back
-                        </button>
-                    </div>
+                    <ul class="list-disc">
 
+
+                        <li class="text-gray-700 leading-relaxed text-base">
+
+                            Gastritis and peptic ulcer disease</li>
+
+                        <li class="text-gray-700 leading-relaxed text-base">
+
+                            Gastroesophageal reflux disease (GERD) </li>
+
+                        <li class="text-gray-700 leading-relaxed text-base">
+                            Inflammation or infection of the digestive tract </li>
+                        <li class="text-gray-700 leading-relaxed text-base">
+                            Gastrointestinal bleeding </li>
+                        <li class="text-gray-700 leading-relaxed text-base">
+
+                            Polyps or abnormal growths</li>
+                        <li class="text-gray-700 leading-relaxed text-base">
+
+                            Tumours of the upper digestive tract</li>
+                        <li class="text-gray-700 leading-relaxed text-base">
+
+                            Causes of chronic indigestion or pain</li>
+                       
+                        <p class="text-gray-700 leading-relaxed text-base">If required, tissue samples (biopsy) may be collected during the procedure to aid further evaluation.</p>
+
+                    </ul>
                 </div>
 
-
-            </div>
+                  
         </section>
 
+ <div>
+                    <h3 class="text-2xl md:text-3xl font-semibold text-[#6C3130] leading-tight">
+                        What Conditions Can Be Evaluated Through Endoscopy? </h3>
+                    <p class="text-gray-700 leading-relaxed text-lg">
+                        Endoscopy is used to assess and diagnose a wide range of gastrointestinal conditions, including: </p>
 
+
+
+
+                    <ul class="list-disc">
+
+
+                        <li class="text-gray-700 leading-relaxed text-base">
+
+                            Gastritis and peptic ulcer disease</li>
+
+                        <li class="text-gray-700 leading-relaxed text-base">
+
+                            Gastroesophageal reflux disease (GERD) </li>
+
+                        <li class="text-gray-700 leading-relaxed text-base">
+                            Inflammation or infection of the digestive tract </li>
+                        <li class="text-gray-700 leading-relaxed text-base">
+                            Gastrointestinal bleeding </li>
+                        <li class="text-gray-700 leading-relaxed text-base">
+
+                            Polyps or abnormal growths</li>
+                        <li class="text-gray-700 leading-relaxed text-base">
+
+                            Tumours of the upper digestive tract</li>
+                        <li class="text-gray-700 leading-relaxed text-base">
+
+                            Causes of chronic indigestion or pain</li>
+                       
+                        <p class="text-gray-700 leading-relaxed text-base">If required, tissue samples (biopsy) may be collected during the procedure to aid further evaluation.</p>
+
+                    </ul>
+                </div>
     </section>
 
 

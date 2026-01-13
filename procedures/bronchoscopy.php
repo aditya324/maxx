@@ -90,7 +90,7 @@
                 </div>
 
                 <button type="button"
-                  class="w-full bg-brown-800 hover:bg-brown-900 lg:bg-orange-500 lg:hover:bg-orange-600 text-white font-bold py-3 px-6 rounded-lg shadow-md transition duration-300 transform active:scale-95 mt-4 text-lg">
+                  class="w-full bg-brown-800 hover:bg-brown-900 lg:bg-orange-500 lg:hover:bg-orange-600 text-white font-bold py-3 px-6 rounded-lg shadow-md transition duration-300 transform active:scale-95 mt-4 text-base">
                   <span class="lg:hidden">Book Now</span>
                   <span class=" lg:inline">Request a Call Back</span>
                 </button>
@@ -174,7 +174,7 @@
                 </div>
 
                 <button type="button"
-                  class="w-full bg-brown-800 hover:bg-brown-900 lg:bg-orange-500 lg:hover:bg-orange-600 text-white font-bold py-3 px-6 rounded-lg shadow-md transition duration-300 transform active:scale-95 mt-4 text-lg">
+                  class="w-full bg-brown-800 hover:bg-brown-900 lg:bg-orange-500 lg:hover:bg-orange-600 text-white font-bold py-3 px-6 rounded-lg shadow-md transition duration-300 transform active:scale-95 mt-4 text-base">
                   <span class="lg:hidden">Book Now</span>
                   <span class=" lg:inline">Request a Call Back</span>
                 </button>
@@ -258,7 +258,7 @@
                 </div>
 
                 <button type="button"
-                  class="w-full bg-brown-800 hover:bg-brown-900 lg:bg-orange-500 lg:hover:bg-orange-600 text-white font-bold py-3 px-6 rounded-lg shadow-md transition duration-300 transform active:scale-95 mt-4 text-lg">
+                  class="w-full bg-brown-800 hover:bg-brown-900 lg:bg-orange-500 lg:hover:bg-orange-600 text-white font-bold py-3 px-6 rounded-lg shadow-md transition duration-300 transform active:scale-95 mt-4 text-base">
                   <span class="lg:hidden">Book Now</span>
                   <span class=" lg:inline">Request a Call Back</span>
                 </button>
@@ -280,7 +280,7 @@
     <!-- <div class="swiper-button-next"></div>
     <div class="swiper-button-prev"></div> -->
   </div>
-  <section class="w-full bg-white py-10">
+  <section class="w-full bg-[#FFCDA6] py-10">
     <div class="container mx-auto px-5 lg:px-10 flex flex-col lg:flex-row gap-10">
 
       <!-- LEFT MENU -->
@@ -343,19 +343,19 @@
           <span class="text-[#ec8b2a]">maAx Super Specialty Hospital, Shivamoga</span>
         </h1>
 
-        <p class="text-gray-700 leading-relaxed text-lg">
+        <p class="text-gray-700 leading-relaxed text-base">
           MaAx Super Specialty Hospital provides advanced bronchoscopy services for accurate evaluation of lung and airway conditions. This minimally invasive procedure allows doctors to examine the windpipe, airways, and lungs using a flexible camera-guided tube to identify the cause of persistent cough, breathing difficulty, infections such as tuberculosis, airway narrowing, lung nodules, or suspected tumors.
         </p>
 
-        <p class="text-gray-700 leading-relaxed text-lg">
+        <p class="text-gray-700 leading-relaxed text-base">
           The procedure is performed by our experienced Pulmonologists using modern flexible bronchoscopy equipment in a sterile, closely monitored clinical environment. Patient comfort and safety are prioritised before, during, and after the test, with careful monitoring and support throughout.
         </p>
 
-        <p class="text-gray-700 leading-relaxed text-lg">
+        <p class="text-gray-700 leading-relaxed text-base">
           MaAx Super Specialty Hospital offers transparent and affordable bronchoscopy in Shimoga, along with clear instructions on preparation, procedure steps, and recovery. Results are shared promptly, enabling timely diagnosis and appropriate treatment planning.
         </p>
 
-        <p class="text-gray-700 leading-relaxed text-lg">
+        <p class="text-gray-700 leading-relaxed text-base">
           If you are experiencing ongoing respiratory symptoms or require expert lung evaluation, MaAx Super Specialty Hospital is a trusted centre for bronchoscopy in Shimoga, combining clinical expertise with compassionate care.
         </p>
 
@@ -364,7 +364,7 @@
     </div>
 
     <section class="w-full  py-14">
-      <div class="container mx-auto px-5 lg:px-10 flex flex-col lg:flex-row gap-12 items-start justify-center">
+      <div class="container mx-auto px-5 lg:px-10 flex flex-col lg:flex-row gap-20 items-start justify-center">
 
         <!-- LEFT BOX -->
         <div class="w-full lg:w-[350px] bg-[#663330] text-white rounded-2xl px-8 py-10 space-y-6">
@@ -386,83 +386,61 @@
         </div>
 
         <!-- RIGHT CONTENT -->
-        <div class="flex-1 w-full space-y-10">
+        <div class="w-full lg:w-2/3 space-y-6 flex flex-col ">
 
-          <!-- TITLE -->
-          <h2 class="text-2xl md:text-3xl font-semibold leading-snug text-gray-800">
-            FAQs on Bronchoscopy at
-            <span class="text-[#ec8b2a]">maAx Super Specialty Hospital, Shimoga</span>
-          </h2>
+          <h2 class="text-3xl md:text-3xl font-semibold text-[#6C3130] leading-tight">
+            When is Bronchoscopy Recommended? </h2>
+          <p class="text-gray-700 leading-relaxed text-base">
+            Infections such as tuberculosis, fungal infections, and bacterial pneumonia
+          <ul class="list-disc">
+            <li class="text-gray-700 leading-relaxed text-base">
+              Chronic obstructive pulmonary disease (COPD)–related complications </li>
 
-          <!-- ACCORDION BOX -->
-          <div class="rounded-2xl border border-gray-300 divide-y">
+            <li class="text-gray-700 leading-relaxed text-base">
 
-            <details class="group">
-              <summary class="flex justify-between items-center py-4 px-6 cursor-pointer font-medium
-                    text-gray-700 group-open:text-[#ec8b2a] group-open:bg-orange-50/70 rounded-t-2xl">
-                <span>1. What is bronchoscopy and why is it done?</span>
-                <span class="transition-transform group-open:rotate-180 text-xl group-open:text-[#ec8b2a]">▲</span>
-              </summary>
-              <div class="px-6 pb-4 pt-2 text-gray-600 leading-relaxed bg-orange-50/70 rounded-b-2xl">
-                Bronchoscopy is a minimally invasive test that allows pulmonologists to examine your airways and lungs using a flexible tube with a camera. It helps diagnose chronic cough, infections, lung diseases, tumors, and airway blockages.
-              </div>
-            </details>
+              Lung tumours and other growths </li>
 
-            <details class="group">
-              <summary class="flex justify-between items-center py-4 px-6 cursor-pointer font-medium
-                    text-gray-700 group-open:text-[#ec8b2a] group-open:bg-orange-50/70">
-                <span>2. Is bronchoscopy a safe procedure?</span>
-                <span class="transition-transform group-open:rotate-180 text-xl group-open:text-[#ec8b2a]">▲</span>
-              </summary>
-              <div class="px-6 pb-4 pt-2 text-gray-600 leading-relaxed bg-orange-50/70">
-                Yes. When performed by trained pulmonologists, bronchoscopy is considered safe, with very low complication rates. Local anesthesia or sedation is used to ensure comfort.
-              </div>
-            </details>
+            <li class="text-gray-700 leading-relaxed text-base">
+              Structural abnormalities of the airways </li>
 
-            <details class="group">
-              <summary class="flex justify-between items-center py-4 px-6 cursor-pointer font-medium
-                    text-gray-700 group-open:text-[#ec8b2a] group-open:bg-orange-50/70">
-                <span>3. How much does bronchoscopy cost in Shivamogga?</span>
-                <span class="transition-transform group-open:rotate-180 text-xl group-open:text-[#ec8b2a]">▲</span>
-              </summary>
-              <div class="px-6 pb-4 pt-2 text-gray-600 leading-relaxed bg-orange-50/70">
-                Costs vary based on clinical findings, complexity, and additional tests. Our team shares clear pricing details before the procedure.
-              </div>
-            </details>
+            <li class="text-gray-700 leading-relaxed text-base">
+              Causes of unexplained lung bleeding </li>
+            <li class="text-gray-700 leading-relaxed text-base">
+              Foreign bodies or mucus obstruction within the airways </li>
+            <p class="text-gray-700 leading-relaxed text-base">In certain cases, tissue or fluid samples may be collected during the procedure to aid detailed clinical evaluation.</p>
+          </ul>
+          <h3 class="text-2xl md:text-3xl font-semibold text-[#6C3130] leading-tight">
+            What Conditions Can Be Evaluated Through Bronchoscopy? </h3>
+          <p class="text-gray-700 leading-relaxed text-base">
+            Bronchoscopy may be advised when respiratory symptoms persist despite initial treatment or when imaging studies indicate abnormalities that require further evaluation. Common situations where bronchoscopy is recommended include:</p>
+          <ul class="list-disc">
+            <li class="text-gray-700 leading-relaxed text-base">
+              Persistent or chronic cough </li>
 
-            <details class="group">
-              <summary class="flex justify-between items-center py-4 px-6 cursor-pointer font-medium
-                    text-gray-700 group-open:text-[#ec8b2a] group-open:bg-orange-50/70">
-                <span>4. Why choose MaAx Hospitals for bronchoscopy in Shivamogga?</span>
-                <span class="transition-transform group-open:rotate-180 text-xl group-open:text-[#ec8b2a]">▲</span>
-              </summary>
-              <div class="px-6 pb-4 pt-2 text-gray-600 leading-relaxed bg-orange-50/70">
-                MaAx offers expert pulmonologists, modern bronchoscopy equipment, and comprehensive clinical support under one roof.
-              </div>
-            </details>
+            <li class="text-gray-700 leading-relaxed text-base">
 
-            <details class="group">
-              <summary class="flex justify-between items-center py-4 px-6 cursor-pointer font-medium
-                    text-gray-700 group-open:text-[#ec8b2a] group-open:bg-orange-50/70">
-                <span>5. How long does the bronchoscopy procedure and recovery take?</span>
-                <span class="transition-transform group-open:rotate-180 text-xl group-open:text-[#ec8b2a]">▲</span>
-              </summary>
-              <div class="px-6 pb-4 pt-2 text-gray-600 leading-relaxed bg-orange-50/70">
-                The bronchoscopy usually takes 30–45 minutes. Most patients resume daily activities within 24 hours, depending on their condition.
-              </div>
-            </details>
+              Shortness of breath or unexplained breathing difficulty </li>
 
-          </div>
+            <li class="text-gray-700 leading-relaxed text-base">
+              Recurrent lung infections or pneumonia </li>
 
+            <li class="text-gray-700 leading-relaxed text-base">
+              Suspected or confirmed tuberculosis </li>
+            <li class="text-gray-700 leading-relaxed text-base">
+              Blood in sputum (haemoptysis) </li>
+            <li class="text-gray-700 leading-relaxed text-base">
+              Abnormal findings on chest X-ray or CT scan </li>
+            <li class="text-gray-700 leading-relaxed text-base">
+              Lung nodules or suspected tumours </li>
+            <li class="text-gray-700 leading-relaxed text-base">
+              Airway narrowing or obstruction </li>
+            <li class="text-gray-700 leading-relaxed text-base">
+              Evaluation of interstitial lung diseases </li>
+            <li class="text-gray-700 leading-relaxed text-base">
+              Unexplained wheezing or airway sounds </li>
+            <p class="text-gray-700 leading-relaxed text-base">In certain cases, tissue or fluid samples may be collected during the procedure to aid detailed clinical evaluation.</p>
 
-
-          <!-- BUTTON -->
-          <div class="w-full flex justify-center">
-            <button class="border border-[#ec8b2a] text-[#ec8b2a] rounded-lg py-3 px-10 font-semibold hover:bg-[#fff7ef] transition">
-              Request a Call Back
-            </button>
-          </div>
-
+          </ul>
         </div>
 
       </div>
@@ -471,7 +449,239 @@
 
   </section>
 
+  <section class="container mx-auto px-5 lg:px-10 flex flex-col lg:flex-row gap-12 items-start justify-center">
+    <div class="flex-1 w-full space-y-10">
+      <div>
+        <h3 class="text-2xl md:text-3xl font-semibold text-[#6C3130] leading-tight">
+          What Conditions Can Be Evaluated Through Bronchoscopy? </h3>
+        <p class="text-gray-700 leading-relaxed text-base">
+          At maAx Super Speciality Hospital, bronchoscopy is performed by experienced pulmonologists in a controlled, sterile clinical environment.
+        <p class="text-gray-700 leading-relaxed text-base">Patients receive clear guidance on preparation before the procedure. Local anaesthesia and mild sedation are used to ensure comfort. The bronchoscope is gently introduced through the nose or mouth, allowing careful examination of the airways and lungs.</p>
+        <p class="text-gray-700 leading-relaxed text-base">The procedure usually takes between 20 and 40 minutes. Vital signs are continuously monitored throughout.</p>
 
+      </div>
+      <div>
+        <h3 class="text-2xl md:text-3xl font-semibold text-[#6C3130] leading-tight">
+          Safety, Comfort, and Recovery </h3>
+        <p class="text-gray-700 leading-relaxed text-base">
+          Bronchoscopy is a well-established and safe diagnostic procedure when performed by trained specialists. Patient comfort and safety are prioritised at every stage.
+        <p class="text-gray-700 leading-relaxed text-base">Patients receive clear guidance on preparation before the procedure. Local anaesthesia and mild sedation are used to ensure comfort. The bronchoscope is gently introduced through the nose or mouth, allowing careful examination of the airways and lungs.</p>
+        <p class="text-gray-700 leading-relaxed text-base">After the procedure, patients are observed for a short period. Temporary throat discomfort or cough may occur, but most individuals can return home the same day, based on medical advice</p>
+
+      </div>
+      <div>
+        <h3 class="text-2xl md:text-3xl font-semibold text-[#6C3130] leading-tight">
+          Why Choose maAx Super Speciality Hospital for Bronchoscopy in Shivamogga? </h3>
+
+
+
+
+        <ul class="list-disc">
+          <li class="text-gray-700 leading-relaxed text-base">
+            Why Choose maAx Super Speciality Hospital for Bronchoscopy in Shivamogga? </li>
+          <p class="text-gray-700 leading-relaxed text-base">Why Choose maAx Super Speciality Hospital for Bronchoscopy in Shivamogga?</p>
+
+          <li class="text-gray-700 leading-relaxed text-base">
+
+            Experienced pulmonologists </li>
+
+          <li class="text-gray-700 leading-relaxed text-base">
+
+            Modern bronchoscopy equipment </li>
+
+          <li class="text-gray-700 leading-relaxed text-base">
+            Strict infection control and clinical protocols </li>
+          <li class="text-gray-700 leading-relaxed text-base">
+            Emphasis on patient comfort and safety </li>
+          <li class="text-gray-700 leading-relaxed text-base">
+
+            Clear guidance on preparation and care </li>
+          
+          <p class="text-gray-700 leading-relaxed text-base">maAx Super Speciality Hospital is a trusted centre for bronchoscopy diagnosis in Shivamogga, combining clinical accuracy with compassionate care.</p>
+
+        </ul>
+
+          <section class="w-full  py-12">
+    <div class="container mx-auto px-4">
+      <!-- Top Heading -->
+      <h3 class="text-2xl md:text-3xl font-semibold text-[#6C3130] leading-tight">
+       Need expert evaluation for ongoing respiratory symptoms?
+      </h2>
+
+      <!-- Card -->
+      <div
+        class="mt-8  rounded-[20px]  flex flex-col md:flex-row overflow-hidden p-5">
+        <!-- Left: Image -->
+        <div class="md:w-[493px] md:h-[547px]">
+          <img
+            src="../assets/genrated-image.png"
+            alt="Doctor talking to patient"
+            class="w-full h-full object-cover" />
+        </div>
+
+        <!-- Right: Form -->
+        <div class=" md:h-[547px] px-6 md:px-10 py-8 flex items-center">
+          <div class="w-full">
+            <p class="text-xs font-semibold tracking-[0.15em] text-gray-500 uppercase">
+              Talk to our <span class="text-[#F97316]">Health Advisor</span>
+            </p>
+
+            <form class="mt-6 space-y-4">
+              <!-- Full Name -->
+              <div class="flex flex-col gap-1">
+                <label
+                  for="fullName"
+                  class="text-sm font-medium text-gray-700">
+                  Full Name<span class="text-red-500">*</span>
+                </label>
+                <input
+                  id="fullName"
+                  type="text"
+                  class="h-11 w-full rounded-lg border border-gray-300 px-3 text-sm focus:outline-none focus:ring-2 focus:ring-[#F97316] focus:border-[#F97316]"
+                  placeholder="Enter your full name" />
+              </div>
+
+              <!-- Email -->
+              <div class="flex flex-col gap-1">
+                <label
+                  for="email"
+                  class="text-sm font-medium text-gray-700">
+                  Email<span class="text-red-500">*</span>
+                </label>
+                <input
+                  id="email"
+                  type="email"
+                  class="h-11 w-full rounded-lg border border-gray-300 px-3 text-sm focus:outline-none focus:ring-2 focus:ring-[#F97316] focus:border-[#F97316]"
+                  placeholder="Enter your email" />
+              </div>
+
+              <!-- Phone (Country + Number) -->
+              <div class="flex flex-col gap-1">
+                <label
+                  for="mobile"
+                  class="text-sm font-medium text-gray-700">
+                  Mobile Number<span class="text-red-500">*</span>
+                </label>
+
+                <div class="flex gap-2">
+                  <!-- Country Code -->
+                  <div class="w-28">
+                    <select
+                      class="h-11 w-full rounded-lg border border-gray-300 px-2 text-sm focus:outline-none focus:ring-2 focus:ring-[#F97316] focus:border-[#F97316]">
+                      <option value="+91">+91 IN</option>
+                      <option value="+1">+1 US</option>
+                      <option value="+44">+44 UK</option>
+                      <!-- add more if needed -->
+                    </select>
+                  </div>
+
+                  <!-- Mobile -->
+                  <input
+                    id="mobile"
+                    type="tel"
+                    class="h-11 flex-1 rounded-lg border border-gray-300 px-3 text-sm focus:outline-none focus:ring-2 focus:ring-[#F97316] focus:border-[#F97316]"
+                    placeholder="Enter your mobile number" />
+                </div>
+              </div>
+              <!-- Consent -->
+              <label class="flex items-start gap-2 text-xs text-gray-600 cursor-pointer">
+                <input
+                  type="checkbox"
+                  class="mt-[3px] h-4 w-4 rounded border-gray-300 text-[#F97316] focus:ring-[#F97316]" />
+                <span>I consent maxX hospitals to contact me</span>
+              </label>
+
+              <!-- Button -->
+              <button
+                type="submit"
+                class="mt-2 w-full h-11 rounded-lg bg-[#F97316] text-white text-sm font-semibold shadow-md hover:bg-[#ea6a0e] transition-colors">
+                Request a Call Back
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+     <h2 class="text-2xl md:text-3xl font-semibold leading-snug text-gray-800">
+        FAQs on Bronchoscopy at
+        <span class="text-[#ec8b2a]">maAx Super Specialty Hospital, Shimoga</span>
+      </h2>
+
+      <!-- ACCORDION BOX -->
+      <div class="rounded-2xl border border-gray-300 divide-y">
+
+        <details class="group">
+          <summary class="flex justify-between items-center py-4 px-6 cursor-pointer font-medium
+                    text-gray-700 group-open:text-[#ec8b2a] group-open:bg-orange-50/70 rounded-t-2xl">
+            <span>1. What is bronchoscopy and why is it done?</span>
+            <span class="transition-transform group-open:rotate-180 text-xl group-open:text-[#ec8b2a]">▲</span>
+          </summary>
+          <div class="px-6 pb-4 pt-2 text-gray-600 leading-relaxed bg-orange-50/70 rounded-b-2xl">
+            Bronchoscopy is a minimally invasive test that allows pulmonologists to examine your airways and lungs using a flexible tube with a camera. It helps diagnose chronic cough, infections, lung diseases, tumors, and airway blockages.
+          </div>
+        </details>
+
+        <details class="group">
+          <summary class="flex justify-between items-center py-4 px-6 cursor-pointer font-medium
+                    text-gray-700 group-open:text-[#ec8b2a] group-open:bg-orange-50/70">
+            <span>2. Is bronchoscopy a safe procedure?</span>
+            <span class="transition-transform group-open:rotate-180 text-xl group-open:text-[#ec8b2a]">▲</span>
+          </summary>
+          <div class="px-6 pb-4 pt-2 text-gray-600 leading-relaxed bg-orange-50/70">
+            Yes. When performed by trained pulmonologists, bronchoscopy is considered safe, with very low complication rates. Local anesthesia or sedation is used to ensure comfort.
+          </div>
+        </details>
+
+        <details class="group">
+          <summary class="flex justify-between items-center py-4 px-6 cursor-pointer font-medium
+                    text-gray-700 group-open:text-[#ec8b2a] group-open:bg-orange-50/70">
+            <span>3. How much does bronchoscopy cost in Shivamogga?</span>
+            <span class="transition-transform group-open:rotate-180 text-xl group-open:text-[#ec8b2a]">▲</span>
+          </summary>
+          <div class="px-6 pb-4 pt-2 text-gray-600 leading-relaxed bg-orange-50/70">
+            Costs vary based on clinical findings, complexity, and additional tests. Our team shares clear pricing details before the procedure.
+          </div>
+        </details>
+
+        <details class="group">
+          <summary class="flex justify-between items-center py-4 px-6 cursor-pointer font-medium
+                    text-gray-700 group-open:text-[#ec8b2a] group-open:bg-orange-50/70">
+            <span>4. Why choose MaAx Hospitals for bronchoscopy in Shivamogga?</span>
+            <span class="transition-transform group-open:rotate-180 text-xl group-open:text-[#ec8b2a]">▲</span>
+          </summary>
+          <div class="px-6 pb-4 pt-2 text-gray-600 leading-relaxed bg-orange-50/70">
+            MaAx offers expert pulmonologists, modern bronchoscopy equipment, and comprehensive clinical support under one roof.
+          </div>
+        </details>
+
+        <details class="group">
+          <summary class="flex justify-between items-center py-4 px-6 cursor-pointer font-medium
+                    text-gray-700 group-open:text-[#ec8b2a] group-open:bg-orange-50/70">
+            <span>5. How long does the bronchoscopy procedure and recovery take?</span>
+            <span class="transition-transform group-open:rotate-180 text-xl group-open:text-[#ec8b2a]">▲</span>
+          </summary>
+          <div class="px-6 pb-4 pt-2 text-gray-600 leading-relaxed bg-orange-50/70">
+            The bronchoscopy usually takes 30–45 minutes. Most patients resume daily activities within 24 hours, depending on their condition.
+          </div>
+        </details>
+
+      </div>
+  </section>
+      </div>
+      <!-- TITLE -->
+     
+
+
+
+      <!-- BUTTON -->
+      <div class="w-full flex justify-center">
+        <button class="border border-[#ec8b2a] text-[#ec8b2a] rounded-lg py-3 px-10 font-semibold hover:bg-[#fff7ef] transition">
+          Request a Call Back
+        </button>
+      </div>
+
+    </div>
+  </section>
 
 
 

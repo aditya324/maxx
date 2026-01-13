@@ -32,12 +32,12 @@
                             <div class="max-w-full">
                                 <h1 class="text-4xl md:text-4xl p-3 lg:text-4xl font-semibold rounded-md text-white w-full "
                                     style="background: linear-gradient(90deg,rgba(245, 130, 32, 1) 0%, rgba(143, 76, 19, 1) 62%);">
-                                    CT Scan Diagnosis at<br>
+                                    CT Scan at<br>
                                     maAx Super Specialty Hospital, Shimoga
                                 </h1>
 
-                                <p class="text-sm md:text-base lg:text-2xl p-1 bg-white w-2xl rounded-md leading-relaxed mt-2 lg:mt-4 text-[#6C3130]">
-                                    <span class="text-[#F58220]">High-Precision Imaging</span>. Fast Results. Accurate Diagnosis.
+                                <p class="text-sm md:text-base lg:text-2xl p-1 bg-white w-2xl rounded-md  leading-relaxed mt-2 lg:mt-4 text-[#6C3130]">
+                                    <span class="text-[#F58220]">Around the Clock High-Resolution</span> CT Imaging for Informed Clinical Decisions
                                 </p>
                             </div>
                         </div>
@@ -116,12 +116,12 @@
                             <div class="max-w-full">
                                 <h1 class="text-4xl md:text-4xl p-3 lg:text-4xl font-semibold rounded-md text-white w-full "
                                     style="background: linear-gradient(90deg,rgba(245, 130, 32, 1) 0%, rgba(143, 76, 19, 1) 62%);">
-                                    CT Scan Diagnosis at<br>
+                                    CT Scan at<br>
                                     maAx Super Specialty Hospital, Shimoga
                                 </h1>
 
-                                <p class="text-sm md:text-base lg:text-2xl p-1 bg-white w-2xl rounded-md leading-relaxed mt-2 lg:mt-4 text-[#6C3130]">
-                                    <span class="text-[#F58220]">High-Precision Imaging</span>. Fast Results. Accurate Diagnosis.
+                                <p class="text-sm md:text-base lg:text-2xl p-1 bg-white w-2xl rounded-md  leading-relaxed mt-2 lg:mt-4 text-[#6C3130]">
+                                    <span class="text-[#F58220]">Around the Clock High-Resolution</span> CT Imaging for Informed Clinical Decisions
                                 </p>
                             </div>
                         </div>
@@ -200,12 +200,12 @@
                             <div class="max-w-full">
                                 <h1 class="text-4xl md:text-4xl p-3 lg:text-4xl font-semibold rounded-md text-white w-full "
                                     style="background: linear-gradient(90deg,rgba(245, 130, 32, 1) 0%, rgba(143, 76, 19, 1) 62%);">
-                                    CT Scan Diagnosis at<br>
+                                    CT Scan at<br>
                                     maAx Super Specialty Hospital, Shimoga
                                 </h1>
 
-                                <p class="text-sm md:text-base lg:text-2xl p-1 bg-white w-2xl rounded-md leading-relaxed mt-2 lg:mt-4 text-[#6C3130]">
-                                    <span class="text-[#F58220]">High-Precision Imaging</span>. Fast Results. Accurate Diagnosis.
+                                <p class="text-sm md:text-base lg:text-2xl p-1 bg-white w-2xl rounded-md  leading-relaxed mt-2 lg:mt-4 text-[#6C3130]">
+                                    <span class="text-[#F58220]">Around the Clock High-Resolution</span> CT Imaging for Informed Clinical Decisions
                                 </p>
                             </div>
                         </div>
@@ -280,7 +280,7 @@
         <!-- <div class="swiper-button-next"></div>
     <div class="swiper-button-prev"></div> -->
     </div>
-    <section class="w-full bg-white py-10">
+    <section class="w-full bg-[#FFCDA6] py-10">
         <div class="container mx-auto px-5 lg:px-10 flex flex-col lg:flex-row gap-10">
 
             <!-- LEFT MENU -->
@@ -293,22 +293,22 @@
                     <span class="text-xl">&gt;</span>
                 </a>
 
-                <a href="./cath-lab.php" class="w-full flex items-center justify-between  font-medium py-3 px-4 rounded-md bg-gray-100 text-gray-700">
+                <a href="./cath-lab.php" class="w-full flex items-center justify-between  bg-gray-100 text-gray-700 font-medium py-3 px-4 rounded-md">
                     <span>Cath lab</span>
                     <span class="text-xl">&gt;</span>
                 </a>
 
-                <a href="./dialysis.php" class="w-full flex items-center justify-between   font-medium py-3 px-4 rounded-md bg-gray-100 text-gray-700">
+                <a href="./dialysis.php" class="w-full flex items-center justify-between bg-gray-100 text-gray-700   font-medium py-3 px-4 rounded-md">
                     <span>Dialysis</span>
                     <span class="text-xl">&gt;</span>
                 </a>
 
-                <a href="./endoscopy.php" class="w-full flex items-center justify-between bg-gray-100 text-gray-700   font-medium py-3 px-4 rounded-md">
+                <a href="./endoscopy.php" class="w-full flex items-center justify-between bg-gray-100 text-gray-700 font-medium py-3 px-4 rounded-md">
                     <span>Endoscopy</span>
                     <span class="text-xl">&gt;</span>
                 </a>
-    
-                <a href="./ct-scan.php" class="w-full flex items-center justify-between bg-[#ec8b2a] text-white  font-medium py-3 px-4 rounded-md">
+
+                <a href="./ct-scan.php" class="w-full flex items-center justify-between bg-[#ec8b2a] text-white font-medium py-3 px-4 rounded-md">
                     <span>CT Scan</span>
                     <span class="text-xl">&gt;</span>
                 </a>
@@ -336,41 +336,25 @@
             </div>
 
             <!-- RIGHT CONTENT -->
-            <!-- LEFT CONTENT -->
             <div class="w-full lg:w-2/3 space-y-6 ">
 
                 <h1 class="text-3xl md:text-4xl font-semibold text-[#6C3130] leading-tight">
-                    CT Scan Diagnosis at
+                    CT Scan Services at
                     <span class="text-[#ec8b2a]">maAx Super Specialty Hospital, Shivamoga</span>
                 </h1>
 
-                <p class="text-gray-700 leading-relaxed text-lg">
-                    MaAx Super Specialty Hospital offers advanced CT Scan imaging for accurate diagnosis of internal organs, tissues, and bone structures. CT (Computed Tomography) uses high-resolution X-ray technology to produce detailed cross-sectional images that help detect injuries, tumors, infections, strokes, blood clots, fractures, and internal bleeding.
-                </p>
+
 
                 <p class="text-gray-700 leading-relaxed text-lg">
-                    Our CT Scan unit is equipped with modern high-speed scanners designed to deliver sharp diagnostic images with reduced radiation exposure. Experienced radiologists and trained technologists ensure safe patient positioning, rapid image acquisition, and accurate interpretation.
-                </p>
-
+                    A CT (Computed Tomography) scan is an advanced imaging test that produces detailed cross-sectional images of the body using X-ray technology. At maAx Super Speciality Hospital, CT scan services are available 24 hours a day, 7 days a week, ensuring uninterrupted diagnostic support for emergency cases, inpatients, and outpatient evaluations.
                 <p class="text-gray-700 leading-relaxed text-lg">
-                    We offer CT scans for brain, chest, abdomen, pelvis, spine, joints, and blood vessels, with contrast and non-contrast imaging options available based on clinical needs. Emergency and trauma scans are also supported 24/7.
-                </p>
-
-                <p class="text-gray-700 leading-relaxed text-lg">
-                    MaAx Super Specialty Hospital provides transparent and affordable CT Scan services in Shivamogga, with clear guidance on preparation, contrast use, imaging steps, and follow-up instructions.
-                </p>
-
-                <p class="text-gray-700 leading-relaxed text-lg">
-                    If you require fast and accurate diagnostic imaging, MaAx Super Specialty Hospital is a trusted centre for CT Scans in Shivamogga, combining technology, expertise, and patient comfort.
-                </p>
+                    CT imaging plays a critical role in rapid diagnosis, trauma care, and assessment of complex medical conditions where timely imaging is essential.
 
             </div>
 
-
         </div>
-
         <section class="w-full  py-14">
-            <div class="container mx-auto px-5 lg:px-10 flex flex-col lg:flex-row gap-12 items-start justify-center">
+            <div class="container mx-auto px-5 lg:px-10 flex flex-col lg:flex-row gap-20 items-start justify-center">
 
                 <!-- LEFT BOX -->
                 <div class="w-full lg:w-[350px] bg-[#663330] text-white rounded-2xl px-8 py-10 space-y-6">
@@ -392,11 +376,203 @@
                 </div>
 
                 <!-- RIGHT CONTENT -->
-                <div class="flex-1 w-full space-y-10">
+                <div class="w-full lg:w-2/3 space-y-6 flex flex-col ">
 
-                    <!-- TITLE -->
+                    <h2 class="text-3xl md:text-3xl font-semibold text-[#6C3130] leading-tight">
+                        When is a CT Scan Recommended? </h2>
+                    <p class="text-gray-700 leading-relaxed text-base">
+                        A CT scan may be advised when fast and detailed internal imaging is required for accurate diagnosis. Common indications include:
+                    <ul class="list-disc">
+                        <li class="text-gray-700 leading-relaxed text-base">
+                            Head injury or trauma </li>
+
+                        <li class="text-gray-700 leading-relaxed text-base">
+
+                            Stroke and neurological emergencies </li>
+
+                        <li class="text-gray-700 leading-relaxed text-base">
+                            Chest pain or suspected lung conditions </li>
+
+                        <li class="text-gray-700 leading-relaxed text-base">
+                            Road traffic accidents and injury assessment </li>
+                        <li class="text-gray-700 leading-relaxed text-base">
+                            Acute abdominal pain </li>
+                        <li class="text-gray-700 leading-relaxed text-base">
+                            Suspected internal bleeding
+                        </li>
+                        <li class="text-gray-700 leading-relaxed text-base">
+                            Infections, abscesses, or inflammatory conditions
+                        </li>
+                        <li class="text-gray-700 leading-relaxed text-base">
+                            Tumours or abnormal growths
+                        </li>
+                        <li class="text-gray-700 leading-relaxed text-base">
+                            Pre-operative and emergency evaluation
+                        </li>
+                        <p class="text-gray-700 leading-relaxed text-base">Round-the-clock availability allows CT scans to be performed immediately when clinical urgency demands.</p>
+                    </ul>
+                    <h3 class="text-2xl md:text-3xl font-semibold text-[#6C3130] leading-tight">
+                        What Conditions Can Be Evaluated Through a CT Scan?</h3>
+                    <p class="text-gray-700 leading-relaxed text-base">
+                        CT imaging helps assess a wide range of medical conditions, including:
+                    </p>
+
+
+
+
+
+
+                    <ul class="list-disc">
+                        <li class="text-gray-700 leading-relaxed text-base">
+                            Brain injuries, stroke, and intracranial bleeding </li>
+
+                        <li class="text-gray-700 leading-relaxed text-base">
+
+                            Lung diseases such as infections, nodules, or clots</li>
+
+                        <li class="text-gray-700 leading-relaxed text-base">
+                            Abdominal organ disorders involving the liver, kidney, pancreas, and intestines </li>
+
+                        <li class="text-gray-700 leading-relaxed text-base">
+                            Bone fractures and complex skeletal injuries </li>
+                        <li class="text-gray-700 leading-relaxed text-base">
+                            Vascular conditions and internal haemorrhage </li>
+                        <li class="text-gray-700 leading-relaxed text-base">
+                            Tumours and cysts </li>
+                        <li class="text-gray-700 leading-relaxed text-base">
+                            Post-surgical complications </li>
+
+                        <p class="text-gray-700 leading-relaxed text-base">Contrast-enhanced CT scans may be used when required to improve diagnostic accuracy.</p>
+
+                    </ul>
+                </div>
+
+            </div>
+        </section>
+
+
+    </section>
+
+    <section class="container mx-auto px-5 lg:px-10 flex flex-col lg:flex-row gap-12 items-start justify-center">
+        <div class="flex-1 w-full space-y-10">
+
+
+            <div>
+
+
+                <section class="w-full  py-12">
+                    <div class="container mx-auto px-4">
+                        <!-- Top Heading -->
+                        <h3 class="text-2xl md:text-3xl font-semibold text-[#6C3130] leading-tight">
+                            How the CT Scan Is Performed
+
+                            </h2>
+                            <p class="text-gray-700 leading-relaxed text-base">CT scans at maAx Super Speciality Hospital are performed by trained radiology professionals using modern CT imaging systems.</p>
+                            <p class="text-gray-700 leading-relaxed text-base">The patient lies on a motorised table that passes through the CT scanner. The procedure is painless and usually completed within a few minutes. When required, contrast material may be administered orally or intravenously under medical supervision</p>
+                            <p class="text-gray-700 leading-relaxed text-base">Clear instructions and monitoring are provided throughout the scan, regardless of the time of examination.</p>
+                            <h3 class="text-2xl md:text-3xl font-semibold text-[#6C3130] leading-tight">
+                                Safety, Monitoring, and Patient Care
+
+                                </h2>
+                                <p class="text-gray-700 leading-relaxed text-base">CT scans use controlled levels of radiation. At maAx, imaging protocols are designed to ensure the lowest radiation dose necessary while maintaining diagnostic accuracy.</p>
+                                <p class="text-gray-700 leading-relaxed text-base">Patients are closely monitored, especially during contrast studies, and safety protocols are strictly followed for both routine and emergency imaging.</p>
+
+                                <!-- Card -->
+                                <div
+                                    class="mt-8  rounded-[20px]  flex flex-col md:flex-row overflow-hidden p-5">
+                                    <!-- Left: Image -->
+                                    <div class="md:w-[493px] md:h-[547px]">
+                                        <img
+                                            src="../assets/genrated-image.png"
+                                            alt="Doctor talking to patient"
+                                            class="w-full h-full object-cover" />
+                                    </div>
+
+                                    <!-- Right: Form -->
+                                    <div class=" md:h-[547px] px-6 md:px-10 py-8 flex items-center">
+                                        <div class="w-full">
+                                            <p class="text-xs font-semibold tracking-[0.15em] text-gray-500 uppercase">
+                                                Talk to our <span class="text-[#F97316]">Health Advisor</span>
+                                            </p>
+
+                                            <form class="mt-6 space-y-4">
+                                                <!-- Full Name -->
+                                                <div class="flex flex-col gap-1">
+                                                    <label
+                                                        for="fullName"
+                                                        class="text-sm font-medium text-gray-700">
+                                                        Full Name<span class="text-red-500">*</span>
+                                                    </label>
+                                                    <input
+                                                        id="fullName"
+                                                        type="text"
+                                                        class="h-11 w-full rounded-lg border border-gray-300 px-3 text-sm focus:outline-none focus:ring-2 focus:ring-[#F97316] focus:border-[#F97316]"
+                                                        placeholder="Enter your full name" />
+                                                </div>
+
+                                                <!-- Email -->
+                                                <div class="flex flex-col gap-1">
+                                                    <label
+                                                        for="email"
+                                                        class="text-sm font-medium text-gray-700">
+                                                        Email<span class="text-red-500">*</span>
+                                                    </label>
+                                                    <input
+                                                        id="email"
+                                                        type="email"
+                                                        class="h-11 w-full rounded-lg border border-gray-300 px-3 text-sm focus:outline-none focus:ring-2 focus:ring-[#F97316] focus:border-[#F97316]"
+                                                        placeholder="Enter your email" />
+                                                </div>
+
+                                                <!-- Phone (Country + Number) -->
+                                                <div class="flex flex-col gap-1">
+                                                    <label
+                                                        for="mobile"
+                                                        class="text-sm font-medium text-gray-700">
+                                                        Mobile Number<span class="text-red-500">*</span>
+                                                    </label>
+
+                                                    <div class="flex gap-2">
+                                                        <!-- Country Code -->
+                                                        <div class="w-28">
+                                                            <select
+                                                                class="h-11 w-full rounded-lg border border-gray-300 px-2 text-sm focus:outline-none focus:ring-2 focus:ring-[#F97316] focus:border-[#F97316]">
+                                                                <option value="+91">+91 IN</option>
+                                                                <option value="+1">+1 US</option>
+                                                                <option value="+44">+44 UK</option>
+                                                                <!-- add more if needed -->
+                                                            </select>
+                                                        </div>
+
+                                                        <!-- Mobile -->
+                                                        <input
+                                                            id="mobile"
+                                                            type="tel"
+                                                            class="h-11 flex-1 rounded-lg border border-gray-300 px-3 text-sm focus:outline-none focus:ring-2 focus:ring-[#F97316] focus:border-[#F97316]"
+                                                            placeholder="Enter your mobile number" />
+                                                    </div>
+                                                </div>
+                                                <!-- Consent -->
+                                                <label class="flex items-start gap-2 text-xs text-gray-600 cursor-pointer">
+                                                    <input
+                                                        type="checkbox"
+                                                        class="mt-[3px] h-4 w-4 rounded border-gray-300 text-[#F97316] focus:ring-[#F97316]" />
+                                                    <span>I consent maxX hospitals to contact me</span>
+                                                </label>
+
+                                                <!-- Button -->
+                                                <button
+                                                    type="submit"
+                                                    class="mt-2 w-full h-11 rounded-lg bg-[#F97316] text-white text-sm font-semibold shadow-md hover:bg-[#ea6a0e] transition-colors">
+                                                    Request a Call Back
+                                                </button>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                    </div>
                     <h2 class="text-2xl md:text-3xl font-semibold leading-snug text-gray-800">
-                        FAQs on CT Scan at
+                        FAQs on CT scan at
                         <span class="text-[#ec8b2a]">maAx Super Specialty Hospital, Shimoga</span>
                     </h2>
 
@@ -405,82 +581,71 @@
 
                         <details class="group">
                             <summary class="flex justify-between items-center py-4 px-6 cursor-pointer font-medium
-            text-gray-700 group-open:text-[#ec8b2a] group-open:bg-orange-50/70 rounded-t-2xl">
-                                <span>1. What is a CT Scan and why is it done?</span>
+                    text-gray-700 group-open:text-[#ec8b2a] group-open:bg-orange-50/70 rounded-t-2xl">
+                                <span>1. Are CT scans available during emergencies or at night?</span>
                                 <span class="transition-transform group-open:rotate-180 text-xl group-open:text-[#ec8b2a]">▲</span>
                             </summary>
                             <div class="px-6 pb-4 pt-2 text-gray-600 leading-relaxed bg-orange-50/70 rounded-b-2xl">
-                                A CT Scan is an imaging test that uses X-ray beams to create detailed internal body images. It is done to detect injuries, infections, tumors, blockages, fractures, organ diseases, and neurological conditions.
-                            </div>
+                                Yes. CT scan services at maAx Super Speciality Hospital are available 24/7 for emergency and scheduled requirements.
                         </details>
 
                         <details class="group">
                             <summary class="flex justify-between items-center py-4 px-6 cursor-pointer font-medium
-            text-gray-700 group-open:text-[#ec8b2a] group-open:bg-orange-50/70">
-                                <span>2. Is a CT Scan safe?</span>
+                    text-gray-700 group-open:text-[#ec8b2a] group-open:bg-orange-50/70">
+                                <span>2. How long does a CT scan take?</span>
                                 <span class="transition-transform group-open:rotate-180 text-xl group-open:text-[#ec8b2a]">▲</span>
                             </summary>
                             <div class="px-6 pb-4 pt-2 text-gray-600 leading-relaxed bg-orange-50/70">
-                                Yes. Modern CT scanners use controlled radiation levels and safety protocols. The scan is non-invasive, quick, and painless, with minimal risk.
-                            </div>
+                                Most CT scans are completed within a few minutes, depending on the type of study.
                         </details>
 
                         <details class="group">
                             <summary class="flex justify-between items-center py-4 px-6 cursor-pointer font-medium
-            text-gray-700 group-open:text-[#ec8b2a] group-open:bg-orange-50/70">
-                                <span>3. How much does a CT Scan cost in Shivamogga?</span>
+                    text-gray-700 group-open:text-[#ec8b2a] group-open:bg-orange-50/70">
+                                <span>3. Is CT scan radiation safe?</span>
                                 <span class="transition-transform group-open:rotate-180 text-xl group-open:text-[#ec8b2a]">▲</span>
                             </summary>
                             <div class="px-6 pb-4 pt-2 text-gray-600 leading-relaxed bg-orange-50/70">
-                                CT Scan cost depends on the body area scanned, contrast requirement, and clinical condition. Clear price details are shared before the test.
-                            </div>
+                                CT scans use controlled radiation levels and are safe when performed under standard medical guidelines.
                         </details>
 
                         <details class="group">
                             <summary class="flex justify-between items-center py-4 px-6 cursor-pointer font-medium
-            text-gray-700 group-open:text-[#ec8b2a] group-open:bg-orange-50/70">
-                                <span>4. Why choose MaAx Super Specialty Hospital for CT Scans?</span>
+                    text-gray-700 group-open:text-[#ec8b2a] group-open:bg-orange-50/70">
+                                <span>4. Will contrast injection be required for all CT scans?</span>
                                 <span class="transition-transform group-open:rotate-180 text-xl group-open:text-[#ec8b2a]">▲</span>
                             </summary>
                             <div class="px-6 pb-4 pt-2 text-gray-600 leading-relaxed bg-orange-50/70">
-                                MaAx offers digital CT scanners, fast reporting, expert radiologists, low radiation technology, and 24/7 emergency imaging support.
-                            </div>
+                                No. Contrast is used only when clinically necessary and will be explained beforehand.
                         </details>
 
                         <details class="group">
                             <summary class="flex justify-between items-center py-4 px-6 cursor-pointer font-medium
-            text-gray-700 group-open:text-[#ec8b2a] group-open:bg-orange-50/70">
-                                <span>5. How long does a CT Scan take?</span>
+                    text-gray-700 group-open:text-[#ec8b2a] group-open:bg-orange-50/70">
+                                <span>5. Can CT scans be done immediately in trauma cases?</span>
                                 <span class="transition-transform group-open:rotate-180 text-xl group-open:text-[#ec8b2a]">▲</span>
                             </summary>
                             <div class="px-6 pb-4 pt-2 text-gray-600 leading-relaxed bg-orange-50/70">
-                                Most CT scans take 5–15 minutes. Contrast scans may require additional preparation and observation time.
-                            </div>
+                                Yes. Emergency CT scans are performed promptly based on clinical priority.
                         </details>
 
                     </div>
-
-
-
-
-                    <!-- BUTTON -->
-                    <div class="w-full flex justify-center">
-                        <button class="border border-[#ec8b2a] text-[#ec8b2a] rounded-lg py-3 px-10 font-semibold hover:bg-[#fff7ef] transition">
-                            Request a Call Back
-                        </button>
-                    </div>
-
-                </div>
-
-
-
+                </section>
             </div>
-        </section>
+            <!-- TITLE -->
 
 
+
+
+            <!-- BUTTON -->
+            <div class="w-full flex justify-center">
+                <button class="border border-[#ec8b2a] text-[#ec8b2a] rounded-lg py-3 px-10 font-semibold hover:bg-[#fff7ef] transition">
+                    Request a Call Back
+                </button>
+            </div>
+
+        </div>
     </section>
-
-
 
 
 

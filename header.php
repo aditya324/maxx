@@ -241,16 +241,16 @@
             <div class="col">
               <h3 class="text-[#F58220] font-semibold mb-4">Diagnostic services</h3>
               <ul class="space-y-3 text-[#6C3130]">
-                <li>Bronchoscopy</li>
-                <li>Cath lab</li>
-                <li>Dialysis</li>
-                <li>Endoscopy</li>
-                <li>CT</li>
-                <li>MRI</li>
-                <li>Pulmonary function test</li>
-                <li>TMT</li>
-                <li>Ultrasound</li>
-                <li>X-RAY</li>
+                <li><a href="./procedures/bronchoscopy.php">Bronchoscopy</a></li>
+                <li><a href="./procedures/cath-lab.php">Cath lab</a></li>
+                <li><a href="./procedures/dialysis.php">Dialysis</a></li>
+                <li><a href="./procedures/endoscopy.php">Endoscopy</a></li>
+                <li><a href="./procedures/ct-scan.php">CT Scan</a></li>
+                <li><a href="./procedures/mri-scan.php">MRI Scan</a></li>
+                <li><a href="./procedures/pulmanory-function-test.php">Pulmonary function test</a></li>
+                <li><a href="./procedures/tmt.php"></a></li>
+                <li><a href="./procedures/ultrasound.php">Ultrasound</a></li>
+                <li><a href="./procedu">X-RAY</a></li>
               </ul>
             </div>
           </div>
