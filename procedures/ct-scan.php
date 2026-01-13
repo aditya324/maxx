@@ -575,7 +575,6 @@
                         FAQs on CT scan at
                         <span class="text-[#ec8b2a]">maAx Super Specialty Hospital, Shimoga</span>
                     </h2>
-
                     <!-- ACCORDION BOX -->
                     <div class="rounded-2xl border border-gray-300 divide-y">
 
