@@ -31,7 +31,7 @@
   <?php require "./header.php" ?>
 
 
-  <section class="w-full pt-28 pb-10">
+  <section class="w-full  pb-10">
     <div
       class="relative w-full mx-auto h-[619px] bg-cover bg-center overflow-hidden"
       style="background-image: url('./assets/banners/Frame 227.png');">

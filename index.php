@@ -527,39 +527,19 @@
     <!-- ============ SPECIALITIES (ALL CARDS, DEFAULT VISIBLE) ============ -->
     <div
       id="specialities"
-      class="tab-content show grid xl:grid-cols-6 lg:grid-cols-4 md:grid-cols-3 grid-cols-1 gap-5 lg:gap-10 justify-items-center mt-6 px-4">
+      class="tab-content show flex flex-wrap justify-center gap-y-10 gap-10 justify-items-center mt-6 md:px-28">
 
       <!-- 1. Anaesthesia -->
-      <div
-        class="relative w-[260px] h-[360px] rounded-2xl overflow-hidden
-         shadow-[0_20px_40px_rgba(0,0,0,0.15)]
-         bg-no-repeat bg-cover bg-center p-6"
-        style="background-image: url('./assets/background/Frame 134.png');">
-        <!-- Content -->
-        <div class="relative z-10 h-full flex flex-col">
-
-          <!-- Title -->
-         <div>
-           <h3 class="text-[#FF3B3B] font-semibold text-lg leading-snug mt-2">
-            Bone & <br />
-            Joint Care
+      <a href="./anaesthesia.php">
+        <div
+          class="speciality-card card-hover w-[241px] h-[226px] bg-white rounded-[20px] shadow-md flex flex-col items-center justify-center"
+          data-name="Invasive & Non-Invasive Cardiology">
+          <img src="./assets/icons/heart.png" class="w-20 h-20 mb-3" />
+          <h3 class="text-[18px] font-semibold text-[#5c2c20] text-center">
+            Anesthesia
           </h3>
-
-          <!-- Spacer -->
-          <div class="flex-1"></div>
-
-          <!-- Image -->
-          <div class="absolute bottom-4 right-2">
-            <img
-              src="./assets/bone-and-joint.png"
-              alt="Bone and Joint"
-              class="h-[240px] object-contain drop-shadow-md" />
-          </div>
-         </div>
-
         </div>
-      </div>
-
+      </a>
 
       <!-- 2. Invasive & Non-Invasive Cardiology -->
       <a href="./invasive-and-non-invasive-cardiology.php">

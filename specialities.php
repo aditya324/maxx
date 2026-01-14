@@ -238,7 +238,7 @@
   <!-- ============ SPECIALITIES (ALL CARDS, DEFAULT VISIBLE) ============ -->
   <div
     id="specialities"
-    class="tab-content show grid xl:grid-cols-6 lg:grid-cols-4 md:grid-cols-3 grid-cols-1 gap-5 lg:gap-10 justify-items-center mt-6 px-4">
+    class="tab-content show flex flex-wrap justify-center gap-y-10 gap-10 justify-items-center mt-6 md:px-12"> 
 
     <!-- 1. Anaesthesia -->
     <a href="./anaesthesia.php">

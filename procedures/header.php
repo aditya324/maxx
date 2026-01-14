@@ -167,6 +167,37 @@
         max-height: 220px;
       }
     }
+
+    /* ===============================
+   CUSTOM BREAKPOINT @ 1300px
+   =============================== */
+
+/* Desktop (>=1300px) */
+@media (min-width: 1300px) {
+  .hamburger-btn {
+    display: none !important;
+  }
+
+  .desktop-menu {
+    display: flex !important;
+  }
+
+  .mobile-menu {
+    display: none !important;
+  }
+}
+
+/* Mobile / Tablet (<1300px) */
+@media (max-width: 1299px) {
+  .hamburger-btn {
+    display: inline-flex !important;
+  }
+
+  .desktop-menu {
+    display: none !important;
+  }
+}
+
   </style>
 
 
@@ -187,17 +218,18 @@
       </div>
 
       <!-- HAMBURGER (MOBILE ONLY) -->
-      <button
-        data-collapse-toggle="navbar-menu"
-        type="button"
-        class="md:hidden inline-flex items-center justify-center p-2 rounded-md text-[#6b2e26] hover:bg-[#efdcd4] focus:ring-2 focus:ring-[#cba89e]">
+    <button
+  data-collapse-toggle="navbar-menu"
+  type="button"
+  class="hamburger-btn inline-flex items-center justify-center p-2 rounded-md text-[#6b2e26] hover:bg-[#efdcd4] focus:ring-2 focus:ring-[#cba89e]">
+
         <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2">
           <path stroke-linecap="round" d="M4 6h16M4 12h16M4 18h16" />
         </svg>
       </button>
 
       <!-- DESKTOP MENU -->
-      <ul class="hidden md:flex flex-1 justify-evenly text-[#6b2e26] font-normal text-lg ">
+      <ul class="desktop-menu flex-1 justify-evenly text-[#6b2e26] font-normal text-lg">
         <li><a href="./about.php" c lass="hover:text-[#a6533f]">About Us</a></li>
         <li class="special">
           <a href="./specialities.php" class="" id="specialToggle">Our Specialities</a>
@@ -241,16 +273,16 @@
             <div class="col">
               <h3 class="text-[#F58220] font-semibold mb-4">Diagnostic services</h3>
               <ul class="space-y-3 text-[#6C3130]">
-                <li><a href="./bronchoscopy.php">Bronchoscopy</a></li>
-                <li>Cath lab</li>
-                <li>Dialysis</li>
-                <li>Endoscopy</li>
-                <li>CT</li>
-                <li>MRI</li>
-                <li>Pulmonary function test</li>
-                <li>TMT</li>
-                <li>Ultrasound</li>
-                <li>X-RAY</li>
+                <li><a href="./procedures/bronchoscopy.php">Bronchoscopy</a></li>
+                <li><a href="./procedures/cath-lab.php">Cath lab</a></li>
+                <li><a href="./procedures/dialysis.php">Dialysis</a></li>
+                <li><a href="./procedures/endoscopy.php">Endoscopy</a></li>
+                <li><a href="./procedures/ct-scan.php">CT Scan</a></li>
+                <li><a href="./procedures/mri-scan.php">MRI Scan</a></li>
+                <li><a href="./procedures/pulmanory-function-test.php">Pulmonary function test</a></li>
+                <li><a href="./procedures/tmt.php"></a></li>
+                <li><a href="./procedures/ultrasound.php">Ultrasound</a></li>
+                <li><a href="./procedu">X-RAY</a></li>
               </ul>
             </div>
           </div>
@@ -268,7 +300,7 @@
     </div>
 
     <!-- MOBILE MENU -->
-    <div id="navbar-menu" class="hidden md:hidden bg-[#fdf7f3] border-t border-[#e8ddd8]">
+    <div id="navbar-menu" class="mobile-menu hidden bg-[#fdf7f3] border-t border-[#e8ddd8]">
       <ul class="flex flex-col gap-3 px-6 py-4 text-[#6b2e26] text-sm font-medium">
         <li><a href="./about.php" class="block hover:text-[#a6533f]">About Us</a></li>
         <li><a href="./specialities.php" class="block hover:text-[#a6533f]">Our Specialities</a></li>
