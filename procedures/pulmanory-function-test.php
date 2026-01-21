@@ -288,7 +288,7 @@
 
                 <h2 class="text-2xl font-semibold text-[#6C3130] mb-2">Diagnostic Services</h2>
 
-                <a href="./bronchoscopy.php" class="w-full flex items-center justify-between bg-[#ec8b2a] text-white  font-medium py-3 px-4 rounded-md">
+                <a href="./bronchoscopy.php" class="w-full flex items-center justify-between  bg-gray-100 text-gray-700  font-medium py-3 px-4 rounded-md">
                     <span>Bronchoscopy</span>
                     <span class="text-xl">&gt;</span>
                 </a>
@@ -318,7 +318,7 @@
                     <span class="text-xl">&gt;</span>
                 </a>
 
-                <a href="./pulmanory-function-test.php" class="w-full flex items-center justify-between bg-gray-100 text-gray-700 font-medium py-3 px-4 rounded-md">
+                <a href="./pulmanory-function-test.php" class="w-full flex items-center justify-between bg-[#ec8b2a] text-white font-medium py-3 px-4 rounded-md">
                     <span>Pulmonary function test</span>
                     <span class="text-xl">&gt;</span>
                 </a>

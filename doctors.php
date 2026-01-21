@@ -11,129 +11,7 @@
     <?php require "./header.php" ?>
 
 
-    <section class="w-full pt-28 pb-10">
-        <div
-            class="relative w-full mx-auto h-[619px] bg-cover bg-center overflow-hidden"
-            style="background-image: url('./assets/banners/blur.jpg');">
 
-            <!-- TOP PILL (HIDDEN ON MOBILE) -->
-            <div class="hidden md:flex justify-center mt-5">
-                <div class="flex w-full max-w-[1020px] items-center justify-between bg-white shadow-md rounded-full px-4 md:px-6 py-3 gap-3 md:gap-6">
-
-                    <!-- Request Call Back -->
-                    <button class="flex items-center gap-2 text-[#6C3130] font-medium px-2 md:px-4">
-                        <img src="./assets/icons/call.png" class="w-6 h-6 md:w-7 md:h-7" alt="">
-                        <span class="text-sm md:text-base">Request Call Back</span>
-                    </button>
-
-                    <!-- Book Appointment (Active) -->
-                    <button class="flex items-center gap-2 text-white font-medium px-4 md:px-6 py-2 rounded-full bg-[#F58220] shadow">
-                        <img src="./assets/icons/schedule.png" class="w-6 h-6 md:w-7 md:h-7 invert" alt="">
-                        <span class="text-sm md:text-base">Book Appointment</span>
-                    </button>
-
-                    <!-- Book Ambulance -->
-                    <button class="flex items-center gap-2 text-[#6C3130] font-medium px-2 md:px-4">
-                        <img src="./assets/icons/ambulence.png" class="w-6 h-6 md:w-7 md:h-7" alt="">
-                        <span class="text-sm md:text-base">Book Ambulance</span>
-                    </button>
-
-                </div>
-            </div>
-
-            <!-- TEXT CONTENT -->
-            <div
-                class="relative z-20 px-4 pt-6 text-center
-             lg:text-left lg:absolute lg:top-1/2 lg:-translate-y-1/2 lg:left-36">
-                <h1 class="text-2xl sm:text-3xl md:text-4xl text-[#6C3130] font-semibold mb-3 drop-shadow-xl">
-                    All-Inclusive Care
-                    <span class="block sm:inline text-[#F58220]">ONE Trusted Hospital</span>
-                </h1>
-
-                <p
-                    class="text-lg sm:text-xl md:text-2xl xl:w-[650px]
-               bg-[image:var(--gradient-brand)]
-               md:text-4xl font-semibold text-white inline-block px-3 py-3 rounded drop-shadow-xl">
-                    World Class Care, Under One Roof
-                </p>
-            </div>
-
-            <!-- SEARCH BAR -->
-            <!-- SEARCH BAR -->
-            <div
-                class="absolute top-[58%] sm:top-[70%] left-0 w-full px-4 z-30
-         lg:top-[80%] lg:left-1/2 lg:-translate-x-1/2
-         lg:px-0 lg:w-[1020px] lg:max-w-4xl ">
-                <div
-                    class="flex flex-col gap-3
-           bg-transparent backdrop-blur-md  /* transparent glass */
-           rounded-2xl shadow-lg
-           px-4 py-4 w-full overflow-hidden
-           lg:flex-row lg:items-center lg:gap-0
-           lg:bg-white lg:backdrop-blur-0 lg:px-0 lg:py-0 lg:rounded-full">
-
-                    <!-- DROPDOWNS -->
-                    <div class="flex flex-col flex-1 gap-3 lg:flex-row lg:items-center lg:px-5 lg:py-2">
-                        <!-- Select Specialty -->
-                        <div class="relative flex-1">
-                            <select
-                                class="w-full bg-white/70 backdrop-blur-md lg:bg-[#f4f4f4]
-                 border border-white/40 lg:border-0
-                 rounded-[10px] lg:rounded-full
-                 px-4 lg:px-8 py-3 text-sm text-[#6C3130]
-                 appearance-none outline-none cursor-pointer">
-                                <option selected>Select Specialty</option>
-                            </select>
-                            <span
-                                class="pointer-events-none absolute right-4 lg:right-6 top-1/2 -translate-y-1/2 text-[#6C3130] text-xs">
-                                ▼
-                            </span>
-                        </div>
-
-                        <!-- Find a Doctor -->
-                        <div class="relative flex-1">
-                            <select
-                                class="w-full bg-white/70 backdrop-blur-md lg:bg-[#f4f4f4]
-                 border border-white/40 lg:border-0
-                 rounded-[10px] lg:rounded-full
-                 px-4 lg:px-8 py-3 text-sm text-[#6C3130]
-                 appearance-none outline-none cursor-pointer">
-                                <option selected>Find a Doctor</option>
-                            </select>
-                            <span
-                                class="pointer-events-none absolute right-4 lg:right-6 top-1/2 -translate-y-1/2 text-[#6C3130] text-xs">
-                                ▼
-                            </span>
-                        </div>
-                    </div>
-
-                    <!-- SEARCH BUTTON -->
-                    <button
-                        class="mt-2 w-full px-6 py-3 text-base font-semibold
-             bg-[#F58220]/90 text-white rounded-[10px]
-             backdrop-blur-md
-             flex items-center justify-center gap-2 whitespace-nowrap
-             lg:mt-0 lg:w-auto lg:px-12 lg:py-5 lg:text-lg
-             lg:rounded-none lg:rounded-r-full h-full">
-                        <span>Search</span>
-                        <span class="text-base">→</span>
-                    </button>
-                </div>
-            </div>
-
-            <!-- DOCTOR IMAGE -->
-            <div
-                class="mt-6 flex justify-center z-10
-         lg:mt-0 lg:absolute lg:bottom-0 lg:right-10 lg:opacity-95">
-                <img
-                    src="./assets/banners/doctors.png"
-                    class="lg:w-[962px] lg:h-[560px] md:h-[400px] -scale-x-100"
-                    alt="">
-            </div>
-
-
-        </div>
-    </section>
 
 
 
@@ -230,178 +108,203 @@
 
     <script>
         const doctors = [{
-                name: "Dr. Narayan Panji",
-                degree: "MBBS, MS, MCh",
-                specialty: "Neurosurgery"
+                "name": "Dr. Prasanna Basavarajappa",
+                "degree": "MBBS, MS, MCh (Plastic Surgery)",
+                "designation": "Consultant – Cosmetic Surgery",
+                "specialty": "Plastic & Reconstructive Surgery",
+                "image": "./assets/doctors/Dr Prasanna Basavarajappa.webp"
             },
             {
-                name: "Dr. Arun S.",
-                degree: "MBBS, DNB",
-                specialty: "Neurosurgery"
+                "name": "Dr. Narayan Panji",
+                "degree": "MBBS, DNB, MS, MCh (Neurosurgery)",
+                "designation": "Chief Consultant – Neurosurgery",
+                "specialty": "Neurosurgery",
+                "image": "./assets/doctors/Dr Narayan Panji.webp"
             },
             {
-                name: "Dr. Vinay B.M.",
-                degree: "MBBS, MS",
-                specialty: "General Surgery"
-            },
-
-            {
-                name: "Dr. Anubav Jannu",
-                degree: "MBBS, MDS",
-                specialty: "Maxillofacial Surgery"
+                "name": "Dr. Manjunath P. Hasalkar",
+                "degree": "MBBS, MD, DM (Cardiology)",
+                "designation": "Interventional Cardiologist",
+                "specialty": "Cardiology",
+                "image": "./assets/doctors/Dr Manjunath A Phasalkar.webp"
             },
             {
-                name: "Dr. Mithun K.M.",
-                degree: "MBBS, MDS",
-                specialty: "Maxillofacial Surgery"
-            },
-
-            {
-                name: "Dr. Praveenkumar Devarabatti",
-                degree: "MBBS, MD",
-                specialty: "Endocrinology"
+                "name": "Dr. Akshay Pai",
+                "degree": "MBBS, MS, MCh (Plastic Surgery)",
+                "designation": "Plastic & Reconstructive Surgeon",
+                "specialty": "Plastic Surgery",
+                "image": "./assets/doctors/Dr Akshay Pai.webp"
             },
             {
-                name: "Dr. Shreyas M.",
-                degree: "MBBS, MS",
-                specialty: "Endocrine Surgery"
-            },
-
-            {
-                name: "Dr. Manjunath P. Hasalkar",
-                degree: "MBBS, DM",
-                specialty: "Interventional Cardiology"
+                "name": "Dr. Shonali Manjunath",
+                "degree": "MBBS, MS (OBG)",
+                "designation": "Consultant – Infertility & Laparoscopy",
+                "specialty": "Obstetrics & Gynecology",
+                "image": "/images/doctors/dr-shonali-manjunath.jpg"
             },
             {
-                name: "Dr. Sudheer M. Bhat",
-                degree: "MBBS, MS, MCh",
-                specialty: "CTVS"
+                "name": "Dr. Praveenkumar Devarabatti",
+                "degree": "MBBS, MD (Endocrinology)",
+                "designation": "Consultant – Endocrinology",
+                "specialty": "Endocrinology",
+                "image": "/images/doctors/dr-praveenkumar-devarabatti.jpg"
             },
             {
-                name: "Dr. Rakesh R.",
-                degree: "MBBS, MS",
-                specialty: "CTVS"
-            },
-
-            {
-                name: "Dr. Rakesh Bisalahalli",
-                degree: "MBBS, MS",
-                specialty: "Urology"
+                "name": "Dr. Arun S",
+                "degree": "MBBS, DNB (Neurosurgery)",
+                "designation": "Consultant – Neurosurgery",
+                "specialty": "Neurosurgery",
+                "image": "/images/doctors/dr-arun-s.jpg"
             },
             {
-                name: "Dr. Prasanna Basavarajappa",
-                degree: "MBBS, MS",
-                specialty: "Surgical Gastroenterology"
-            },
-
-            {
-                name: "Dr. Akshay Pai A.",
-                degree: "MBBS, MS, MCh",
-                specialty: "Plastic Surgery"
+                "name": "Dr. S. Nagendra",
+                "degree": "MBBS, MD (Internal Medicine)",
+                "designation": "Consultant – Internal Medicine",
+                "specialty": "Internal Medicine",
+                "image": "/images/doctors/dr-s-nagendra.jpg"
             },
             {
-                name: "Dr. Sunil Kumar K.P.",
-                degree: "MBBS, MS",
-                specialty: "General Surgery"
-            },
-
-            {
-                name: "Dr. S. Nagendra",
-                degree: "MBBS, MD",
-                specialty: "Internal Medicine"
+                "name": "Dr. Shreyas M",
+                "degree": "MBBS, MS (Endocrine Surgery)",
+                "designation": "Consultant – Endocrine Surgery",
+                "specialty": "Endocrine Surgery",
+                "image": "/images/doctors/dr-shreyas-m.jpg"
             },
             {
-                name: "Dr. Satish B.C.",
-                degree: "MBBS, DNB",
-                specialty: "Internal Medicine"
+                "name": "Dr. Sudheer M Bhat",
+                "degree": "MBBS, MS, MCh (CTVS)",
+                "designation": "Consultant – CTVS",
+                "specialty": "Cardio Thoracic Surgery",
+                "image": "/images/doctors/dr-sudheer-m-bhat.jpg"
             },
             {
-                name: "Dr. M. Fareed",
-                degree: "MBBS, DNB",
-                specialty: "General Medicine"
+                "name": "Dr. Shishir S M",
+                "degree": "MBBS, DNB, MS (Ortho)",
+                "designation": "Consultant – Orthopedics",
+                "specialty": "Orthopedics",
+                "image": "/images/doctors/dr-shishir-sm.jpg"
             },
             {
-                name: "Dr. Suresh B.N.",
-                degree: "MBBS, MD",
-                specialty: "General Medicine"
-            },
-
-            {
-                name: "Dr. Dayanand A.S.",
-                degree: "MBBS, DNB",
-                specialty: "Nephrology"
+                "name": "Dr Aniruddha Udupi K",
+                "degree": "MBBS, MD (Pulmonology)",
+                "designation": "Chief Consultant – Pulmonology",
+                "specialty": "Pulmonology",
+                "image": "/images/doctors/dr-aniruddha-udupi-k.jpg"
             },
             {
-                name: "Dr. Lingaraju",
-                degree: "MBBS, MD",
-                specialty: "Nephrology"
-            },
-
-            {
-                name: "Dr. Venkatesh Ballal",
-                degree: "MBBS, MS",
-                specialty: "ENT"
+                "name": "Dr Sreenivas Hatwar",
+                "degree": "MBBS, MD (Pediatrics)",
+                "designation": "Consultant – Pediatrician",
+                "specialty": "Pediatrics",
+                "image": "/images/doctors/dr-sreenivas-hatwar.jpg"
             },
             {
-                name: "Dr. Lohith S.",
-                degree: "MBBS, MS",
-                specialty: "ENT"
-            },
-
-            {
-                name: "Dr. Lata R. Telang",
-                degree: "MBBS, DGO",
-                specialty: "Obstetrics & Gynecology"
+                "name": "Dr Swathi V C",
+                "degree": "MBBS, MD (Anaesthesia)",
+                "designation": "Consultant – Intensive Care",
+                "specialty": "Anaesthesiology",
+                "image": "/images/doctors/dr-swathi-vc.jpg"
             },
             {
-                name: "Dr. Shonali Manjunath",
-                degree: "MBBS, MS",
-                specialty: "Obstetrics & Gynecology"
+                "name": "Dr Rohit Kauser",
+                "degree": "MBBS, MD (Anaesthesia)",
+                "designation": "Consultant – Anaesthesia",
+                "specialty": "Anaesthesiology",
+                "image": "/images/doctors/dr-rohit-kauser.jpg"
             },
             {
-                name: "Dr. Vangara Susmitha",
-                degree: "MBBS, DNB",
-                specialty: "Obstetrics & Gynecology"
-            },
-
-            {
-                name: "Dr. Srinivasa Hatwar",
-                degree: "MBBS, MD",
-                specialty: "Pediatrics"
+                "name": "Dr Laxmi K S Murthy",
+                "degree": "MBBS, MS (Ophthalmology)",
+                "designation": "Pediatric & Squint Ophthalmologist",
+                "specialty": "Ophthalmology",
+                "image": "/images/doctors/dr-laxmi-ks-murthy.jpg"
             },
             {
-                name: "Dr. Surabhi N.K.",
-                degree: "MBBS, MD",
-                specialty: "Pediatrics"
-            },
-
-            {
-                name: "Dr. Ashok T.",
-                degree: "MBBS, DNB",
-                specialty: "Ophthalmology"
+                "name": "Dr Anubhav Jannu",
+                "degree": "MBBS, MDS",
+                "designation": "Consultant – Oral & Maxillofacial Surgeon",
+                "specialty": "Maxillofacial Surgery",
+                "image": "/images/doctors/dr-anubhav-jannu.jpg"
             },
             {
-                name: "Dr. Laxmi K.S. Murthy",
-                degree: "MBBS, MS",
-                specialty: "Ophthalmology"
-            },
-
-            {
-                name: "Dr. Shivkumar H.C.",
-                degree: "MBBS, D’Ortho",
-                specialty: "Orthopedics"
+                "name": "Dr Sukruth P Patel",
+                "degree": "MBBS, MS (Ortho), FIASM, FIJR",
+                "designation": "Consultant – Orthopedics",
+                "specialty": "Orthopedics",
+                "image": "/images/doctors/dr-sukruth-p-patel.jpg"
             },
             {
-                name: "Dr. Shishir S.M.",
-                degree: "MBBS, MS",
-                specialty: "Orthopedics"
+                "name": "Dr Arun Kumar Mareka",
+                "degree": "MBBS, MD (Radiodiagnosis)",
+                "designation": "Consultant – Radiologist",
+                "specialty": "Radiology",
+                "image": "/images/doctors/dr-arun-kumar-mareka.jpg"
             },
             {
-                name: "Dr. Sukruth P. Patel",
-                degree: "MBBS, MS",
-                specialty: "Orthopedics"
+                "name": "Dr Dayanand A S",
+                "degree": "MBBS, MD, DNB (Nephrology)",
+                "designation": "Chief Consultant – Nephrology",
+                "specialty": "Nephrology",
+                "image": "/images/doctors/dr-dayanand-as.jpg"
+            },
+            {
+                "name": "Dr Pooja Shah",
+                "degree": "MBBS, MD (Anaesthesia)",
+                "designation": "Consultant – Intensive Care",
+                "specialty": "Anaesthesiology",
+                "image": "/images/doctors/dr-pooja-shah.jpg"
+            },
+            {
+                "name": "Dr Vidya B U",
+                "degree": "MBBS, MD, DM (Neurology)",
+                "designation": "Consultant – Neonatal Neurology",
+                "specialty": "Neurology",
+                "image": "/images/doctors/dr-vidya-bu.jpg"
+            },
+            {
+                "name": "Dr Vangara Susmitha",
+                "degree": "MBBS, MS (OBG)",
+                "designation": "Consultant – Obstetrics & Gynecology",
+                "specialty": "Obstetrics & Gynecology",
+                "image": "/images/doctors/dr-vangara-susmitha.jpg"
+            },
+            {
+                "name": "Dr Monika S Tashildar",
+                "degree": "MBBS, DVL",
+                "designation": "Consultant – Dermatology",
+                "specialty": "Dermatology",
+                "image": "/images/doctors/dr-monika-tashildar.jpg"
+            },
+            {
+                "name": "Dr Rakesh Bisalahalli",
+                "degree": "MBBS, MS, DNB (Urology)",
+                "designation": "Consultant – Urologist",
+                "specialty": "Urology",
+                "image": "/images/doctors/dr-rakesh-bisalahalli.jpg"
+            },
+            {
+                "name": "Dr Lata R Telang",
+                "degree": "MBBS, DGO, MBA",
+                "designation": "Consultant – Obstetrics & Gynecology",
+                "specialty": "Obstetrics & Gynecology",
+                "image": "/images/doctors/dr-lata-telang.jpg"
+            },
+            {
+                "name": "Dr Sunil Kumar K P",
+                "degree": "MBBS, MS (General Surgery)",
+                "designation": "Consultant – General Surgery",
+                "specialty": "General Surgery",
+                "image": "/images/doctors/dr-sunil-kumar-kp.jpg"
+            },
+            {
+                "name": "Dr Lohith S",
+                "degree": "MBBS, MS, DNB (ENT)",
+                "designation": "Consultant – Head & Neck Surgery",
+                "specialty": "ENT",
+                "image": "/images/doctors/dr-lohith-s.jpg"
             }
-        ];
+        ]
+
 
 
         const container = document.getElementById("doctorCards");
