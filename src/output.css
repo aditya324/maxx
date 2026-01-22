@@ -243,6 +243,9 @@
   .pointer-events-none {
     pointer-events: none;
   }
+  .visible {
+    visibility: visible;
+  }
   .sr-only {
     position: absolute;
     width: 1px;
@@ -262,6 +265,9 @@
   }
   .relative {
     position: relative;
+  }
+  .sticky {
+    position: sticky;
   }
   .inset-0 {
     inset: calc(var(--spacing) * 0);
@@ -364,6 +370,9 @@
   }
   .z-100 {
     z-index: 100;
+  }
+  .z-\[10000\] {
+    z-index: 10000;
   }
   .order-1 {
     order: 1;
@@ -593,6 +602,12 @@
   .h-96 {
     height: calc(var(--spacing) * 96);
   }
+  .h-\[140px\] {
+    height: 140px;
+  }
+  .h-\[150px\] {
+    height: 150px;
+  }
   .h-\[220px\] {
     height: 220px;
   }
@@ -695,11 +710,20 @@
   .w-36 {
     width: calc(var(--spacing) * 36);
   }
+  .w-48 {
+    width: calc(var(--spacing) * 48);
+  }
   .w-56 {
     width: calc(var(--spacing) * 56);
   }
   .w-72 {
     width: calc(var(--spacing) * 72);
+  }
+  .w-\[150px\] {
+    width: 150px;
+  }
+  .w-\[160px\] {
+    width: 160px;
   }
   .w-\[241px\] {
     width: 241px;
@@ -867,6 +891,9 @@
   }
   .flex-wrap {
     flex-wrap: wrap;
+  }
+  .place-items-center {
+    place-items: center;
   }
   .\!items-center {
     align-items: center !important;
@@ -1134,8 +1161,14 @@
   .border-\[\#f28c28\] {
     border-color: #f28c28;
   }
+  .border-\[\#f58220\] {
+    border-color: #f58220;
+  }
   .border-gray-100 {
     border-color: var(--color-gray-100);
+  }
+  .border-gray-200 {
+    border-color: var(--color-gray-200);
   }
   .border-gray-300 {
     border-color: var(--color-gray-300);
@@ -1254,11 +1287,20 @@
   .bg-\[\#f4f4f4\] {
     background-color: #f4f4f4;
   }
+  .bg-\[\#f5f3f1\] {
+    background-color: #f5f3f1;
+  }
   .bg-\[\#f5f5f5\] {
     background-color: #f5f5f5;
   }
+  .bg-\[\#f6f4f2\] {
+    background-color: #f6f4f2;
+  }
   .bg-\[\#f28c28\] {
     background-color: #f28c28;
+  }
+  .bg-\[\#fafafa\] {
+    background-color: #fafafa;
   }
   .bg-\[\#fdf7f3\] {
     background-color: #fdf7f3;
@@ -1746,6 +1788,9 @@
   .text-\[\#f28c28\] {
     color: #f28c28;
   }
+  .text-\[\#f58220\] {
+    color: #f58220;
+  }
   .text-\[\#f97316\] {
     color: #f97316;
   }
@@ -2231,6 +2276,11 @@
   .sm\:grid-cols-2 {
     @media (width >= 40rem) {
       grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+  .sm\:grid-cols-3 {
+    @media (width >= 40rem) {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
     }
   }
   .sm\:flex-row {
@@ -3106,6 +3156,11 @@
   .lg\:grid-cols-2 {
     @media (width >= 64rem) {
       grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+  .lg\:grid-cols-3 {
+    @media (width >= 64rem) {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
     }
   }
   .lg\:grid-cols-4 {
