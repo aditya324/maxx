@@ -161,102 +161,76 @@
               <select
                 id="doctorSelect"
                 class="w-full bg-white/70 backdrop-blur-md lg:bg-[#f4f4f4]
-             border border-white/40 lg:border-0
-             rounded-[10px] lg:rounded-full
-             px-4 lg:px-8 py-3 text-sm text-[#6C3130]
-             appearance-none outline-none cursor-pointer">
-                <option value="/doctors/dr-narayan-panji">Dr. Narayan Panji</option>
-                <option value="/doctors/dr-arun-s">Dr. Arun S.</option>
-                <option value="/doctors/dr-vinay-bm">Dr. Vinay B.M.</option>
+         border border-white/40 lg:border-0
+         rounded-[10px] lg:rounded-full
+         px-4 lg:px-8 py-3 text-sm text-[#6C3130]
+         appearance-none outline-none cursor-pointer">
 
-                <!-- Maxillofacial Surgery -->
-                <option value="/doctors/dr-anubav-jannu">Dr. Anubav Jannu</option>
-                <option value="/doctors/dr-mithun-km">Dr. Mithun K.M.</option>
+                <option value="">Select Doctor</option>
 
-                <!-- Endocrine Sciences -->
-                <option value="/doctors/dr-praveenkumar-devarabatti">Dr. Praveenkumar Devarabatti</option>
-                <option value="/doctors/dr-shreyas-m">Dr. Shreyas M.</option>
-
-                <!-- Cardiology & CT Surgery -->
-                <option value="/doctors/dr-manjunath-p-hasalkar">Dr. Manjunath P. Hasalkar</option>
-                <option value="/doctors/dr-sudheer-m-bhat">Dr. Sudheer M. Bhat</option>
-                <option value="/doctors/dr-rakesh-r">Dr. Rakesh R.</option>
-
-                <!-- Urology -->
-                <option value="/doctors/dr-rakesh-bisalahalli">Dr. Rakesh Bisalahalli</option>
-
-                <!-- Surgical Gastroenterology -->
-                <option value="/doctors/dr-prasanna-basavarajappa">Dr. Prasanna Basavarajappa</option>
+                <!-- Neurosurgery -->
+                <option value="./dr-narayan-panji.php">Dr. Narayan Panji</option>
+                <option value="./dr-arun.php">Dr. Arun S</option>
 
                 <!-- Plastic & Reconstructive Surgery -->
-                <option value="/doctors/dr-akshay-pai-a">Dr. Akshay Pai A.</option>
+                <option value="./dr-prasanna.php">Dr. Prasanna Basavarajappa</option>
+                <option value="./dr-akshey.php">Dr. Akshay Pai</option>
 
-                <!-- General Surgery -->
-                <option value="/doctors/dr-sunil-kumar-kp">Dr. Sunil Kumar K.P.</option>
+                <!-- Endocrinology / Endocrine Surgery -->
+                <option value="./dr-praveen.php">Dr. Praveenkumar Devarabatti</option>
+                <option value="./dr-shreyamsa.php">Dr. Shreyamsa M</option>
 
-                <!-- Internal Medicine -->
-                <option value="/doctors/dr-s-nagendra">Dr. S. Nagendra</option>
-                <option value="/doctors/dr-satish-bc">Dr. Satish B.C.</option>
-                <option value="/doctors/dr-m-fareed">Dr. M. Fareed</option>
-                <option value="/doctors/dr-suresh-bn">Dr. Suresh B.N.</option>
-
-                <!-- Nephrology -->
-                <option value="/doctors/dr-dayanand-as">Dr. Dayanand A.S.</option>
-                <option value="/doctors/dr-lingaraju">Dr. Lingaraju</option>
-
-                <!-- ENT -->
-                <option value="/doctors/dr-venkatesh-ballal">Dr. Venkatesh Ballal</option>
-                <option value="/doctors/dr-lohith-s">Dr. Lohith S.</option>
-
-                <!-- OBG -->
-                <option value="/doctors/dr-lata-r-telang">Dr. Lata R. Telang</option>
-                <option value="/doctors/dr-shonali-manjunath">Dr. Shonali Manjunath</option>
-                <option value="/doctors/dr-vangara-susmitha">Dr. Vangara Susmitha</option>
-
-                <!-- Pediatrics -->
-                <option value="/doctors/dr-srinivasa-hatwar">Dr. Srinivasa Hatwar</option>
-                <option value="/doctors/dr-surabhi-nk">Dr. Surabhi N.K.</option>
-
-                <!-- Ophthalmology -->
-                <option value="/doctors/dr-ashok-t">Dr. Ashok T.</option>
-                <option value="/doctors/dr-laxmi-ks-murthy">Dr. Laxmi K.S. Murthy</option>
+                <!-- Cardiology & CTVS -->
+                <option value="./dr-manjunath.php">Dr. Manjunath P. Hasalkar</option>
+                <option value="./dr-sudheer-m-bhat.php">Dr. Sudheer M Bhat</option>
 
                 <!-- Orthopedics -->
-                <option value="/doctors/dr-shivkumar-hc">Dr. Shivkumar H.C.</option>
-                <option value="/doctors/dr-shishir-sm">Dr. Shishir S.M.</option>
-                <option value="/doctors/dr-sukruth-p-patel">Dr. Sukruth P. Patel</option>
-
-                <!-- Radiology -->
-                <option value="/doctors/dr-arun-kumar-marak">Dr. Arun Kumar Marak</option>
-                <option value="/doctors/dr-harish-kiran">Dr. Harish Kiran</option>
-                <option value="/doctors/dr-kiran-kumar-rg">Dr. Kiran Kumar R.G.</option>
-
-                <!-- Dermatology -->
-                <option value="/doctors/dr-s-srinivas">Dr. S. Srinivas</option>
-                <option value="/doctors/dr-monika-b-thashildar">Dr. Monika B. Thashildar</option>
+                <option value="./dr-shishir.php">Dr. Shishir S M</option>
+                <option value="./dr-sukruth.php">Dr. Sukruth P Patel</option>
 
                 <!-- Pulmonology -->
-                <option value="/doctors/dr-anirudha-lindur">Dr. Anirudha Lindur</option>
+                <option value="./dr-anirudda.php">Dr. Aniruddha Udupi K</option>
 
-                <!-- Psychiatry -->
-                <option value="/doctors/dr-muzaffar-afthab-ahmed">Dr. Muzaffar Afthab Ahmed</option>
+                <!-- Pediatrics -->
+                <option value="./dr-srinivas.php">Dr. Sreenivas Hatwar</option>
 
-                <!-- Anaesthesiology & Critical Care -->
-                <option value="/doctors/dr-shivkumar-mc">Dr. Shivkumar M.C.</option>
-                <option value="/doctors/dr-sandhya">Dr. Sandhya</option>
-                <option value="/doctors/dr-basavaraj">Dr. Basavaraj</option>
-                <option value="/doctors/dr-srinivasa-ramchandra">Dr. Srinivasa Ramchandra</option>
-                <option value="/doctors/dr-pooja-shah">Dr. Pooja Shah</option>
-                <option value="/doctors/dr-swathi-vc">Dr. Swathi V.C.</option>
-                <option value="/doctors/dr-trupthi-bp">Dr. Trupthi B.P.</option>
-                <option value="/doctors/dr-rouhi-kausar">Dr. Rouhi Kausar</option>
-                <option value="/doctors/dr-ekanth-s">Dr. Ekanth S.</option>
-                <option value="/doctors/dr-sunil-kumar-tc">Dr. Sunil Kumar T.C.</option>
-                <option value="/doctors/dr-rini-dsouza">Dr. Rini D’Souza</option>
-                <option value="/doctors/dr-geetha-ravindra">Dr. Geetha Ravindra</option>
-                <option value="/doctors/dr-amitha-hegde">Dr. Amitha Hegde</option>
-                <option value="/doctors/dr-vidya-bu">Dr. Vidya B.U.</option>
-                <!-- Add all doctors with their slugs -->
+                <!-- Anaesthesiology -->
+                <option value="./dr-swathi.php">Dr. Swathi V C</option>
+                <option value="./dr-rohit-kauser.php">Dr. Rouhi Kauser</option>
+                <option value="./dr-pooja-shah.php">Dr. Pooja Shah</option>
+
+                <!-- Ophthalmology -->
+                <option value="./dr-laxmi.php">Dr. Laxmi K S Murthy</option>
+
+                <!-- Maxillofacial Surgery -->
+                <option value="./dr-anubhav.php">Dr. Anubhav Jannu</option>
+
+                <!-- Radiology -->
+                <option value="./dr-arun-kumar.php">Dr. Arun Kumar Mareka</option>
+
+                <!-- Nephrology -->
+                <option value="./dr-dayanand.php">Dr. Dayanand A S</option>
+
+                <!-- Neurology -->
+                <option value="./dr-vidya.php">Dr. Vidya B U</option>
+
+                <!-- Obstetrics & Gynecology -->
+                <option value="./dr-shonali.php">Dr. Shonali Manjunath</option>
+                <option value="./dr-vangera.php">Dr. Vangara Susmitha</option>
+                <option value="./dr-lata.php">Dr. Lata R Telang</option>
+
+                <!-- Dermatology -->
+                <option value="./dr-monika.php">Dr. Monika S Tashildar</option>
+
+                <!-- Urology -->
+                <option value="./dr-rakesh.php">Dr. Rakesh Bisalahalli</option>
+
+                <!-- General Surgery -->
+                <option value="./dr-sunil.php">Dr. Sunil Kumar K P</option>
+
+                <!-- ENT -->
+                <option value="./dr-lohit.php">Dr. Lohith S</option>
+
               </select>
 
               <span
@@ -1115,77 +1089,76 @@
 
 
 
-  <section class="container mx-auto mt-32 mb-10 px-5 lg:px-0 overflow-visible" data-aos="fade-up">
-
-    <div class="relative bg-[#6D3333] rounded-[2rem] shadow-xl flex flex-col md:flex-row md:items-center px-6 pb-8 pt-0 md:pr-8 md:pl-0 md:py-10 z-0">
-
-      <div class="relative z-20 w-full md:w-auto flex justify-center md:block -mt-32 md:mt-0 mb-6 md:mb-0">
-        <img src="./assets/banners/machine.png"
-          class="
-          w-56 h-auto drop-shadow-2xl
-          
-    
-          md:absolute md:w-[350px] md:-bottom-10 md:-left-10
-          
-
-          lg:w-[450px] lg:h-[450px] lg:-bottom-48 lg:-left-16
-          
-          max-w-none
-        "
-          alt="Robotic Surgery Machine">
+  <section
+    class="container mx-auto mb-16 px-5 lg:px-0 pt-20"
+    data-aos="fade-up">
+    <div
+      class="relative bg-[#6D3333] rounded-[2rem] shadow-xl
+           flex flex-col md:flex-row items-stretch
+           px-6 md:px-0 py-8 md:py-10">
+      <!-- Top-left Logo (above machine) -->
+      <div class="absolute top-6 left-6 z-30">
+        <img
+          src="./assets/logo/logo-white.png"
+          alt="MaAx Hospital"
+          class="h-10 md:h-20 w-auto" />
       </div>
 
-      <div class="w-full md:w-2/3 md:ml-auto lg:pl-32 text-white relative z-10">
+      <!-- Left: Machine Image -->
+      <div
+        class="relative z-20 w-full md:w-auto
+             flex justify-center md:block
+             -mt-32 md:mt-0 mb-6 md:mb-0">
+        <img
+          src="./assets/state-of-the-machine.png"
+          alt="Advanced Medical Equipment"
+          class="
+          w-56 h-auto drop-shadow-2xl
+          md:absolute md:w-[340px] md:-bottom-6 md:-left-8
+          lg:w-[300px] lg:-bottom-5 lg:left-18
+          max-w-none
+        " />
+      </div>
 
-        <h2 class="text-2xl md:text-3xl font-bold mb-4 text-center md:text-left">
-          State-of-the-Art Medical infrastructure
-        </h2>
+      <!-- Right: Content -->
+      <div
+        class="w-full md:w-2/3 md:ml-auto lg:pl-0
+             text-white relative z-10
+             pt-10 md:pt-0">
+        <!-- Heading & Description -->
+        <div class="mb-6 text-center md:text-left">
+          <h2 class="text-xl md:text-2xl font-bold mb-2">
+            State-of-the-Art Medical Infrastructure
+          </h2>
 
-        <p class="text-sm md:text-base text-gray-200 mb-8 leading-relaxed text-center md:text-left">
-          MaAx Super Specialty Hospitals offers state-of-the-art facilities and advanced technology to ensure high-quality care and better patient outcomes — all delivered with compassion and expertise.
-        </p>
+          <p class="text-sm md:text-base text-gray-200 leading-relaxed">
+            MaAx Hospital, Shimoga is equipped with state-of-the-art medical
+            infrastructure, enabling precision diagnosis, advanced surgeries,
+            and superior patient outcomes.
+          </p>
+        </div>
 
-        <div class="bg-gradient-to-r from-orange-400 to-orange-500 rounded-2xl md:rounded-full p-5 md:px-8 md:py-4 shadow-lg">
-
-          <div class="grid grid-cols-2 lg:grid-cols-4 gap-y-6 gap-x-2 lg:gap-4 items-center">
-
-            <div class="flex flex-col sm:flex-row items-center sm:space-x-2 text-center sm:text-left lg:border-r border-orange-300/50 lg:last:border-0 border-none">
-              <img src="./assets/icons/liver.png" class="w-10 h-10 md:w-16 md:h-16 text-white mb-2 sm:mb-0 shrink-0" alt="">
-              <div>
-                <span class="block text-lg md:text-xl font-medium text-white">400+</span>
-                <span class="text-xs md:text-lg text-white/90 leading-tight block">Liver Transplants</span>
-              </div>
-            </div>
-
-            <div class="flex flex-col sm:flex-row items-center sm:space-x-2 text-center sm:text-left lg:border-r border-orange-300/50 lg:last:border-0 border-none">
-              <img src="./assets/icons/bone.png" class="w-10 h-10 md:w-16 md:h-16 text-white mb-2 sm:mb-0 shrink-0" alt="">
-              <div>
-                <span class="block text-lg md:text-xl font-medium text-white">850+</span>
-                <span class="text-xs md:text-lg text-white/90 leading-tight block">Bone Marrow</span>
-              </div>
-            </div>
-
-            <div class="flex flex-col sm:flex-row items-center sm:space-x-2 text-center sm:text-left lg:border-r border-orange-300/50 lg:last:border-0 border-none">
-              <img src="./assets/icons/brain.png" class="w-10 h-10 md:w-16 md:h-16 text-white mb-2 sm:mb-0 shrink-0" alt="">
-              <div>
-                <span class="block text-lg md:text-xl font-medium text-white">1000+</span>
-                <span class="text-xs md:text-lg text-white/90 leading-tight block">Neuro Surgeries</span>
-              </div>
-            </div>
-
-            <div class="flex flex-col sm:flex-row items-center sm:space-x-2 text-center sm:text-left">
-              <img src="./assets/icons/knife.png" class="w-10 h-10 md:w-16 md:h-16 text-white mb-2 sm:mb-0 shrink-0" alt="">
-              <div>
-                <span class="block text-lg md:text-xl font-medium text-white">20k+</span>
-                <span class="text-xs md:text-lg text-white/90 leading-tight block">General Surgeries</span>
-              </div>
-            </div>
-
-          </div>
+        <!-- Orange Feature Box -->
+        <div
+          class="bg-gradient-to-r from-orange-400 to-orange-500
+               rounded-2xl p-6 shadow-lg md:mr-10 mr-0">
+          <ul class="space-y-3 text-sm md:text-base leading-relaxed">
+            <li>• Carl Zeiss Tivato 700 Microscope with ICG & Tumor Fluorescence, first in Central Karnataka</li>
+            <li>• Dedicated Neurosurgery modular operation theatre with Medtronic Drill</li>
+            <li>• CT / Fluoroscopy based Neuronavigation, first in Central Karnataka</li>
+            <li>• Stryker CUSA & Electrical drill / Medtronic pneumatic drills</li>
+            <li>• Intraoperative Ultrasound</li>
+            <li>• Endoscopic System</li>
+            <li>• Biplane Cath lab for DSA</li>
+            <li>• Dedicated C-arm</li>
+            <li>• 16 Slice CT Scan / 1.5 Tesla MRI Scan</li>
+          </ul>
         </div>
       </div>
     </div>
   </section>
+
+
 
 
 
