@@ -863,7 +863,6 @@
           </div>
         </div>
 
-        <!-- Repeat your remaining procedure cards here (same as before)... -->
       </div>
 
       <div class="w-full flex justify-center mt-5">
@@ -1682,6 +1681,8 @@
     </div>
   </section>
 
+
+
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
     AOS.init({
@@ -1711,6 +1712,7 @@
 
 
   <?php require "./demo.php" ?>
+
 
 
 

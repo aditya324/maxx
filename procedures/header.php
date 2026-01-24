@@ -124,9 +124,9 @@
 
 
     nav {
-  position: relative;
-  z-index: 10000;
-}
+      position: relative;
+      z-index: 10000;
+    }
 
 
     /* Firefox */
@@ -172,32 +172,31 @@
    CUSTOM BREAKPOINT @ 1300px
    =============================== */
 
-/* Desktop (>=1300px) */
-@media (min-width: 1300px) {
-  .hamburger-btn {
-    display: none !important;
-  }
+    /* Desktop (>=1300px) */
+    @media (min-width: 1300px) {
+      .hamburger-btn {
+        display: none !important;
+      }
 
-  .desktop-menu {
-    display: flex !important;
-  }
+      .desktop-menu {
+        display: flex !important;
+      }
 
-  .mobile-menu {
-    display: none !important;
-  }
-}
+      .mobile-menu {
+        display: none !important;
+      }
+    }
 
-/* Mobile / Tablet (<1300px) */
-@media (max-width: 1299px) {
-  .hamburger-btn {
-    display: inline-flex !important;
-  }
+    /* Mobile / Tablet (<1300px) */
+    @media (max-width: 1299px) {
+      .hamburger-btn {
+        display: inline-flex !important;
+      }
 
-  .desktop-menu {
-    display: none !important;
-  }
-}
-
+      .desktop-menu {
+        display: none !important;
+      }
+    }
   </style>
 
 
@@ -218,10 +217,10 @@
       </div>
 
       <!-- HAMBURGER (MOBILE ONLY) -->
-    <button
-  data-collapse-toggle="navbar-menu"
-  type="button"
-  class="hamburger-btn inline-flex items-center justify-center p-2 rounded-md text-[#6b2e26] hover:bg-[#efdcd4] focus:ring-2 focus:ring-[#cba89e]">
+      <button
+        data-collapse-toggle="navbar-menu"
+        type="button"
+        class="hamburger-btn inline-flex items-center justify-center p-2 rounded-md text-[#6b2e26] hover:bg-[#efdcd4] focus:ring-2 focus:ring-[#cba89e]">
 
         <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2">
           <path stroke-linecap="round" d="M4 6h16M4 12h16M4 18h16" />
@@ -236,37 +235,63 @@
 
           <!-- MEGA (keeps your look but plain-css controlled visibility) -->
           <div class="mega" aria-hidden="true" id="megaMenu">
-            <div class="col">
+            <div class="col col-middle">
               <h3 class="text-[#F58220] font-semibold mb-4">Specialty</h3>
               <ul class="space-y-3 text-[#6C3130]">
-                <li><a href="/cardiology.php">Heart Care</a></li>
-                <li><a href="/bone-and-joint.php">Bone &amp; Joint Care</a></li>
-                <li><a href="/women-health.php">Women’s Health</a></li>
-                <li><a href="/child-care.php">Child Care</a></li>
-                <li><a href="/brain-and-spine-care.php">Brain &amp; Spine Care</a></li>
-                <li><a href="/kidney-care.php">Kidney Care</a></li>
-                <li><a href="/surgery-and-laparoscopy.php">Surgery &amp; Laparoscopy</a></li>
-                <li><a href="/critical-care.php">Critical Care &amp; ICU</a></li>
-                <li><a href="/emergency-care.php">Emergency Care</a></li>
-                <li><a href="/rehablitation-and-recovery.php">Rehabilitation &amp; Recovery</a></li>
+                <li><a href="./heart-and-vascular-care.php"> Heart & Vascular Care</a></li>
+                <li><a href="./brain-and-nervecare.php">Brain & Nerve Sciences</a></li>
+                <li><a href="./bone-and-joint.php">Bone, Joint & Movement</a></li>
+                <li><a href="./ent.php">ENT</a></li>
+                <li><a href="./general-medicine.php">General Medicine & Internal Care</a></li>
+                <li><a href="./child-care.php">Child & Newborn Care</a></li>
+                <li><a href="./kidney-care.php">Kidney & Dialysis Care</a></li>
+                <li><a href="./skin-hair.php">Skin & Hair Care</a></li>
+                <li><a href="./harmone-care.php">Hormone Care</a></li>
+                <li><a href="./rehablitation-and-recovery.php">Physiotheraphy & Recovery care</a></li>
+                <li><a href="./lung-care.php">Lung & Breathing Care</a></li>
+                <li><a href="./dental-jaw-care.php">Dental, Jaw & Facial Surgery</a></li>
+                <li><a href="./digestive-care.php">Digestive System Care</a></li>
+                <li><a href="./general-and-laproscopic-surgery.php">General Surgeries & Allied</a></li>
+                <li><a href="./women-health.php">Women's Health (OBG / OBGYN)</a></li>
+                <li><a href="#">Eye Care</a></li>
+                <li><a href="#">Urinary & Men’s Health Care</a></li>
+                <li><a href="./plastic-surgery.php">Plastic & Reconstructive Care</a></li>
+                <li><a href="./invasive-and-non-invasive-cardiology.php">Intensive & Critical Care</a></li>
+                <li><a href="#">Surgery Support & Pain Care</a></li>
+
               </ul>
             </div>
 
             <div class="col col-middle">
               <h3 class="text-[#F58220] font-semibold mb-4">Procedures</h3>
               <ul class="space-y-3 text-[#6C3130]">
-                <li><a href="/angiography.php">Angiography</a></li>
-             
-                <li><a href="/appendectomy.php">Appendectomy</a></li>
-                <li><a href="/biopsy.php">Biopsy</a></li>
-                <li><a href="/Brain-surgery.php">Brain Surgery</a></li>
-                <li><a href="/bronchoscopy.php">Bronchoscopy</a></li>
-                <li><a href="/bypass-surgery.php">Bypass Surgery</a></li>
-                <li><a href="/cataract-surgery.php">Cataract Surgery</a></li>
-                <li><a href="/c-section.php">C-Section</a></li>
-                <li><a href="/dialysis.php">Dialysis</a></li>
-                <li><a href="/endoscopy.php">Endoscopy</a></li>
-                <li><a href="/laser-surgery.php">Laser Surgery</a></li>
+                <li><a href="./angiography.php">Angiography</a></li>
+                <li><a href="./angioplasty.php">Angioplasty</a></li>
+                <li><a href="./appendectomy.php">Appendectomy</a></li>
+                <li><a href="./biopsy.php">Biopsy</a></li>
+                <li><a href="./brain-surgery.php">Brain Surgery</a></li>
+                <li><a href="./bronchoscopy.php">Bronchoscopy</a></li>
+                <li><a href="./bypass-surgery.php">Bypass Surgery</a></li>
+                <li><a href="./cataract-surgery.php">Cataract Surgery</a></li>
+                <li><a href="./cesarian-section.php">C-Section</a></li>
+                <li><a href="./dialysis.php">Dialysis</a></li>
+                <li><a href="./endoscopy.php">Endoscopy</a></li>
+                <li><a href="./eye-laser.php">Eye Laser</a></li>
+                <li><a href="./fracture-repair.php">Fracture Repair</a></li>
+                <li><a href="./gallbladder.php">Gallbladder Removal</a></li>
+                <li><a href="./hernia-repair.php">Hernia Repair</a></li>
+                <li><a href="./joint-replacement.php">Joint Replacement</a></li>
+                <li><a href="./knee-surgery.php">Knee Surgery</a></li>
+                <li><a href="./mri-scan.php">MRI Scan</a></li>
+                <li><a href="./pacemaker.php">Pacemaker Implant</a></li>
+                <li><a href="./pediatric-surgery.php">Pediatric Surgery</a></li>
+                <li><a href="./physiotheraphy.php">Physiotherapy</a></li>
+                <li><a href="./sinus-surgery.php">Sinus Surgery</a></li>
+                <li><a href="#">Tonsil Removal</a></li>
+                <li><a href="#">Trauma Care</a></li>
+                <li><a href="#">Ultrasound</a></li>
+                <li><a href="#">Urology Surgery</a></li>
+                <li><a href="#">Valve Replacement</a></li>
               </ul>
             </div>
 

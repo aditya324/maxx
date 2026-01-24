@@ -75,7 +75,7 @@
                             Bypass Surgery at <span class="text-[#ec8b2a]">MaAx Super Speciality Hospital</span>
                         </h1>
                     </div>
-                    <img src="../assets/procedures/bypass-surgery.webp" alt="Bypass Surgery" class="w-full md:w-96 rounded-lg shadow">
+                    <img src="../assets/procedures" alt="Bypass Surgery" class="w-full md:w-96 rounded-lg shadow">
                 </div>
 
                 <!-- What & Why -->

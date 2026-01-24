@@ -87,7 +87,7 @@
     </div>
   </section>
 
-  <!-- ================= JSON DATA ================= -->
+<?php require "./components/footer.php" ?>
   <script>
     const doctor = {
       name: "Dr Pooja Shah",
@@ -107,12 +107,12 @@
         slug: "dr-swathi-v-c"
       },
       {
-        name: "Dr Rohit Kauser",
+        name: "Dr Rouhi Kauser",
         degree: "MBBS, MD (Anaesthesia)",
         designation: "Consultant – Anaesthesia",
         specialty: "Anaesthesiology",
         image: "./assets/doctors/Dr Rouhi Kauser.webp",
-        slug: "dr-rohit-kauser"
+        slug: "dr-Rouhi-kauser"
       }
     ];
   </script>
@@ -184,5 +184,6 @@
     });
   </script>
 
+<?php require "./components/footer.php" ?>
 </body>
 </html>

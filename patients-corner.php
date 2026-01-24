@@ -5,445 +5,369 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        .primary-tab {
+            position: relative;
+            padding: 10px 6px;
+            font-weight: 500;
+            cursor: pointer;
 
+        }
 
-    <link
-        rel="stylesheet"
-        href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+        .primary-tab.active::after {
+            content: "";
+            position: absolute;
+            bottom: -10px;
+            left: 0;
+            width: 100%;
+            height: 3px;
+            color: #6C3130;
+            background: #6C3130;
+        }
+
+        .secondary-tab {
+            padding: 6px 14px;
+            border-radius: 9999px;
+            border: 1px solid #f97316;
+            color: #f97316;
+            font-size: 14px;
+            cursor: pointer;
+            white-space: nowrap;
+        }
+
+        .secondary-tab.active {
+            background: #f97316;
+            color: #fff;
+        }
+    </style>
 </head>
 
-<body class="bg-[#F4F4F4]">
+<body class="bg-surface-soft font-sans">
     <?php require "./header.php" ?>
 
-    <div class="flex flex-col lg:block relative min-h-[600px] lg:mt-0 mt-20">
 
-        <div class="relative h-96 lg:h-[619px] bg-cover bg-center lg:absolute lg:inset-0  z-0 lg:mt-20"
-            style="background-image: url('./assets/banners/medical-care.jpg');">
-            <img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?q=80&w=2070&auto=format&fit=crop" class="hidden" onerror="this.parentElement.style.backgroundImage = `url('${this.src}')`">
+    <img src="./assets/banners/patient-testimonails.webp" class="w-full" alt="">
 
-            <div class="absolute inset-0 bg-black/50 lg:bg-black/60"></div>
-
-            <div class="absolute inset-0 flex flex-col justify-center items-center text-center px-4 lg:text-left lg:items-start lg:justify-center lg:container lg:mx-auto lg:px-6">
-                <div class="max-w-xl">
-                    <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-white tracking-tight">Patient’s Corner</h1>
-                    <p class="text-sm md:text-base lg:text-xl text-gray-200 leading-relaxed mt-2 lg:mt-4">
-                        Our Expert Cardiologists provide advanced diagnostic and interventional care for a wide range of heart conditions
-                    </p>
-                </div>
-            </div>
-        </div>
-
-        <div class="lg:py-12 py-5 px-4 lg:bg-transparent lg:p-0 lg:relative lg:z-10 lg:container lg:mx-auto lg:flex lg:items-center lg:h-[600px] mt-9 ">
-
-            <div class="w-full max-w-md mx-auto bg-white rounded-2xl shadow-xl p-6 md:p-8 lg:ml-auto lg:mr-0">
-                <h2 class="text-center text-2xl font-bold text-orange-500 mb-6 lg:hidden">
-                    Book An Appointment
-                </h2>
-                <h2 class="hidden lg:block text-left text-xl font-bold text-gray-800 mb-6 uppercase">
-                    Talk to our <span class="text-orange-500">Health Advisor</span>
-                </h2>
-
-                <form class="space-y-4">
-                    <div>
-                        <input type="text" placeholder="Full Name*"
-                            class="w-full px-4 py-3 rounded-lg border border-gray-300 text-gray-700 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-orange-500 focus:border-transparent transition" />
-                    </div>
-
-                    <div>
-                        <input type="email" placeholder="Email*"
-                            class="w-full px-4 py-3 rounded-lg border border-gray-300 text-gray-700 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-orange-500 focus:border-transparent transition" />
-                    </div>
-
-                    <div class="flex rounded-lg border border-gray-300 overflow-hidden focus-within:ring-2 focus-within:ring-orange-500 focus-within:border-transparent transition">
-                        <div class="bg-white border-r border-gray-300 px-3 py-3 flex items-center min-w-[90px] justify-between">
-                            <span class="text-gray-700 text-sm font-medium">+91 IN</span>
-                            <svg class="w-4 h-4 ml-1 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
-                            </svg>
-                        </div>
-                        <input type="tel" placeholder="Mobile Number*"
-                            class="w-full px-4 py-3 text-gray-700 placeholder-gray-400 focus:outline-none" />
-                    </div>
-
-                    <div class="flex items-start gap-2 mt-2">
-                        <input type="checkbox" id="consent" class="mt-1 w-4 h-4 text-orange-500 border-gray-300 rounded focus:ring-orange-500">
-                        <label for="consent" class="text-xs text-gray-600">
-                            I consent maAx hospitals to contact me
-                        </label>
-                    </div>
-
-                    <button type="button" class="w-full bg-brown-800 hover:bg-brown-900 lg:bg-orange-500 lg:hover:bg-orange-600 text-white font-bold py-3 px-6 rounded-lg shadow-md transition duration-300 transform active:scale-95 mt-4 text-lg">
-                        <span class="lg:hidden">Book Now</span>
-                        <span class=" lg:inline">Request a Call Back</span>
-                    </button>
-                </form>
-            </div>
+    <div style="background: linear-gradient(to right, #F58220, #8F4C13);">
+        <div class="max-w-6xl mx-auto flex gap-10 justify-between px-6 py-4 text-white ">
+            <button class="primary-tab active" data-type="blogs">Blogs</button>
+            <button class="primary-tab" data-type="podcasts">Podcasts</button>
+            <button class="primary-tab" data-type="videos">Videos</button>
+            <button class="primary-tab" data-type="events">News & Events</button>
         </div>
     </div>
-    
-    <section class="w-full xl:px-40 mx-auto mt-56 ">
 
-        <!-- Swiper Container -->
-        <div class="swiper myBlogSwiper px-5 lg:px-0">
+    <section class="max-w-7xl mx-auto px-6 py-8">
 
-            <!-- Wrapper -->
-            <div class="swiper-wrapper">
-
-                <!-- Slide 1 -->
-                <div class="swiper-slide flex justify-center">
-                    <div class="max-w-sm rounded overflow-hidden shadow-lg">
-
-                        <div class="w-full relative">
-                            <!-- Gradient Overlay -->
-                            <div class="absolute inset-0 bg-gradient-to-b from-[#f4f4f466] via-[#73737366] to-[#00000066]"></div>
-
-                            <!-- Image -->
-                            <img class="w-full h-full object-cover" src="./assets/blogs/blog-1.jpg" alt="Sunset in the mountains">
-
-                            <!-- Title -->
-                            <p class="absolute bottom-10 text-center w-full bg-[#F6AC6C] text-2xl p-2 text-[#6C3130] font-semibold">
-                                Angioplasty
-                            </p>
-                        </div>
-
-                        <div class="px-6 py-4">
-                            <div class="text-xl font-medium mb-2 text-[#525252]">
-                                Successful Heart and Kidney Treatment by Our Doctor
-                            </div>
-                            <div class="flex items-center pt-10 gap-5">
-                                <img src="./assets/icons/arrow.png" class="w-6 h-6" alt="">
-                                <p class="text-[#6C3130] text-xl font-medium">
-                                    Patient Recovery Story
-                                </p>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-
-                <!-- Slide 2 -->
-                <div class="swiper-slide flex justify-center">
-                    <div class="max-w-sm rounded overflow-hidden shadow-lg">
-
-                        <div class="w-full relative">
-                            <div class="absolute inset-0 bg-gradient-to-b from-[#f4f4f466] via-[#73737366] to-[#00000066]"></div>
-                            <img class="w-full h-full object-cover" src="./assets/blogs/blog-1.jpg" alt="Sunset in the mountains">
-                            <p class="absolute bottom-10 text-center w-full bg-[#F6AC6C] text-2xl p-2 text-[#6C3130] font-semibold">
-                                Angioplasty
-                            </p>
-                        </div>
-
-                        <div class="px-6 py-4">
-                            <div class="text-xl font-medium mb-2 text-[#525252]">
-                                Successful Heart and Kidney Treatment by Our Doctor
-                            </div>
-                            <div class="flex items-center pt-10 gap-5">
-                                <img src="./assets/icons/arrow.png" class="w-6 h-6" alt="">
-                                <p class="text-[#6C3130] text-xl font-medium">
-                                    Patient Recovery Story
-                                </p>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-
-                <!-- Slide 3 -->
-                <div class="swiper-slide flex justify-center">
-                    <div class="max-w-sm rounded overflow-hidden shadow-lg">
-
-                        <div class="w-full relative">
-                            <div class="absolute inset-0 bg-gradient-to-b from-[#f4f4f466] via-[#73737366] to-[#00000066]"></div>
-                            <img class="w-full h-full object-cover" src="./assets/blogs/blog-1.jpg" alt="Sunset in the mountains">
-                            <p class="absolute bottom-10 text-center w-full bg-[#F6AC6C] text-2xl p-2 text-[#6C3130] font-semibold">
-                                Angioplasty
-                            </p>
-                        </div>
-
-                        <div class="px-6 py-4">
-                            <div class="text-xl font-medium mb-2 text-[#525252]">
-                                Successful Heart and Kidney Treatment by Our Doctor
-                            </div>
-                            <div class="flex items-center pt-10 gap-5">
-                                <img src="./assets/icons/arrow.png" class="w-6 h-6" alt="">
-                                <p class="text-[#6C3130] text-xl font-medium">
-                                    Patient Recovery Story
-                                </p>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-                <div class="swiper-slide flex justify-center">
-                    <div class="max-w-sm rounded overflow-hidden shadow-lg">
-
-                        <div class="w-full relative">
-                            <div class="absolute inset-0 bg-gradient-to-b from-[#f4f4f466] via-[#73737366] to-[#00000066]"></div>
-                            <img class="w-full h-full object-cover" src="./assets/blogs/blog-1.jpg" alt="Sunset in the mountains">
-                            <p class="absolute bottom-10 text-center w-full bg-[#F6AC6C] text-2xl p-2 text-[#6C3130] font-semibold">
-                                Angioplasty
-                            </p>
-                        </div>
-
-                        <div class="px-6 py-4">
-                            <div class="text-xl font-medium mb-2 text-[#525252]">
-                                Successful Heart and Kidney Treatment by Our Doctor
-                            </div>
-                            <div class="flex items-center pt-10 gap-5">
-                                <img src="./assets/icons/arrow.png" class="w-6 h-6" alt="">
-                                <p class="text-[#6C3130] text-xl font-medium">
-                                    Patient Recovery Story
-                                </p>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-                <div class="swiper-slide flex justify-center">
-                    <div class="max-w-sm rounded overflow-hidden shadow-lg">
-
-                        <div class="w-full relative">
-                            <div class="absolute inset-0 bg-gradient-to-b from-[#f4f4f466] via-[#73737366] to-[#00000066]"></div>
-                            <img class="w-full h-full object-cover" src="./assets/blogs/blog-1.jpg" alt="Sunset in the mountains">
-                            <p class="absolute bottom-10 text-center w-full bg-[#F6AC6C] text-2xl p-2 text-[#6C3130] font-semibold">
-                                Angioplasty
-                            </p>
-                        </div>
-
-                        <div class="px-6 py-4">
-                            <div class="text-xl font-medium mb-2 text-[#525252]">
-                                Successful Heart and Kidney Treatment by Our Doctor
-                            </div>
-                            <div class="flex items-center pt-10 gap-5">
-                                <img src="./assets/icons/arrow.png" class="w-6 h-6" alt="">
-                                <p class="text-[#6C3130] text-xl font-medium">
-                                    Patient Recovery Story
-                                </p>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-                <div class="swiper-slide flex justify-center">
-                    <div class="max-w-sm rounded overflow-hidden shadow-lg">
-
-                        <div class="w-full relative">
-                            <div class="absolute inset-0 bg-gradient-to-b from-[#f4f4f466] via-[#73737366] to-[#00000066]"></div>
-                            <img class="w-full h-full object-cover" src="./assets/blogs/blog-1.jpg" alt="Sunset in the mountains">
-                            <p class="absolute bottom-10 text-center w-full bg-[#F6AC6C] text-2xl p-2 text-[#6C3130] font-semibold">
-                                Angioplasty
-                            </p>
-                        </div>
-
-                        <div class="px-6 py-4">
-                            <div class="text-xl font-medium mb-2 text-[#525252]">
-                                Successful Heart and Kidney Treatment by Our Doctor
-                            </div>
-                            <div class="flex items-center pt-10 gap-5">
-                                <img src="./assets/icons/arrow.png" class="w-6 h-6" alt="">
-                                <p class="text-[#6C3130] text-xl font-medium">
-                                    Patient Recovery Story
-                                </p>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-                <div class="swiper-slide flex justify-center">
-                    <div class="max-w-sm rounded overflow-hidden shadow-lg">
-
-                        <div class="w-full relative">
-                            <div class="absolute inset-0 bg-gradient-to-b from-[#f4f4f466] via-[#73737366] to-[#00000066]"></div>
-                            <img class="w-full h-full object-cover" src="./assets/blogs/blog-1.jpg" alt="Sunset in the mountains">
-                            <p class="absolute bottom-10 text-center w-full bg-[#F6AC6C] text-2xl p-2 text-[#6C3130] font-semibold">
-                                Angioplasty
-                            </p>
-                        </div>
-
-                        <div class="px-6 py-4">
-                            <div class="text-xl font-medium mb-2 text-[#525252]">
-                                Successful Heart and Kidney Treatment by Our Doctor
-                            </div>
-                            <div class="flex items-center pt-10 gap-5">
-                                <img src="./assets/icons/arrow.png" class="w-6 h-6" alt="">
-                                <p class="text-[#6C3130] text-xl font-medium">
-                                    Patient Recovery Story
-                                </p>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-                <!-- You can add more .swiper-slide here -->
-
-            </div>
-
-            <!-- Pagination dots -->
-            <div class="swiper-pagination mt-6"></div>
-
-            <!-- (Optional) Custom arrows -->
-
-            <div class="swiper-button-prev !text-[#6C3130]"></div>
-            <div class="swiper-button-next !text-[#6C3130]"></div>
-
-        </div>
-    </section>
-
-    <section class="w-full xl:px-40 mx-auto mt-20 ">
-
-        <div class="max-w-4xl mx-auto text-center">
-            <!-- Heading -->
-            <h2 class="text-2xl font-semibold">
-                <span class="text-[#6C3130]">Real Patients,</span>
-                <span class="text-brand"> Real Stories</span>
-            </h2>
+        <!-- SEARCH -->
+        <div class="flex gap-2 mb-5">
+            <input class="flex-1 px-4 py-3 rounded-lg border" placeholder="Search content..." />
+            <button class="bg-orange-500 px-5 py-3 rounded-lg text-white">Search</button>
         </div>
 
-        <!-- Swiper Slider -->
-        <div class="swiper testimonialSwiper px-5 lg:px-0 mt-10">
+        <!-- SECONDARY TABS -->
+        <div id="secondary-tabs" class="flex gap-3 mb-6 overflow-x-auto"></div>
 
-            <div class="swiper-wrapper">
-
-                <!-- Slide 1 -->
-                <div class="swiper-slide flex justify-center">
-                    <div class="max-w-sm rounded overflow-hidden shadow-lg">
-                        <div class="w-full relative p-5">
-                            <img class="w-full h-full object-cover rounded-2xl"
-                                src="./assets/testimonial.png" alt="Testimonial">
-                        </div>
-
-                        <div class="px-6 py-4 flex gap-5">
-                            <img src="./assets/icons/arrow.png" class="w-6 h-6" alt="">
-                            <p class="text-[#525252] text-xl font-medium">
-                                Successful Heart and Lungs Treatment by Our Doctor
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Slide 2 -->
-                <div class="swiper-slide flex justify-center">
-                    <div class="max-w-sm rounded overflow-hidden shadow-lg">
-                        <div class="w-full relative p-5">
-                            <img class="w-full h-full object-cover rounded-2xl"
-                                src="./assets/testimonial.png" alt="Testimonial">
-                        </div>
-
-                        <div class="px-6 py-4 flex gap-5">
-                            <img src="./assets/icons/arrow.png" class="w-6 h-6" alt="">
-                            <p class="text-[#525252] text-xl font-medium">
-                                Successful Heart and Lungs Treatment by Our Doctor
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Slide 3 -->
-                <div class="swiper-slide flex justify-center">
-                    <div class="max-w-sm rounded overflow-hidden shadow-lg">
-                        <div class="w-full relative p-5">
-                            <img class="w-full h-full object-cover rounded-2xl"
-                                src="./assets/testimonial.png" alt="Testimonial">
-                        </div>
-
-                        <div class="px-6 py-4 flex gap-5">
-                            <img src="./assets/icons/arrow.png" class="w-6 h-6" alt="">
-                            <p class="text-[#525252] text-xl font-medium">
-                                Successful Heart and Lungs Treatment by Our Doctor
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="swiper-slide flex justify-center">
-                    <div class="max-w-sm rounded overflow-hidden shadow-lg">
-                        <div class="w-full relative p-5">
-                            <img class="w-full h-full object-cover rounded-2xl"
-                                src="./assets/testimonial.png" alt="Testimonial">
-                        </div>
-
-                        <div class="px-6 py-4 flex gap-5">
-                            <img src="./assets/icons/arrow.png" class="w-6 h-6" alt="">
-                            <p class="text-[#525252] text-xl font-medium">
-                                Successful Heart and Lungs Treatment by Our Doctor
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-
-            <!-- Pagination -->
-            <div class="swiper-pagination mt-6"></div>
-        </div>
+        <!-- CONTENT -->
+        <div id="cards"></div>
 
     </section>
 
 
-
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- VIDEO MODAL -->
+    <div
+        id="videoModal"
+        class="fixed inset-0 bg-black/70 hidden items-center justify-center z-50">
+        <div class="bg-black w-[90%] max-w-3xl aspect-video relative rounded-lg overflow-hidden">
+            <button
+                onclick="closeVideo()"
+                class="absolute top-2 right-2 bg-white text-black px-2 py-1 text-sm rounded">
+                ✕
+            </button>
+            <iframe
+                id="videoFrame"
+                class="w-full h-full"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+        </div>
+    </div>
 
     <script>
-        const blogSwiper = new Swiper(".myBlogSwiper", {
-            loop: true,
-            spaceBetween: 24,
-            pagination: {
-                el: ".swiper-pagination",
-                clickable: true,
+        /* ===================== HELPERS ===================== */
+        function getYouTubeId(url) {
+            const reg =
+                /(?:youtube\.com\/(?:watch\?v=|shorts\/)|youtu\.be\/)([^\s&?/]+)/;
+            return url.match(reg)?.[1];
+        }
+
+        function ytThumb(url) {
+            return `https://img.youtube.com/vi/${getYouTubeId(url)}/hqdefault.jpg`;
+        }
+
+        /* ===================== DATA ===================== */
+        const data = {
+            blogs: {
+                recent: [{
+                        title: "Laparoscopic Surgery: Benefits & Recovery Time",
+                        desc: "One of the most sought-after procedures in modern..",
+                        image: "./assets/blogs/laproscopic-surgery.webp",
+                        url: "./laproscopic-surgery.php"
+                    },
+                    {
+                        title: "When Is Surgery Required for Gallstones?",
+                        desc: "Gallstones are a common digestive health issue affecting people...",
+                        image: "./assets/blogs/gallbaldder.webp",
+                        url: "./gallsones-surgery.php"
+                    },
+                    {
+                        title: "Minimally Invasive Surgery vs Open Surgery",
+                        desc: "Surgery has evolved tremendously over the years...",
+                        image: "./assets/blogs/minimally-invasive-surgery.webp",
+                        url: "./minimally-invasive-surgery.php"
+                    },
+                    {
+                        title: "Kidney Stone Surgery: Treatment Options Explained",
+                        desc: "Kidney stones are a common and painful urinary...",
+                        image: "./assets/blogs/kidney-stones.webp",
+                        url: "./kidney-stones.php"
+                    },
+                ],
+                trending: []
             },
-            // Uncomment below to use custom arrows
-            // navigation: {
-            //   nextEl: ".swiper-button-next",
-            //   prevEl: ".swiper-button-prev",
-            // },
-            breakpoints: {
-                0: {
-                    slidesPerView: 1.2,
-                },
-                768: {
-                    slidesPerView: 2,
-                },
-                1100: {
-                    slidesPerView: 3,
-                },
-                1280: {
-                    slidesPerView: 4,
-                },
-            },
+
+            videos: {
+                youtube: [{
+                        title: "Video 1",
+                        url: "https://youtu.be/hwH9BO1QEL8"
+                    },
+                    {
+                        title: "Video 2",
+                        url: "https://youtu.be/HPm9wgRENnM"
+                    },
+                    {
+                        title: "Video 3",
+                        url: "https://youtu.be/8yc3498d-dA"
+                    },
+                    {
+                        title: "Video 4",
+                        url: "https://youtu.be/WZ-LPayu6U0"
+                    },
+                    {
+                        title: "Video 5",
+                        url: "https://youtu.be/tp_yMmbbWuk"
+                    }
+                ],
+
+                shorts: [{
+                        title: "Short 1",
+                        url: "https://youtu.be/D9_4bJlwUBE"
+                    },
+                    {
+                        title: "Short 2",
+                        url: "https://youtu.be/V7NU3iws4ek"
+                    },
+                    {
+                        title: "Short 3",
+                        url: "https://youtu.be/i5yGo9L9bqM"
+                    }
+                ],
+
+                instagram: [{
+                    title: "Instagram Reel 1",
+                    url: "https://www.instagram.com/maax_hospital/reel/CuMarmMpJd8/",
+                    type: "instagram"
+                }]
+            }
+
+
+        };
+
+        let activeType = "blogs";
+        let activeFilter = "recent";
+
+        const cards = document.getElementById("cards");
+        const secondaryTabs = document.getElementById("secondary-tabs");
+
+        /* ===================== SECONDARY TABS ===================== */
+        function renderSecondaryTabs() {
+            secondaryTabs.innerHTML = "";
+
+            if (activeType === "videos") {
+                secondaryTabs.innerHTML = `
+      <button class="secondary-tab active" data-filter="youtube">YouTube Videos</button>
+      <button class="secondary-tab" data-filter="shorts">YouTube Shorts</button>
+      <button class="secondary-tab" data-filter="instagram">Instagram</button>
+    `;
+                activeFilter = "youtube";
+            } else {
+                secondaryTabs.innerHTML = `
+      <button class="secondary-tab active" data-filter="recent">Recent Articles</button>
+      <button class="secondary-tab" data-filter="trending">Trending Articles</button>
+    `;
+                activeFilter = "recent";
+            }
+
+            document.querySelectorAll(".secondary-tab").forEach(tab => {
+                tab.onclick = () => {
+                    document.querySelectorAll(".secondary-tab").forEach(t =>
+                        t.classList.remove("active")
+                    );
+                    tab.classList.add("active");
+                    activeFilter = tab.dataset.filter;
+                    renderCards();
+                };
+            });
+        }
+
+
+        /* ===================== RENDER CONTENT ===================== */
+        function renderCards() {
+            cards.innerHTML = "";
+
+            /* -------- VIDEOS -------- */
+            /* -------- VIDEOS -------- */
+            /* -------- VIDEOS -------- */
+            /* -------- VIDEOS (UNIFIED CARDS) -------- */
+            if (activeType === "videos") {
+                const items = data.videos[activeFilter] || [];
+
+                cards.className =
+                    "grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6";
+
+                if (!items.length) {
+                    cards.innerHTML =
+                        `<p class="text-center text-gray-500 col-span-full">No videos available</p>`;
+                    return;
+                }
+
+                cards.innerHTML = items.map(video => `
+    <div
+      class="bg-white rounded-xl shadow cursor-pointer hover:shadow-lg transition"
+      onclick="${
+  video.type === 'instagram'
+    ? `openInstagram('${video.url}')`
+    : `openVideo('${video.url}')`
+}"
+    >
+      <div class="relative h-[200px] overflow-hidden rounded-t-xl">
+        <img
+          src="${ytThumb(video.url)}"
+          class="w-full h-full object-cover"
+        />
+
+        <div class="absolute inset-0 flex items-center justify-center">
+          <div class="bg-black/60 rounded-full p-3">
+            ▶
+          </div>
+        </div>
+      </div>
+
+      <div class="p-3 text-sm font-semibold">
+        ${video.title}
+      </div>
+    </div>
+  `).join("");
+
+                return;
+            }
+
+
+
+
+
+            /* -------- BLOGS -------- */
+            const items = data[activeType][activeFilter] || [];
+
+            if (!items.length) {
+                cards.innerHTML = `<p class="text-center text-gray-500">No content available</p>`;
+                return;
+            }
+
+            cards.className = "grid grid-cols-1 md:grid-cols-3 gap-8";
+
+            items.forEach(item => {
+                cards.innerHTML += `
+      <div class="bg-white rounded-lg shadow overflow-hidden">
+        <div class="relative h-[240px]">
+          <img src="${item.image}" class="w-full h-full object-cover">
+          <p class="absolute bottom-0 w-full bg-[#F6AC6C] text-center py-2 font-semibold text-[#6C3130]">
+            ${item.title}
+          </p>
+        </div>
+        <div class="p-6">
+          <p class="text-gray-700 mb-6">${item.desc}</p>
+          <div class="flex justify-center">
+  <a
+    href="${item.url}"
+    class="block w-full text-center text-[#6C3130] font-medium"
+  >
+    Read more
+  </a>
+</div>
+
+        </div>
+      </div>
+    `;
+            });
+        }
+
+        /* ===================== PRIMARY TABS ===================== */
+        document.querySelectorAll(".primary-tab").forEach(tab => {
+            tab.onclick = () => {
+                document.querySelectorAll(".primary-tab").forEach(t => t.classList.remove("active"));
+                tab.classList.add("active");
+                activeType = tab.dataset.type;
+                renderSecondaryTabs();
+                renderCards();
+            };
         });
+
+        /* INIT */
+        renderSecondaryTabs();
+        renderCards();
+    </script>
+
+    <script>
+        function getYouTubeEmbedUrl(url) {
+            const match = url.match(
+                /(?:youtube\.com\/(?:watch\?v=|shorts\/)|youtu\.be\/)([a-zA-Z0-9_-]+)/
+            );
+            return match ? `https://www.youtube.com/embed/${match[1]}` : "";
+        }
+    </script>
+    <script>
+        function openInstagram(url) {
+            window.open(url, "_blank", "noopener,noreferrer");
+        }
+    </script>
+
+    <script>
+        function openVideo(url) {
+            const embedUrl = getYouTubeEmbedUrl(url);
+
+            const frame = document.getElementById("videoFrame");
+            frame.src = embedUrl + "?autoplay=1&rel=0";
+
+            const modal = document.getElementById("videoModal");
+            modal.classList.remove("hidden");
+            modal.classList.add("flex");
+        }
+
+        function closeVideo() {
+            const frame = document.getElementById("videoFrame");
+            frame.src = "";
+
+            const modal = document.getElementById("videoModal");
+            modal.classList.add("hidden");
+            modal.classList.remove("flex");
+        }
     </script>
 
 
-    <script>
-        const testimonialSwiper = new Swiper(".testimonialSwiper", {
-            loop: true,
-            spaceBetween: 24,
-            pagination: {
-                el: ".swiper-pagination",
-                clickable: true,
-            },
-            // Uncomment below to use custom arrows
-            // navigation: {
-            //   nextEl: ".swiper-button-next",
-            //   prevEl: ".swiper-button-prev",
-            // },
-            breakpoints: {
-                0: {
-                    slidesPerView: 1.2,
-                },
-                768: {
-                    slidesPerView: 2,
-                },
-                1100: {
-                    slidesPerView: 3,
-                },
-                1280: {
-                    slidesPerView: 4,
-                },
-            },
-        });
-    </script>
 
-
+<?php require "./components/footer.php" ?>
 </body>
 
 </html>

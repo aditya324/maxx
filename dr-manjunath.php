@@ -59,7 +59,7 @@
     </div>
   </section>
 
-  <!-- ================= JSON DATA ================= -->
+<?php require "./components/footer.php" ?>
   <script>
     const doctor = {
       name: "Dr. Manjunath P. Hasalkar",
@@ -81,5 +81,6 @@
     document.getElementById("doctorSpecialty").textContent = doctor.specialty;
   </script>
 
+<?php require "./components/footer.php" ?>
 </body>
 </html>

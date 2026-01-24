@@ -87,7 +87,7 @@
     </div>
   </section>
 
-  <!-- ================= JSON DATA ================= -->
+<?php require "./components/footer.php" ?>
   <script>
     const doctor = {
       name: "Dr. Arun S",
@@ -179,6 +179,7 @@
       }
     });
   </script>
+
 
 </body>
 </html>

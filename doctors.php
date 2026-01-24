@@ -164,7 +164,7 @@
                 "url": "./dr-narayan-panji.php"
             },
             {
-                "name": "Dr. Manjunath P. Hasalkar",
+                "name": "Dr. Manjunath P. Pasalkar",
                 "degree": "MBBS, MD, DM (Cardiology)",
                 "designation": "Interventional Cardiologist",
                 "specialty": "Cardiology",
@@ -452,6 +452,7 @@
 
 
 
+<?php require "./components/footer.php" ?>
 </body>
 
 </html>

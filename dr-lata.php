@@ -118,5 +118,6 @@ new Swiper(".doctorSwiper", {
   navigation: { nextEl: ".swiper-button-next", prevEl: ".swiper-button-prev" }
 });
 </script>
+
 </body>
 </html>

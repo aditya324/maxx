@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Dr Rohit Kauser | Doctor Profile</title>
+  <title>Dr Rouhi Kauser | Doctor Profile</title>
 
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 
@@ -87,10 +87,10 @@
     </div>
   </section>
 
-  <!-- ================= JSON DATA ================= -->
+<?php require "./components/footer.php" ?>
   <script>
     const doctor = {
-      name: "Dr Rohit Kauser",
+      name: "Dr Rouhi Kauser",
       degree: "MBBS, MD (Anaesthesia)",
       designation: "Consultant – Anaesthesia",
       specialty: "Anaesthesiology",
@@ -184,5 +184,6 @@
     });
   </script>
 
+<?php require "./components/footer.php" ?>
 </body>
 </html>
