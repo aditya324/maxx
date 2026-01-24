@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dialysis Treatment</title>
+    <title>Joint Replacement Surgery</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 </head>
 
@@ -26,12 +26,12 @@
                         </a>
                         <a href="./biopsy.php" class="flex justify-between items-center bg-gray-100 px-4 py-2 rounded">Biopsy <span>›</span></a>
                         <a href="./cesarian-section.php" class="flex justify-between items-center bg-gray-100 px-4 py-2 rounded">C-section <span>›</span></a>
-                        <a href="./dialysis.php" class="flex justify-between items-center bg-brand text-white px-4 py-2 rounded">Dialysis <span>›</span></a>
+                        <a href="./dialysis.php" class="flex justify-between items-center bg-gray-100 px-4 py-2 rounded">Dialysis <span>›</span></a>
                         <a href="./endoscopy.php" class="flex justify-between items-center bg-gray-100 px-4 py-2 rounded">Endoscopy <span>›</span></a>
                         <a href="./eye-laser.php" class="flex justify-between items-center bg-gray-100 px-4 py-2 rounded">Eye Laser <span>›</span></a>
                         <a href="./pacemaker.php" class="flex justify-between items-center bg-gray-100 px-4 py-2 rounded">Pacemaker Implant <span>›</span></a>
                         <a href="./sinus-surgery.php" class="flex justify-between items-center bg-gray-100 px-4 py-2 rounded">Sinus Surgery <span>›</span></a>
-                        <a href="./joint-replacement.php" class="flex justify-between items-center bg-gray-100 px-4 py-2 rounded">Joint Replacement <span>›</span></a>
+                        <a href="./joint-replacement.php" class="flex justify-between items-center bg-brand text-white px-4 py-2 rounded">Joint Replacement <span>›</span></a>
                     </div>
 
                     <a href="../procedures.php" class="block mt-4 bg-[#6C3130] text-white text-center py-2 rounded">View All Procedures</a>
@@ -72,19 +72,23 @@
                 <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-6">
                     <div>
                         <h1 class="text-3xl md:text-4xl font-bold text-[#6C3130]">
-                            Dialysis at <span class="text-[#ec8b2a]">MaAx Super Speciality Hospital</span>
+                            Joint Replacement at <span class="text-[#ec8b2a]">MaAx Super Speciality Hospital</span>
                         </h1>
                     </div>
-                    <img src="../assets/procedures/Dialysis.webp" alt="Dialysis" class="w-full md:w-96 rounded-lg shadow">
+                    <img src="../assets/procedures/Joint Surgery.webp" alt="Joint Replacement Surgery" class="w-full md:w-96 rounded-lg shadow">
                 </div>
 
                 <!-- What & Why -->
                 <div>
                     <h2 class="text-xl font-bold text-[#6C3130] mb-2">What the Treatment Is & Why It’s Done</h2>
                     <p class="text-gray-700 leading-relaxed">
-                        Dialysis is a life-saving procedure used when the kidneys can no longer filter waste and excess fluids from the blood.
-                        At MaAx Super Speciality Hospital, dialysis is recommended for patients with advanced chronic kidney disease or acute kidney failure.
-                        It helps maintain balance in the body by removing toxins, regulating electrolytes, and preventing fluid overload.
+                        Joint replacement surgery is performed to replace a damaged joint with an artificial implant.
+                        At MaAx Super Speciality Hospital, this procedure is recommended for patients suffering from severe arthritis,
+                        joint degeneration, or trauma that causes chronic pain and loss of mobility.
+                    </p>
+                    <p class="text-gray-700 leading-relaxed mt-3">
+                        The goal is to relieve pain, restore function, and improve quality of life.
+                        Commonly replaced joints include the hip, knee, and shoulder.
                     </p>
                 </div>
 
@@ -92,10 +96,10 @@
                 <div>
                     <h2 class="text-xl font-bold text-[#6C3130] mb-2">How the Treatment Is Performed</h2>
                     <ul class="list-disc list-inside text-gray-700 space-y-2">
-                        <li><strong>Hemodialysis:</strong> Blood is drawn from the body, passed through a dialysis machine that filters waste, and returned clean.</li>
-                        <li><strong>Peritoneal Dialysis:</strong> A cleansing fluid is introduced into the abdominal cavity, which absorbs waste before being drained.</li>
-                        <li>Sessions typically last 3–4 hours and are performed several times a week.</li>
-                        <li>Patients are monitored closely to ensure safety and comfort.</li>
+                        <li>The damaged joint surfaces are removed surgically.</li>
+                        <li>Artificial implants made of metal, ceramic, or plastic are inserted to replicate natural movement.</li>
+                        <li>The procedure is performed under general or spinal anesthesia.</li>
+                        <li>Recovery involves physiotherapy to regain strength and mobility.</li>
                     </ul>
                 </div>
 
@@ -107,70 +111,27 @@
                         <div class="bg-green-50 border border-green-200 rounded-xl p-4">
                             <h3 class="font-semibold text-green-700 mb-2">Benefits</h3>
                             <ul class="list-disc list-inside text-gray-700 text-sm space-y-1">
-                                <li>Removes harmful toxins and excess fluids</li>
-                                <li>Helps control blood pressure and maintain electrolyte balance</li>
-                                <li>Extends life expectancy for patients with kidney failure</li>
+                                <li>Significant pain relief</li>
+                                <li>Improved mobility and independence</li>
+                                <li>Long-lasting results with modern implants</li>
                             </ul>
                         </div>
 
                         <div class="bg-red-50 border border-red-200 rounded-xl p-4">
                             <h3 class="font-semibold text-red-700 mb-2">Possible Risks</h3>
                             <ul class="list-disc list-inside text-gray-700 text-sm space-y-1">
-                                <li>Low blood pressure during treatment</li>
-                                <li>Infection at the access site</li>
-                                <li>Fatigue or cramps after sessions</li>
+                                <li>Infection at the surgical site</li>
+                                <li>Blood clots or implant loosening</li>
+                                <li>Rare complications such as nerve injury</li>
                             </ul>
                         </div>
 
                     </div>
 
                     <p class="text-gray-700 leading-relaxed mt-4">
-                        At MaAx Super Speciality Hospital, advanced dialysis units and expert nephrologists ensure safe,
-                        comfortable, and effective treatment.
+                        At MaAx Super Speciality Hospital, advanced surgical techniques and rehabilitation programs
+                        ensure safe and effective joint replacement.
                     </p>
-                </div>
-
-                <!-- FAQs -->
-                <div>
-                    <h2 class="text-xl font-bold text-[#6C3130] mb-4">
-                        FAQs on Dialysis at <span class="text-[#ec8b2a]">MaAx Super Speciality Hospital</span>
-                    </h2>
-
-                    <div class="border rounded-xl divide-y">
-
-                        <details class="p-4 group">
-                            <summary class="cursor-pointer font-medium flex justify-between items-center">
-                                How often do I need dialysis?
-                                <span class="group-open:rotate-180 transition">⌃</span>
-                            </summary>
-                            <p class="mt-2 text-sm text-gray-600">Most hemodialysis patients require treatment three times a week, but schedules vary by condition.</p>
-                        </details>
-
-                        <details class="p-4 group">
-                            <summary class="cursor-pointer font-medium flex justify-between items-center">
-                                Is dialysis painful?
-                                <span class="group-open:rotate-180 transition">⌃</span>
-                            </summary>
-                            <p class="mt-2 text-sm text-gray-600">Patients may feel mild discomfort during needle insertion, but the procedure itself is generally well tolerated.</p>
-                        </details>
-
-                        <details class="p-4 group">
-                            <summary class="cursor-pointer font-medium flex justify-between items-center">
-                                Can I live a normal life on dialysis?
-                                <span class="group-open:rotate-180 transition">⌃</span>
-                            </summary>
-                            <p class="mt-2 text-sm text-gray-600">Yes, many patients continue working and leading active lives with proper medical care and diet management.</p>
-                        </details>
-
-                        <details class="p-4 group">
-                            <summary class="cursor-pointer font-medium flex justify-between items-center">
-                                What should I eat during dialysis treatment?
-                                <span class="group-open:rotate-180 transition">⌃</span>
-                            </summary>
-                            <p class="mt-2 text-sm text-gray-600">Your doctor or dietitian will recommend a kidney-friendly diet tailored to your health condition.</p>
-                        </details>
-
-                    </div>
                 </div>
 
             </div>

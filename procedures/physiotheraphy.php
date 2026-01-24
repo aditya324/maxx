@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dialysis Treatment</title>
+    <title>Physiotherapy</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 </head>
 
@@ -26,7 +26,7 @@
                         </a>
                         <a href="./biopsy.php" class="flex justify-between items-center bg-gray-100 px-4 py-2 rounded">Biopsy <span>›</span></a>
                         <a href="./cesarian-section.php" class="flex justify-between items-center bg-gray-100 px-4 py-2 rounded">C-section <span>›</span></a>
-                        <a href="./dialysis.php" class="flex justify-between items-center bg-brand text-white px-4 py-2 rounded">Dialysis <span>›</span></a>
+                        <a href="./dialysis.php" class="flex justify-between items-center bg-gray-100 px-4 py-2 rounded">Dialysis <span>›</span></a>
                         <a href="./endoscopy.php" class="flex justify-between items-center bg-gray-100 px-4 py-2 rounded">Endoscopy <span>›</span></a>
                         <a href="./eye-laser.php" class="flex justify-between items-center bg-gray-100 px-4 py-2 rounded">Eye Laser <span>›</span></a>
                         <a href="./pacemaker.php" class="flex justify-between items-center bg-gray-100 px-4 py-2 rounded">Pacemaker Implant <span>›</span></a>
@@ -72,19 +72,22 @@
                 <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-6">
                     <div>
                         <h1 class="text-3xl md:text-4xl font-bold text-[#6C3130]">
-                            Dialysis at <span class="text-[#ec8b2a]">MaAx Super Speciality Hospital</span>
+                            Physiotherapy at <span class="text-[#ec8b2a]">MaAx Super Speciality Hospital</span>
                         </h1>
                     </div>
-                    <img src="../assets/procedures/Dialysis.webp" alt="Dialysis" class="w-full md:w-96 rounded-lg shadow">
+                    <img src="../assets/procedures/Phsyiotheraphy.webp" alt="Physiotherapy Treatment" class="w-full md:w-96 rounded-lg shadow">
                 </div>
 
                 <!-- What & Why -->
                 <div>
                     <h2 class="text-xl font-bold text-[#6C3130] mb-2">What the Treatment Is & Why It’s Done</h2>
                     <p class="text-gray-700 leading-relaxed">
-                        Dialysis is a life-saving procedure used when the kidneys can no longer filter waste and excess fluids from the blood.
-                        At MaAx Super Speciality Hospital, dialysis is recommended for patients with advanced chronic kidney disease or acute kidney failure.
-                        It helps maintain balance in the body by removing toxins, regulating electrolytes, and preventing fluid overload.
+                        Physiotherapy is a rehabilitative treatment that helps restore movement, strength, and function after injury,
+                        surgery, or illness. At MaAx Super Speciality Hospital, physiotherapy is recommended for patients recovering
+                        from orthopedic surgeries, neurological conditions, sports injuries, or chronic pain.
+                    </p>
+                    <p class="text-gray-700 leading-relaxed mt-3">
+                        The goal is to improve mobility, reduce pain, and enhance overall quality of life.
                     </p>
                 </div>
 
@@ -92,11 +95,15 @@
                 <div>
                     <h2 class="text-xl font-bold text-[#6C3130] mb-2">How the Treatment Is Performed</h2>
                     <ul class="list-disc list-inside text-gray-700 space-y-2">
-                        <li><strong>Hemodialysis:</strong> Blood is drawn from the body, passed through a dialysis machine that filters waste, and returned clean.</li>
-                        <li><strong>Peritoneal Dialysis:</strong> A cleansing fluid is introduced into the abdominal cavity, which absorbs waste before being drained.</li>
-                        <li>Sessions typically last 3–4 hours and are performed several times a week.</li>
-                        <li>Patients are monitored closely to ensure safety and comfort.</li>
+                        <li><strong>Assessment:</strong> Physiotherapists evaluate mobility, strength, and pain levels.</li>
+                        <li><strong>Exercise Therapy:</strong> Customized routines to improve flexibility and strength.</li>
+                        <li><strong>Manual Therapy:</strong> Hands-on techniques to relieve stiffness and improve circulation.</li>
+                        <li><strong>Electrotherapy:</strong> Use of ultrasound, TENS, or heat therapy for pain relief.</li>
+                        <li><strong>Rehabilitation Programs:</strong> Tailored plans for post-surgery or sports recovery.</li>
                     </ul>
+                    <p class="text-gray-700 leading-relaxed mt-3">
+                        Sessions are conducted regularly, with progress monitored closely.
+                    </p>
                 </div>
 
                 <!-- Benefits & Risks -->
@@ -107,67 +114,67 @@
                         <div class="bg-green-50 border border-green-200 rounded-xl p-4">
                             <h3 class="font-semibold text-green-700 mb-2">Benefits</h3>
                             <ul class="list-disc list-inside text-gray-700 text-sm space-y-1">
-                                <li>Removes harmful toxins and excess fluids</li>
-                                <li>Helps control blood pressure and maintain electrolyte balance</li>
-                                <li>Extends life expectancy for patients with kidney failure</li>
+                                <li>Restores mobility and independence</li>
+                                <li>Reduces pain and stiffness</li>
+                                <li>Prevents recurrence of injuries</li>
+                                <li>Improves overall physical fitness</li>
                             </ul>
                         </div>
 
                         <div class="bg-red-50 border border-red-200 rounded-xl p-4">
                             <h3 class="font-semibold text-red-700 mb-2">Possible Risks</h3>
                             <ul class="list-disc list-inside text-gray-700 text-sm space-y-1">
-                                <li>Low blood pressure during treatment</li>
-                                <li>Infection at the access site</li>
-                                <li>Fatigue or cramps after sessions</li>
+                                <li>Temporary soreness after sessions</li>
+                                <li>Rare risk of injury if exercises are not performed correctly</li>
                             </ul>
                         </div>
 
                     </div>
 
                     <p class="text-gray-700 leading-relaxed mt-4">
-                        At MaAx Super Speciality Hospital, advanced dialysis units and expert nephrologists ensure safe,
-                        comfortable, and effective treatment.
+                        At MaAx Super Speciality Hospital, physiotherapy is delivered by experienced therapists using advanced techniques
+                        and patient-centered care.
                     </p>
                 </div>
 
                 <!-- FAQs -->
                 <div>
                     <h2 class="text-xl font-bold text-[#6C3130] mb-4">
-                        FAQs on Dialysis at <span class="text-[#ec8b2a]">MaAx Super Speciality Hospital</span>
+                        FAQs on Physiotherapy at <span class="text-[#ec8b2a]">MaAx Super Speciality Hospital</span>
                     </h2>
 
                     <div class="border rounded-xl divide-y">
 
                         <details class="p-4 group">
                             <summary class="cursor-pointer font-medium flex justify-between items-center">
-                                How often do I need dialysis?
+                                How many physiotherapy sessions will I need?
                                 <span class="group-open:rotate-180 transition">⌃</span>
                             </summary>
-                            <p class="mt-2 text-sm text-gray-600">Most hemodialysis patients require treatment three times a week, but schedules vary by condition.</p>
+                            <p class="mt-2 text-sm text-gray-600">The number of sessions depends on your condition, recovery goals, and progress as assessed by the physiotherapist.</p>
                         </details>
 
                         <details class="p-4 group">
                             <summary class="cursor-pointer font-medium flex justify-between items-center">
-                                Is dialysis painful?
+                                Is physiotherapy painful?
                                 <span class="group-open:rotate-180 transition">⌃</span>
                             </summary>
-                            <p class="mt-2 text-sm text-gray-600">Patients may feel mild discomfort during needle insertion, but the procedure itself is generally well tolerated.</p>
+                            <p class="mt-2 text-sm text-gray-600">Some mild discomfort may occur during exercises, but therapy is designed to reduce pain over time.</p>
                         </details>
 
                         <details class="p-4 group">
                             <summary class="cursor-pointer font-medium flex justify-between items-center">
-                                Can I live a normal life on dialysis?
+                                Can physiotherapy help avoid surgery?
                                 <span class="group-open:rotate-180 transition">⌃</span>
                             </summary>
-                            <p class="mt-2 text-sm text-gray-600">Yes, many patients continue working and leading active lives with proper medical care and diet management.</p>
+                            <p class="mt-2 text-sm text-gray-600">In some cases, physiotherapy can improve function and reduce symptoms enough to delay or avoid surgery.</p>
                         </details>
 
                         <details class="p-4 group">
                             <summary class="cursor-pointer font-medium flex justify-between items-center">
-                                What should I eat during dialysis treatment?
+                                Do I need a doctor’s referral for physiotherapy?
                                 <span class="group-open:rotate-180 transition">⌃</span>
                             </summary>
-                            <p class="mt-2 text-sm text-gray-600">Your doctor or dietitian will recommend a kidney-friendly diet tailored to your health condition.</p>
+                            <p class="mt-2 text-sm text-gray-600">While referrals are helpful, many patients can start physiotherapy after an initial assessment at the hospital.</p>
                         </details>
 
                     </div>

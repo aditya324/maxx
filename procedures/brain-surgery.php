@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bronchoscopy Treatment</title>
+    <title>Brain Surgery Treatment</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 </head>
 
@@ -17,7 +17,7 @@
     <!-- ================= LEFT SIDEBAR ================= -->
     <div class="w-full lg:w-1/4 space-y-6">
 
-       <div class=" rounded-xl  p-5">
+      <div class=" rounded-xl  p-5">
         <h3 class="text-lg font-bold text-[#6C3130] mb-4">Top Procedures & Treatments</h3>
 
         <div class="space-y-2 text-sm font-medium">
@@ -72,23 +72,23 @@
       <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-6">
         <div>
           <h1 class="text-3xl md:text-4xl font-bold text-[#6C3130]">
-            Bronchoscopy at <span class="text-[#ec8b2a]">MaAx Super Speciality Hospital</span>
+            Brain Surgery at <span class="text-[#ec8b2a]">MaAx Super Speciality Hospital</span>
           </h1>
         </div>
-        <img src="../assets/procedures/bronchoscopy.webp" alt="Bronchoscopy" class="w-full md:w-96 rounded-lg shadow">
+        <img src="../assets/procedures/Brain surgery.webp" alt="Brain Surgery" class="w-full md:w-96 rounded-lg shadow">
       </div>
 
       <!-- What & Why -->
       <div>
         <h2 class="text-xl font-bold text-[#6C3130] mb-2">What the Treatment Is & Why It’s Done</h2>
         <p class="text-gray-700 leading-relaxed">
-          Bronchoscopy is a diagnostic and therapeutic procedure used to examine the airways and lungs.
-          At MaAx Super Speciality Hospital, bronchoscopy is performed to investigate persistent cough,
-          lung infections, tumors, or unexplained breathing difficulties.
+          Brain surgery is performed to treat conditions such as tumors, aneurysms, epilepsy, or traumatic injuries.
+          At MaAx Super Speciality Hospital, brain surgery is recommended when non-surgical treatments cannot resolve
+          neurological problems or when urgent intervention is required to save life and function.
         </p>
         <p class="text-gray-700 leading-relaxed mt-3">
-          It allows doctors to directly view the airways, collect tissue samples, and even remove blockages.
-          Bronchoscopy is essential for diagnosing lung diseases and guiding treatment.
+          The goal is to remove abnormal tissue, repair damaged structures, or relieve pressure inside the skull.
+          Brain surgery can restore quality of life and prevent life-threatening complications.
         </p>
       </div>
 
@@ -96,11 +96,15 @@
       <div>
         <h2 class="text-xl font-bold text-[#6C3130] mb-2">How the Treatment Is Performed</h2>
         <ul class="list-disc list-inside text-gray-700 space-y-2">
-          <li>A thin, flexible tube with a camera (bronchoscope) is inserted through the nose or mouth into the lungs.</li>
-          <li>Doctors can visualize the airways, collect biopsies, or remove mucus plugs.</li>
-          <li>The procedure is usually done under local anesthesia with sedation.</li>
-          <li>It takes 30–60 minutes, and patients can often go home the same day.</li>
+          <li><strong>Craniotomy:</strong> A section of the skull is temporarily removed to access the brain.</li>
+          <li><strong>Endoscopic Brain Surgery:</strong> Minimally invasive approach using small instruments and cameras.</li>
+          <li><strong>Microsurgery:</strong> Precision techniques using high-powered microscopes.</li>
+          <li><strong>Stereotactic Surgery:</strong> Computer-guided navigation for pinpoint accuracy.</li>
         </ul>
+        <p class="text-gray-700 leading-relaxed mt-3">
+          Patients are given general anesthesia, and the procedure may last several hours. Recovery involves intensive
+          monitoring in a neurocritical care unit.
+        </p>
       </div>
 
       <!-- Benefits & Risks -->
@@ -111,67 +115,67 @@
           <div class="bg-green-50 border border-green-200 rounded-xl p-4">
             <h3 class="font-semibold text-green-700 mb-2">Benefits</h3>
             <ul class="list-disc list-inside text-gray-700 text-sm space-y-1">
-              <li>Direct visualization of airways</li>
-              <li>Accurate diagnosis of lung conditions</li>
-              <li>Can be therapeutic (removing blockages or foreign objects)</li>
+              <li>Removal of tumors or abnormal tissue</li>
+              <li>Relief from seizures or neurological symptoms</li>
+              <li>Restoration of brain function and prevention of further damage</li>
             </ul>
           </div>
 
           <div class="bg-red-50 border border-red-200 rounded-xl p-4">
             <h3 class="font-semibold text-red-700 mb-2">Possible Risks</h3>
             <ul class="list-disc list-inside text-gray-700 text-sm space-y-1">
-              <li>Temporary sore throat or cough</li>
-              <li>Minor bleeding from biopsy sites</li>
-              <li>Rare complications such as infection or breathing difficulties</li>
+              <li>Infection or bleeding</li>
+              <li>Neurological deficits such as weakness or speech problems</li>
+              <li>Risks associated with anesthesia</li>
             </ul>
           </div>
 
         </div>
 
         <p class="text-gray-700 leading-relaxed mt-4">
-          At MaAx Super Speciality Hospital, bronchoscopy is performed with advanced equipment and strict safety
-          protocols, ensuring accurate results and patient comfort.
+          At MaAx Super Speciality Hospital, advanced technology and experienced neurosurgeons minimize risks and
+          maximize recovery outcomes.
         </p>
       </div>
 
       <!-- FAQs -->
       <div>
         <h2 class="text-xl font-bold text-[#6C3130] mb-4">
-          FAQs on Bronchoscopy at <span class="text-[#ec8b2a]">MaAx Super Speciality Hospital</span>
+          FAQs on Brain Surgery at <span class="text-[#ec8b2a]">MaAx Super Speciality Hospital</span>
         </h2>
 
         <div class="border rounded-xl divide-y">
 
           <details class="p-4 group">
             <summary class="cursor-pointer font-medium flex justify-between items-center">
-              Is bronchoscopy painful?
+              How long does brain surgery take?
               <span class="group-open:rotate-180 transition">⌃</span>
             </summary>
-            <p class="mt-2 text-sm text-gray-600">The procedure is usually done with sedation and local anesthesia, so discomfort is minimal.</p>
+            <p class="mt-2 text-sm text-gray-600">Depending on the condition, brain surgery can take several hours.</p>
           </details>
 
           <details class="p-4 group">
             <summary class="cursor-pointer font-medium flex justify-between items-center">
-              How long does bronchoscopy take?
+              Is brain surgery safe?
               <span class="group-open:rotate-180 transition">⌃</span>
             </summary>
-            <p class="mt-2 text-sm text-gray-600">Most procedures take between 30 and 60 minutes.</p>
+            <p class="mt-2 text-sm text-gray-600">While all surgeries carry risks, modern techniques and monitoring greatly improve safety and outcomes.</p>
           </details>
 
           <details class="p-4 group">
             <summary class="cursor-pointer font-medium flex justify-between items-center">
-              Can I eat after the procedure?
+              How long is the recovery period?
               <span class="group-open:rotate-180 transition">⌃</span>
             </summary>
-            <p class="mt-2 text-sm text-gray-600">You can usually eat once the numbness in your throat wears off, as advised by your doctor.</p>
+            <p class="mt-2 text-sm text-gray-600">Recovery varies, but patients typically spend time in ICU followed by rehabilitation and follow-up care.</p>
           </details>
 
           <details class="p-4 group">
             <summary class="cursor-pointer font-medium flex justify-between items-center">
-              When will I get the biopsy results?
+              Will I need rehabilitation after surgery?
               <span class="group-open:rotate-180 transition">⌃</span>
             </summary>
-            <p class="mt-2 text-sm text-gray-600">Biopsy results are typically available within a few days depending on laboratory analysis.</p>
+            <p class="mt-2 text-sm text-gray-600">Some patients benefit from physical, occupational, or speech therapy depending on the condition treated.</p>
           </details>
 
         </div>

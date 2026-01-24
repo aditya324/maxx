@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bronchoscopy Treatment</title>
+    <title>Appendectomy</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 </head>
 
@@ -17,24 +17,20 @@
     <!-- ================= LEFT SIDEBAR ================= -->
     <div class="w-full lg:w-1/4 space-y-6">
 
-       <div class=" rounded-xl  p-5">
+      <div class="rounded-xl p-5">
         <h3 class="text-lg font-bold text-[#6C3130] mb-4">Top Procedures & Treatments</h3>
-
         <div class="space-y-2 text-sm font-medium">
-          <a href="./angiography.php" class="flex justify-between items-center bg-gray-100  px-4 py-2 rounded">
-            Angiography <span>›</span>
-          </a>
-          <a href="./biopsy.php" class="flex justify-between items-center bg-gray-100 px-4 py-2 rounded">Biopsy <span>›</span></a>
-          <a href="./cesarian-section.php" class="flex justify-between items-center bg-gray-100 px-4 py-2 rounded">C-section <span>›</span></a>
-          <a href="./dialysis.php" class="flex justify-between items-center bg-gray-100 px-4 py-2 rounded">Dialysis <span>›</span></a>
-          <a href="./endoscopy.php" class="flex justify-between items-center bg-gray-100 px-4 py-2 rounded">Endoscopy <span>›</span></a>
-          <a href="./eye-laser.php" class="flex justify-between items-center bg-gray-100 px-4 py-2 rounded">Eye Laser <span>›</span></a>
-          <a href="./pacemaker.php" class="flex justify-between items-center bg-gray-100 px-4 py-2 rounded">Pacemaker Implant <span>›</span></a>
-          <a href="./sinus-surgery.php" class="flex justify-between items-center bg-gray-100 px-4 py-2 rounded">Sinus Surgery <span>›</span></a>
-          <a href="./joint-replacement.php" class="flex justify-between items-center bg-gray-100 px-4 py-2 rounded">Joint Replacement <span>›</span></a>
+          <a href="#" class="flex justify-between items-center bg-gray-100 px-4 py-2 rounded">Angiography <span>›</span></a>
+          <a href="#" class="flex justify-between items-center bg-gray-100 px-4 py-2 rounded">Biopsy <span>›</span></a>
+          <a href="#" class="flex justify-between items-center bg-gray-100 px-4 py-2 rounded">C-section <span>›</span></a>
+          <a href="#" class="flex justify-between items-center bg-gray-100 px-4 py-2 rounded">Dialysis <span>›</span></a>
+          <a href="#" class="flex justify-between items-center bg-gray-100 px-4 py-2 rounded">Endoscopy <span>›</span></a>
+          <a href="#" class="flex justify-between items-center bg-gray-100 px-4 py-2 rounded">Eye Laser <span>›</span></a>
+          <a href="#" class="flex justify-between items-center bg-gray-100 px-4 py-2 rounded">Pacemaker Implant <span>›</span></a>
+          <a href="#" class="flex justify-between items-center bg-gray-100 px-4 py-2 rounded">Sinus Surgery <span>›</span></a>
+          <a href="#" class="flex justify-between items-center bg-gray-100 px-4 py-2 rounded">Joint Replacement <span>›</span></a>
         </div>
-
-        <a href="../procedures.php" class="block mt-4 bg-[#6C3130] text-white text-center py-2 rounded">View All Procedures</a>
+        <a href="#" class="block mt-4 bg-[#6C3130] text-white text-center py-2 rounded">View All Procedures</a>
       </div>
 
       <!-- Working Hours -->
@@ -72,23 +68,20 @@
       <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-6">
         <div>
           <h1 class="text-3xl md:text-4xl font-bold text-[#6C3130]">
-            Bronchoscopy at <span class="text-[#ec8b2a]">MaAx Super Speciality Hospital</span>
+            Appendectomy at <span class="text-[#ec8b2a]">MaAx Super Speciality Hospital</span>
           </h1>
         </div>
-        <img src="../assets/procedures/bronchoscopy.webp" alt="Bronchoscopy" class="w-full md:w-96 rounded-lg shadow">
+        <img src="../assets/procedures/appendectomy.webp" alt="Appendectomy Surgery" class="w-full md:w-96 rounded-lg shadow">
       </div>
 
       <!-- What & Why -->
       <div>
         <h2 class="text-xl font-bold text-[#6C3130] mb-2">What the Treatment Is & Why It’s Done</h2>
         <p class="text-gray-700 leading-relaxed">
-          Bronchoscopy is a diagnostic and therapeutic procedure used to examine the airways and lungs.
-          At MaAx Super Speciality Hospital, bronchoscopy is performed to investigate persistent cough,
-          lung infections, tumors, or unexplained breathing difficulties.
-        </p>
-        <p class="text-gray-700 leading-relaxed mt-3">
-          It allows doctors to directly view the airways, collect tissue samples, and even remove blockages.
-          Bronchoscopy is essential for diagnosing lung diseases and guiding treatment.
+          Appendectomy is the surgical removal of the appendix, usually performed when a patient develops
+          appendicitis — an inflammation of the appendix that can cause severe abdominal pain and potentially
+          life-threatening complications if untreated. At MaAx Super Speciality Hospital, appendectomy is
+          one of the most common emergency surgeries.
         </p>
       </div>
 
@@ -96,11 +89,12 @@
       <div>
         <h2 class="text-xl font-bold text-[#6C3130] mb-2">How the Treatment Is Performed</h2>
         <ul class="list-disc list-inside text-gray-700 space-y-2">
-          <li>A thin, flexible tube with a camera (bronchoscope) is inserted through the nose or mouth into the lungs.</li>
-          <li>Doctors can visualize the airways, collect biopsies, or remove mucus plugs.</li>
-          <li>The procedure is usually done under local anesthesia with sedation.</li>
-          <li>It takes 30–60 minutes, and patients can often go home the same day.</li>
+          <li><strong>Open Appendectomy:</strong> A single incision is made in the lower right abdomen, and the appendix is removed.</li>
+          <li><strong>Laparoscopic Appendectomy:</strong> Several small incisions are made, and a camera-guided instrument is used to remove the appendix. This minimally invasive approach reduces pain and speeds recovery.</li>
         </ul>
+        <p class="text-gray-700 leading-relaxed mt-3">
+          The procedure typically takes 30–60 minutes. Patients are given anesthesia, and recovery involves a short hospital stay, especially for laparoscopic cases.
+        </p>
       </div>
 
       <!-- Benefits & Risks -->
@@ -111,67 +105,66 @@
           <div class="bg-green-50 border border-green-200 rounded-xl p-4">
             <h3 class="font-semibold text-green-700 mb-2">Benefits</h3>
             <ul class="list-disc list-inside text-gray-700 text-sm space-y-1">
-              <li>Direct visualization of airways</li>
-              <li>Accurate diagnosis of lung conditions</li>
-              <li>Can be therapeutic (removing blockages or foreign objects)</li>
+              <li>Prevents rupture of the appendix, which can cause life-threatening infection</li>
+              <li>Quick relief from abdominal pain</li>
+              <li>Laparoscopic surgery offers faster recovery and minimal scarring</li>
             </ul>
           </div>
 
           <div class="bg-red-50 border border-red-200 rounded-xl p-4">
             <h3 class="font-semibold text-red-700 mb-2">Possible Risks</h3>
             <ul class="list-disc list-inside text-gray-700 text-sm space-y-1">
-              <li>Temporary sore throat or cough</li>
-              <li>Minor bleeding from biopsy sites</li>
-              <li>Rare complications such as infection or breathing difficulties</li>
+              <li>Infection at the incision site</li>
+              <li>Bleeding or injury to nearby organs</li>
+              <li>Rare complications such as bowel obstruction</li>
             </ul>
           </div>
 
         </div>
 
         <p class="text-gray-700 leading-relaxed mt-4">
-          At MaAx Super Speciality Hospital, bronchoscopy is performed with advanced equipment and strict safety
-          protocols, ensuring accurate results and patient comfort.
+          At MaAx Super Speciality Hospital, surgeons use advanced laparoscopic techniques to minimize risks and ensure rapid recovery.
         </p>
       </div>
 
       <!-- FAQs -->
       <div>
         <h2 class="text-xl font-bold text-[#6C3130] mb-4">
-          FAQs on Bronchoscopy at <span class="text-[#ec8b2a]">MaAx Super Speciality Hospital</span>
+          FAQs on Appendectomy at <span class="text-[#ec8b2a]">MaAx Super Speciality Hospital</span>
         </h2>
 
         <div class="border rounded-xl divide-y">
 
           <details class="p-4 group">
             <summary class="cursor-pointer font-medium flex justify-between items-center">
-              Is bronchoscopy painful?
+              How do I know if I have appendicitis?
               <span class="group-open:rotate-180 transition">⌃</span>
             </summary>
-            <p class="mt-2 text-sm text-gray-600">The procedure is usually done with sedation and local anesthesia, so discomfort is minimal.</p>
+            <p class="mt-2 text-sm text-gray-600">Symptoms often include sharp pain in the lower right abdomen, fever, nausea, and loss of appetite. Immediate medical evaluation is important.</p>
           </details>
 
           <details class="p-4 group">
             <summary class="cursor-pointer font-medium flex justify-between items-center">
-              How long does bronchoscopy take?
+              How long is recovery after an appendectomy?
               <span class="group-open:rotate-180 transition">⌃</span>
             </summary>
-            <p class="mt-2 text-sm text-gray-600">Most procedures take between 30 and 60 minutes.</p>
+            <p class="mt-2 text-sm text-gray-600">Most patients recover within 1–3 weeks, with faster recovery after laparoscopic surgery.</p>
           </details>
 
           <details class="p-4 group">
             <summary class="cursor-pointer font-medium flex justify-between items-center">
-              Can I eat after the procedure?
+              Can I live normally without an appendix?
               <span class="group-open:rotate-180 transition">⌃</span>
             </summary>
-            <p class="mt-2 text-sm text-gray-600">You can usually eat once the numbness in your throat wears off, as advised by your doctor.</p>
+            <p class="mt-2 text-sm text-gray-600">Yes, the appendix is not essential for normal digestion, and people live healthy lives without it.</p>
           </details>
 
           <details class="p-4 group">
             <summary class="cursor-pointer font-medium flex justify-between items-center">
-              When will I get the biopsy results?
+              Is appendectomy always an emergency surgery?
               <span class="group-open:rotate-180 transition">⌃</span>
             </summary>
-            <p class="mt-2 text-sm text-gray-600">Biopsy results are typically available within a few days depending on laboratory analysis.</p>
+            <p class="mt-2 text-sm text-gray-600">Most appendectomies are performed urgently, but early diagnosis can sometimes allow planned minimally invasive surgery.</p>
           </details>
 
         </div>

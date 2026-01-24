@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dialysis Treatment</title>
+    <title>Bypass Surgery (CABG) Treatment</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 </head>
 
@@ -26,7 +26,7 @@
                         </a>
                         <a href="./biopsy.php" class="flex justify-between items-center bg-gray-100 px-4 py-2 rounded">Biopsy <span>›</span></a>
                         <a href="./cesarian-section.php" class="flex justify-between items-center bg-gray-100 px-4 py-2 rounded">C-section <span>›</span></a>
-                        <a href="./dialysis.php" class="flex justify-between items-center bg-brand text-white px-4 py-2 rounded">Dialysis <span>›</span></a>
+                        <a href="./dialysis.php" class="flex justify-between items-center bg-gray-100 px-4 py-2 rounded">Dialysis <span>›</span></a>
                         <a href="./endoscopy.php" class="flex justify-between items-center bg-gray-100 px-4 py-2 rounded">Endoscopy <span>›</span></a>
                         <a href="./eye-laser.php" class="flex justify-between items-center bg-gray-100 px-4 py-2 rounded">Eye Laser <span>›</span></a>
                         <a href="./pacemaker.php" class="flex justify-between items-center bg-gray-100 px-4 py-2 rounded">Pacemaker Implant <span>›</span></a>
@@ -72,19 +72,24 @@
                 <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-6">
                     <div>
                         <h1 class="text-3xl md:text-4xl font-bold text-[#6C3130]">
-                            Dialysis at <span class="text-[#ec8b2a]">MaAx Super Speciality Hospital</span>
+                            Bypass Surgery at <span class="text-[#ec8b2a]">MaAx Super Speciality Hospital</span>
                         </h1>
                     </div>
-                    <img src="../assets/procedures/Dialysis.webp" alt="Dialysis" class="w-full md:w-96 rounded-lg shadow">
+                    <img src="../assets/procedures/bypass-surgery.webp" alt="Bypass Surgery" class="w-full md:w-96 rounded-lg shadow">
                 </div>
 
                 <!-- What & Why -->
                 <div>
                     <h2 class="text-xl font-bold text-[#6C3130] mb-2">What the Treatment Is & Why It’s Done</h2>
                     <p class="text-gray-700 leading-relaxed">
-                        Dialysis is a life-saving procedure used when the kidneys can no longer filter waste and excess fluids from the blood.
-                        At MaAx Super Speciality Hospital, dialysis is recommended for patients with advanced chronic kidney disease or acute kidney failure.
-                        It helps maintain balance in the body by removing toxins, regulating electrolytes, and preventing fluid overload.
+                        Bypass surgery, also known as Coronary Artery Bypass Grafting (CABG), is performed to restore blood flow
+                        to the heart when coronary arteries are blocked or severely narrowed. At MaAx Super Speciality Hospital,
+                        this procedure is recommended for patients with advanced coronary artery disease, multiple blockages,
+                        or those who are not suitable candidates for angioplasty.
+                    </p>
+                    <p class="text-gray-700 leading-relaxed mt-3">
+                        The surgery creates a new pathway for blood to reach the heart muscle, reducing chest pain (angina),
+                        improving heart function, and lowering the risk of heart attack.
                     </p>
                 </div>
 
@@ -92,11 +97,14 @@
                 <div>
                     <h2 class="text-xl font-bold text-[#6C3130] mb-2">How the Treatment Is Performed</h2>
                     <ul class="list-disc list-inside text-gray-700 space-y-2">
-                        <li><strong>Hemodialysis:</strong> Blood is drawn from the body, passed through a dialysis machine that filters waste, and returned clean.</li>
-                        <li><strong>Peritoneal Dialysis:</strong> A cleansing fluid is introduced into the abdominal cavity, which absorbs waste before being drained.</li>
-                        <li>Sessions typically last 3–4 hours and are performed several times a week.</li>
-                        <li>Patients are monitored closely to ensure safety and comfort.</li>
+                        <li>A healthy blood vessel (usually from the leg, arm, or chest) is harvested.</li>
+                        <li>The surgeon attaches this vessel to bypass the blocked artery, creating a new route for blood flow.</li>
+                        <li>The procedure is performed under general anesthesia and may take 3–6 hours.</li>
+                        <li>Patients are monitored in the intensive care unit (ICU) after surgery.</li>
                     </ul>
+                    <p class="text-gray-700 leading-relaxed mt-3">
+                        Recovery involves a hospital stay of 5–7 days, followed by cardiac rehabilitation.
+                    </p>
                 </div>
 
                 <!-- Benefits & Risks -->
@@ -107,67 +115,67 @@
                         <div class="bg-green-50 border border-green-200 rounded-xl p-4">
                             <h3 class="font-semibold text-green-700 mb-2">Benefits</h3>
                             <ul class="list-disc list-inside text-gray-700 text-sm space-y-1">
-                                <li>Removes harmful toxins and excess fluids</li>
-                                <li>Helps control blood pressure and maintain electrolyte balance</li>
-                                <li>Extends life expectancy for patients with kidney failure</li>
+                                <li>Restores blood flow to the heart</li>
+                                <li>Reduces chest pain and improves quality of life</li>
+                                <li>Lowers risk of heart attack and prolongs survival</li>
                             </ul>
                         </div>
 
                         <div class="bg-red-50 border border-red-200 rounded-xl p-4">
                             <h3 class="font-semibold text-red-700 mb-2">Possible Risks</h3>
                             <ul class="list-disc list-inside text-gray-700 text-sm space-y-1">
-                                <li>Low blood pressure during treatment</li>
-                                <li>Infection at the access site</li>
-                                <li>Fatigue or cramps after sessions</li>
+                                <li>Infection or bleeding</li>
+                                <li>Irregular heart rhythms</li>
+                                <li>Rare complications such as stroke or kidney problems</li>
                             </ul>
                         </div>
 
                     </div>
 
                     <p class="text-gray-700 leading-relaxed mt-4">
-                        At MaAx Super Speciality Hospital, advanced dialysis units and expert nephrologists ensure safe,
-                        comfortable, and effective treatment.
+                        At MaAx Super Speciality Hospital, advanced surgical techniques and dedicated cardiac ICUs ensure
+                        maximum safety and recovery success.
                     </p>
                 </div>
 
                 <!-- FAQs -->
                 <div>
                     <h2 class="text-xl font-bold text-[#6C3130] mb-4">
-                        FAQs on Dialysis at <span class="text-[#ec8b2a]">MaAx Super Speciality Hospital</span>
+                        FAQs on Bypass Surgery at <span class="text-[#ec8b2a]">MaAx Super Speciality Hospital</span>
                     </h2>
 
                     <div class="border rounded-xl divide-y">
 
                         <details class="p-4 group">
                             <summary class="cursor-pointer font-medium flex justify-between items-center">
-                                How often do I need dialysis?
+                                How long does bypass surgery take?
                                 <span class="group-open:rotate-180 transition">⌃</span>
                             </summary>
-                            <p class="mt-2 text-sm text-gray-600">Most hemodialysis patients require treatment three times a week, but schedules vary by condition.</p>
+                            <p class="mt-2 text-sm text-gray-600">The surgery usually takes between 3 and 6 hours depending on the number of bypasses required.</p>
                         </details>
 
                         <details class="p-4 group">
                             <summary class="cursor-pointer font-medium flex justify-between items-center">
-                                Is dialysis painful?
+                                How long will I stay in the hospital?
                                 <span class="group-open:rotate-180 transition">⌃</span>
                             </summary>
-                            <p class="mt-2 text-sm text-gray-600">Patients may feel mild discomfort during needle insertion, but the procedure itself is generally well tolerated.</p>
+                            <p class="mt-2 text-sm text-gray-600">Most patients stay in the hospital for about 5 to 7 days, including ICU monitoring.</p>
                         </details>
 
                         <details class="p-4 group">
                             <summary class="cursor-pointer font-medium flex justify-between items-center">
-                                Can I live a normal life on dialysis?
+                                When can I return to normal activities?
                                 <span class="group-open:rotate-180 transition">⌃</span>
                             </summary>
-                            <p class="mt-2 text-sm text-gray-600">Yes, many patients continue working and leading active lives with proper medical care and diet management.</p>
+                            <p class="mt-2 text-sm text-gray-600">Recovery takes several weeks, and cardiac rehabilitation helps patients safely regain strength.</p>
                         </details>
 
                         <details class="p-4 group">
                             <summary class="cursor-pointer font-medium flex justify-between items-center">
-                                What should I eat during dialysis treatment?
+                                Is bypass surgery permanent?
                                 <span class="group-open:rotate-180 transition">⌃</span>
                             </summary>
-                            <p class="mt-2 text-sm text-gray-600">Your doctor or dietitian will recommend a kidney-friendly diet tailored to your health condition.</p>
+                            <p class="mt-2 text-sm text-gray-600">Bypass grafts can last many years, especially with proper lifestyle changes and medical care.</p>
                         </details>
 
                     </div>

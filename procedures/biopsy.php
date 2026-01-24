@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bronchoscopy Treatment</title>
+    <title>Biopsy Treatment</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 </head>
 
@@ -24,7 +24,7 @@
           <a href="./angiography.php" class="flex justify-between items-center bg-gray-100  px-4 py-2 rounded">
             Angiography <span>›</span>
           </a>
-          <a href="./biopsy.php" class="flex justify-between items-center bg-gray-100 px-4 py-2 rounded">Biopsy <span>›</span></a>
+          <a href="./biopsy.php" class="flex justify-between items-center bg-[#ec8b2a] text-white px-4 py-2 rounded">Biopsy <span>›</span></a>
           <a href="./cesarian-section.php" class="flex justify-between items-center bg-gray-100 px-4 py-2 rounded">C-section <span>›</span></a>
           <a href="./dialysis.php" class="flex justify-between items-center bg-gray-100 px-4 py-2 rounded">Dialysis <span>›</span></a>
           <a href="./endoscopy.php" class="flex justify-between items-center bg-gray-100 px-4 py-2 rounded">Endoscopy <span>›</span></a>
@@ -72,23 +72,24 @@
       <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-6">
         <div>
           <h1 class="text-3xl md:text-4xl font-bold text-[#6C3130]">
-            Bronchoscopy at <span class="text-[#ec8b2a]">MaAx Super Speciality Hospital</span>
+            Biopsy at <span class="text-[#ec8b2a]">MaAx Super Speciality Hospital</span>
           </h1>
         </div>
-        <img src="../assets/procedures/bronchoscopy.webp" alt="Bronchoscopy" class="w-full md:w-96 rounded-lg shadow">
+        <img src="../assets/procedures/biopsy.webp" alt="Biopsy" class="w-full md:w-96 rounded-lg shadow">
       </div>
 
       <!-- What & Why -->
       <div>
         <h2 class="text-xl font-bold text-[#6C3130] mb-2">What the Treatment Is & Why It’s Done</h2>
         <p class="text-gray-700 leading-relaxed">
-          Bronchoscopy is a diagnostic and therapeutic procedure used to examine the airways and lungs.
-          At MaAx Super Speciality Hospital, bronchoscopy is performed to investigate persistent cough,
-          lung infections, tumors, or unexplained breathing difficulties.
+          A biopsy is a medical procedure where a small sample of tissue or cells is removed from the body for
+          examination under a microscope. It is one of the most accurate ways to diagnose conditions such as cancer,
+          infections, or inflammatory diseases. At MaAx Super Speciality Hospital, biopsies are recommended when imaging
+          or blood tests suggest abnormalities that require confirmation.
         </p>
         <p class="text-gray-700 leading-relaxed mt-3">
-          It allows doctors to directly view the airways, collect tissue samples, and even remove blockages.
-          Bronchoscopy is essential for diagnosing lung diseases and guiding treatment.
+          Biopsies help doctors determine whether a growth is benign or malignant, identify infections, and guide
+          treatment plans. They are essential for early detection and precise diagnosis.
         </p>
       </div>
 
@@ -96,11 +97,14 @@
       <div>
         <h2 class="text-xl font-bold text-[#6C3130] mb-2">How the Treatment Is Performed</h2>
         <ul class="list-disc list-inside text-gray-700 space-y-2">
-          <li>A thin, flexible tube with a camera (bronchoscope) is inserted through the nose or mouth into the lungs.</li>
-          <li>Doctors can visualize the airways, collect biopsies, or remove mucus plugs.</li>
-          <li>The procedure is usually done under local anesthesia with sedation.</li>
-          <li>It takes 30–60 minutes, and patients can often go home the same day.</li>
+          <li><strong>Needle Biopsy:</strong> A thin needle is inserted to collect tissue from organs like the breast, liver, or kidney.</li>
+          <li><strong>Surgical Biopsy:</strong> A small incision is made to remove part or all of the suspicious tissue.</li>
+          <li><strong>Endoscopic Biopsy:</strong> Tissue samples are taken during procedures like colonoscopy or bronchoscopy.</li>
+          <li><strong>Skin Biopsy:</strong> A small section of skin is removed for dermatological analysis.</li>
         </ul>
+        <p class="text-gray-700 leading-relaxed mt-3">
+          The procedure is usually performed under local anesthesia, and patients can often return home the same day.
+        </p>
       </div>
 
       <!-- Benefits & Risks -->
@@ -111,67 +115,66 @@
           <div class="bg-green-50 border border-green-200 rounded-xl p-4">
             <h3 class="font-semibold text-green-700 mb-2">Benefits</h3>
             <ul class="list-disc list-inside text-gray-700 text-sm space-y-1">
-              <li>Direct visualization of airways</li>
-              <li>Accurate diagnosis of lung conditions</li>
-              <li>Can be therapeutic (removing blockages or foreign objects)</li>
+              <li>Provides definitive diagnosis</li>
+              <li>Helps guide treatment decisions</li>
+              <li>Minimally invasive in most cases</li>
             </ul>
           </div>
 
           <div class="bg-red-50 border border-red-200 rounded-xl p-4">
             <h3 class="font-semibold text-red-700 mb-2">Possible Risks</h3>
             <ul class="list-disc list-inside text-gray-700 text-sm space-y-1">
-              <li>Temporary sore throat or cough</li>
-              <li>Minor bleeding from biopsy sites</li>
-              <li>Rare complications such as infection or breathing difficulties</li>
+              <li>Minor bleeding or bruising</li>
+              <li>Infection at the biopsy site</li>
+              <li>Rare complications depending on the organ involved</li>
             </ul>
           </div>
 
         </div>
 
         <p class="text-gray-700 leading-relaxed mt-4">
-          At MaAx Super Speciality Hospital, bronchoscopy is performed with advanced equipment and strict safety
-          protocols, ensuring accurate results and patient comfort.
+          At MaAx Super Speciality Hospital, biopsies are performed with precision and care, ensuring patient safety and comfort.
         </p>
       </div>
 
       <!-- FAQs -->
       <div>
         <h2 class="text-xl font-bold text-[#6C3130] mb-4">
-          FAQs on Bronchoscopy at <span class="text-[#ec8b2a]">MaAx Super Speciality Hospital</span>
+          FAQs on Biopsy at <span class="text-[#ec8b2a]">MaAx Super Speciality Hospital</span>
         </h2>
 
         <div class="border rounded-xl divide-y">
 
           <details class="p-4 group">
             <summary class="cursor-pointer font-medium flex justify-between items-center">
-              Is bronchoscopy painful?
+              Is a biopsy painful?
               <span class="group-open:rotate-180 transition">⌃</span>
             </summary>
-            <p class="mt-2 text-sm text-gray-600">The procedure is usually done with sedation and local anesthesia, so discomfort is minimal.</p>
+            <p class="mt-2 text-sm text-gray-600">Most biopsies are done under local anesthesia, so discomfort is minimal and temporary.</p>
           </details>
 
           <details class="p-4 group">
             <summary class="cursor-pointer font-medium flex justify-between items-center">
-              How long does bronchoscopy take?
+              How long does a biopsy take?
               <span class="group-open:rotate-180 transition">⌃</span>
             </summary>
-            <p class="mt-2 text-sm text-gray-600">Most procedures take between 30 and 60 minutes.</p>
+            <p class="mt-2 text-sm text-gray-600">The procedure usually takes 15 to 60 minutes depending on the type and location.</p>
           </details>
 
           <details class="p-4 group">
             <summary class="cursor-pointer font-medium flex justify-between items-center">
-              Can I eat after the procedure?
+              When will I get the results?
               <span class="group-open:rotate-180 transition">⌃</span>
             </summary>
-            <p class="mt-2 text-sm text-gray-600">You can usually eat once the numbness in your throat wears off, as advised by your doctor.</p>
+            <p class="mt-2 text-sm text-gray-600">Results are typically available within a few days after laboratory analysis.</p>
           </details>
 
           <details class="p-4 group">
             <summary class="cursor-pointer font-medium flex justify-between items-center">
-              When will I get the biopsy results?
+              Can I go home the same day?
               <span class="group-open:rotate-180 transition">⌃</span>
             </summary>
-            <p class="mt-2 text-sm text-gray-600">Biopsy results are typically available within a few days depending on laboratory analysis.</p>
+            <p class="mt-2 text-sm text-gray-600">Yes, most biopsy procedures are outpatient, and patients return home the same day.</p>
           </details>
 
         </div>

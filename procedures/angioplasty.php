@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bronchoscopy Treatment</title>
+    <title>Angioplasty</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 </head>
 
@@ -21,7 +21,7 @@
         <h3 class="text-lg font-bold text-[#6C3130] mb-4">Top Procedures & Treatments</h3>
 
         <div class="space-y-2 text-sm font-medium">
-          <a href="./angiography.php" class="flex justify-between items-center bg-gray-100  px-4 py-2 rounded">
+          <a href="./angiography.php" class="flex justify-between items-center bg-[#ec8b2a] text-white px-4 py-2 rounded">
             Angiography <span>›</span>
           </a>
           <a href="./biopsy.php" class="flex justify-between items-center bg-gray-100 px-4 py-2 rounded">Biopsy <span>›</span></a>
@@ -72,23 +72,20 @@
       <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-6">
         <div>
           <h1 class="text-3xl md:text-4xl font-bold text-[#6C3130]">
-            Bronchoscopy at <span class="text-[#ec8b2a]">MaAx Super Speciality Hospital</span>
+            Angioplasty at <span class="text-[#ec8b2a]">MaAx Super Speciality Hospital</span>
           </h1>
         </div>
-        <img src="../assets/procedures/bronchoscopy.webp" alt="Bronchoscopy" class="w-full md:w-96 rounded-lg shadow">
+        <img src="../assets/procedures/angioplasty.webp" alt="Angioplasty Procedure" class="w-full md:w-96 rounded-lg shadow">
       </div>
 
       <!-- What & Why -->
       <div>
         <h2 class="text-xl font-bold text-[#6C3130] mb-2">What the Treatment Is & Why It’s Done</h2>
         <p class="text-gray-700 leading-relaxed">
-          Bronchoscopy is a diagnostic and therapeutic procedure used to examine the airways and lungs.
-          At MaAx Super Speciality Hospital, bronchoscopy is performed to investigate persistent cough,
-          lung infections, tumors, or unexplained breathing difficulties.
-        </p>
-        <p class="text-gray-700 leading-relaxed mt-3">
-          It allows doctors to directly view the airways, collect tissue samples, and even remove blockages.
-          Bronchoscopy is essential for diagnosing lung diseases and guiding treatment.
+          Angioplasty is a minimally invasive procedure used to open narrowed or blocked arteries,
+          restoring blood flow to the heart or other organs. It is often performed after angiography
+          reveals blockages. At MaAx Super Speciality Hospital, angioplasty is a life-saving
+          intervention for patients with coronary artery disease, heart attacks, or severe chest pain.
         </p>
       </div>
 
@@ -96,11 +93,15 @@
       <div>
         <h2 class="text-xl font-bold text-[#6C3130] mb-2">How the Treatment Is Performed</h2>
         <ul class="list-disc list-inside text-gray-700 space-y-2">
-          <li>A thin, flexible tube with a camera (bronchoscope) is inserted through the nose or mouth into the lungs.</li>
-          <li>Doctors can visualize the airways, collect biopsies, or remove mucus plugs.</li>
-          <li>The procedure is usually done under local anesthesia with sedation.</li>
-          <li>It takes 30–60 minutes, and patients can often go home the same day.</li>
+          <li>A catheter with a small balloon at its tip is inserted into the blocked artery.</li>
+          <li>The balloon is inflated to widen the artery and restore blood flow.</li>
+          <li>In many cases, a stent (a small mesh tube) is placed to keep the artery open.</li>
+          <li>The balloon is deflated and removed, leaving the stent in place.</li>
         </ul>
+        <p class="text-gray-700 leading-relaxed mt-3">
+          The procedure usually takes 1–2 hours and is performed under local anesthesia with sedation.
+          Patients often recover quickly and may be discharged within 24–48 hours.
+        </p>
       </div>
 
       <!-- Benefits & Risks -->
@@ -111,67 +112,67 @@
           <div class="bg-green-50 border border-green-200 rounded-xl p-4">
             <h3 class="font-semibold text-green-700 mb-2">Benefits</h3>
             <ul class="list-disc list-inside text-gray-700 text-sm space-y-1">
-              <li>Direct visualization of airways</li>
-              <li>Accurate diagnosis of lung conditions</li>
-              <li>Can be therapeutic (removing blockages or foreign objects)</li>
+              <li>Immediate relief from chest pain and shortness of breath</li>
+              <li>Reduces risk of heart attack</li>
+              <li>Minimally invasive with faster recovery compared to open-heart surgery</li>
             </ul>
           </div>
 
           <div class="bg-red-50 border border-red-200 rounded-xl p-4">
             <h3 class="font-semibold text-red-700 mb-2">Possible Risks</h3>
             <ul class="list-disc list-inside text-gray-700 text-sm space-y-1">
-              <li>Temporary sore throat or cough</li>
-              <li>Minor bleeding from biopsy sites</li>
-              <li>Rare complications such as infection or breathing difficulties</li>
+              <li>Re-narrowing of the artery (restenosis)</li>
+              <li>Blood clots forming around the stent</li>
+              <li>Rare complications such as bleeding, infection, or vessel damage</li>
             </ul>
           </div>
 
         </div>
 
         <p class="text-gray-700 leading-relaxed mt-4">
-          At MaAx Super Speciality Hospital, bronchoscopy is performed with advanced equipment and strict safety
-          protocols, ensuring accurate results and patient comfort.
+          At MaAx Super Speciality Hospital, advanced stent technology and expert cardiologists
+          ensure maximum safety and long-term success.
         </p>
       </div>
 
       <!-- FAQs -->
       <div>
         <h2 class="text-xl font-bold text-[#6C3130] mb-4">
-          FAQs on Bronchoscopy at <span class="text-[#ec8b2a]">MaAx Super Speciality Hospital</span>
+          FAQs on Angioplasty at <span class="text-[#ec8b2a]">MaAx Super Speciality Hospital</span>
         </h2>
 
         <div class="border rounded-xl divide-y">
 
           <details class="p-4 group">
             <summary class="cursor-pointer font-medium flex justify-between items-center">
-              Is bronchoscopy painful?
+              Is angioplasty the same as heart surgery?
               <span class="group-open:rotate-180 transition">⌃</span>
             </summary>
-            <p class="mt-2 text-sm text-gray-600">The procedure is usually done with sedation and local anesthesia, so discomfort is minimal.</p>
+            <p class="mt-2 text-sm text-gray-600">No, angioplasty is a minimally invasive catheter-based procedure and does not involve open-heart surgery.</p>
           </details>
 
           <details class="p-4 group">
             <summary class="cursor-pointer font-medium flex justify-between items-center">
-              How long does bronchoscopy take?
+              How long does recovery take?
               <span class="group-open:rotate-180 transition">⌃</span>
             </summary>
-            <p class="mt-2 text-sm text-gray-600">Most procedures take between 30 and 60 minutes.</p>
+            <p class="mt-2 text-sm text-gray-600">Most patients resume normal activities within a few days, depending on overall health and doctor advice.</p>
           </details>
 
           <details class="p-4 group">
             <summary class="cursor-pointer font-medium flex justify-between items-center">
-              Can I eat after the procedure?
+              Will I need medication after angioplasty?
               <span class="group-open:rotate-180 transition">⌃</span>
             </summary>
-            <p class="mt-2 text-sm text-gray-600">You can usually eat once the numbness in your throat wears off, as advised by your doctor.</p>
+            <p class="mt-2 text-sm text-gray-600">Yes, blood-thinning medications are usually prescribed to prevent clots in the stent.</p>
           </details>
 
           <details class="p-4 group">
             <summary class="cursor-pointer font-medium flex justify-between items-center">
-              When will I get the biopsy results?
+              Can arteries become blocked again after angioplasty?
               <span class="group-open:rotate-180 transition">⌃</span>
             </summary>
-            <p class="mt-2 text-sm text-gray-600">Biopsy results are typically available within a few days depending on laboratory analysis.</p>
+            <p class="mt-2 text-sm text-gray-600">There is a small risk of re-narrowing, but modern drug-eluting stents significantly reduce this risk.</p>
           </details>
 
         </div>

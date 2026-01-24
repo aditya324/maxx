@@ -4,512 +4,183 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Endoscopy Treatment</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 </head>
 
-<body>
+<body class="bg-[#f4f4f4]">
     <?php require "./header.php" ?>
-    <!-- SLIDER WRAPPER -->
-    <div class="swiper mySwiper">
-        <div class="swiper-wrapper">
 
-            <!-- SLIDE 01 -->
-            <div class="swiper-slide">
-
-                <div class="flex flex-col lg:block relative min-h-[600px] lg:mt-0 mt-20">
-
-                    <div class="relative h-96 lg:h-[619px] bg-cover bg-center lg:absolute lg:inset-0  z-0 lg:mt-20"
-                        style="background-image: url('../assets/banners/medical-care.jpg');">
-                        <img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?q=80&w=2070&auto=format&fit=crop"
-                            class="hidden"
-                            onerror="this.parentElement.style.backgroundImage = `url('${this.src}')`">
-
-                        <div class="absolute inset-0 bg-black/50 lg:bg-black/60"></div>
-
-                        <div
-                            class="absolute inset-0 flex flex-col justify-center items-center text-center px-4 lg:text-left lg:items-start lg:justify-center lg:container lg:mx-auto lg:px-6">
-                            <div class="max-w-full">
-                                <h1 class="text-4xl md:text-4xl p-3 lg:text-4xl font-semibold rounded-md text-white w-full "
-                                    style="background: linear-gradient(90deg,rgba(245, 130, 32, 1) 0%, rgba(143, 76, 19, 1) 62%);">
-                                    Advanced Endoscopic Evaluation at<br>
-                                    maAx Super Specialty Hospital, Shimoga
-                                </h1>
-
-                                <p class="text-sm md:text-base lg:text-2xl p-1 bg-white w-2xl rounded-md leading-relaxed mt-2 lg:mt-4 text-[#6C3130]">
-                                    <span class="text-[#F58220]">Accurate GI Evaluation</span>. Minimally Invasive. Expert Care.
-                                </p>
-                            </div>
-                        </div>
-
-                    </div>
-
-                    <div
-                        class="lg:py-12 py-5 px-4 lg:bg-transparent lg:p-0 lg:relative lg:z-10 lg:container lg:mx-auto lg:flex lg:items-center lg:h-[600px] mt-9 ">
-
-                        <div
-                            class="w-full max-w-md mx-auto bg-white rounded-2xl shadow-xl p-6 md:p-8 lg:ml-auto lg:mr-0">
-                            <h2 class="text-center text-2xl font-bold text-orange-500 mb-6 lg:hidden">
-                                Book An Appointment
-                            </h2>
-                            <h2 class="hidden lg:block text-left text-xl font-bold text-gray-800 mb-6 uppercase">
-                                Talk to our <span class="text-orange-500">Health Advisor</span>
-                            </h2>
-
-                            <form class="space-y-3">
-                                <div>
-                                    <input type="text" placeholder="Full Name*"
-                                        class="w-full px-4 py-3 rounded-lg border border-gray-300 text-gray-700 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-orange-500 focus:border-transparent transition" />
-                                </div>
-
-                                <div>
-                                    <input type="email" placeholder="Email*"
-                                        class="w-full px-4 py-3 rounded-lg border border-gray-300 text-gray-700 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-orange-500 focus:border-transparent transition" />
-                                </div>
-
-                                <div
-                                    class="flex rounded-lg border border-gray-300 overflow-hidden focus-within:ring-2 focus-within:ring-orange-500 focus-within:border-transparent transition">
-                                    <div
-                                        class="bg-white border-r border-gray-300 px-3 py-3 flex items-center min-w-[90px] justify-between">
-                                        <span class="text-gray-700 text-sm font-medium">+91 IN</span>
-                                        <svg class="w-4 h-4 ml-1 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                                d="M19 9l-7 7-7-7"></path>
-                                        </svg>
-                                    </div>
-                                    <input type="tel" placeholder="Mobile Number*"
-                                        class="w-full px-4 py-3 text-gray-700 placeholder-gray-400 focus:outline-none" />
-                                </div>
-
-                                <div class="flex items-start gap-2 mt-2">
-                                    <input type="checkbox" id="consent"
-                                        class="mt-1 w-4 h-4 text-orange-500 border-gray-300 rounded focus:ring-orange-500">
-                                    <label for="consent" class="text-xs text-gray-600">
-                                        I consent maAx hospitals to contact me
-                                    </label>
-                                </div>
-
-                                <button type="button"
-                                    class="w-full bg-brown-800 hover:bg-brown-900 lg:bg-orange-500 lg:hover:bg-orange-600 text-white font-bold py-3 px-6 rounded-lg shadow-md transition duration-300 transform active:scale-95 mt-4 text-lg">
-                                    <span class="lg:hidden">Book Now</span>
-                                    <span class=" lg:inline">Request a Call Back</span>
-                                </button>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="swiper-slide">
-
-                <div class="flex flex-col lg:block relative min-h-[600px] lg:mt-0 mt-20">
-
-                    <div class="relative h-96 lg:h-[619px] bg-cover bg-center lg:absolute lg:inset-0  z-0 lg:mt-20"
-                        style="background-image: url('../assets/banners/medical-care.jpg');">
-                        <img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?q=80&w=2070&auto=format&fit=crop"
-                            class="hidden"
-                            onerror="this.parentElement.style.backgroundImage = `url('${this.src}')`">
-
-                        <div class="absolute inset-0 bg-black/50 lg:bg-black/60"></div>
-
-                        <div
-                            class="absolute inset-0 flex flex-col justify-center items-center text-center px-4 lg:text-left lg:items-start lg:justify-center lg:container lg:mx-auto lg:px-6">
-                            <div class="max-w-full">
-                                <h1 class="text-4xl md:text-4xl p-3 lg:text-4xl font-semibold rounded-md text-white w-full "
-                                    style="background: linear-gradient(90deg,rgba(245, 130, 32, 1) 0%, rgba(143, 76, 19, 1) 62%);">
-                                    Advanced Endoscopic Evaluation at<br>
-                                    maAx Super Specialty Hospital, Shimoga
-                                </h1>
-
-                                <p class="text-sm md:text-base lg:text-2xl p-1 bg-white w-2xl rounded-md leading-relaxed mt-2 lg:mt-4 text-[#6C3130]">
-                                    <span class="text-[#F58220]">Accurate GI Evaluation</span>. Minimally Invasive. Expert Care.
-                                </p>
-                            </div>
-                        </div>
-
-                    </div>
-
-                    <div
-                        class="lg:py-12 py-5 px-4 lg:bg-transparent lg:p-0 lg:relative lg:z-10 lg:container lg:mx-auto lg:flex lg:items-center lg:h-[600px] mt-9 ">
-
-                        <div
-                            class="w-full max-w-md mx-auto bg-white rounded-2xl shadow-xl p-6 md:p-8 lg:ml-auto lg:mr-0">
-                            <h2 class="text-center text-2xl font-bold text-orange-500 mb-6 lg:hidden">
-                                Book An Appointment
-                            </h2>
-                            <h2 class="hidden lg:block text-left text-xl font-bold text-gray-800 mb-6 uppercase">
-                                Talk to our <span class="text-orange-500">Health Advisor</span>
-                            </h2>
-
-                            <form class="space-y-3">
-                                <div>
-                                    <input type="text" placeholder="Full Name*"
-                                        class="w-full px-4 py-3 rounded-lg border border-gray-300 text-gray-700 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-orange-500 focus:border-transparent transition" />
-                                </div>
-
-                                <div>
-                                    <input type="email" placeholder="Email*"
-                                        class="w-full px-4 py-3 rounded-lg border border-gray-300 text-gray-700 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-orange-500 focus:border-transparent transition" />
-                                </div>
-
-                                <div
-                                    class="flex rounded-lg border border-gray-300 overflow-hidden focus-within:ring-2 focus-within:ring-orange-500 focus-within:border-transparent transition">
-                                    <div
-                                        class="bg-white border-r border-gray-300 px-3 py-3 flex items-center min-w-[90px] justify-between">
-                                        <span class="text-gray-700 text-sm font-medium">+91 IN</span>
-                                        <svg class="w-4 h-4 ml-1 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                                d="M19 9l-7 7-7-7"></path>
-                                        </svg>
-                                    </div>
-                                    <input type="tel" placeholder="Mobile Number*"
-                                        class="w-full px-4 py-3 text-gray-700 placeholder-gray-400 focus:outline-none" />
-                                </div>
-
-                                <div class="flex items-start gap-2 mt-2">
-                                    <input type="checkbox" id="consent"
-                                        class="mt-1 w-4 h-4 text-orange-500 border-gray-300 rounded focus:ring-orange-500">
-                                    <label for="consent" class="text-xs text-gray-600">
-                                        I consent maAx hospitals to contact me
-                                    </label>
-                                </div>
-
-                                <button type="button"
-                                    class="w-full bg-brown-800 hover:bg-brown-900 lg:bg-orange-500 lg:hover:bg-orange-600 text-white font-bold py-3 px-6 rounded-lg shadow-md transition duration-300 transform active:scale-95 mt-4 text-lg">
-                                    <span class="lg:hidden">Book Now</span>
-                                    <span class=" lg:inline">Request a Call Back</span>
-                                </button>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="swiper-slide">
-
-                <div class="flex flex-col lg:block relative min-h-[600px] lg:mt-0 mt-20">
-
-                    <div class="relative h-96 lg:h-[619px] bg-cover bg-center lg:absolute lg:inset-0  z-0 lg:mt-20"
-                        style="background-image: url('../assets/banners/medical-care.jpg');">
-                        <img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?q=80&w=2070&auto=format&fit=crop"
-                            class="hidden"
-                            onerror="this.parentElement.style.backgroundImage = `url('${this.src}')`">
-
-                        <div class="absolute inset-0 bg-black/50 lg:bg-black/60"></div>
-
-                        <div
-                            class="absolute inset-0 flex flex-col justify-center items-center text-center px-4 lg:text-left lg:items-start lg:justify-center lg:container lg:mx-auto lg:px-6">
-                            <div class="max-w-full">
-                                <h1 class="text-4xl md:text-4xl p-3 lg:text-4xl font-semibold rounded-md text-white w-full "
-                                    style="background: linear-gradient(90deg,rgba(245, 130, 32, 1) 0%, rgba(143, 76, 19, 1) 62%);">
-                                    Advanced Endoscopic Evaluation at<br>
-                                    maAx Super Specialty Hospital, Shimoga
-                                </h1>
-
-                                <p class="text-sm md:text-base lg:text-2xl p-1 bg-white w-2xl rounded-md leading-relaxed mt-2 lg:mt-4 text-[#6C3130]">
-                                    <span class="text-[#F58220]">Accurate GI Evaluation</span>. Minimally Invasive. Expert Care.
-                                </p>
-                            </div>
-                        </div>
-
-                    </div>
-
-                    <div
-                        class="lg:py-12 py-5 px-4 lg:bg-transparent lg:p-0 lg:relative lg:z-10 lg:container lg:mx-auto lg:flex lg:items-center lg:h-[600px] mt-9 ">
-
-                        <div
-                            class="w-full max-w-md mx-auto bg-white rounded-2xl shadow-xl p-6 md:p-8 lg:ml-auto lg:mr-0">
-                            <h2 class="text-center text-2xl font-bold text-orange-500 mb-6 lg:hidden">
-                                Book An Appointment
-                            </h2>
-                            <h2 class="hidden lg:block text-left text-xl font-bold text-gray-800 mb-6 uppercase">
-                                Talk to our <span class="text-orange-500">Health Advisor</span>
-                            </h2>
-
-                            <form class="space-y-3">
-                                <div>
-                                    <input type="text" placeholder="Full Name*"
-                                        class="w-full px-4 py-3 rounded-lg border border-gray-300 text-gray-700 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-orange-500 focus:border-transparent transition" />
-                                </div>
-
-                                <div>
-                                    <input type="email" placeholder="Email*"
-                                        class="w-full px-4 py-3 rounded-lg border border-gray-300 text-gray-700 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-orange-500 focus:border-transparent transition" />
-                                </div>
-
-                                <div
-                                    class="flex rounded-lg border border-gray-300 overflow-hidden focus-within:ring-2 focus-within:ring-orange-500 focus-within:border-transparent transition">
-                                    <div
-                                        class="bg-white border-r border-gray-300 px-3 py-3 flex items-center min-w-[90px] justify-between">
-                                        <span class="text-gray-700 text-sm font-medium">+91 IN</span>
-                                        <svg class="w-4 h-4 ml-1 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                                d="M19 9l-7 7-7-7"></path>
-                                        </svg>
-                                    </div>
-                                    <input type="tel" placeholder="Mobile Number*"
-                                        class="w-full px-4 py-3 text-gray-700 placeholder-gray-400 focus:outline-none" />
-                                </div>
-
-                                <div class="flex items-start gap-2 mt-2">
-                                    <input type="checkbox" id="consent"
-                                        class="mt-1 w-4 h-4 text-orange-500 border-gray-300 rounded focus:ring-orange-500">
-                                    <label for="consent" class="text-xs text-gray-600">
-                                        I consent maAx hospitals to contact me
-                                    </label>
-                                </div>
-
-                                <button type="button"
-                                    class="w-full bg-brown-800 hover:bg-brown-900 lg:bg-orange-500 lg:hover:bg-orange-600 text-white font-bold py-3 px-6 rounded-lg shadow-md transition duration-300 transform active:scale-95 mt-4 text-lg">
-                                    <span class="lg:hidden">Book Now</span>
-                                    <span class=" lg:inline">Request a Call Back</span>
-                                </button>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- ADD MORE SLIDES HERE -->
-            <!-- <div class="swiper-slide">Your Slide 2 Content</div> -->
-            <!-- <div class="swiper-slide">Your Slide 3 Content</div> -->
-
-        </div>
-
-        <!-- PAGINATION -->
-        <div class="swiper-pagination"></div>
-
-        <!-- NAVIGATION -->
-        <!-- <div class="swiper-button-next"></div>
-    <div class="swiper-button-prev"></div> -->
-    </div>
-    <section class="w-full bg-[#FFCDA6] py-10">
+    <section class="w-full py-10">
         <div class="container mx-auto px-5 lg:px-10 flex flex-col lg:flex-row gap-10">
 
-            <!-- LEFT MENU -->
-            <div class="w-full lg:w-1/4 flex flex-col gap-3">
+            <!-- ================= LEFT SIDEBAR ================= -->
+            <div class="w-full lg:w-1/4 space-y-6">
 
-                <h2 class="text-2xl font-semibold text-[#6C3130] mb-2">Diagnostic Services</h2>
+                <div class=" rounded-xl  p-5">
+                    <h3 class="text-lg font-bold text-[#6C3130] mb-4">Top Procedures & Treatments</h3>
 
-                <a href="./bronchoscopy.php" class="w-full flex items-center justify-between bg-gray-100 text-gray-700 font-medium py-3 px-4 rounded-md">
-                    <span>Bronchoscopy</span>
-                    <span class="text-xl">&gt;</span>
-                </a>
-
-                <a href="./cath-lab.php" class="w-full flex items-center justify-between  font-medium py-3 px-4 rounded-md bg-gray-100 text-gray-700">
-                    <span>Cath lab</span>
-                    <span class="text-xl">&gt;</span>
-                </a>
-
-                <a href="./dialysis.php" class="w-full flex items-center justify-between   font-medium py-3 px-4 rounded-md bg-gray-100 text-gray-700">
-                    <span>Dialysis</span>
-                    <span class="text-xl">&gt;</span>
-                </a>
-
-                <a href="./endoscopy.php" class="w-full flex items-center justify-between bg-[#ec8b2a] text-white  font-medium py-3 px-4 rounded-md">
-                    <span>Endoscopy</span>
-                    <span class="text-xl">&gt;</span>
-                </a>
-
-                <a href="./ct-scan.php" class="w-full flex items-center justify-between bg-gray-100 text-gray-700 font-medium py-3 px-4 rounded-md">
-                    <span>CT Scan</span>
-                    <span class="text-xl">&gt;</span>
-                </a>
-
-                <a href="./mri-scan.php" class="w-full flex items-center justify-between bg-gray-100 text-gray-700 font-medium py-3 px-4 rounded-md">
-                    <span>MRI Scan</span>
-                    <span class="text-xl">&gt;</span>
-                </a>
-
-                <a href="./pulmanory-function-test.php" class="w-full flex items-center justify-between bg-gray-100 text-gray-700 font-medium py-3 px-4 rounded-md">
-                    <span>Pulmonary function test</span>
-                    <span class="text-xl">&gt;</span>
-                </a>
-
-                <a href="./tmt.php" class="w-full flex items-center justify-between bg-gray-100 text-gray-700 font-medium py-3 px-4 rounded-md">
-                    <span>TMT</span>
-                    <span class="text-xl">&gt;</span>
-                </a>
-
-                <a href="./ultrasound.php" class="w-full flex items-center justify-between bg-gray-100 text-gray-700 font-medium py-3 px-4 rounded-md">
-                    <span>Ultrasound</span>
-                    <span class="text-xl">&gt;</span>
-                </a>
-
-            </div>
-
-            <!-- RIGHT CONTENT -->
-            <!-- LEFT CONTENT -->
-            <div class="w-full lg:w-2/3 space-y-6 ">
-
-                <h1 class="text-3xl md:text-4xl font-semibold text-[#6C3130] leading-tight">
-                    Endoscopy Services at
-                    <span class="text-[#ec8b2a]">maAx Super Specialty Hospital, Shivamoga</span>
-                </h1>
-
-                <p class="text-gray-700 leading-relaxed text-lg">
-                    Endoscopy is a diagnostic procedure used to examine the digestive tract using a thin, flexible tube equipped with a camera and light source. At maAx Super Speciality Hospital, endoscopy is performed to identify the cause of persistent or unexplained gastrointestinal symptoms and to support accurate clinical assessment. </p>
-
-                <p class="text-gray-700 leading-relaxed text-lg">
-                    The procedure allows doctors to directly visualise the inner lining of the oesophagus, stomach, and upper part of the intestine, helping detect conditions that may not be clearly identified through imaging tests alone. </p>
-
-
-
-                <div>
-                    <h3 class="text-2xl md:text-3xl font-semibold text-[#6C3130] leading-tight">
-                        When is Endoscopy Recommended? </h3>
-                    <p class="text-gray-700 leading-relaxed text-lg">
-                        Endoscopy may be advised when digestive symptoms persist, worsen, or remain unexplained despite initial treatment. Common indications include:
-                    </p>
-
-
-
-
-                    <ul class="list-disc">
-
-
-                        <li class="text-gray-700 leading-relaxed text-base">
-
-                            Persistent abdominal or stomach pain</li>
-
-                        <li class="text-gray-700 leading-relaxed text-base">
-
-                            Difficulty or pain while swallowing </li>
-
-                        <li class="text-gray-700 leading-relaxed text-base">
-                            Recurrent vomiting or nausea </li>
-                        <li class="text-gray-700 leading-relaxed text-base">
-                            Unexplained weight loss </li>
-                        <li class="text-gray-700 leading-relaxed text-base">
-
-                            Blood in vomit or black stools</li>
-                        <li class="text-gray-700 leading-relaxed text-base">
-
-                            Suspected ulcers or gastritis</li>
-                        <li class="text-gray-700 leading-relaxed text-base">
-
-                            Abnormal findings on imaging or blood tests</li>
-                        <li class="text-gray-700 leading-relaxed text-base">
-
-                            Evaluation of anaemia due to gastrointestinal causes</li>
-                        <p class="text-gray-700 leading-relaxed text-base">Early endoscopic evaluation helps in identifying the cause and guiding appropriate medical care.</p>
-
-                    </ul>
-                </div>
-
-            </div>
-
-        </div>
-
-        <section class="w-full  py-14">
-            <div class="container mx-auto px-5 lg:px-10 flex flex-col lg:flex-row gap-12 items-start justify-center">
-
-                <!-- LEFT BOX -->
-                <div class="w-full lg:w-[350px] bg-[#663330] text-white rounded-2xl px-8 py-10 space-y-6">
-                    <h3 class="text-2xl font-bold text-center">WORKING HOURS</h3>
-
-                    <div class="space-y-3 text-base font-medium">
-                        <p>Monday..............Open 24 Hours</p>
-                        <p>Tuesday.............Open 24 Hours</p>
-                        <p>Wednesday......Open 24 Hours</p>
-                        <p>Thursday............Open 24 Hours</p>
-                        <p>Friday..................Open 24 Hours</p>
-                        <p>Saturday............Open 24 Hours</p>
-                        <p>Sunday...............Open 24 Hours</p>
+                    <div class="space-y-2 text-sm font-medium">
+                        <a href="./angiography.php" class="flex justify-between items-center bg-gray-100  px-4 py-2 rounded">
+                            Angiography <span>›</span>
+                        </a>
+                        <a href="./biopsy.php" class="flex justify-between items-center bg-gray-100 px-4 py-2 rounded">Biopsy <span>›</span></a>
+                        <a href="./cesarian-section.php" class="flex justify-between items-center bg-gray-100 px-4 py-2 rounded">C-section <span>›</span></a>
+                        <a href="./dialysis.php" class="flex justify-between items-center bg-gray-100 px-4 py-2 rounded">Dialysis <span>›</span></a>
+                        <a href="./endoscopy.php" class="flex justify-between items-center bg-brand text-white px-4 py-2 rounded">Endoscopy <span>›</span></a>
+                        <a href="./eye-laser.php" class="flex justify-between items-center bg-gray-100 px-4 py-2 rounded">Eye Laser <span>›</span></a>
+                        <a href="./pacemaker.php" class="flex justify-between items-center bg-gray-100 px-4 py-2 rounded">Pacemaker Implant <span>›</span></a>
+                        <a href="./sinus-surgery.php" class="flex justify-between items-center bg-gray-100 px-4 py-2 rounded">Sinus Surgery <span>›</span></a>
+                        <a href="./joint-replacement.php" class="flex justify-between items-center bg-gray-100 px-4 py-2 rounded">Joint Replacement <span>›</span></a>
                     </div>
 
-                    <button class="w-full bg-[#ec8b2a] text-white font-semibold py-3 rounded-lg">
-                        Book An Appointment
-                    </button>
+                    <a href="../procedures.php" class="block mt-4 bg-[#6C3130] text-white text-center py-2 rounded">View All Procedures</a>
                 </div>
 
-                <!-- RIGHT CONTENT -->
+                <!-- Working Hours -->
+                <div class="bg-[#6C3130] text-white rounded-xl p-5 text-sm">
+                    <h3 class="text-lg font-bold text-center mb-4">WORKING HOURS</h3>
+                    <div class="space-y-1">
+                        <p>Monday — Open 24 Hours</p>
+                        <p>Tuesday — Open 24 Hours</p>
+                        <p>Wednesday — Open 24 Hours</p>
+                        <p>Thursday — Open 24 Hours</p>
+                        <p>Friday — Open 24 Hours</p>
+                        <p>Saturday — Open 24 Hours</p>
+                        <p>Sunday — Open 24 Hours</p>
+                    </div>
+                    <button class="mt-4 w-full bg-[#ec8b2a] py-2 rounded font-semibold">Book An Appointment</button>
+                </div>
+
+                <!-- Callback Form -->
+                <div class="bg-white shadow-md rounded-xl p-5">
+                    <h3 class="text-[#ec8b2a] font-bold mb-3">Your health matters — get the right information today</h3>
+                    <form class="space-y-3">
+                        <input type="text" placeholder="Full Name" class="w-full border rounded px-3 py-2 text-sm">
+                        <input type="email" placeholder="Email" class="w-full border rounded px-3 py-2 text-sm">
+                        <input type="tel" placeholder="+91 — Mobile Number" class="w-full border rounded px-3 py-2 text-sm">
+                        <button class="w-full bg-[#ec8b2a] text-white py-2 rounded font-semibold">Request a Call Back</button>
+                    </form>
+                </div>
+
+            </div>
+
+            <!-- ================= RIGHT CONTENT ================= -->
+            <div class="w-full lg:w-3/4 space-y-8">
+
+                <!-- Title -->
+                <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-6">
+                    <div>
+                        <h1 class="text-3xl md:text-4xl font-bold text-[#6C3130]">
+                            Endoscopy at <span class="text-[#ec8b2a]">MaAx Super Speciality Hospital</span>
+                        </h1>
+                    </div>
+                    <img src="../assets/procedures/Endoscopy.webp" alt="Endoscopy" class="w-full md:w-96 rounded-lg shadow">
+                </div>
+
+                <!-- What & Why -->
                 <div>
-                    <h3 class="text-2xl md:text-3xl font-semibold text-[#6C3130] leading-tight">
-                        What Conditions Can Be Evaluated Through Endoscopy? </h3>
-                    <p class="text-gray-700 leading-relaxed text-lg">
-                        Endoscopy is used to assess and diagnose a wide range of gastrointestinal conditions, including: </p>
+                    <h2 class="text-xl font-bold text-[#6C3130] mb-2">What the Treatment Is & Why It’s Done</h2>
+                    <p class="text-gray-700 leading-relaxed">
+                        Endoscopy is a diagnostic procedure that allows doctors to view the inside of the digestive tract using a flexible tube with a camera.
+                        At MaAx Super Speciality Hospital, endoscopy is performed to investigate symptoms such as abdominal pain, bleeding,
+                        or difficulty swallowing. It helps detect ulcers, tumors, polyps, and other gastrointestinal conditions.
+                    </p>
+                </div>
 
-
-
-
-                    <ul class="list-disc">
-
-
-                        <li class="text-gray-700 leading-relaxed text-base">
-
-                            Gastritis and peptic ulcer disease</li>
-
-                        <li class="text-gray-700 leading-relaxed text-base">
-
-                            Gastroesophageal reflux disease (GERD) </li>
-
-                        <li class="text-gray-700 leading-relaxed text-base">
-                            Inflammation or infection of the digestive tract </li>
-                        <li class="text-gray-700 leading-relaxed text-base">
-                            Gastrointestinal bleeding </li>
-                        <li class="text-gray-700 leading-relaxed text-base">
-
-                            Polyps or abnormal growths</li>
-                        <li class="text-gray-700 leading-relaxed text-base">
-
-                            Tumours of the upper digestive tract</li>
-                        <li class="text-gray-700 leading-relaxed text-base">
-
-                            Causes of chronic indigestion or pain</li>
-                       
-                        <p class="text-gray-700 leading-relaxed text-base">If required, tissue samples (biopsy) may be collected during the procedure to aid further evaluation.</p>
-
+                <!-- How Performed -->
+                <div>
+                    <h2 class="text-xl font-bold text-[#6C3130] mb-2">How the Treatment Is Performed</h2>
+                    <ul class="list-disc list-inside text-gray-700 space-y-2">
+                        <li>A thin, flexible tube (endoscope) is inserted through the mouth or rectum.</li>
+                        <li>The camera transmits images of the digestive tract to a monitor.</li>
+                        <li>Doctors can take biopsies or remove polyps during the procedure.</li>
+                        <li>The procedure usually takes 15–30 minutes and is done under sedation.</li>
                     </ul>
                 </div>
 
-                  
-        </section>
+                <!-- Benefits & Risks -->
+                <div>
+                    <h2 class="text-xl font-bold text-[#6C3130] mb-4">Benefits & Possible Risks</h2>
+                    <div class="grid md:grid-cols-2 gap-6">
 
- <div>
-                    <h3 class="text-2xl md:text-3xl font-semibold text-[#6C3130] leading-tight">
-                        What Conditions Can Be Evaluated Through Endoscopy? </h3>
-                    <p class="text-gray-700 leading-relaxed text-lg">
-                        Endoscopy is used to assess and diagnose a wide range of gastrointestinal conditions, including: </p>
+                        <div class="bg-green-50 border border-green-200 rounded-xl p-4">
+                            <h3 class="font-semibold text-green-700 mb-2">Benefits</h3>
+                            <ul class="list-disc list-inside text-gray-700 text-sm space-y-1">
+                                <li>Provides direct visualization of the digestive tract</li>
+                                <li>Allows for immediate treatment (e.g., polyp removal)</li>
+                                <li>Minimally invasive with quick recovery</li>
+                            </ul>
+                        </div>
 
+                        <div class="bg-red-50 border border-red-200 rounded-xl p-4">
+                            <h3 class="font-semibold text-red-700 mb-2">Possible Risks</h3>
+                            <ul class="list-disc list-inside text-gray-700 text-sm space-y-1">
+                                <li>Temporary sore throat or bloating</li>
+                                <li>Minor bleeding from biopsy sites</li>
+                                <li>Rare complications such as perforation of the intestine</li>
+                            </ul>
+                        </div>
 
+                    </div>
 
-
-                    <ul class="list-disc">
-
-
-                        <li class="text-gray-700 leading-relaxed text-base">
-
-                            Gastritis and peptic ulcer disease</li>
-
-                        <li class="text-gray-700 leading-relaxed text-base">
-
-                            Gastroesophageal reflux disease (GERD) </li>
-
-                        <li class="text-gray-700 leading-relaxed text-base">
-                            Inflammation or infection of the digestive tract </li>
-                        <li class="text-gray-700 leading-relaxed text-base">
-                            Gastrointestinal bleeding </li>
-                        <li class="text-gray-700 leading-relaxed text-base">
-
-                            Polyps or abnormal growths</li>
-                        <li class="text-gray-700 leading-relaxed text-base">
-
-                            Tumours of the upper digestive tract</li>
-                        <li class="text-gray-700 leading-relaxed text-base">
-
-                            Causes of chronic indigestion or pain</li>
-                       
-                        <p class="text-gray-700 leading-relaxed text-base">If required, tissue samples (biopsy) may be collected during the procedure to aid further evaluation.</p>
-
-                    </ul>
+                    <p class="text-gray-700 leading-relaxed mt-4">
+                        At MaAx Super Speciality Hospital, endoscopy is performed with advanced equipment,
+                        ensuring accuracy, safety, and patient comfort.
+                    </p>
                 </div>
+
+                <!-- FAQs -->
+                <div>
+                    <h2 class="text-xl font-bold text-[#6C3130] mb-4">
+                        FAQs on Endoscopy at <span class="text-[#ec8b2a]">MaAx Super Speciality Hospital</span>
+                    </h2>
+
+                    <div class="border rounded-xl divide-y">
+
+                        <details class="p-4 group">
+                            <summary class="cursor-pointer font-medium flex justify-between items-center">
+                                Is endoscopy painful?
+                                <span class="group-open:rotate-180 transition">⌃</span>
+                            </summary>
+                            <p class="mt-2 text-sm text-gray-600">Most patients receive sedation, making the procedure comfortable with little to no pain.</p>
+                        </details>
+
+                        <details class="p-4 group">
+                            <summary class="cursor-pointer font-medium flex justify-between items-center">
+                                How long does the procedure take?
+                                <span class="group-open:rotate-180 transition">⌃</span>
+                            </summary>
+                            <p class="mt-2 text-sm text-gray-600">An endoscopy typically takes between 15 and 30 minutes.</p>
+                        </details>
+
+                        <details class="p-4 group">
+                            <summary class="cursor-pointer font-medium flex justify-between items-center">
+                                When can I eat after an endoscopy?
+                                <span class="group-open:rotate-180 transition">⌃</span>
+                            </summary>
+                            <p class="mt-2 text-sm text-gray-600">You can usually eat after the sedation wears off and your doctor confirms it is safe.</p>
+                        </details>
+
+                        <details class="p-4 group">
+                            <summary class="cursor-pointer font-medium flex justify-between items-center">
+                                Are biopsies taken during endoscopy?
+                                <span class="group-open:rotate-180 transition">⌃</span>
+                            </summary>
+                            <p class="mt-2 text-sm text-gray-600">Yes, doctors often take small tissue samples for laboratory analysis if needed.</p>
+                        </details>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
     </section>
 
-
-
-
-
+    <?php require "../components/footer.php" ?>
 </body>
-<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 <script>
     var swiper = new Swiper(".mySwiper", {
         autoplay: {
@@ -523,10 +194,6 @@
             el: ".swiper-pagination",
             clickable: true,
         },
-        // navigation: {
-        //   nextEl: ".swiper-button-next",
-        //   prevEl: ".swiper-button-prev",
-        // },
     });
 </script>
 

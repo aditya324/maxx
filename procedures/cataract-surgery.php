@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dialysis Treatment</title>
+    <title>Cataract Surgery Treatment</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 </head>
 
@@ -26,7 +26,7 @@
                         </a>
                         <a href="./biopsy.php" class="flex justify-between items-center bg-gray-100 px-4 py-2 rounded">Biopsy <span>›</span></a>
                         <a href="./cesarian-section.php" class="flex justify-between items-center bg-gray-100 px-4 py-2 rounded">C-section <span>›</span></a>
-                        <a href="./dialysis.php" class="flex justify-between items-center bg-brand text-white px-4 py-2 rounded">Dialysis <span>›</span></a>
+                        <a href="./dialysis.php" class="flex justify-between items-center bg-gray-100 px-4 py-2 rounded">Dialysis <span>›</span></a>
                         <a href="./endoscopy.php" class="flex justify-between items-center bg-gray-100 px-4 py-2 rounded">Endoscopy <span>›</span></a>
                         <a href="./eye-laser.php" class="flex justify-between items-center bg-gray-100 px-4 py-2 rounded">Eye Laser <span>›</span></a>
                         <a href="./pacemaker.php" class="flex justify-between items-center bg-gray-100 px-4 py-2 rounded">Pacemaker Implant <span>›</span></a>
@@ -72,19 +72,20 @@
                 <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-6">
                     <div>
                         <h1 class="text-3xl md:text-4xl font-bold text-[#6C3130]">
-                            Dialysis at <span class="text-[#ec8b2a]">MaAx Super Speciality Hospital</span>
+                            Cataract Surgery at <span class="text-[#ec8b2a]">MaAx Super Speciality Hospital</span>
                         </h1>
                     </div>
-                    <img src="../assets/procedures/Dialysis.webp" alt="Dialysis" class="w-full md:w-96 rounded-lg shadow">
+                    <img src="../assets/procedures/Cataract Surgery.webp" alt="Cataract Surgery" class="w-full md:w-96 rounded-lg shadow">
                 </div>
 
                 <!-- What & Why -->
                 <div>
                     <h2 class="text-xl font-bold text-[#6C3130] mb-2">What the Treatment Is & Why It’s Done</h2>
                     <p class="text-gray-700 leading-relaxed">
-                        Dialysis is a life-saving procedure used when the kidneys can no longer filter waste and excess fluids from the blood.
-                        At MaAx Super Speciality Hospital, dialysis is recommended for patients with advanced chronic kidney disease or acute kidney failure.
-                        It helps maintain balance in the body by removing toxins, regulating electrolytes, and preventing fluid overload.
+                        Cataract surgery is performed to remove the cloudy lens of the eye and replace it with a clear artificial lens.
+                        Cataracts cause blurred vision, glare, and difficulty seeing at night. At MaAx Super Speciality Hospital,
+                        cataract surgery is recommended when vision problems interfere with daily activities such as reading,
+                        driving, or working.
                     </p>
                 </div>
 
@@ -92,10 +93,10 @@
                 <div>
                     <h2 class="text-xl font-bold text-[#6C3130] mb-2">How the Treatment Is Performed</h2>
                     <ul class="list-disc list-inside text-gray-700 space-y-2">
-                        <li><strong>Hemodialysis:</strong> Blood is drawn from the body, passed through a dialysis machine that filters waste, and returned clean.</li>
-                        <li><strong>Peritoneal Dialysis:</strong> A cleansing fluid is introduced into the abdominal cavity, which absorbs waste before being drained.</li>
-                        <li>Sessions typically last 3–4 hours and are performed several times a week.</li>
-                        <li>Patients are monitored closely to ensure safety and comfort.</li>
+                        <li>The cloudy lens is removed using phacoemulsification, a technique that uses ultrasound waves to break up the lens.</li>
+                        <li>A clear artificial lens (intraocular lens or IOL) is implanted.</li>
+                        <li>The procedure is performed under local anesthesia and usually takes 15–30 minutes.</li>
+                        <li>Patients can return home the same day.</li>
                     </ul>
                 </div>
 
@@ -107,67 +108,67 @@
                         <div class="bg-green-50 border border-green-200 rounded-xl p-4">
                             <h3 class="font-semibold text-green-700 mb-2">Benefits</h3>
                             <ul class="list-disc list-inside text-gray-700 text-sm space-y-1">
-                                <li>Removes harmful toxins and excess fluids</li>
-                                <li>Helps control blood pressure and maintain electrolyte balance</li>
-                                <li>Extends life expectancy for patients with kidney failure</li>
+                                <li>Restores clear vision</li>
+                                <li>Improves quality of life and independence</li>
+                                <li>Quick recovery with minimal discomfort</li>
                             </ul>
                         </div>
 
                         <div class="bg-red-50 border border-red-200 rounded-xl p-4">
                             <h3 class="font-semibold text-red-700 mb-2">Possible Risks</h3>
                             <ul class="list-disc list-inside text-gray-700 text-sm space-y-1">
-                                <li>Low blood pressure during treatment</li>
-                                <li>Infection at the access site</li>
-                                <li>Fatigue or cramps after sessions</li>
+                                <li>Infection or inflammation</li>
+                                <li>Rare complications such as retinal detachment or lens dislocation</li>
+                                <li>Temporary glare or halos around lights</li>
                             </ul>
                         </div>
 
                     </div>
 
                     <p class="text-gray-700 leading-relaxed mt-4">
-                        At MaAx Super Speciality Hospital, advanced dialysis units and expert nephrologists ensure safe,
-                        comfortable, and effective treatment.
+                        At MaAx Super Speciality Hospital, advanced laser-assisted cataract surgery ensures precision,
+                        safety, and excellent visual outcomes.
                     </p>
                 </div>
 
                 <!-- FAQs -->
                 <div>
                     <h2 class="text-xl font-bold text-[#6C3130] mb-4">
-                        FAQs on Dialysis at <span class="text-[#ec8b2a]">MaAx Super Speciality Hospital</span>
+                        FAQs on Cataract Surgery at <span class="text-[#ec8b2a]">MaAx Super Speciality Hospital</span>
                     </h2>
 
                     <div class="border rounded-xl divide-y">
 
                         <details class="p-4 group">
                             <summary class="cursor-pointer font-medium flex justify-between items-center">
-                                How often do I need dialysis?
+                                Is cataract surgery painful?
                                 <span class="group-open:rotate-180 transition">⌃</span>
                             </summary>
-                            <p class="mt-2 text-sm text-gray-600">Most hemodialysis patients require treatment three times a week, but schedules vary by condition.</p>
+                            <p class="mt-2 text-sm text-gray-600">The procedure is done under local anesthesia, so patients usually feel little to no pain.</p>
                         </details>
 
                         <details class="p-4 group">
                             <summary class="cursor-pointer font-medium flex justify-between items-center">
-                                Is dialysis painful?
+                                How soon can I see clearly after surgery?
                                 <span class="group-open:rotate-180 transition">⌃</span>
                             </summary>
-                            <p class="mt-2 text-sm text-gray-600">Patients may feel mild discomfort during needle insertion, but the procedure itself is generally well tolerated.</p>
+                            <p class="mt-2 text-sm text-gray-600">Many patients notice improved vision within a few days, with full recovery in a few weeks.</p>
                         </details>
 
                         <details class="p-4 group">
                             <summary class="cursor-pointer font-medium flex justify-between items-center">
-                                Can I live a normal life on dialysis?
+                                Do I need glasses after cataract surgery?
                                 <span class="group-open:rotate-180 transition">⌃</span>
                             </summary>
-                            <p class="mt-2 text-sm text-gray-600">Yes, many patients continue working and leading active lives with proper medical care and diet management.</p>
+                            <p class="mt-2 text-sm text-gray-600">Some patients may still need glasses for reading or distance depending on the lens implanted.</p>
                         </details>
 
                         <details class="p-4 group">
                             <summary class="cursor-pointer font-medium flex justify-between items-center">
-                                What should I eat during dialysis treatment?
+                                When can I resume normal activities?
                                 <span class="group-open:rotate-180 transition">⌃</span>
                             </summary>
-                            <p class="mt-2 text-sm text-gray-600">Your doctor or dietitian will recommend a kidney-friendly diet tailored to your health condition.</p>
+                            <p class="mt-2 text-sm text-gray-600">Most normal activities can be resumed within a few days, as advised by your doctor.</p>
                         </details>
 
                     </div>
