@@ -315,62 +315,59 @@
       </div>
       <div class="hidden md:flex justify-between flex-wrap xl:px-0 px-5">
 
-        <div class="w-full max-w-[470px] max-h-80 bg-[#FE9C3E] rounded-2xl p-6 text-white">
-          <div class="flex items-start gap-4">
+        <div class="w-full max-w-[500px] bg-[#FE9C3E] rounded-2xl p-4 text-white">
+          <div class="flex items-start gap-3">
             <div>
-              <div class="flex justify-baseline">
-                <img src="./assets/icons/trophy-icon.png" alt="">
-                <h3 class="text-green-50  font-bold ml-5 mt-5">
+              <div class="flex items-center gap-3">
+                <img src="./assets/icons/trophy-icon.png" alt="" class="w-8 h-8">
+                <h3 class="text-xl font-bold">
                   High Quality Medical Care
                 </h3>
               </div>
 
-              <p class="mt-3 text-[20px] leading-relaxed font-medium">
-                At MaAx Hospitals, we deliver top-quality medical care
-                with specialised services, advanced treatments, and
-                expert support — all under one roof.
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div class="w-full max-w-[470px] max-h-80 bg-[#6C3130] rounded-2xl p-6 text-white">
-          <div class="flex items-start gap-4">
-            <div>
-              <div class="flex justify-baseline">
-                <img src="./assets/icons/help-icon.png" alt="">
-                <h3 class="text-2xl font-bold ml-5 mt-5">
-                  Patient-Centric<br />Care
-                </h3>
-              </div>
-
-              <p class="mt-3 text-[20px] leading-relaxed font-medium">
+              <p class="mt-2 text-base leading-relaxed">
                 At MaAx Hospitals, we deliver top-quality medical care with specialised services, advanced treatments, and expert support — all under one roof.
               </p>
             </div>
           </div>
         </div>
 
-        <div class="w-full max-w-[470px] max-h-80 bg-[#FE9C3E] rounded-2xl p-6 text-white">
-          <div class="flex items-start gap-4">
+        <div class="w-full max-w-[500px] bg-[#6C3130] rounded-2xl p-4 text-white">
+          <div class="flex items-start gap-3">
             <div>
-              <div class="flex justify-baseline">
-                <img src="./assets/icons/lotus-icon.png" alt="">
-                <h3 class="text-2xl font-bold ml-5 mt-5">
-                  Holistic Healthcare<br />Services
+              <div class="flex items-center gap-3">
+                <img src="./assets/icons/help-icon.png" alt="" class="w-8 h-8">
+                <h3 class="text-xl font-bold">
+                  Patient-Centric Care
                 </h3>
               </div>
 
-              <p class="mt-3 text-[20px] leading-relaxed font-medium">
-                At MaAx Hospitals, we deliver top-quality medical care
-                with specialised services, advanced treatments, and
-                expert support — all under one roof.
+              <p class="mt-2 text-base leading-relaxed">
+                At MaAx Hospitals, we deliver top-quality medical care with specialised services, advanced treatments, and expert support — all under one roof.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="w-full max-w-[500px] bg-[#FE9C3E] rounded-2xl p-4 text-white">
+          <div class="flex items-start gap-3">
+            <div>
+              <div class="flex items-center gap-3">
+                <img src="./assets/icons/lotus-icon.png" alt="" class="w-8 h-8">
+                <h3 class="text-xl font-bold">
+                  Holistic Healthcare Services
+                </h3>
+              </div>
+
+              <p class="mt-2 text-base leading-relaxed">
+                At MaAx Hospitals, we deliver top-quality medical care with specialised services, advanced treatments, and expert support — all under one roof.
               </p>
             </div>
           </div>
         </div>
 
       </div>
+
       <!-- MOBILE: accordion style -->
       <div class="md:hidden w-full px-5 mt-6">
         <div class="max-w-[470px] mx-auto space-y-4">
@@ -463,21 +460,21 @@
       </h2>
 
       <!-- Tabs -->
-      <div class="flex justify-center gap-10 mt-6 text-brand text-lg font-medium flex-wrap">
+      <div class="flex justify-center gap-10 mt-6 text-brand text-lg font-medium flex-wrap bg-white p-2 rounded-full w-fit mx-auto ">
         <button
-          class="tab-btn active-tab px-5 py-2 bg-brand text-white rounded-full"
+          class="tab-btn active-tab px-5 py-2 bg-[#6C3130] text-white rounded-full"
           data-target="specialities">
           Specialities
         </button>
 
         <button
-          class="tab-btn hover:text-[#c45d16] transition px-5 py-2 rounded-full"
+          class="tab-btn hover:text-[#6C3130] transition px-5 py-2 rounded-full"
           data-target="procedures">
           Procedures
         </button>
 
         <button
-          class="tab-btn hover:text-[#c45d16] transition px-5 py-2 rounded-full"
+          class="tab-btn hover:text-[#6C3130] transition px-5 py-2 rounded-full"
           data-target="diagnostics">
           Diagnostics
         </button>
@@ -485,364 +482,24 @@
     </div>
 
     <!-- 🔽 A–Z DROPDOWN FOR SPECIALITIES -->
-    <div class="max-w-5xl mx-auto mt-6 flex justify-start px-4">
-      <label class="flex items-center gap-2 text-sm text-[#5c2c20]">
-        <span class="hidden sm:inline">Filter A–Z:</span>
-        <select
-          id="specialityFilter"
-          class="border border-[#e4d5c6] rounded-full px-3 py-1 text-sm bg-white focus:outline-none focus:ring-1 focus:ring-[#f28c28]">
-          <option value="all">Filter</option>
-          <option value="all">All</option>
-          <!-- A–Z options will be added by JS -->
-        </select>
-      </label>
-    </div>
+    <!-- <div class="max-w-5xl mx-auto mt-6 flex justify-start px-4">
+        <label class="flex items-center gap-2 text-sm text-[#5c2c20]">
+          <span class="hidden sm:inline">Filter A–Z:</span>
+          <select
+            id="specialityFilter"
+            class="border border-[#e4d5c6] rounded-full px-3 py-1 text-sm bg-white focus:outline-none focus:ring-1 focus:ring-[#f28c28]">
+            <option value="all">Filter</option>
+            <option value="all">All</option>
+        
+          </select>
+        </label>
+      </div> -->
 
     <!-- ============ SPECIALITIES (ALL CARDS, DEFAULT VISIBLE) ============ -->
     <div
       id="specialities"
       class="tab-content show flex flex-wrap justify-center gap-y-10 gap-10 justify-items-center mt-6 md:px-28">
 
-      <!-- 1. Anaesthesia -->
-      <a href="./anaesthesia.php">
-        <div
-          class="speciality-card card-hover w-[241px] h-[226px] bg-white rounded-[20px] shadow-md flex flex-col items-center justify-center"
-          data-name="Invasive & Non-Invasive Cardiology">
-          <img src="./assets/icons/heart.png" class="w-20 h-20 mb-3" />
-          <h3 class="text-[18px] font-semibold text-[#5c2c20] text-center">
-            Anesthesia
-          </h3>
-        </div>
-      </a>
-
-      <!-- 2. Invasive & Non-Invasive Cardiology -->
-      <a href="./invasive-and-non-invasive-cardiology.php">
-        <div
-          class="speciality-card card-hover w-[241px] h-[226px] bg-white rounded-[20px] shadow-md flex flex-col items-center justify-center"
-          data-name="Invasive & Non-Invasive Cardiology">
-          <img src="./assets/icons/heart.png" class="w-20 h-20 mb-3" />
-          <h3 class="text-[18px] font-semibold text-[#5c2c20] text-center">
-            Invasive & Non-Invasive Cardiology
-          </h3>
-        </div>
-      </a>
-
-      <!-- 3. Cardiac Thoracic Surgery -->
-      <a href="./cardiac-thoracic-surgery.php">
-        <div
-          class="speciality-card card-hover w-[241px] h-[226px] bg-white rounded-[20px] shadow-md flex flex-col items-center justify-center"
-          data-name="Cardiac Thoracic Surgery">
-          <img src="./assets/icons/heart.png" class="w-20 h-20 mb-3" />
-          <h3 class="text-[18px] font-semibold text-[#5c2c20] text-center">
-            Cardiac Thoracic Surgery
-          </h3>
-        </div>
-      </a>
-
-      <!-- 4. Critical Care Medicine -->
-      <a href="./critical-care.php">
-        <div
-          class="speciality-card card-hover w-[241px] h-[226px] bg-white rounded-[20px] shadow-md flex flex-col items-center justify-center"
-          data-name="Critical Care Medicine">
-          <img src="./assets/icons/heart.png" class="w-20 h-20 mb-3" />
-          <h3 class="text-[20px] font-semibold text-[#5c2c20] text-center">
-            Critical Care Medicine
-          </h3>
-        </div>
-      </a>
-
-      <!-- 5. Dermatology -->
-      <a href="./dermatology.php">
-        <div
-          class="speciality-card card-hover w-[241px] h-[226px] bg-white rounded-[20px] shadow-md flex flex-col items-center justify-center"
-          data-name="Dermatology">
-          <img src="./assets/icons/heart.png" class="w-20 h-20 mb-3" />
-          <h3 class="text-[20px] font-semibold text-[#5c2c20] text-center">Dermatology</h3>
-        </div>
-      </a>
-
-      <!-- 6. Emergency Medicine -->
-      <a href="./emergency-medicine.php">
-        <div
-          class="speciality-card card-hover w-[241px] h-[226px] bg-white rounded-[20px] shadow-md flex flex-col items-center justify-center"
-          data-name="Emergency Medicine">
-          <img src="./assets/icons/heart.png" class="w-20 h-20 mb-3" />
-          <h3 class="text-[20px] font-semibold text-[#5c2c20] text-center">
-            Emergency Medicine
-          </h3>
-        </div>
-      </a>
-
-      <!-- 7. Endocrine Surgery -->
-      <a href="./endocrine-medicine.php">
-        <div
-          class="speciality-card card-hover w-[241px] h-[226px] bg-white rounded-[20px] shadow-md flex flex-col items-center justify-center"
-          data-name="Endocrine Surgery">
-          <img src="./assets/icons/heart.png" class="w-20 h-20 mb-3" />
-          <h3 class="text-[20px] font-semibold text-[#5c2c20] text-center">
-            Endocrine Surgery
-          </h3>
-        </div>
-      </a>
-
-      <!-- 8. Endocrinology -->
-      <a href="./endocrinology.php">
-        <div
-          class="speciality-card card-hover w-[241px] h-[226px] bg-white rounded-[20px] shadow-md flex flex-col items-center justify-center"
-          data-name="Endocrinology">
-          <img src="./assets/icons/heart.png" class="w-20 h-20 mb-3" />
-          <h3 class="text-[20px] font-semibold text-[#5c2c20] text-center">Endocrinology</h3>
-        </div>
-      </a>
-
-      <!-- 9. ENT -->
-      <a href="./ent.php">
-        <div
-          class="speciality-card card-hover w-[241px] h-[226px] bg-white rounded-[20px] shadow-md flex flex-col items-center justify-center"
-          data-name="ENT">
-          <img src="./assets/icons/heart.png" class="w-20 h-20 mb-3" />
-          <h3 class="text-[20px] font-semibold text-[#5c2c20] text-center">ENT</h3>
-        </div>
-      </a>
-
-      <!-- 10. General Medicine -->
-      <a href="./general-medicine.php">
-        <div
-          class="speciality-card card-hover w-[241px] h-[226px] bg-white rounded-[20px] shadow-md flex flex-col items-center justify-center"
-          data-name="General Medicine">
-          <img src="./assets/icons/heart.png" class="w-20 h-20 mb-3" />
-          <h3 class="text-[20px] font-semibold text-[#5c2c20] text-center">
-            General Medicine
-          </h3>
-        </div>
-      </a>
-
-      <!-- 11. General & Laparoscopic Surgery -->
-      <a href="./general-and-laproscopic-surgery.php">
-        <div
-          class="speciality-card card-hover w-[241px] h-[226px] bg-white rounded-[20px] shadow-md flex flex-col items-center justify-center"
-          data-name="General & Laparoscopic Surgery">
-          <img src="./assets/icons/heart.png" class="w-20 h-20 mb-3" />
-          <h3 class="text-[18px] font-semibold text-[#5c2c20] text-center">
-            General & Laparoscopic Surgery
-          </h3>
-        </div>
-      </a>
-
-      <!-- 12. Interventional Radiology -->
-      <a href="./interventional-radiology.php">
-        <div
-          class="speciality-card card-hover w-[241px] h-[226px] bg-white rounded-[20px] shadow-md flex flex-col items-center justify-center"
-          data-name="Interventional Radiology">
-          <img src="./assets/icons/heart.png" class="w-20 h-20 mb-3" />
-          <h3 class="text-[18px] font-semibold text-[#5c2c20] text-center">
-            Interventional Radiology
-          </h3>
-        </div>
-      </a>
-
-      <!-- 13. Surgical Gastroenterology -->
-      <a href="./surgical-gastroentology.php">
-        <div
-          class="speciality-card card-hover w-[241px] h-[226px] bg-white rounded-[20px] shadow-md flex flex-col items-center justify-center"
-          data-name="Surgical Gastroenterology">
-          <img src="./assets/icons/heart.png" class="w-20 h-20 mb-3" />
-          <h3 class="text-[18px] font-semibold text-[#5c2c20] text-center">
-            Surgical Gastroenterology
-          </h3>
-        </div>
-      </a>
-
-      <!-- 14. Oral & Maxillo Facial Surgery -->
-      <a href="./oral-and-maxillo-surgery.php">
-        <div
-          class="speciality-card card-hover w-[241px] h-[226px] bg-white rounded-[20px] shadow-md flex flex-col items-center justify-center"
-          data-name="Oral & Maxillo Facial Surgery">
-          <img src="./assets/icons/heart.png" class="w-20 h-20 mb-3" />
-          <h3 class="text-[18px] font-semibold text-[#5c2c20] text-center">
-            Oral & Maxillo Facial Surgery
-          </h3>
-        </div>
-      </a>
-
-      <!-- 15. Nephrology & Dialysis -->
-      <a href="./nephrology-and-dialysis.php">
-        <div
-          class="speciality-card card-hover w-[241px] h-[226px] bg-white rounded-[20px] shadow-md flex flex-col items-center justify-center"
-          data-name="Nephrology & Dialysis">
-          <img src="./assets/icons/heart.png" class="w-20 h-20 mb-3" />
-          <h3 class="text-[18px] font-semibold text-[#5c2c20] text-center">
-            Nephrology & Dialysis
-          </h3>
-        </div>
-      </a>
-
-      <!-- 16. Neurology -->
-      <a href="./neurology.php">
-        <div
-          class="speciality-card card-hover w-[241px] h-[226px] bg-white rounded-[20px] shadow-md flex flex-col items-center justify-center"
-          data-name="Neurology">
-          <img src="./assets/icons/heart.png" class="w-20 h-20 mb-3" />
-          <h3 class="text-[20px] font-semibold text-[#5c2c20] text-center">Neurology</h3>
-        </div>
-      </a>
-
-      <!-- 17. Neurosurgery -->
-      <a href="./neurosurgery.php">
-        <div
-          class="speciality-card card-hover w-[241px] h-[226px] bg-white rounded-[20px] shadow-md flex flex-col items-center justify-center"
-          data-name="Neurosurgery">
-          <img src="./assets/icons/heart.png" class="w-20 h-20 mb-3" />
-          <h3 class="text-[20px] font-semibold text-[#5c2c20] text-center">Neurosurgery</h3>
-        </div>
-      </a>
-
-      <!-- 18. Ophthalmology -->
-      <a href="./ophthalmology.php">
-        <div
-          class="speciality-card card-hover w-[241px] h-[226px] bg-white rounded-[20px] shadow-md flex flex-col items-center justify-center"
-          data-name="Ophthalmology">
-          <img src="./assets/icons/heart.png" class="w-20 h-20 mb-3" />
-          <h3 class="text-[20px] font-semibold text-[#5c2c20] text-center">
-            Ophthalmology
-          </h3>
-        </div>
-      </a>
-
-      <!-- 19. Orthopedics & Joint Replacement -->
-      <a href="./orthopedics-and-joint-replacement.php">
-        <div
-          class="speciality-card card-hover w-[241px] h-[226px] bg-white rounded-[20px] shadow-md flex flex-col items-center justify-center"
-          data-name="Orthopedics & Joint Replacement">
-          <img src="./assets/icons/heart.png" class="w-20 h-20 mb-3" />
-          <h3 class="text-[18px] font-semibold text-[#5c2c20] text-center">
-            Orthopedics & Joint Replacement
-          </h3>
-        </div>
-      </a>
-
-      <!-- 20. Obstetrics & Gynecology -->
-      <a href="./obstrcts-and-gynacology.php">
-        <div
-          class="speciality-card card-hover w-[241px] h-[226px] bg-white rounded-[20px] shadow-md flex flex-col items-center justify-center"
-          data-name="Obstetrics & Gynecology">
-          <img src="./assets/icons/heart.png" class="w-20 h-20 mb-3" />
-          <h3 class="text-[18px] font-semibold text-[#5c2c20] text-center">
-            Obstetrics & Gynecology
-          </h3>
-        </div>
-      </a>
-
-      <!-- 21. Pediatrics -->
-      <a href="./pediatrics.php">
-        <div
-          class="speciality-card card-hover w-[241px] h-[226px] bg-white rounded-[20px] shadow-md flex flex-col items-center justify-center"
-          data-name="Pediatrics">
-          <img src="./assets/icons/heart.png" class="w-20 h-20 mb-3" />
-          <h3 class="text-[20px] font-semibold text-[#5c2c20] text-center">Pediatrics</h3>
-        </div>
-      </a>
-
-      <!-- 22. Pediatric Surgery -->
-      <a href="./pediatric-surgery.php">
-        <div
-          class="speciality-card card-hover w-[241px] h-[226px] bg-white rounded-[20px] shadow-md flex flex-col items-center justify-center"
-          data-name="Pediatric Surgery">
-          <img src="./assets/icons/heart.png" class="w-20 h-20 mb-3" />
-          <h3 class="text-[18px] font-semibold text-[#5c2c20] text-center">
-            Pediatric Surgery
-          </h3>
-        </div>
-      </a>
-
-      <!-- 23. Plastic Surgery -->
-      <a href="./plastic-surgery.php">
-        <div
-          class="speciality-card card-hover w-[241px] h-[226px] bg-white rounded-[20px] shadow-md flex flex-col items-center justify-center"
-          data-name="Plastic Surgery">
-          <img src="./assets/icons/heart.png" class="w-20 h-20 mb-3" />
-          <h3 class="text-[20px] font-semibold text-[#5c2c20] text-center">
-            Plastic Surgery
-          </h3>
-        </div>
-      </a>
-
-      <!-- 24. Pulmonology -->
-      <a href="./pulmonology.php">
-        <div
-          class="speciality-card card-hover w-[241px] h-[226px] bg-white rounded-[20px] shadow-md flex flex-col items-center justify-center"
-          data-name="Pulmonology">
-          <img src="./assets/icons/heart.png" class="w-20 h-20 mb-3" />
-          <h3 class="text-[20px] font-semibold text-[#5c2c20] text-center">
-            Pulmonology
-          </h3>
-        </div>
-
-      </a>
-      <!-- 25. Pathology -->
-      <a href="./pathology.php">
-        <div
-          class="speciality-card card-hover w-[241px] h-[226px] bg-white rounded-[20px] shadow-md flex flex-col items-center justify-center"
-          data-name="Pathology">
-          <img src="./assets/icons/heart.png" class="w-20 h-20 mb-3" />
-          <h3 class="text-[20px] font-semibold text-[#5c2c20] text-center">
-            Pathology
-          </h3>
-        </div>
-      </a>
-
-      <!-- 26. Physiotherapy & Rehabilitation -->
-      <a href="./psyiotherphy.php">
-        <div
-          class="speciality-card card-hover w-[241px] h-[226px] bg-white rounded-[20px] shadow-md flex flex-col items-center justify-center"
-          data-name="Physiotherapy & Rehabilitation">
-          <img src="./assets/icons/heart.png" class="w-20 h-20 mb-3" />
-          <h3 class="text-[17px] font-semibold text-[#5c2c20] text-center">
-            Physiotherapy & Rehabilitation
-          </h3>
-        </div>
-      </a>
-
-      <!-- 27. Psychiatry (OPD Only) -->
-      <a href="./psychiatry.php">
-        <div
-          class="speciality-card card-hover w-[241px] h-[226px] bg-white rounded-[20px] shadow-md flex flex-col items-center justify-center"
-          data-name="Psychiatry (OPD Only)">
-          <img src="./assets/icons/heart.png" class="w-20 h-20 mb-3" />
-          <h3 class="text-[20px] font-semibold text-[#5c2c20] text-center">
-            Psychiatry (OPD Only)
-          </h3>
-        </div>
-      </a>
-
-      <!-- 28. Radiology & Imaging -->
-      <a href="./radiology-and-imaging.php">
-        <div
-          class="speciality-card card-hover w-[241px] h-[226px] bg-white rounded-[20px] shadow-md flex flex-col items-center justify-center"
-          data-name="Radiology & Imaging">
-          <img src="./assets/icons/heart.png" class="w-20 h-20 mb-3" />
-          <h3 class="text-[20px] font-semibold text-[#5c2c20] text-center">
-            Radiology & Imaging
-          </h3>
-        </div>
-      </a>
-
-      <!-- 29. Urology -->
-      <a href="./urology.php">
-        <div
-          class="speciality-card card-hover w-[241px] h-[226px] bg-white rounded-[20px] shadow-md flex flex-col items-center justify-center"
-          data-name="Urology">
-          <img src="./assets/icons/heart.png" class="w-20 h-20 mb-3" />
-          <h3 class="text-[20px] font-semibold text-[#5c2c20] text-center">Urology</h3>
-        </div>
-      </a>
-
-    </div>
-
-    <!-- ============ PROCEDURES (HIDDEN INITIALLY) ============ -->
-    <div
-      id="procedures"
-      class="tab-content hidden mt-8">
 
       <div class="flex flex-wrap justify-center gap-3 mt-5">
         <div class="card-hover max-w-xs mx-auto rounded-2xl border border-[#e4d5c6] p-5 shadow-sm bg-white">
@@ -856,28 +513,167 @@
               class="w-full h-full object-cover" />
           </div>
           <div class="flex justify-center">
-            <button
+            <a href="./heart-and-vascular-care.php"
               class="px-5 py-2 rounded-full border border-[#e4d5c6] text-[#5c2c20] hover:bg-[#f7eee7] transition">
               Read more
-            </button>
+            </a>
           </div>
         </div>
 
       </div>
+      <div class="flex flex-wrap justify-center gap-3 mt-5">
+        <div class="card-hover max-w-xs mx-auto rounded-2xl border border-[#e4d5c6] p-5 shadow-sm bg-white">
+          <h3 class="text-center text-lg font-semibold text-[#5c2c20] mb-4">
+            Brain & Nerve Sciences
+          </h3>
+          <div class="w-full h-40 overflow-hidden rounded-xl mb-4">
+            <img
+              src="./assets/procedure/brain-and-neuro-science.webp"
+              alt="Heart & Vascular Care"
+              class="w-full h-full object-cover" />
+          </div>
+          <div class="flex justify-center">
+            <a href="./brain-and-nervecare.php"
+              class="px-5 py-2 rounded-full border border-[#e4d5c6] text-[#5c2c20] hover:bg-[#f7eee7] transition">
+              Read more
+            </a>
+          </div>
+        </div>
 
+
+      </div>
+
+      <div class="flex flex-wrap justify-center gap-3 mt-5">
+        <div class="card-hover max-w-xs mx-auto rounded-2xl border border-[#e4d5c6] p-5 shadow-sm bg-white">
+          <h3 class="text-center text-lg font-semibold text-[#5c2c20] mb-4">
+            Bone, Joint & Movement
+          </h3>
+          <div class="w-full h-40 overflow-hidden rounded-xl mb-4">
+            <img
+              src="./assets/procedure/bone-and-joint.webp"
+              alt="Heart & Vascular Care"
+              class="w-full h-full object-cover" />
+          </div>
+          <div class="flex justify-center">
+            <a href="./bone-and-joint.php"
+              class="px-5 py-2 rounded-full border border-[#e4d5c6] text-[#5c2c20] hover:bg-[#f7eee7] transition">
+              Read more
+            </a>
+          </div>
+        </div>
+
+
+      </div>
+
+      <div class="flex flex-wrap justify-center gap-3 mt-5">
+        <div class="card-hover max-w-xs mx-auto rounded-2xl border border-[#e4d5c6] p-5 shadow-sm bg-white">
+          <h3 class="text-center text-lg font-semibold text-[#5c2c20] mb-4">
+            ENT
+          </h3>
+          <div class="w-full h-40 overflow-hidden rounded-xl mb-4">
+            <img
+              src="./assets/procedure/ent.webp"
+              alt="Heart & Vascular Care"
+              class="w-full h-full object-cover" />
+          </div>
+          <div class="flex justify-center">
+            <a href="./ent.php"
+              class="px-5 py-2 rounded-full border border-[#e4d5c6] text-[#5c2c20] hover:bg-[#f7eee7] transition">
+              Read more
+            </a>
+          </div>
+        </div>
+
+      </div>
       <div class="w-full flex justify-center mt-5">
-        <button class="flex justify-center items-center gap-2 border border-[#f28c28] text-[#f28c28] 
-        px-5 py-2 rounded-full font-medium text-xl hover:bg-[#fff7ef] transition">
-          view all
+        <a href="./specialities.php" class="flex justify-center items-center gap-2 border border-[#f28c28] text-[#f28c28] 
+        px-5 py-2 rounded-full font-medium text-lg hover:bg-[#fff7ef] transition bg-white">
+          View All Specialities
           <span class="text-lg">→</span>
-        </button>
+        </a>
+      </div>
+
+
+
+    </div>
+
+    <!-- ============ PROCEDURES (HIDDEN INITIALLY) ============ -->
+    <div
+      id="procedures"
+      class="tab-content hidden flex flex-wrap justify-center gap-y-10 gap-10 justify-items-center mt-6 md:px-28">
+
+
+
+      <a href="./anaesthesia.php">
+        <div
+          class="speciality-card card-hover w-[241px] h-[226px] bg-white rounded-[20px] shadow-md flex flex-col items-center justify-center"
+          data-name="Invasive & Non-Invasive Cardiology">
+          <img src="./assets/icons/heart.png" class="w-20 h-20 mb-3" />
+          <h3 class="text-[18px] font-semibold text-[#5c2c20] text-center">
+            Anesthesia
+          </h3>
+        </div>
+      </a>
+
+      <!-- 2. Invasive & Non-Invasive Cardiology -->
+      <a href="./angioplasty.php">
+        <div
+          class="speciality-card card-hover w-[241px] h-[226px] bg-white rounded-[20px] shadow-md flex flex-col items-center justify-center"
+          data-name="Invasive & Non-Invasive Cardiology">
+          <img src="./assets/icons/angolplasty.webp" class="w-20 h-20 mb-3" />
+          <h3 class="text-[18px] font-semibold text-[#5c2c20] text-center">
+            Angioplasty
+          </h3>
+        </div>
+      </a>
+
+      <!-- 3. Cardiac Thoracic Surgery -->
+      <a href="./biopsy.php">
+        <div
+          class="speciality-card card-hover w-[241px] h-[226px] bg-white rounded-[20px] shadow-md flex flex-col items-center justify-center"
+          data-name="Cardiac Thoracic Surgery">
+          <img src="./assets/icons/biopsy.webp" class="w-20 h-20 mb-3" />
+          <h3 class="text-[18px] font-semibold text-[#5c2c20] text-center">
+
+            Biopsy
+          </h3>
+        </div>
+      </a>
+
+      <!-- 4. Critical Care Medicine -->
+      <a href="./critical-care.php">
+        <div
+          class="speciality-card card-hover w-[241px] h-[226px] bg-white rounded-[20px] shadow-md flex flex-col items-center justify-center"
+          data-name="Critical Care Medicine">
+          <img src="./assets/icons/brain-surgery.webp" class="w-20 h-20 mb-3" />
+          <h3 class="text-[20px] font-semibold text-[#5c2c20] text-center">
+            Brain Surgery
+          </h3>
+        </div>
+      </a>
+
+      <!-- 5. Dermatology -->
+      <a href="./bypass-surgery.php">
+        <div
+          class="speciality-card card-hover w-[241px] h-[226px] bg-white rounded-[20px] shadow-md flex flex-col items-center justify-center"
+          data-name="Dermatology">
+          <img src="./assets/icons/bypass-surgery.webp" class="w-20 h-20 mb-3" />
+          <h3 class="text-[20px] font-semibold text-[#5c2c20] text-center">Bypass surgery</h3>
+        </div>
+      </a>
+      <div class="w-full flex justify-center mt-5">
+        <a href="./procedures.php" class="flex justify-center items-center gap-2 border border-[#f28c28] text-[#f28c28] 
+        px-5 py-2 rounded-full font-medium text-lg hover:bg-[#fff7ef] transition bg-white">
+          View All Procedures
+          <span class="text-lg">→</span>
+        </a>
       </div>
     </div>
 
     <!-- ============ DIAGNOSTICS (HIDDEN INITIALLY) ============ -->
     <div
       id="diagnostics"
-      class="tab-content hidden grid xl:grid-cols-6 lg:grid-cols-5 md:grid-cols-3 gap-5 lg:gap-10 justify-items-center grid-cols-1 mt-6 px-4">
+      class="tab-content  hidden flex flex-wrap justify-center gap-y-10 gap-10 justify-items-center mt-6 md:px-28">
 
       <div class="flex flex-wrap justify-center gap-3 mt-5">
         <div class="card-hover max-w-xs mx-auto rounded-2xl border border-[#e4d5c6] p-5 shadow-sm bg-white">
@@ -959,71 +755,22 @@
         </div>
       </div>
 
-      <div class="flex flex-wrap justify-center gap-3 mt-5">
-        <div class="card-hover max-w-xs mx-auto rounded-2xl border border-[#e4d5c6] p-5 shadow-sm bg-white">
-          <div class="w-full h-40 overflow-hidden rounded-xl mb-4">
-            <img
-              src="./assets/mr-scan.webp"
-              alt="Heart & Vascular Care"
-              class="w-full h-full object-cover" />
-          </div>
-          <div class="flex justify-center">
-            <h3 class="text-center text-lg font-semibold text-[#5c2c20] mb-4">
-              MRI Scan
-            </h3>
-          </div>
-        </div>
-      </div>
 
-      <div class="flex flex-wrap justify-center gap-3 mt-5">
-        <div class="card-hover max-w-xs mx-auto rounded-2xl border border-[#e4d5c6] p-5 shadow-sm bg-white">
-          <div class="w-full h-40 overflow-hidden rounded-xl mb-4">
-            <img
-              src="./assets/pulmanology.webp"
-              alt="Heart & Vascular Care"
-              class="w-full h-full object-cover" />
-          </div>
-          <div class="flex justify-center">
-            <h3 class="text-center text-lg font-semibold text-[#5c2c20] mb-4">
-              Pulmanory function test
-            </h3>
-          </div>
-        </div>
-      </div>
 
-      <div class="flex flex-wrap justify-center gap-3 mt-5">
-        <div class="card-hover max-w-xs mx-auto rounded-2xl border border-[#e4d5c6] p-5 shadow-sm bg-white">
-          <div class="w-full h-40 overflow-hidden rounded-xl mb-4">
-            <img
-              src="./assets/tmt.webp"
-              alt="Heart & Vascular Care"
-              class="w-full h-full object-cover" />
-          </div>
-          <div class="flex justify-center">
-            <h3 class="text-center text-lg font-semibold text-[#5c2c20] mb-4">
-              TMT
-            </h3>
-          </div>
-        </div>
-      </div>
 
-      <div class="flex flex-wrap justify-center gap-3 mt-5">
-        <div class="card-hover max-w-xs mx-auto rounded-2xl border border-[#e4d5c6] p-5 shadow-sm bg-white">
-          <div class="w-full h-40 overflow-hidden rounded-xl mb-4">
-            <img
-              src="./assets/ultrasound.webp"
-              alt="Heart & Vascular Care"
-              class="w-full h-full object-cover" />
-          </div>
-          <div class="flex justify-center">
-            <h3 class="text-center text-lg font-semibold text-[#5c2c20] mb-4">
-              ultrasound
-            </h3>
-          </div>
-        </div>
-      </div>
 
+
+
+
+      <div class="w-full flex justify-center mt-5">
+        <a href="./diagnostics.php" class="flex justify-center items-center gap-2 border border-[#f28c28] text-[#f28c28] 
+        px-5 py-2 rounded-full font-medium text-lg hover:bg-[#fff7ef] transition bg-white">
+          View All Diagnostics
+          <span class="text-lg">→</span>
+        </a>
+      </div>
     </div>
+
   </section>
 
   <!-- ============ JS: Tabs + A–Z filter ============ -->
@@ -1037,7 +784,7 @@
         const targetEl = document.getElementById(target);
 
         tabs.forEach((t) =>
-          t.classList.remove("bg-brand", "text-white", "active-tab")
+          t.classList.remove("bg-[#6C3130]", "text-white", "active-tab")
         );
 
         // hide all contents
@@ -1047,7 +794,7 @@
         });
 
         // activate clicked tab
-        tab.classList.add("bg-brand", "text-white", "active-tab");
+        tab.classList.add("bg-[#6C3130]", "text-white", "active-tab");
 
         // show target content and trigger animation
         targetEl.classList.remove("hidden");
@@ -1085,11 +832,135 @@
     });
   </script>
 
+  <section class="py-10">
+    <!-- Doctor Cards -->
+
+    <h2 class="text-2xl font-semibold text-center p-5">
+      <span class="text-[#6C3130]">Out Team of </span>
+      <span class="text-brand">Experts</span>
+    </h2>
+    <div
+
+      class="flex flex-wrap justify-center gap-x-5 gap-y-5 px-10">
+
+      <div class="w-[400px] rounded-[20px] border border-[#e4d5c6] bg-white shadow-md p-6 text-center">
+
+        <div class="flex justify-center -mt-2">
+          <div class="w-36 h-36 rounded-full bg-[#e9ecef] overflow-hidden">
+            <img src="./assets/doctors/Dr Prasanna Basavarajappa.webp" alt="Dr Prasanna Basavarajappa" class="w-full h-full object-cover" />
+          </div>
+        </div>
+
+        <div class="mt-4">
+          <h3 class="text-[20px] font-semibold text-[#5c2c20] leading-tight">
+            Dr Prasanna Basavarajappa
+          </h3>
+
+          <p class="text-gray-700 text-[15px] mt-1">
+            MBBS, MS,MCh
+          </p>
+
+          <p class="text-orange-500 text-[17px] font-semibold mt-2">
+            Consultant Gastroenterologist
+          </p>
+        </div>
+
+        <div class="grid grid-cols-2 rounded-xl overflow-hidden border border-orange-500 mt-6">
+          <a href="./dr-prasanna.php" class="bg-[#582F28] text-white py-3 text-sm font-medium">
+            View Profile
+          </a>
+          <a href="./dr-prasanna.php" class="bg-white text-orange-600 py-3 text-sm font-semibold">
+            Book Appointment
+          </a>
+        </div>
+      </div>
+      <div class="w-[400px] rounded-[20px] border border-[#e4d5c6] bg-white shadow-md p-6 text-center">
+
+        <div class="flex justify-center -mt-2">
+          <div class="w-36 h-36 rounded-full bg-[#e9ecef] overflow-hidden">
+            <img src="./assets/doctors/Dr Narayan Panji.webp" alt="${doc.name}" class="w-full h-full object-cover" />
+          </div>
+        </div>
+
+        <div class="mt-4">
+          <h3 class="text-[20px] font-semibold text-[#5c2c20] leading-tight">
+            Dr Narayan Panji
+          </h3>
+
+          <p class="text-gray-700 text-[15px] mt-1">
+            MBBS, DNB, MS, MCh
+          </p>
+
+          <p class="text-orange-500 text-[17px] font-semibold mt-2">
+            Chief Consultant - Neurosurgery
+          </p>
+        </div>
+
+        <div class="grid grid-cols-2 rounded-xl overflow-hidden border border-orange-500 mt-6">
+          <a href="./dr-narayan-panji.php" class="bg-[#582F28] text-white py-3 text-sm font-medium">
+            View Profile
+          </a>
+          <a href="./dr-narayan-panji.php" class="bg-white text-orange-600 py-3 text-sm font-semibold">
+            Book Appointment
+          </a>
+        </div>
+      </div>
+      <div class="w-[400px] rounded-[20px] border border-[#e4d5c6] bg-white shadow-md p-6 text-center">
+
+        <div class="flex justify-center -mt-2">
+          <div class="w-36 h-36 rounded-full bg-[#e9ecef] overflow-hidden">
+            <img src="./assets/doctors/Dr Manjunath A Phasalkar.webp" alt="${doc.name}" class="w-full h-full object-cover" />
+          </div>
+        </div>
+
+        <div class="mt-4">
+          <h3 class="text-[20px] font-semibold text-[#5c2c20] leading-tight">
+            Dr Manjunath A Phasalkar
+          </h3>
+
+          <p class="text-gray-700 text-[15px] mt-1">
+            MBBS, MS
+          </p>
+
+          <p class="text-orange-500 text-[17px] font-semibold mt-2 line-clamp-1">
+            Chief Consultant Interventional Cardiologist
+          </p>
+        </div>
+
+        <div class="grid grid-cols-2 rounded-xl overflow-hidden border border-orange-500 mt-6">
+          <a href="./dr-manjunath.php" class="bg-[#582F28] text-white py-3 text-sm font-medium">
+            View Profile
+          </a>
+          <a href="./dr-manjunath.php" class="bg-white text-orange-600 py-3 text-sm font-semibold">
+            Book Appointment
+          </a>
+        </div>
+      </div>
+      <div class="w-full flex justify-center mt-5">
+        <a href="./doctors.php" class="flex justify-center items-center gap-2 border border-[#f28c28] text-[#f28c28] 
+        px-5 py-2 rounded-full font-medium text-lg hover:bg-[#fff7ef] transition bg-white">
+          View All Doctors
+          <span class="text-lg">→</span>
+        </a>
+      </div>
+    </div>
+
+    <!-- View All Button -->
+    <!-- <div class="w-full flex justify-center mt-5">
+            <button
+                class="flex justify-center items-center gap-2 border border-[#f28c28]
+             text-[#f28c28] px-5 py-2 rounded-full font-medium text-xl
+             hover:bg-[#fff7ef] transition">
+                View All
+                <span class="text-lg">→</span>
+            </button>
+        </div> -->
+  </section>
 
 
 
   <section
-    class="container mx-auto mb-16 px-5 lg:px-0 pt-20"
+    class="container mx-auto mb-5 px-5 lg:px-0 pt-20"
     data-aos="fade-up">
     <div
       class="relative bg-[#6D3333] rounded-[2rem] shadow-xl
@@ -1389,24 +1260,39 @@
 
 
 
-  <section class="max-w-7xl mx-auto">
+  <section class="container mx-auto">
 
-    <div class="max-w-4xl mx-auto text-center ">
+   
 
-      <!-- Heading -->
-      <h2 class="text-2xl font-semibold">
-        <span class="text-[#6C3130]">Real Patients,</span>
-        <span class="text-brand"> Real Stories</span>
-      </h2>
-
-      <!-- Tabs -->
-
-
-    </div>
+    <h2 class="text-2xl font-semibold text-center pt-8 pb-5">
+      <span class="text-[#6C3130]">Real Patients,</span>
+      <span class="text-brand">Real Stories</span>
+    </h2>
     <div class="grid md:grid-cols-3 grid-cols-1 justify-items-center gap-10 mt-5 lg:px-0 px-5 ">
 
 
-      <div class="max-w-sm rounded overflow-hidden shadow-lg">
+      <div class="max-w-sm rounded overflow-hidden shadow-lg yt-video-card" data-yt-video="hwH9BO1QEL8">
+
+        <div class="w-full relative p-5">
+          <!-- Gradient Overlay -->
+
+          <!-- Image -->
+          <img class="w-full h-full object-cover rounded-2xl " src="./assets/testimonials/image 107 (1).png" alt="Sunset in the mountains">
+
+          <!-- Title -->
+
+        </div>
+
+        <div class="px-6 py-4 flex gap-5">
+
+          <img src="./assets/icons/arrow.png" class="w-6 h-6" alt="">
+          <p class="text-[#525252] text-xl  font-medium ">
+            Successful Heart and lungs Treatment by Our Doctor
+          </p>
+        </div>
+
+      </div>
+      <div class="max-w-sm rounded overflow-hidden shadow-lg yt-video-card" data-yt-video="HPm9wgRENnM">
 
         <div class="w-full relative p-5">
           <!-- Gradient Overlay -->
@@ -1427,34 +1313,13 @@
         </div>
 
       </div>
-      <div class="max-w-sm rounded overflow-hidden shadow-lg">
+      <div class="max-w-sm rounded overflow-hidden shadow-lg yt-video-card" data-yt-video="8yc3498d-dA">
 
         <div class="w-full relative p-5">
           <!-- Gradient Overlay -->
 
           <!-- Image -->
-          <img class="w-full h-full object-cover rounded-2xl " src="./assets/testimonial.png" alt="Sunset in the mountains">
-
-          <!-- Title -->
-
-        </div>
-
-        <div class="px-6 py-4 flex gap-5">
-
-          <img src="./assets/icons/arrow.png" class="w-6 h-6" alt="">
-          <p class="text-[#525252] text-xl  font-medium ">
-            Successful Heart and lungs Treatment by Our Doctor
-          </p>
-        </div>
-
-      </div>
-      <div class="max-w-sm rounded overflow-hidden shadow-lg">
-
-        <div class="w-full relative p-5">
-          <!-- Gradient Overlay -->
-
-          <!-- Image -->
-          <img class="w-full h-full object-cover rounded-2xl " src="./assets/testimonial.png" alt="Sunset in the mountains">
+          <img class="w-full h-full object-cover rounded-2xl " src="./assets/testimonials/Mask group.png" alt="Sunset in the mountains">
 
           <!-- Title -->
 
@@ -1470,23 +1335,88 @@
 
       </div>
     </div>
-
+    <div class="w-full flex justify-center mt-10">
+      <a href="./patients-corner.php?type=videos" class="flex justify-center items-center gap-2 border border-[#f28c28] text-[#f28c28] 
+        px-5 py-2 rounded-full font-medium text-lg hover:bg-[#fff7ef] transition bg-white">
+        View All Patient Testimonials
+        <span class="text-lg">→</span>
+      </a>
+    </div>
 
   </section>
 
+  <!-- YouTube Video Modal -->
+  <div id="ytVideoModal" class="fixed inset-0 bg-black/70 hidden items-center justify-center z-50">
+    <div class="relative w-full max-w-3xl mx-4">
+
+      <!-- Close Button -->
+      <button id="ytCloseModal" class="absolute -top-10 right-0 text-white text-3xl">&times;</button>
+
+      <!-- Video Container -->
+      <div class="bg-black rounded-lg overflow-hidden aspect-video">
+        <iframe id="ytYoutubeFrame"
+          class="w-full h-full"
+          src=""
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen>
+        </iframe>
+      </div>
+    </div>
+  </div>
+  <script>
+    const ytModal = document.getElementById("ytVideoModal");
+    const ytIframe = document.getElementById("ytYoutubeFrame");
+    const ytCloseBtn = document.getElementById("ytCloseModal");
+
+    // Open modal on card click
+    document.querySelectorAll(".yt-video-card").forEach(card => {
+      card.addEventListener("click", () => {
+        const videoId = card.getAttribute("data-yt-video");
+        ytIframe.src = `https://www.youtube.com/embed/${videoId}?autoplay=1`;
+        ytModal.classList.remove("hidden");
+        ytModal.classList.add("flex");
+      });
+    });
+
+    // Close modal function
+    function closeYtModal() {
+      ytModal.classList.add("hidden");
+      ytModal.classList.remove("flex");
+      ytIframe.src = ""; // stop video
+    }
+
+    ytCloseBtn.addEventListener("click", closeYtModal);
+
+    // Close when clicking outside video
+    ytModal.addEventListener("click", (e) => {
+      if (e.target === ytModal) closeYtModal();
+    });
+  </script>
 
 
-  <section>
-    <h2 class="text-2xl font-semibold text-center pt-10">
+  <section class="pt-24">
+    <h2 class="text-2xl font-semibold text-center ">
       <span class="text-[#6C3130]">Hear From Us</span>
       <span class="text-brand">To Stay Healthy</span>
     </h2>
 
 
 
-    <div class="flex justify-center pt-10 gap-10 flex-wrap">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/qm7WG4GhBe0?si=OFtzKummv-3lsChb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/4mJgzujgE18?si=yeEK_jKYebkbgea9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <div class=" container flex justify-center pt-10 gap-10 flex-wrap px-5 mx-auto">
+      <iframe width="450" height="315" src="https://www.youtube.com/embed/qm7WG4GhBe0?si=OFtzKummv-3lsChb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <iframe width="450" height="315" src="https://www.youtube.com/embed/4mJgzujgE18?si=yeEK_jKYebkbgea9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <iframe width="450" height="315" src="https://www.youtube.com/embed/tp_yMmbbWuk?si=O9pOPOdNkfaHSg2T" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+
+
+    <div class="w-full flex justify-center mt-10">
+      <a href="./patients-corner.php?type=videos" class="flex justify-center items-center gap-2 border border-[#f28c28] text-[#f28c28] 
+        px-5 py-2 rounded-full font-medium text-lg hover:bg-[#fff7ef] transition bg-white">
+        View All Doctor Videos
+        <span class="text-lg">→</span>
+      </a>
     </div>
   </section>
 
@@ -1494,29 +1424,18 @@
 
 
 
-  <section class="max-w-7xl mx-auto mt-10">
+  <section class="container mx-auto mt-24">
 
     <div class="max-w-4xl mx-auto text-center">
 
       <!-- Heading -->
       <h2 class="text-2xl font-semibold">
-        <span class="text-[#6C3130]">Explore</span>
+
         <span class="text-brand">Our Health Blogs</span>
       </h2>
 
       <!-- Tabs -->
-      <div class="flex justify-center gap-10 mt-6 text-brand text-lg font-medium">
 
-        <!-- Active Tab -->
-        <button class="px-5 py-2 bg-brand text-white rounded-full">
-          Sucess Stories
-        </button>
-
-        <!-- Inactive Tabs -->
-        <button class="hover:text-[#c45d16] transition border border-[#c45d16] p-3 rounded-full">Blogs from Our Experts</button>
-
-
-      </div>
 
     </div>
     <div class="grid md:grid-cols-3 grid-cols-1 justify-items-center gap-10 mt-5 lg:px-0 px-5 ">
@@ -1529,21 +1448,47 @@
           <div class="absolute inset-0 bg-gradient-to-b from-[#f4f4f466] via-[#73737366] to-[#00000066]"></div>
 
           <!-- Image -->
-          <img class="w-full h-full object-cover" src="./assets/blogs/blog-1.jpg" alt="Sunset in the mountains">
+          <img class="w-full h-full object-cover" src="./assets/blogs/laproscopic-surgery.webp" alt="Sunset in the mountains">
 
           <!-- Title -->
-          <p class="absolute bottom-10 text-center w-full bg-[#F6AC6C] text-2xl p-2 text-[#6C3130] font-semibold">
-            Angioplasty
+          <p class="absolute bottom-10 text-center w-full bg-[#F6AC6C] text-lg p-2 text-[#6C3130] font-semibold">
+            Laparoscopic Surgery: Benefits & Recovery Time
           </p>
         </div>
 
         <div class="px-6 py-4">
-          <div class=" text-xl font-medium mb-2 text-[#525252]">Successful Heart and Kidney Treatment by Our Doctor
+          <div class=" text-lg font-medium mb-2 text-[#525252]">One of the most sought-after procedures in modern..
           </div>
           <div class="flex items-center  pt-10 gap-5 ">
             <img src="./assets/icons/arrow.png" class="w-6 h-6" alt="">
-            <p class="text-[#6C3130] text-xl  font-medium ">
-              Patient Recovery Story </p>
+            <a href="./laproscopic-surgery.php" class="text-[#6C3130] text-xl  font-medium ">
+              Read More </a>
+          </div>
+        </div>
+
+      </div>
+      <div class="max-w-sm rounded overflow-hidden shadow-lg">
+
+        <div class="w-full relative">
+          <!-- Gradient Overlay -->
+          <div class="absolute inset-0 bg-gradient-to-b from-[#f4f4f466] via-[#73737366] to-[#00000066]"></div>
+
+          <!-- Image -->
+          <img class="w-full h-full object-cover" src="./assets/blogs/gallbaldder.webp" alt="Sunset in the mountains">
+
+          <!-- Title -->
+          <p class="absolute bottom-10 text-center w-full bg-[#F6AC6C] text-lg p-2 text-[#6C3130] font-semibold">
+            When Is Surgery Required for Gallstones?
+          </p>
+        </div>
+
+        <div class="px-6 py-4">
+          <div class=" text-lg font-medium mb-2 text-[#525252]">Gallstones are a common digestive health issue affecting people...
+          </div>
+          <div class="flex items-center  pt-10 gap-5 ">
+            <img src="./assets/icons/arrow.png" class="w-6 h-6" alt="">
+            <a href="./gallsones-surgery.php" class="text-[#6C3130] text-xl  font-medium ">
+              Read More</a>
           </div>
         </div>
 
@@ -1558,48 +1503,29 @@
           <img class="w-full h-full object-cover" src="./assets/blogs/blog-1.jpg" alt="Sunset in the mountains">
 
           <!-- Title -->
-          <p class="absolute bottom-10 text-center w-full bg-[#F6AC6C] text-2xl p-2 text-[#6C3130] font-semibold">
-            Angioplasty
+          <p class="absolute bottom-10 text-center w-full bg-[#F6AC6C] text-lg p-2 text-[#6C3130] font-semibold">
+            Minimally Invasive Surgery vs Open Surgery
           </p>
         </div>
 
         <div class="px-6 py-4">
-          <div class=" text-xl font-medium mb-2 text-[#525252]">Successful Heart and Kidney Treatment by Our Doctor
+          <div class=" text-xl font-medium mb-2 text-[#525252]">Surgery has evolved tremendously over the years...
           </div>
           <div class="flex items-center  pt-10 gap-5 ">
             <img src="./assets/icons/arrow.png" class="w-6 h-6" alt="">
-            <p class="text-[#6C3130] text-xl  font-medium ">
-              Patient Recovery Story </p>
+            <a href="./minimally-invasive-surgery.php" class="text-[#6C3130] text-xl  font-medium ">
+              Read More </a>
           </div>
         </div>
 
       </div>
-      <div class="max-w-sm rounded overflow-hidden shadow-lg">
-
-        <div class="w-full relative">
-          <!-- Gradient Overlay -->
-          <div class="absolute inset-0 bg-gradient-to-b from-[#f4f4f466] via-[#73737366] to-[#00000066]"></div>
-
-          <!-- Image -->
-          <img class="w-full h-full object-cover" src="./assets/blogs/blog-1.jpg" alt="Sunset in the mountains">
-
-          <!-- Title -->
-          <p class="absolute bottom-10 text-center w-full bg-[#F6AC6C] text-2xl p-2 text-[#6C3130] font-semibold">
-            Angioplasty
-          </p>
-        </div>
-
-        <div class="px-6 py-4">
-          <div class=" text-xl font-medium mb-2 text-[#525252]">Successful Heart and Kidney Treatment by Our Doctor
-          </div>
-          <div class="flex items-center  pt-10 gap-5 ">
-            <img src="./assets/icons/arrow.png" class="w-6 h-6" alt="">
-            <p class="text-[#6C3130] text-xl  font-medium ">
-              Patient Recovery Story </p>
-          </div>
-        </div>
-
-      </div>
+    </div>
+    <div class="w-full flex justify-center mt-10">
+      <a href="./patients-corner.php" class="flex justify-center items-center gap-2 border border-[#f28c28] text-[#f28c28] 
+        px-5 py-2 rounded-full font-medium text-lg hover:bg-[#fff7ef] transition bg-white">
+        View All Health Blogs
+        <span class="text-lg">→</span>
+      </a>
     </div>
   </section>
 

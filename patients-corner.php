@@ -54,16 +54,15 @@
             <button class="primary-tab" data-type="podcasts">Podcasts</button>
             <button class="primary-tab" data-type="videos">Videos</button>
             <button class="primary-tab" data-type="events">News & Events</button>
+            <button class="primary-tab" data-type="gallery">Hospital Gallery</button>
+
         </div>
     </div>
 
     <section class="max-w-7xl mx-auto px-6 py-8">
 
         <!-- SEARCH -->
-        <div class="flex gap-2 mb-5">
-            <input class="flex-1 px-4 py-3 rounded-lg border" placeholder="Search content..." />
-            <button class="bg-orange-500 px-5 py-3 rounded-lg text-white">Search</button>
-        </div>
+
 
         <!-- SECONDARY TABS -->
         <div id="secondary-tabs" class="flex gap-3 mb-6 overflow-x-auto"></div>
@@ -88,11 +87,40 @@
                 id="videoFrame"
                 class="w-full h-full"
                 frameborder="0"
+                referrerpolicy="strict-origin-when-cross-origin"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen>
             </iframe>
         </div>
     </div>
+
+
+    <script>
+        let activeType = "blogs";
+            let activeFilter = "recent";
+        function getQueryParam(param) {
+            
+            const urlParams = new URLSearchParams(window.location.search);
+            return urlParams.get(param);
+        }
+
+        const allowedTypes = ["blogs", "podcasts", "videos", "events", "gallery"];
+
+        const urlType = getQueryParam("type");
+
+        if (urlType && allowedTypes.includes(urlType)) {
+            activeType = urlType;
+
+            // Set active class on correct primary tab
+            document.querySelectorAll(".primary-tab").forEach(tab => {
+                tab.classList.remove("active");
+                if (tab.dataset.type === urlType) {
+                    tab.classList.add("active");
+                }
+            });
+        }
+    </script>
+
 
     <script>
         /* ===================== HELPERS ===================== */
@@ -179,13 +207,110 @@
                     url: "https://www.instagram.com/maax_hospital/reel/CuMarmMpJd8/",
                     type: "instagram"
                 }]
-            }
+            },
+            gallery: {
+                hospital: [{
+                        image: "./assets/gallery/DJI_0018 1.webp"
+                    },
+                    {
+                        image: "./assets/gallery/1.1 1.webp"
+                    },
+                    {
+                        image: "./assets/gallery/10.0 1.webp"
+                    },
+                    {
+                        image: "./assets/gallery/12.1 1.webp"
+                    },
+                    {
+                        image: "./assets/gallery/13.1 1.webp"
+                    },
+                    {
+                        image: "./assets/gallery/14.1 1.webp"
+                    },
+                    {
+                        image: "./assets/gallery/15.1 1.webp"
+                    },
+                    {
+                        image: "./assets/gallery/16.1 1.webp"
+                    },
+                    {
+                        image: "./assets/gallery/17.1 1.webp"
+                    },
+                    {
+                        image: "./assets/gallery/16.1 1.webp"
+                    },
+                    {
+                        image: "./assets/gallery/17.1 1.webp"
+                    },
+                    {
+                        image: "./assets/gallery/18.1 1.webp"
+                    },
+                    {
+                        image: "./assets/gallery/19.1 1.webp"
+                    },
+                    {
+                        image: "./assets/gallery/2.2 1.webp"
+                    },
+                    {
+                        image: "./assets/gallery/20.1 1.webp"
+                    },
+                    {
+                        image: "./assets/gallery/21.1 1.webp"
+                    },
+                    {
+                        image: "./assets/gallery/22.2 1.webp"
+                    },
+                    {
+                        image: "./assets/gallery/23.3 1.webp"
+                    },
+                    {
+                        image: "./assets/gallery/3.3 1.webp"
+                    },
+                    {
+                        image: "./assets/gallery/2.2 1.webp"
+                    },
+                    {
+                        image: "./assets/gallery/4.4 1.webp"
+                    },
+                    {
+                        image: "./assets/gallery/5.5 1.webp"
+                    },
+                    {
+                        image: "./assets/gallery/6.6 1.webp"
+                    },
+                    {
+                        image: "./assets/gallery/7.7 1.webp"
+                    },
+                    {
+                        image: "./assets/gallery/8.8 1.webp"
+                    },
+                    {
+                        image: "./assets/gallery/9.9 1.webp"
+                    },
+                    {
+                        image: "./assets/gallery/DJI_0018 1.webp"
+                    },
+                    {
+                        image: "./assets/gallery/DJI_0025 2.webp"
+                    },
+                    {
+                        image: "./assets/gallery/DJI_0030 1.webp"
+                    },
+                    {
+                        image: "./assets/gallery/DJI_0034 1.webp"
+                    },
+                    {
+                        image: "./assets/gallery/Gemini_Generated_Image_6oiz8w6oiz8w6oiz 3.webp"
+                    },
+                    {
+                        image: "./assets/gallery/envato-labs-image-edit (41) 1.webp"
+                    },
 
+                ]
+            }
 
         };
 
-        let activeType = "blogs";
-        let activeFilter = "recent";
 
         const cards = document.getElementById("cards");
         const secondaryTabs = document.getElementById("secondary-tabs");
@@ -196,30 +321,34 @@
 
             if (activeType === "videos") {
                 secondaryTabs.innerHTML = `
-      <button class="secondary-tab active" data-filter="youtube">YouTube Videos</button>
-      <button class="secondary-tab" data-filter="shorts">YouTube Shorts</button>
-      <button class="secondary-tab" data-filter="instagram">Instagram</button>
-    `;
+            <button class="secondary-tab active" data-filter="youtube">YouTube Videos</button>
+            <button class="secondary-tab" data-filter="shorts">YouTube Shorts</button>
+            <button class="secondary-tab" data-filter="instagram">Instagram</button>
+        `;
                 activeFilter = "youtube";
+            } else if (activeType === "gallery") {
+                secondaryTabs.innerHTML = `
+            <button class="secondary-tab active" data-filter="hospital">Hospital Gallery</button>
+        `;
+                activeFilter = "hospital";
             } else {
                 secondaryTabs.innerHTML = `
-      <button class="secondary-tab active" data-filter="recent">Recent Articles</button>
-      <button class="secondary-tab" data-filter="trending">Trending Articles</button>
-    `;
+            <button class="secondary-tab active" data-filter="recent">Recent Articles</button>
+            <button class="secondary-tab" data-filter="trending">Trending Articles</button>
+        `;
                 activeFilter = "recent";
             }
 
             document.querySelectorAll(".secondary-tab").forEach(tab => {
                 tab.onclick = () => {
-                    document.querySelectorAll(".secondary-tab").forEach(t =>
-                        t.classList.remove("active")
-                    );
+                    document.querySelectorAll(".secondary-tab").forEach(t => t.classList.remove("active"));
                     tab.classList.add("active");
                     activeFilter = tab.dataset.filter;
                     renderCards();
                 };
             });
         }
+
 
 
         /* ===================== RENDER CONTENT ===================== */
@@ -274,7 +403,24 @@
             }
 
 
+            if (activeType === "gallery") {
+                const items = data.gallery[activeFilter] || [];
 
+                cards.className = "grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6";
+
+                if (!items.length) {
+                    cards.innerHTML = `<p class="text-center text-gray-500 col-span-full">No images available</p>`;
+                    return;
+                }
+
+                cards.innerHTML = items.map(img => `
+        <div class="overflow-hidden rounded-xl shadow hover:shadow-lg transition cursor-pointer">
+            <img src="${img.image}" class="w-full h-48 object-cover hover:scale-105 transition duration-300">
+        </div>
+    `).join("");
+
+                return;
+            }
 
 
             /* -------- BLOGS -------- */
@@ -367,7 +513,7 @@
 
 
 
-<?php require "./components/footer.php" ?>
+    <?php require "./components/footer.php" ?>
 </body>
 
 </html>

@@ -103,6 +103,9 @@
 
     </section>
 
+
+    <?php require "./components/footer.php" ?>
+
     <!-- ============ JS: Tabs + A–Z filter ============ -->
     <script>
         const specialities = [{

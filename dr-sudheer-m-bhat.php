@@ -85,6 +85,6 @@
     document.getElementById("doctorSpecialty").textContent = doctor.specialty;
   </script>
 
-<?php require "./components/footer.php" ?>
+
 </body>
 </html>
