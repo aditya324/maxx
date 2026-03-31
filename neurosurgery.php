@@ -126,7 +126,7 @@
                     specializes in the surgical treatment of disorders affecting the brain, spine,
                     and nervous system. It includes procedures for brain tumors, spinal cord injuries,
                     nerve compressions, aneurysms, traumatic brain injuries, and congenital
-                    neurological conditions. At MaAx Hospital, our neurosurgeons utilize advanced
+                    neurological conditions. At maAx Hospital, our neurosurgeons utilize advanced
                     imaging, minimally invasive techniques, and high-precision surgical technologies
                     to ensure safe, effective, and outcome-focused care for patients with complex
                     neurological conditions.

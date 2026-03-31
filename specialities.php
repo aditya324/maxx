@@ -103,11 +103,11 @@
         image: "./assets/procedure/women-health.webp",
         url:"./women-health.php"
       },
-      {
-        title: "Eye Care",
-        image: "./assets/procedure/eye-care.webp",
-        url:""
-      },
+      // {
+      //   title: "Eye Care",
+      //   image: "./assets/procedure/eye-care.webp",
+      //   url:""
+      // },
       {
         title: "Urinary & Men's Health Care",
         image: "./assets/procedure/urinary.webp",
@@ -123,11 +123,11 @@
         image: "./assets/procedure/intensive-care.png",
         url:"./invasive-and-non-invasive-cardiology.php"
       },
-      {
-        title: "Surgery Support & Pain Care",
-        image: "./assets/procedure/surgery-support.webp",
-        url:"./surgery-and-laparoscopy.php"
-      }
+      // {
+      //   title: "Surgery Support & Pain Care",
+      //   image: "./assets/procedure/surgery-support.webp",
+      //   url:"./surgery-and-laparoscopy.php"
+      // }
     ];
 
     const grid = document.getElementById("specialityGrid");

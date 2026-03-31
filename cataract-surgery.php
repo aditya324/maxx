@@ -126,7 +126,7 @@
                     is a precise ophthalmic procedure performed to remove the clouded natural
                     lens of the eye and replace it with a clear artificial intraocular lens.
                     This surgery restores sharp vision, reduces glare, and significantly improves
-                    daily functioning. MaAx Hospital offers advanced cataract treatment options,
+                    daily functioning. maAx Hospital offers advanced cataract treatment options,
                     including phacoemulsification and laser-assisted techniques, ensuring safe,
                     painless surgery with rapid visual recovery and excellent long-term results.
                 </p>

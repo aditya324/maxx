@@ -126,7 +126,7 @@
                     focuses on the assessment, diagnosis, and management of mental health concerns
                     through outpatient consultations. It includes treatment for conditions such as
                     anxiety disorders, depression, stress-related issues, mood disorders, behavioral
-                    problems, and emotional difficulties. At MaAx Hospital, our psychiatry specialists
+                    problems, and emotional difficulties. At maAx Hospital, our psychiatry specialists
                     provide compassionate, confidential, and evidence-based care aimed at improving
                     mental well-being, supporting emotional stability, and enhancing overall quality
                     of life—all conducted through dedicated OPD services.

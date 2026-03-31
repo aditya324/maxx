@@ -127,7 +127,7 @@
                     including the esophagus, stomach, intestines, liver, pancreas, gallbladder, and
                     bile ducts. It involves both open and advanced laparoscopic procedures to treat
                     conditions such as gastrointestinal cancers, gallstones, hernias, pancreatitis,
-                    inflammatory bowel disease, and complex abdominal infections. At MaAx Hospital,
+                    inflammatory bowel disease, and complex abdominal infections. At maAx Hospital,
                     our surgical gastroenterology team uses state-of-the-art technology and
                     minimally invasive techniques to ensure precise treatment, faster recovery,
                     reduced pain, and improved long-term outcomes for patients with digestive

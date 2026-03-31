@@ -11,6 +11,39 @@
 <body class="bg-[#f4f4f4]">
     <?php require "./header.php" ?>
 
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+                <div class="flex flex-col lg:block relative lg:min-h-[600px]">
+                    <div
+                        class="relative h-[300px] sm:h-[380px] md:h-[450px] lg:h-[619px] bg-cover bg-center lg:absolute lg:inset-0 z-0"
+                        style="background-image: url('../assets/procedures/Hernia Repair.webp');">
+
+                        <div class="absolute inset-0 bg-black/50 lg:bg-black/60"></div>
+
+                        <div class="absolute inset-0 flex flex-col justify-center items-center text-center px-4 lg:text-left lg:items-start lg:justify-center lg:container lg:mx-auto lg:px-6">
+                            <div class="max-w-full">
+                                <h1
+                                    class="text-2xl md:text-3xl p-3 lg:text-4xl xl:text-6xl font-semibold rounded-md text-white w-full"
+                                    style="background: linear-gradient(90deg,rgba(245, 130, 32, 1) 0%, rgba(143, 76, 19, 1) 62%);">
+                                    Hernia Repair at<br>
+                                    maAx
+                                </h1>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="px-4 mt-6 sm:mt-8 md:mt-10 lg:bg-transparent lg:p-0 lg:relative lg:z-10 lg:container lg:mx-auto lg:flex lg:items-center lg:h-[600px]">
+                        <?php require "../components/speciality-form.php" ?>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="swiper-pagination"></div>
+    </div>
+
     <section class="w-full py-10">
         <div class="container mx-auto px-5 lg:px-10 flex flex-col lg:flex-row gap-10">
 
@@ -72,10 +105,9 @@
                 <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-6">
                     <div>
                         <h1 class="text-3xl md:text-4xl font-bold text-[#6C3130]">
-                            Hernia Repair at <span class="text-[#ec8b2a]">MaAx Super Speciality Hospital</span>
+                            Hernia Repair at <span class="text-[#ec8b2a]">maAx Super Speciality Hospital</span>
                         </h1>
                     </div>
-                    <img src="../assets/procedures/Hernia Repair.webp" alt="Hernia Repair Surgery" class="w-full md:w-96 rounded-lg shadow">
                 </div>
 
                 <!-- What & Why -->
@@ -83,7 +115,7 @@
                     <h2 class="text-xl font-bold text-[#6C3130] mb-2">What the Treatment Is & Why It’s Done</h2>
                     <p class="text-gray-700 leading-relaxed">
                         Hernia repair is performed to correct a weakness in the abdominal wall where organs or tissues bulge out.
-                        At MaAx Super Speciality Hospital, hernia repair is recommended for patients with pain, swelling,
+                        At maAx Super Speciality Hospital, hernia repair is recommended for patients with pain, swelling,
                         or risk of complications such as strangulation of the intestine. Hernias do not heal on their own,
                         and surgery is the only permanent solution.
                     </p>
@@ -125,7 +157,7 @@
                     </div>
 
                     <p class="text-gray-700 leading-relaxed mt-4">
-                        At MaAx Super Speciality Hospital, advanced surgical techniques and high-quality mesh implants
+                        At maAx Super Speciality Hospital, advanced surgical techniques and high-quality mesh implants
                         ensure safe and durable hernia repair.
                     </p>
                 </div>

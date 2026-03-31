@@ -63,8 +63,8 @@
   <script>
     const doctor = {
       name: "Dr. Prasanna Basavarajappa",
-      degree: "MBBS, MS, MCh (Plastic Surgery)",
-      designation: "Consultant – Cosmetic Surgery",
+      degree: "MBBS, MS, MCh (Surgical Gastro)",
+      designation: "Consultant – Gastroentrologist",
       specialty: "Plastic & Reconstructive Surgery",
       image: "./assets/doctors/Dr Prasanna Basavarajappa.webp"
     };

@@ -238,25 +238,25 @@
             <div class="col col-middle">
               <h3 class="text-[#F58220] font-semibold mb-4">Specialty</h3>
               <ul class="space-y-3 text-[#6C3130]">
-                <li><a href="./heart-and-vascular-care.php"> Heart & Vascular Care</a></li>
-                <li><a href="./brain-and-nervecare.php">Brain & Nerve Sciences</a></li>
-                <li><a href="./bone-and-joint.php">Bone, Joint & Movement</a></li>
-                <li><a href="./ent.php">ENT</a></li>
-                <li><a href="./general-medicine.php">General Medicine & Internal Care</a></li>
-                <li><a href="./child-care.php">Child & Newborn Care</a></li>
-                <li><a href="./kidney-care.php">Kidney & Dialysis Care</a></li>
-                <li><a href="./skin-hair.php">Skin & Hair Care</a></li>
-                <li><a href="./harmone-care.php">Hormone Care</a></li>
-                <li><a href="./rehablitation-and-recovery.php">Physiotheraphy & Recovery care</a></li>
-                <li><a href="./lung-care.php">Lung & Breathing Care</a></li>
-                <li><a href="./dental-jaw-care.php">Dental, Jaw & Facial Surgery</a></li>
-                <li><a href="./digestive-care.php">Digestive System Care</a></li>
-                <li><a href="./general-and-laproscopic-surgery.php">General Surgeries & Allied</a></li>
-                <li><a href="./women-health.php">Women's Health (OBG / OBGYN)</a></li>
-                <li><a href="#">Eye Care</a></li>
-                <li><a href="#">Urinary & Men’s Health Care</a></li>
-                <li><a href="./plastic-surgery.php">Plastic & Reconstructive Care</a></li>
-                <li><a href="./invasive-and-non-invasive-cardiology.php">Intensive & Critical Care</a></li>
+                <li><a href="/heart-and-vascular-care.php"> Heart & Vascular Care</a></li>
+                <li><a href="/brain-and-nervecare.php">Brain & Nerve Sciences</a></li>
+                <li><a href="/bone-and-joint.php">Bone, Joint & Movement</a></li>
+                <li><a href="/ent.php">ENT</a></li>
+                <li><a href="/general-medicine.php">General Medicine & Internal Care</a></li>
+                <li><a href="/child-care.php">Child & Newborn Care</a></li>
+                <li><a href="/kidney-care.php">Kidney & Dialysis Care</a></li>
+                <li><a href="/skin-hair.php">Skin & Hair Care</a></li>
+                <li><a href="/harmone-care.php">Hormone Care</a></li>
+                <li><a href="/rehablitation-and-recovery.php">Physiotheraphy & Recovery care</a></li>
+                <li><a href="/lung-care.php">Lung & Breathing Care</a></li>
+                <li><a href="/dental-jaw-care.php">Dental, Jaw & Facial Surgery</a></li>
+                <li><a href="/digestive-care.php">Digestive System Care</a></li>
+                <li><a href="/general-and-laproscopic-surgery.php">General Surgeries & Allied</a></li>
+                <li><a href="/women-health.php">Women's Health (OBG / OBGYN)</a></li>
+                <!-- <li><a href="#">Eye Care</a></li> -->
+                <li><a href="/urology">Urinary & Men’s Health Care</a></li>
+                <li><a href="/plastic-surgery.php">Plastic & Reconstructive Care</a></li>
+                <li><a href="/invasive-and-non-invasive-cardiology.php">Intensive & Critical Care</a></li>
                 <li><a href="#">Surgery Support & Pain Care</a></li>
 
               </ul>
@@ -287,11 +287,11 @@
                 <li><a href="./pediatric-surgery.php">Pediatric Surgery</a></li>
                 <li><a href="./physiotheraphy.php">Physiotherapy</a></li>
                 <li><a href="./sinus-surgery.php">Sinus Surgery</a></li>
-                <li><a href="#">Tonsil Removal</a></li>
-                <li><a href="#">Trauma Care</a></li>
-                <li><a href="#">Ultrasound</a></li>
-                <li><a href="#">Urology Surgery</a></li>
-                <li><a href="#">Valve Replacement</a></li>
+                <li><a href="./tonsil-removal.php">Tonsil Removal</a></li>
+                <li><a href="./trauma.php">Trauma Care</a></li>
+                <li><a href="./ultrasound.php">Ultrasound</a></li>
+                <li><a href="./urology-surgery.php">Urology Surgery</a></li>
+                <li><a href="./valve-replacement.php">Valve Replacement</a></li>
               </ul>
             </div>
 
@@ -307,7 +307,7 @@
                 <li><a href="./pulmanory-function-test.php">Pulmonary function test</a></li>
                 <li><a href="./tmt.php"></a></li>
                 <li><a href="./ultrasound.php">Ultrasound</a></li>
-                <li><a href="./procedu">X-RAY</a></li>
+                <li><a href="./x-ray.php">X-RAY</a></li>
               </ul>
             </div>
           </div>

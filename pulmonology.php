@@ -126,7 +126,7 @@
                     focuses on the diagnosis and treatment of diseases affecting the lungs and
                     respiratory system. It includes the management of conditions such as asthma,
                     COPD, pneumonia, tuberculosis, sleep apnea, and interstitial lung diseases.
-                    At MaAx Hospital, our pulmonology team utilizes advanced imaging, pulmonary
+                    At maAx Hospital, our pulmonology team utilizes advanced imaging, pulmonary
                     function testing, bronchoscopy, and evidence-based therapies to deliver
                     accurate diagnoses and comprehensive respiratory care for patients of all ages.
                 </p>

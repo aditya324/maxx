@@ -34,11 +34,11 @@
                     id="searchInput"
                     type="text"
                     placeholder="Search for Doctor"
-                    class="flex-1 bg-transparent px-2 py-4 text-gray-700 placeholder-gray-500 focus:outline-none" />
+                    class="flex-1 bg-transparent px-2 py-3 text-gray-700 placeholder-gray-500 focus:outline-none" />
 
                 <!-- Search Button -->
                 <button
-                    class=" px-8 py-5 rounded-full border border-orange-500 text-white bg-orange-500 font-medium hover:bg-orange-50 transition">
+                    class=" px-8 py-3 rounded-full border border-orange-500 text-white bg-orange-500 font-medium hover:bg-orange-50 transition">
                     Search
                 </button>
             </div>
@@ -149,9 +149,9 @@
     <script>
         const doctors = [{
                 "name": "Dr. Prasanna Basavarajappa",
-                "degree": "MBBS, MS, MCh (Plastic Surgery)",
-                "designation": "Consultant – Cosmetic Surgery",
-                "specialty": "Plastic & Reconstructive Surgery",
+                "degree": "MBBS, MS, MCh (Surgical Gastro)",
+                "designation": "Consultant – Gastroentrologist",
+                "specialty": "Surgical Gastroentrology",
                 "image": "./assets/doctors/Dr Prasanna Basavarajappa.webp",
                 "url": "./dr-prasanna.php"
             },
@@ -188,7 +188,7 @@
                 "url": "./dr-shonali.php"
             },
             {
-                "name": "Dr. Praveenkumar Devarabatti",
+                "name": "Dr. Praveenkumar Devarabhavi",
                 "degree": "MBBS, MD (Endocrinology)",
                 "designation": "Consultant – Endocrinology",
                 "specialty": "Endocrinology",
@@ -237,7 +237,7 @@
                 "url":"./dr-shishir.php"
             },
             {
-                "name": "Dr Aniruddha Udupi K",
+                "name": "Dr Aniruddha Udupa K",
                 "degree": "MBBS, MD (Pulmonology)",
                 "designation": "Chief Consultant – Pulmonology",
                 "specialty": "Pulmonology",

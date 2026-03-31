@@ -36,12 +36,12 @@
                                     <input type="checkbox" id="consent"
                                         class="mt-1 w-4 h-4 text-orange-500 border-gray-300 rounded focus:ring-orange-500">
                                     <label for="consent" class="text-xs text-gray-600">
-                                        I consent maAx hospitals to contact me
+                                        I consent maAx Hospital to contact me
                                     </label>
                                 </div>
 
                                 <button type="button"
-                                    class="w-full bg-brown-800 hover:bg-brown-900 lg:bg-orange-500 lg:hover:bg-orange-600 text-white font-bold py-3 px-6 rounded-lg shadow-md transition duration-300 transform active:scale-95 mt-4 text-base">
+                                    class="w-full bg-orange-500 hover:bg-brown-900 lg:bg-orange-500 lg:hover:bg-orange-600 text-white font-bold py-3 px-6 rounded-lg shadow-md transition duration-300 transform active:scale-95 mt-4 text-base">
                                     <span class="lg:hidden">Book Now</span>
                                     <span class=" lg:inline">Request a Call Back</span>
                                 </button>

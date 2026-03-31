@@ -126,7 +126,7 @@
                     is a medical technique used to ensure a painless and safe surgical experience
                     by temporarily blocking sensation, consciousness, or both. It plays a vital
                     role in enabling complex procedures, reducing discomfort, and maintaining
-                    patient stability throughout surgery. MaAx Hospital provides general, regional,
+                    patient stability throughout surgery. maAx Hospital provides general, regional,
                     and local anesthesia administered by skilled anesthesiologists using advanced
                     monitoring systems to ensure maximum safety, precision, and comfort for
                     every patient.

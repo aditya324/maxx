@@ -127,7 +127,7 @@
                     childbirth, and gynecological conditions. It includes prenatal care, high-risk
                     pregnancy management, fertility evaluation, menstrual and hormonal disorder
                     treatment, and advanced minimally invasive surgeries for uterine and ovarian
-                    conditions. At MaAx Hospital, our obstetrics and gynecology team provides
+                    conditions. At maAx Hospital, our obstetrics and gynecology team provides
                     compassionate, personalized care supported by modern diagnostic tools and
                     evidence-based treatment approaches to ensure the well-being of women at every
                     stage of life.

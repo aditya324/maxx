@@ -54,7 +54,7 @@
             <button class="primary-tab" data-type="podcasts">Podcasts</button>
             <button class="primary-tab" data-type="videos">Videos</button>
             <button class="primary-tab" data-type="events">News & Events</button>
-            <button class="primary-tab" data-type="gallery">Hospital Gallery</button>
+            <button class="primary-tab" data-type="reviews">Patient Feedback</button>
 
         </div>
     </div>
@@ -97,14 +97,15 @@
 
     <script>
         let activeType = "blogs";
-            let activeFilter = "recent";
+        let activeFilter = "recent";
+
         function getQueryParam(param) {
-            
+
             const urlParams = new URLSearchParams(window.location.search);
             return urlParams.get(param);
         }
 
-        const allowedTypes = ["blogs", "podcasts", "videos", "events", "gallery"];
+        const allowedTypes = ["blogs", "podcasts", "videos", "events", "reviews"];
 
         const urlType = getQueryParam("type");
 
@@ -167,145 +168,169 @@
 
             videos: {
                 youtube: [{
-                        title: "Video 1",
+                        title: "A Life Saving Transformation at maAx Hospital! Shivamogga",
                         url: "https://youtu.be/hwH9BO1QEL8"
                     },
                     {
-                        title: "Video 2",
+                        title: "Doctor's Day - Patients Talk | maAx hospital Shivamogga",
                         url: "https://youtu.be/HPm9wgRENnM"
                     },
                     {
-                        title: "Video 3",
+                        title: "ಡಾಕ್ಟರ್ಸ್ ದಿನ - Patients Talk | maAx hospital Shivamogga",
                         url: "https://youtu.be/8yc3498d-dA"
                     },
                     {
-                        title: "Video 4",
+                        title: "Doctor's Day - Patients Talk | maAx hospital Shivamogga",
                         url: "https://youtu.be/WZ-LPayu6U0"
                     },
                     {
-                        title: "Video 5",
+                        title: "IN Sign in This is the best Senior Orthopedic Consultant Joint..",
                         url: "https://youtu.be/tp_yMmbbWuk"
-                    }
+                    },
+                    {
+                        title: "IN Sign in Dr. SHREYAMSA The Experts’ Guide To Endocrine",
+                        url: "https://youtu.be/D9_4bJlwUBE?si=2Bf4Rua5VBABZzrZ"
+                    },
+
+                    {
+                        title: "Dr. Narayan Panji Senior Consultant Neuro..",
+                        url: "https://www.youtube.com/watch?v=V7NU3iws4ek"
+                    },
+                    {
+                        title: "Dr. Shishir, Explaining About Endocrine In Detail",
+                        url: "https://www.youtube.com/watch?v=4dQ6CM7Hc6g"
+                    },
+                    {
+                        title: "IN Sign in ಗರ್ಭಾವಸ್ಥೆಯಲ್ಲಿ ಥೈರಾಯಿಡ್ | Thyroid in pregnancy",
+                        url: "https://www.youtube.com/watch?v=l5pelnW_-Gg"
+                    },
+                    {
+                        title: "ಥೈರಾಯಿಡ್ ಯಾರಲ್ಲಿ ಹಾಗೂ ಏಕೆ ಕಂಡುಬರುತ್ತದೆ?",
+                        url: "https://www.youtube.com/watch?v=DLw32LmrDfI"
+                    },
+                    {
+                        title: "How Dr. Lolith V Lokeshwar Can Diagnose Sports-Related",
+                        url: "https://www.youtube.com/watch?v=mDDoZdBc7Sc"
+                    },
+                    {
+                        title: "Dr. Pooja | Consultant Intensive Care And Anesthesiologist",
+                        url: "https://www.youtube.com/watch?v=2nmOrl9qS_g"
+                    },
+
+
                 ],
 
                 shorts: [{
-                        title: "Short 1",
-                        url: "https://youtu.be/D9_4bJlwUBE"
+                        title: "Take control of sinus issues! maAx Super Specialty Hospital",
+                        url: "https://www.youtube.com/shorts/rcQ0NcKikdA"
                     },
                     {
-                        title: "Short 2",
-                        url: "https://youtu.be/V7NU3iws4ek"
+                        title: "Tips for a healthy heart | World Heart Day",
+                        url: "https://www.youtube.com/shorts/dxV7IgE3hbw"
                     },
                     {
-                        title: "Short 3",
-                        url: "https://youtu.be/i5yGo9L9bqM"
-                    }
+                        title: "maAx Super Speciality Hospital...",
+                        url: "https://www.youtube.com/shorts/E9eQLjo-SLs?si=6_oubF7GgU_upUQ7"
+                    },
+                    {
+                        title: "Dehydration increases the risk of kidney stones",
+                        url: "https://www.youtube.com/shorts/XGIz0BRpD2E"
+                    },
+                    {
+                        title: "ಮುಟ್ಟಿನ ನೈರ್ಮಲ್ಯದ ಸಲಹೆಗಳು | Menstrual Hygiene Tips ",
+                        url: "https://www.youtube.com/shorts/6qruxY8scsk"
+                    },
+                    {
+                        title: "Causes of psoriasis | Psoriasis skin condition",
+                        url: "https://youtube.com/shorts/7pNEc6Y3_Wc?si=FeiBg4kj1QlGsv8Z"
+                    },
                 ],
 
                 instagram: [{
-                    title: "Instagram Reel 1",
-                    url: "https://www.instagram.com/maax_hospital/reel/CuMarmMpJd8/",
-                    type: "instagram"
-                }]
-            },
-            gallery: {
-                hospital: [{
-                        image: "./assets/gallery/DJI_0018 1.webp"
+                        title: "Instagram Reel 1",
+                        url: "https://www.instagram.com/maAx_hospital/reel/CuMarmMpJd8/",
+                        type: "instagram"
                     },
                     {
-                        image: "./assets/gallery/1.1 1.webp"
+                        title: "Instagram Reel 2",
+                        url: "https://www.instagram.com/maAx_hospital/reel/DTW_C38ElwT/",
+                        type: "instagram"
                     },
                     {
-                        image: "./assets/gallery/10.0 1.webp"
+                        title: "Instagram Reel 3",
+                        url: "https://www.instagram.com/maAx_hospital/reel/DQiSSclDk2R/",
+                        type: "instagram"
                     },
                     {
-                        image: "./assets/gallery/12.1 1.webp"
+                        title: "Instagram Reel 4",
+                        url: "https://www.instagram.com/maAx_hospital/reel/DQiSSclDk2R/",
+                        type: "instagram"
                     },
                     {
-                        image: "./assets/gallery/13.1 1.webp"
+                        title: "Instagram Reel 5",
+                        url: "https://www.instagram.com/maAx_hospital/reel/CyBJarZvMV0/",
+                        type: "instagram"
                     },
                     {
-                        image: "./assets/gallery/14.1 1.webp"
+                        title: "Instagram Reel 6",
+                        url: "https://www.instagram.com/maAx_hospital/reel/DF1rYibzO5J/",
+                        type: "instagram"
                     },
                     {
-                        image: "./assets/gallery/15.1 1.webp"
+                        title: "Instagram Reel 7",
+                        url: "https://www.instagram.com/maAx_hospital/reel/DKuNWboTECE/",
+                        type: "instagram"
                     },
                     {
-                        image: "./assets/gallery/16.1 1.webp"
-                    },
-                    {
-                        image: "./assets/gallery/17.1 1.webp"
-                    },
-                    {
-                        image: "./assets/gallery/16.1 1.webp"
-                    },
-                    {
-                        image: "./assets/gallery/17.1 1.webp"
-                    },
-                    {
-                        image: "./assets/gallery/18.1 1.webp"
-                    },
-                    {
-                        image: "./assets/gallery/19.1 1.webp"
-                    },
-                    {
-                        image: "./assets/gallery/2.2 1.webp"
-                    },
-                    {
-                        image: "./assets/gallery/20.1 1.webp"
-                    },
-                    {
-                        image: "./assets/gallery/21.1 1.webp"
-                    },
-                    {
-                        image: "./assets/gallery/22.2 1.webp"
-                    },
-                    {
-                        image: "./assets/gallery/23.3 1.webp"
-                    },
-                    {
-                        image: "./assets/gallery/3.3 1.webp"
-                    },
-                    {
-                        image: "./assets/gallery/2.2 1.webp"
-                    },
-                    {
-                        image: "./assets/gallery/4.4 1.webp"
-                    },
-                    {
-                        image: "./assets/gallery/5.5 1.webp"
-                    },
-                    {
-                        image: "./assets/gallery/6.6 1.webp"
-                    },
-                    {
-                        image: "./assets/gallery/7.7 1.webp"
-                    },
-                    {
-                        image: "./assets/gallery/8.8 1.webp"
-                    },
-                    {
-                        image: "./assets/gallery/9.9 1.webp"
-                    },
-                    {
-                        image: "./assets/gallery/DJI_0018 1.webp"
-                    },
-                    {
-                        image: "./assets/gallery/DJI_0025 2.webp"
-                    },
-                    {
-                        image: "./assets/gallery/DJI_0030 1.webp"
-                    },
-                    {
-                        image: "./assets/gallery/DJI_0034 1.webp"
-                    },
-                    {
-                        image: "./assets/gallery/Gemini_Generated_Image_6oiz8w6oiz8w6oiz 3.webp"
-                    },
-                    {
-                        image: "./assets/gallery/envato-labs-image-edit (41) 1.webp"
+                        title: "Instagram Reel 8",
+                        url: "https://www.instagram.com/maAx_hospital/reel/DQTmieRDyDn/",
+                        type: "instagram"
                     },
 
+                ]
+            },
+            reviews: {
+                google: [{
+                        name: "Rohit Kumar",
+                        rating: 5,
+                        text: "Very good hospital with supportive doctors and clean facilities. Staff explained everything clearly."
+                    },
+                    {
+                        name: "Priya S",
+                        rating: 5,
+                        text: "Great experience at maAx Hospital. Quick diagnosis, smooth treatment, and friendly nursing team."
+                    },
+                    {
+                        name: "Manjunath H",
+                        rating: 4,
+                        text: "Doctors are experienced and approachable. Consultation was detailed and treatment helped a lot."
+                    },
+                    {
+                        name: "Priya S",
+                        rating: 5,
+                        text: "Great experience at maAx Hospital. Quick diagnosis, smooth treatment, and friendly nursing team."
+                    },
+                    {
+                        name: "Priya S",
+                        rating: 5,
+                        text: "Great experience at maAx Hospital. Quick diagnosis, smooth treatment, and friendly nursing team."
+                    },
+                ],
+                justdial: [{
+                        name: "Shwetha R",
+                        rating: 5,
+                        text: "Good care and well-maintained hospital. Appointment process was easy and service was prompt."
+                    },
+                    {
+                        name: "Naveen P",
+                        rating: 4,
+                        text: "Professional team and neat environment. Overall a positive experience for our family."
+                    },
+                    {
+                        name: "Kiran B",
+                        rating: 5,
+                        text: "Excellent support from reception to discharge. Doctors gave clear guidance throughout."
+                    }
                 ]
             }
 
@@ -326,11 +351,12 @@
             <button class="secondary-tab" data-filter="instagram">Instagram</button>
         `;
                 activeFilter = "youtube";
-            } else if (activeType === "gallery") {
+            } else if (activeType === "reviews") {
                 secondaryTabs.innerHTML = `
-            <button class="secondary-tab active" data-filter="hospital">Hospital Gallery</button>
+            <button class="secondary-tab active" data-filter="google">Google Reviews</button>
+            <button class="secondary-tab" data-filter="justdial">Justdial Reviews</button>
         `;
-                activeFilter = "hospital";
+                activeFilter = "google";
             } else {
                 secondaryTabs.innerHTML = `
             <button class="secondary-tab active" data-filter="recent">Recent Articles</button>
@@ -403,19 +429,26 @@
             }
 
 
-            if (activeType === "gallery") {
-                const items = data.gallery[activeFilter] || [];
+            if (activeType === "reviews") {
+                const items = data.reviews[activeFilter] || [];
 
-                cards.className = "grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6";
+                cards.className = "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6";
 
                 if (!items.length) {
-                    cards.innerHTML = `<p class="text-center text-gray-500 col-span-full">No images available</p>`;
+                    cards.innerHTML = `<p class="text-center text-gray-500 col-span-full">No reviews available</p>`;
                     return;
                 }
 
-                cards.innerHTML = items.map(img => `
-        <div class="overflow-hidden rounded-xl shadow hover:shadow-lg transition cursor-pointer">
-            <img src="${img.image}" class="w-full h-48 object-cover hover:scale-105 transition duration-300">
+                const stars = (count) => "★".repeat(count) + "☆".repeat(5 - count);
+
+                cards.innerHTML = items.map(review => `
+        <div class="bg-white rounded-xl shadow p-6 flex flex-col gap-3">
+            <div class="flex items-center justify-between">
+                <h3 class="text-lg font-semibold text-[#6C3130]">${review.name}</h3>
+                <span class="text-[#F58220] text-base">${stars(review.rating)}</span>
+            </div>
+            <p class="text-gray-600">"${review.text}"</p>
+            <p class="text-xs text-gray-500 uppercase tracking-wide">${activeFilter}</p>
         </div>
     `).join("");
 

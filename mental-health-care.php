@@ -131,7 +131,7 @@
                 <p class="text-gray-700 leading-relaxed text-base font-semibold">
                     Mental health is as important as physical health and plays a vital role in overall well-being. Conditions such as depression, anxiety, bipolar disorder, stress-related illnesses, and emotional trauma can significantly impact daily life, relationships, and work performance.
                     <br><br>
-                    At MaAx Super Speciality Hospital, our Mental Health Care Department (Psychiatry & Psychology) delivers compassionate, evidence-based care in a safe and supportive environment. We understand the stigma often associated with mental health challenges and strive to provide confidential, respectful treatment. Through counseling, psychotherapy, medication management, and lifestyle guidance, we help patients regain emotional balance, resilience, and confidence. Our programs support individuals, families, and communities for holistic and sustained healing.
+                    At maAx Super Speciality Hospital, our Mental Health Care Department (Psychiatry & Psychology) delivers compassionate, evidence-based care in a safe and supportive environment. We understand the stigma often associated with mental health challenges and strive to provide confidential, respectful treatment. Through counseling, psychotherapy, medication management, and lifestyle guidance, we help patients regain emotional balance, resilience, and confidence. Our programs support individuals, families, and communities for holistic and sustained healing.
                 </p>
 
                 <h2 class="text-3xl md:text-4xl font-semibold text-[#6C3130] leading-tight">
@@ -166,44 +166,12 @@
                     </p>
                 </div>
 
-            </div>
 
-
-
-
-
-
-
-        </div>
-
-        <section class="w-full  py-14">
-            <div class="container mx-auto px-5 lg:px-10 flex flex-col lg:flex-row gap-20 items-start justify-center">
-
-                <!-- LEFT BOX -->
-                <div class="w-full lg:w-[350px] bg-[#663330] text-white rounded-2xl px-8 py-10 space-y-6">
-                    <h3 class="text-2xl font-bold text-center">WORKING HOURS</h3>
-
-                    <div class="space-y-3 text-base font-medium">
-                        <p>Monday..............Open 24 Hours</p>
-                        <p>Tuesday.............Open 24 Hours</p>
-                        <p>Wednesday......Open 24 Hours</p>
-                        <p>Thursday............Open 24 Hours</p>
-                        <p>Friday..................Open 24 Hours</p>
-                        <p>Saturday............Open 24 Hours</p>
-                        <p>Sunday...............Open 24 Hours</p>
-                    </div>
-
-                    <button class="w-full bg-[#ec8b2a] text-white font-semibold py-3 rounded-lg">
-                        Book An Appointment
-                    </button>
-                </div>
-
-                <!-- RIGHT CONTENT -->
-                <div class="w-full lg:w-2/3 space-y-6 flex flex-col ">
+                <div class="w-full lg:w-full mt-10 space-y-6 flex flex-col ">
 
                     <h2 class="text-3xl md:text-4xl font-semibold text-[#6C3130] leading-tight">
                         Why Choose
-                        <span class="text-[#ec8b2a]">MaAx Super Speciality Hospital</span>
+                        <span class="text-[#ec8b2a]">maAx Super Speciality Hospital</span>
                     </h2>
 
                     <div class="space-y-4">
@@ -226,13 +194,17 @@
 
                 </div>
 
-
-
-
-
-
             </div>
-        </section>
+
+
+
+
+
+
+
+        </div>
+
+       
 
 
     </section>
@@ -277,7 +249,7 @@
     <div class="container w-full mx-auto">
         <h2 class="text-2xl md:text-3xl font-semibold leading-snug text-gray-800">
             FAQs on Mental Health Care at
-            <span class="text-[#ec8b2a]">MaAx Super Speciality Hospital</span>
+            <span class="text-[#ec8b2a]">maAx Super Speciality Hospital</span>
         </h2>
 
         <!-- ACCORDION BOX -->

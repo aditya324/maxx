@@ -126,7 +126,7 @@
                     focuses on the diagnosis and management of life-threatening conditions that
                     require advanced monitoring and organ support. It plays a crucial role in the
                     treatment of patients with severe infections, respiratory failure, cardiac
-                    emergencies, trauma, and multi-organ dysfunction. At MaAx Hospital, our
+                    emergencies, trauma, and multi-organ dysfunction. At maAx Hospital, our
                     critical care team utilizes state-of-the-art ventilators, hemodynamic
                     monitoring, and evidence-based protocols to deliver precise, round-the-clock
                     care, ensuring rapid stabilization and optimal recovery outcomes for critically

@@ -127,7 +127,7 @@
                     heart by creating a new pathway, or bypass, around blocked coronary arteries.
                     It is commonly recommended for patients with severe coronary artery disease,
                     multiple blockages, or symptoms that do not improve with medication or
-                    angioplasty. MaAx Hospital provides advanced coronary artery bypass grafting
+                    angioplasty. maAx Hospital provides advanced coronary artery bypass grafting
                     (CABG), including minimally invasive and off-pump techniques, ensuring
                     precise surgical outcomes, improved heart function, and enhanced long-term
                     recovery for patients.

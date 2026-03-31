@@ -126,7 +126,7 @@
                     focuses on the diagnosis and treatment of disorders affecting the brain, spinal
                     cord, and nervous system. It includes the management of conditions such as stroke,
                     epilepsy, migraines, neuropathies, movement disorders, and neurodegenerative
-                    diseases. At MaAx Hospital, our neurology specialists use advanced imaging,
+                    diseases. At maAx Hospital, our neurology specialists use advanced imaging,
                     neuro-diagnostic testing, and evidence-based therapies to provide accurate
                     evaluation and comprehensive care for patients with a wide range of neurological
                     conditions.

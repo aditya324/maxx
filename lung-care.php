@@ -20,20 +20,19 @@
                 <div class="flex flex-col lg:block relative min-h-[600px] lg:mt-0 ">
 
                     <div class="relative h-96 lg:h-[619px] bg-cover bg-center lg:absolute lg:inset-0  z-0 "
-                        style="background-image: url('../assets/banners/medical-care.jpg');">
-                        <img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?q=80&w=2070&auto=format&fit=crop"
-                            class="hidden"
-                            onerror="this.parentElement.style.backgroundImage = `url('${this.src}')`">
+                        style="background-image: url('../assets/lung-breathingcare.jpg');">
+                        <img src="../assets/lung-breathingcare.jpg"
+                            >
 
                         <div class="absolute inset-0 bg-black/50 lg:bg-black/60"></div>
 
                         <div
                             class="absolute inset-0 flex flex-col justify-center items-center text-center px-4 lg:text-left lg:items-start lg:justify-center lg:container lg:mx-auto lg:px-6">
                             <div class="max-w-full">
-                                <h1 class="text-4xl md:text-4xl p-3 lg:text-6xl font-semibold rounded-md text-white w-full "
+                                 <h1 class="text-2xl md:text-3xl p-3 lg:text-4xl xl:text-6xl font-semibold rounded-md text-white w-full"
                                     style="background: linear-gradient(90deg,rgba(245, 130, 32, 1) 0%, rgba(143, 76, 19, 1) 62%);">
                                     Lung Care at<br>
-                                    maAx Hospital
+                                    maAx 
                                 </h1>
                             </div>
                         </div>
@@ -68,57 +67,56 @@
             <!-- LEFT MENU -->
             <div class="w-full lg:w-1/4 flex flex-col gap-3">
 
-                <h2 class="text-2xl font-semibold text-[#6C3130] mb-2">Diagnostic Services</h2>
+    <h2 class="text-2xl font-semibold text-[#6C3130] mb-2">
+        Top Procedures & Treatments
+    </h2>
 
-                <a href="./heart-and-vascular-care.php" class="w-full flex items-center justify-between bg-gray-100 text-gray-700    font-medium py-3 px-4 rounded-md">
-                    <span>Heart & Vascular Care</span>
-                    <span class="text-xl">&gt;</span>
-                </a>
+    <!-- PRIMARY (Lung Care) -->
+    <a href="./procedures/bronchoscopy.php"
+        class="w-full flex items-center justify-between bg-[#ec8b2a] text-white font-medium py-3 px-4 rounded-md">
+        <span>Bronchoscopy</span>
+        <span class="text-xl">&gt;</span>
+    </a>
 
-                <a href="./brain-and-nervecare.php" class="w-full flex items-center justify-between bg-gray-100 text-gray-700   font-medium py-3 px-4 rounded-md">
-                    <span>Brain Care</span>
-                    <span class="text-xl">&gt;</span>
-                </a>
+    <a href="./procedures/pulmanory-function-test.php"
+        class="w-full flex items-center justify-between bg-gray-100 text-gray-700 font-medium py-3 px-4 rounded-md">
+        <span>Pulmonary Function Test</span>
+        <span class="text-xl">&gt;</span>
+    </a>
 
-                <a href="./general-medicine.php" class="w-full flex items-center justify-between bg-gray-100 text-gray-700 font-medium py-3 px-4 rounded-md">
-                    <span>Genral Medicine..</span>
-                    <span class="text-xl">&gt;</span>
-                </a>
+    <!-- OTHER (Support + Random Fill) -->
+    <a href="./procedures/ct-scan.php"
+        class="w-full flex items-center justify-between bg-gray-100 text-gray-700 font-medium py-3 px-4 rounded-md">
+        <span>CT Scan</span>
+        <span class="text-xl">&gt;</span>
+    </a>
 
-                <a href="./harmone-care.php" class="w-full flex items-center justify-between bg-gray-100 text-gray-700   font-medium py-3 px-4 rounded-md">
-                    <span>Hormone Care</span>
-                    <span class="text-xl">&gt;</span>
-                </a>
+    <a href="./procedures/x-ray.php"
+        class="w-full flex items-center justify-between bg-gray-100 text-gray-700 font-medium py-3 px-4 rounded-md">
+        <span>X-Ray</span>
+        <span class="text-xl">&gt;</span>
+    </a>
 
-                <a href="./kidney-care.php" class="w-full flex items-center justify-between bg-gray-100 text-gray-700  font-medium py-3 px-4 rounded-md">
-                    <span>Kidney Care</span>
-                    <span class="text-xl">&gt;</span>
-                </a>
+    <a href="./procedures/mri-scan.php"
+        class="w-full flex items-center justify-between bg-gray-100 text-gray-700 font-medium py-3 px-4 rounded-md">
+        <span>MRI Scan</span>
+        <span class="text-xl">&gt;</span>
+    </a>
 
-                <a href="./lung-care.php" class="w-full flex items-center justify-between bg-[#ec8b2a] text-white font-medium py-3 px-4 rounded-md">
-                    <span>Lung Care</span>
-                    <span class="text-xl">&gt;</span>
-                </a>
+    <a href="./procedures/endoscopy.php"
+        class="w-full flex items-center justify-between bg-gray-100 text-gray-700 font-medium py-3 px-4 rounded-md">
+        <span>Endoscopy</span>
+        <span class="text-xl">&gt;</span>
+    </a>
 
-                <a href="./skin-hair.php" class="w-full flex items-center justify-between bg-gray-100 text-gray-700 font-medium py-3 px-4 rounded-md">
-                    <span>Skin & Hair Care</span>
-                    <span class="text-xl">&gt;</span>
-                </a>
+    <!-- CTA -->
+    <a href="./procedures.php"
+        class="w-full flex items-center justify-between bg-[#763837] text-white font-medium py-3 px-4 rounded-md">
+        <span>View All Procedures</span>
+        <span class="text-xl">&gt;</span>
+    </a>
 
-                <a href="./bone-and-joint.php" class="w-full flex items-center justify-between bg-gray-100 text-gray-700 font-medium py-3 px-4 rounded-md">
-                    <span>Bone & Joint Care</span>
-                    <span class="text-xl">&gt;</span>
-                </a>
-
-                <a href="./women-health.php" class="w-full flex items-center justify-between bg-gray-100 text-gray-700 font-medium py-3 px-4 rounded-md">
-                    <span>Women’s Health</span>
-                    <span class="text-xl">&gt;</span>
-                </a>
-                <a href="./specialities.php" class="w-full flex items-center justify-between bg-[#763837] text-white font-medium py-3 px-4 rounded-md">
-                    <span>View All Specialties</span>
-                    <span class="text-xl">&gt;</span>
-                </a>
-            </div>
+</div>
             <!-- RIGHT CONTENT -->
             <div class="w-full lg:w-2/3 space-y-6 ">
 
@@ -130,7 +128,7 @@
                 <p class="text-gray-700 leading-relaxed text-base font-semibold">
                     Healthy lungs are essential for adequate oxygen supply and overall vitality. Respiratory conditions such as asthma, chronic obstructive pulmonary disease (COPD), tuberculosis, sleep apnea, and post-infectious lung disease can significantly affect daily life and long-term health.
                     <br><br>
-                    At MaAx Hospitals, our Lung & Breathing Care Department (Pulmonology) specializes in the diagnosis and treatment of both acute and chronic respiratory disorders. We utilize advanced imaging, bronchoscopy, and comprehensive respiratory therapy programs to help patients breathe easier. Our approach focuses on prevention, early detection, effective treatment, and long-term rehabilitation.
+                    At maAx Super Speciality Hospital, our Lung & Breathing Care Department (Pulmonology) specializes in the diagnosis and treatment of both acute and chronic respiratory disorders. We utilize advanced imaging, bronchoscopy, and comprehensive respiratory therapy programs to help patients breathe easier. Our approach focuses on prevention, early detection, effective treatment, and long-term rehabilitation.
                 </p>
 
                 <h2 class="text-3xl md:text-4xl font-semibold text-[#6C3130] leading-tight">
@@ -162,42 +160,12 @@
                     </p>
                 </div>
 
-            </div>
 
-
-
-
-
-        </div>
-
-        <section class="w-full  py-14">
-            <div class="container mx-auto px-5 lg:px-10 flex flex-col lg:flex-row gap-20 items-start justify-center">
-
-                <!-- LEFT BOX -->
-                <div class="w-full lg:w-[350px] bg-[#663330] text-white rounded-2xl px-8 py-10 space-y-6">
-                    <h3 class="text-2xl font-bold text-center">WORKING HOURS</h3>
-
-                    <div class="space-y-3 text-base font-medium">
-                        <p>Monday..............Open 24 Hours</p>
-                        <p>Tuesday.............Open 24 Hours</p>
-                        <p>Wednesday......Open 24 Hours</p>
-                        <p>Thursday............Open 24 Hours</p>
-                        <p>Friday..................Open 24 Hours</p>
-                        <p>Saturday............Open 24 Hours</p>
-                        <p>Sunday...............Open 24 Hours</p>
-                    </div>
-
-                    <button class="w-full bg-[#ec8b2a] text-white font-semibold py-3 rounded-lg">
-                        Book An Appointment
-                    </button>
-                </div>
-
-                <!-- RIGHT CONTENT -->
-                <div class="w-full lg:w-2/3 space-y-6 flex flex-col ">
+                <div class="w-full lg:w-full mt-10 space-y-6 flex flex-col ">
 
                     <h2 class="text-3xl md:text-4xl font-semibold text-[#6C3130] leading-tight">
                         Why Choose
-                        <span class="text-[#ec8b2a]">MaAx Hospitals</span>
+                        <span class="text-[#ec8b2a]">maAx Super Speciality Hospital</span>
                     </h2>
 
                     <div class="space-y-4">
@@ -220,11 +188,15 @@
 
                 </div>
 
-
-
-
             </div>
-        </section>
+
+
+
+
+
+        </div>
+
+       
 
 
     </section>
@@ -238,13 +210,13 @@
 
             <div class="flex justify-center -mt-2">
                 <div class="w-36 h-36 rounded-full bg-[#e9ecef] overflow-hidden">
-                    <img src="./assets/doctors/Dr Anirudha Udupa K.webp" alt="Dr. Aniruddha Udupi K" class="w-full h-full object-cover" />
+                    <img src="./assets/doctors/Dr Anirudha Udupa K.webp" alt="Dr. Aniruddha Udupa K" class="w-full h-full object-cover" />
                 </div>
             </div>
 
             <div class="mt-4">
                 <h3 class="text-[20px] font-semibold text-[#5c2c20] leading-tight">
-                    Dr. Aniruddha Udupi K
+                    Dr. Aniruddha Udupa K
                 </h3>
 
                 <p class="text-gray-700 text-[15px] mt-1">
@@ -270,10 +242,10 @@
     </section>
 
 
-    <div class="container w-full mx-auto">
+    <div class="container w-full mx-auto mt-10">
         <h2 class="text-2xl md:text-3xl font-semibold leading-snug text-gray-800">
             FAQs on Lung & Breathing Care at
-            <span class="text-[#ec8b2a]">MaAx Super Specialty Hospital, Shimoga</span>
+            <span class="text-[#ec8b2a]">maAx Super Specialty Hospital, Shivamogga</span>
         </h2>
 
         <div class="rounded-2xl border border-gray-300 divide-y">
@@ -329,7 +301,7 @@
                     <span class="transition-transform group-open:rotate-180 text-xl group-open:text-[#ec8b2a]">▲</span>
                 </summary>
                 <div class="px-6 pb-4 pt-2 text-gray-600 leading-relaxed bg-orange-50/70">
-                    Yes. MaAx Hospitals is equipped to handle acute respiratory distress, severe asthma attacks, and critical lung emergencies 24/7.
+                    Yes. maAx Hospital is equipped to handle acute respiratory distress, severe asthma attacks, and critical lung emergencies 24/7.
                 </div>
             </details>
 

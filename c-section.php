@@ -126,7 +126,7 @@
                     is a surgical procedure used to deliver a baby through incisions made in the
                     mother’s abdomen and uterus. It is performed when a vaginal delivery may pose
                     risks to the mother or baby, such as in cases of fetal distress, multiple
-                    pregnancies, placenta complications, or previous cesarean births. MaAx
+                    pregnancies, placenta complications, or previous cesarean births. maAx
                     Hospital provides safe, well-monitored C-Section deliveries using advanced
                     anesthesia techniques, strict sterilization protocols, and comprehensive
                     postoperative care to ensure a smooth recovery for both mother and newborn.

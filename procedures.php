@@ -150,7 +150,7 @@
             },
             {
                 "name": "Dialysis",
-                "url": "./dialysis.php",
+                "url": "./procedures/dialysis.php",
                 "icon": "./assets/icons/dialysis.webp"
             },
             {
@@ -195,7 +195,7 @@
             },
             {
                 "name": "Pacemaker Implant",
-                "url": "./procedures/pac",
+                "url": "./procedures/pacemaker.php",
                 "icon": "./assets/icons/pacemaker.webp"
             },
             {
@@ -215,27 +215,27 @@
             },
             {
                 "name": "Tonsil Removal",
-                "url": "./procedures/",
+                "url": "./procedures/tonsil-removal.php",
                 "icon": "./assets/icons/tonsil.webp"
             },
             {
                 "name": "Trauma Care",
-                "url": "#",
+                "url": "./procedures/trauma.php",
                 "icon": "./assets/icons/trauma.webp"
             },
             {
                 "name": "Ultrasound",
-                "url": "#",
+                "url": "./procedures/ultrasound.php",
                 "icon": "./assets/icons/ultrasound.webp"
             },
             {
                 "name": "Urology Surgery",
-                "url": "#",
+                "url": "./procedures/urology-care.php",
                 "icon": "./assets/icons/urology.webp"
             },
             {
                 "name": "Valve Replacement",
-                "url": "#",
+                "url": "./procedures/valve-replacement.php",
                 "icon": "./assets/icons/valve-replacement.webp"
             }
         ]

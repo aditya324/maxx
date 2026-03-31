@@ -126,7 +126,7 @@
                     focuses on the surgical treatment of conditions affecting infants, children,
                     and adolescents. It includes corrective procedures for congenital anomalies,
                     abdominal and thoracic surgeries, trauma care, and minimally invasive
-                    pediatric interventions. At MaAx Hospital, our pediatric surgeons use
+                    pediatric interventions. At maAx Hospital, our pediatric surgeons use
                     child-specific surgical techniques, advanced imaging, and specialized
                     anesthesia to ensure safe, gentle, and effective care tailored to the unique
                     needs of young patients.

@@ -43,10 +43,17 @@
 
       <div class="absolute inset-0 flex flex-col justify-center items-center text-center px-4 lg:text-left lg:items-start lg:justify-center lg:container lg:mx-auto lg:px-6">
         <div class="max-w-lg">
-          <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-white tracking-tight">Heart Care</h1>
+
+          <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-white tracking-tight">
+            Health Checkups
+          </h1>
+
           <p class="text-sm md:text-base lg:text-xl text-gray-200 leading-relaxed mt-2 lg:mt-4">
-            Our Expert Cardiologists provide advanced diagnostic and interventional care for a wide range of heart conditions
+            maAx Hospital offers comprehensive health checkup packages designed for early detection
+            and prevention of diseases. With advanced diagnostics and expert medical evaluation,
+            we help you stay proactive about your health and well-being.
           </p>
+
         </div>
       </div>
     </div>
@@ -86,7 +93,7 @@
           <div class="flex items-start gap-2 mt-2">
             <input type="checkbox" id="consent" class="mt-1 w-4 h-4 text-orange-500 border-gray-300 rounded focus:ring-orange-500">
             <label for="consent" class="text-xs text-gray-600">
-              I consent maAx hospitals to contact me
+              I consent maAx Hospital to contact me
             </label>
           </div>
 
@@ -99,31 +106,37 @@
     </div>
   </div>
 
-  <section class="relative z-20 lg:mt-20 mb-10 px-4 lg:px-0">
-    <div
-      class="max-w-3xl mx-auto bg-white rounded-[14px]
-           shadow-[0_10px_30px_rgba(15,23,42,0.12)]
-           px-5 py-4 lg:px-8 lg:py-5">
-      <h3 class="text-lg lg:text-xl font-semibold text-gray-900 mb-2">
-        Department of <span class="text-[#f97316]">Cardiology</span>
-      </h3>
+ <section class="relative z-20 lg:mt-20 mb-10 px-4 lg:px-0">
+  <div
+    class="max-w-3xl mx-auto bg-white rounded-[14px]
+         shadow-[0_10px_30px_rgba(15,23,42,0.12)]
+         px-5 py-4 lg:px-8 lg:py-5">
 
-      <p class="text-[13px] lg:text-[14px] leading-relaxed text-gray-700">
-        At the Department of Cardiology at maAx Hospitals, we are committed to delivering
-        comprehensive heart care using advanced technologies and evidence-based practices.
-        From preventive screenings to complex cardiac interventions, our expert team of
-        cardiologists is here to support patients across all stages of heart health.
-      </p>
-    </div>
-  </section>
+    <h3 class="text-lg lg:text-xl font-semibold text-gray-900 mb-2">
+      Health Checkups at <span class="text-[#f97316]">maAx Hospital</span>
+    </h3>
 
+    <p class="text-[13px] lg:text-[14px] leading-relaxed text-gray-700">
+      At maAx Hospital, we offer comprehensive health checkup programs designed to promote
+      early detection and prevention of diseases. Our packages include a wide range of
+      screenings, diagnostic tests, and expert medical consultations tailored to different
+      age groups and health needs.
 
-  <section class="w-full py-12 xl:px-40 bg-[#F5F7FB]">
+      With advanced diagnostic technology and a team of experienced healthcare professionals,
+      we ensure accurate results and personalized guidance. Regular health checkups at maAx
+      Hospital help you stay informed about your health, manage risks proactively, and lead
+      a healthier, more confident life.
+    </p>
+
+  </div>
+</section>
+
+  <!-- <section class="w-full py-12 xl:px-40 bg-[#F5F7FB]">
     <div class=" mx-auto ">
       <div class="swiper doctorSwiper">
         <div class="swiper-wrapper ">
 
-          <!-- SLIDE 1 -->
+    
           <div class="swiper-slide">
             <article
               class="w-full h-full rounded-2xl bg-white shadow-[0_10px_30px_rgba(15,23,42,0.08)] px-6 pt-8 pb-6 flex flex-col items-center">
@@ -154,7 +167,7 @@
             </article>
           </div>
 
-          <!-- SLIDE 2 -->
+
           <div class="swiper-slide">
             <article
               class="w-full h-full rounded-2xl bg-white shadow-[0_10px_30px_rgba(15,23,42,0.08)] px-6 pt-8 pb-6 flex flex-col items-center">
@@ -185,7 +198,7 @@
             </article>
           </div>
 
-          <!-- SLIDE 3 -->
+
           <div class="swiper-slide">
             <article
               class="w-full h-full rounded-2xl bg-white shadow-[0_10px_30px_rgba(15,23,42,0.08)] px-6 pt-8 pb-6 flex flex-col items-center">
@@ -216,7 +229,7 @@
             </article>
           </div>
 
-          <!-- SLIDE 4 -->
+  
           <div class="swiper-slide">
             <article
               class="w-full h-full rounded-2xl bg-white shadow-[0_10px_30px_rgba(15,23,42,0.08)] px-6 pt-8 pb-6 flex flex-col items-center">
@@ -306,7 +319,7 @@
           </div>
         </div>
 
-        <!-- Custom Navigation -->
+      
         <div class="swiper-button-prev !w-12 !h-12 !flex !items-center !justify-center !bg-white !rounded-full shadow-md hover:shadow-lg transition">
           <img src="./assets/icons/arrow.png" class="w-5 rotate-180" alt="">
         </div>
@@ -315,14 +328,68 @@
           <img src="./assets/icons/arrow.png" class="w-5" alt="">
         </div>
 
-        <!-- Pagination -->
+    
         <div class="swiper-pagination mt-6"></div>
 
       </div>
     </div>
+  </section> -->
+
+  <section class="flex justify-center gap-8 flex-wrap">
+
+    <!-- Cardiologist -->
+    <div class="w-[400px] rounded-[20px] border border-[#e4d5c6] bg-white shadow-md p-6 text-center">
+      <div class="flex justify-center -mt-2">
+        <div class="w-36 h-36 rounded-full bg-[#e9ecef] overflow-hidden">
+          <img src="./assets/doctors/Dr Manjunath A Phasalkar.webp" alt="Dr. Manjunath P. Pasalkar" class="w-full h-full object-cover" />
+        </div>
+      </div>
+
+      <div class="mt-4">
+        <h3 class="text-[20px] font-semibold text-[#5c2c20]">
+          Dr. Manjunath P. Pasalkar
+        </h3>
+        <p class="text-gray-700 text-[15px] mt-1">
+          MBBS, MD, DM (Cardiology)
+        </p>
+        <p class="text-orange-500 text-[17px] font-semibold mt-2">
+          Cardiology
+        </p>
+      </div>
+
+      <div class="grid grid-cols-2 rounded-xl overflow-hidden border border-orange-500 mt-6">
+        <a href="./dr-manjunath.php" class="bg-[#582F28] text-white py-3 text-sm">View Profile</a>
+        <a href="./dr-manjunath.php" class="bg-white text-orange-600 py-3 text-sm">Book Appointment</a>
+      </div>
+    </div>
+
+    <!-- Cardiac Surgeon -->
+    <div class="w-[400px] rounded-[20px] border border-[#e4d5c6] bg-white shadow-md p-6 text-center">
+      <div class="flex justify-center -mt-2">
+        <div class="w-36 h-36 rounded-full bg-[#e9ecef] overflow-hidden">
+          <img src="./assets/doctors/Sudheer Bhatt.webp" alt="Dr. Sudheer M Bhat" class="w-full h-full object-cover" />
+        </div>
+      </div>
+
+      <div class="mt-4">
+        <h3 class="text-[20px] font-semibold text-[#5c2c20]">
+          Dr. Sudheer M Bhat
+        </h3>
+        <p class="text-gray-700 text-[15px] mt-1">
+          MBBS, MS, MCh (CTVS)
+        </p>
+        <p class="text-orange-500 text-[17px] font-semibold mt-2">
+          Cardio Thoracic Surgery
+        </p>
+      </div>
+
+      <div class="grid grid-cols-2 rounded-xl overflow-hidden border border-orange-500 mt-6">
+        <a href="./dr-sudheer-m-bhat.php" class="bg-[#582F28] text-white py-3 text-sm">View Profile</a>
+        <a href="./dr-sudheer-m-bhat.php" class="bg-white text-orange-600 py-3 text-sm">Book Appointment</a>
+      </div>
+    </div>
+
   </section>
-
-
 
   <section class="w-full bg-[#F5F7FB] py-10 lg:px-0 px-5">
     <div
@@ -334,7 +401,7 @@
             Treatments <span class="text-[#F58220]">Offered</span>
           </h2>
 
-          <ul class="space-y-3 md:space-y-3.5 text-[15px] md:text-2xl leading-5 font-semibold ">
+          <ul class="space-y-5 md:space-y-5 text-[15px] md:text-2xl leading-5 font-semibold tracking-wide">
             <li class="flex items-start gap-3">
               <span
                 class="mt-1 h-6 w-6 flex items-center justify-center rounded-full bg-[#7B3F34] text-white text-xs shrink-0">✓</span>
@@ -368,7 +435,7 @@
             <li class="flex items-start gap-3">
               <span
                 class="mt-1 h-6 w-6 flex items-center justify-center rounded-full bg-[#7B3F34] text-white text-xs shrink-0">✓</span>
-              <span>Angioplasty and Stenting (PTCA)</span>
+              <span>Angioplasty and Stenting</span>
             </li>
 
             <li class="flex items-start gap-3">
@@ -419,8 +486,8 @@
   <section class="w-full bg-[var(--brown)] p-5 xl:px-40 ">
     <div>
       <p class="text-center text-white text-xl font-semibold">
-        World-Class Specialties <br />
-        <span class="text-[var(--orange)]">at your fingertips</span>
+        Advanced Healthcare Services <br />
+        <span class="text-[var(--orange)]">at maAx Super Specialty Hospital</span>
       </p>
 
       <!-- Swiper Container -->
@@ -430,14 +497,16 @@
           <!-- SLIDE 1 -->
           <div class="swiper-slide">
             <div class="flex flex-col">
-              <div class="flex justify-center  mt-5">
-                <img src="./assets/sliders/slider-image.jpg"
+              <div class="flex justify-center mt-5">
+                <img src="./assets/book-appointment.webp"
                   class="h-52 rounded-xl"
                   alt="">
               </div>
               <div class="text-white px-5 mt-5 text-center">
-                <p class="font-bold text-xl">Book an in-person Appointment</p>
-                <p class="xl:text-lg md:text-base">Schedule your consultation at a convenient time at our Shivomogga Hospital</p>
+                <p class="font-bold text-xl">Book an Appointment</p>
+                <p class="xl:text-lg md:text-base">
+                  Schedule your visit with expert doctors at maAx Super Specialty Hospital, Shivamogga
+                </p>
               </div>
             </div>
           </div>
@@ -446,13 +515,15 @@
           <div class="swiper-slide">
             <div class="flex flex-col">
               <div class="flex justify-center mt-5">
-                <img src="./assets/sliders/slider-image.jpg"
+                <img src="./assets/expert.webp"
                   class="h-52 rounded-xl"
                   alt="">
               </div>
               <div class="text-white px-5 mt-5 text-center">
-                <p class="font-bold text-xl">Meet Top Specialists</p>
-                <p class="xl:text-lg md:text-base">Connect with our expert doctors across multiple departments</p>
+                <p class="font-bold text-xl">Expert Medical Specialists</p>
+                <p class="xl:text-lg md:text-base">
+                  Get treated by highly qualified specialists across multiple departments
+                </p>
               </div>
             </div>
           </div>
@@ -461,43 +532,56 @@
           <div class="swiper-slide">
             <div class="flex flex-col">
               <div class="flex justify-center mt-5">
-                <img src="./assets/sliders/slider-image.jpg"
+                <img src="./assets/24x7.webp"
                   class="h-52 rounded-lg"
                   alt="">
               </div>
               <div class="text-white px-5 mt-5 text-center">
-                <p class="font-bold text-xl">24/7 Emergency Care</p>
-                <p class="xl:text-lg md:text-base">Always available when you need urgent medical attention</p>
+                <p class="font-bold text-xl">24/7 Emergency & Critical Care</p>
+                <p class="xl:text-lg md:text-base">
+                  Immediate medical attention with round-the-clock emergency services
+                </p>
               </div>
             </div>
           </div>
+
+          <!-- SLIDE 4 -->
           <div class="swiper-slide">
             <div class="flex flex-col">
               <div class="flex justify-center mt-5">
-                <img src="./assets/sliders/slider-image.jpg"
+                <img src="./assets/advanced-diagnostics.webp"
                   class="h-52 rounded-lg"
                   alt="">
               </div>
               <div class="text-white px-5 mt-5 text-center">
-                <p class="font-bold text-xl">24/7 Emergency Care</p>
-                <p class="xl:text-lg md:text-base">Always available when you need urgent medical attention</p>
+                <p class="font-bold text-xl">Advanced Diagnostics</p>
+                <p class="xl:text-lg md:text-base">
+                  Accurate diagnosis with modern imaging and laboratory facilities
+                </p>
               </div>
             </div>
           </div>
+
+          <!-- SLIDE 5 -->
           <div class="swiper-slide">
             <div class="flex flex-col">
               <div class="flex justify-center mt-5">
-                <img src="./assets/sliders/slider-image.jpg"
+                <img src="./assets/surgical-care.webp"
                   class="h-52 rounded-lg"
                   alt="">
               </div>
               <div class="text-white px-5 mt-5 text-center">
-                <p class="font-bold text-xl">24/7 Emergency Care</p>
-                <p class="xl:text-lg md:text-base">Always available when you need urgent medical attention</p>
+                <p class="font-bold text-xl">Comprehensive Surgical Care</p>
+                <p class="xl:text-lg md:text-base">
+                  Expertise in general, laparoscopic, and specialized surgical procedures
+                </p>
               </div>
             </div>
           </div>
+
         </div>
+
+        <!-- Navigation Buttons -->
         <div class="swiper-button-prev !w-12 !h-12 !flex !items-center !justify-center !bg-white !rounded-full shadow-md hover:shadow-lg transition">
           <img src="./assets/icons/arrow.png" class="w-5 rotate-180" alt="">
         </div>
@@ -508,191 +592,201 @@
 
         <!-- Pagination -->
         <div class="swiper-pagination mt-6"></div>
-        <!-- Pagination Dots -->
 
       </div>
     </div>
   </section>
 
 
-  <section class="py-16">
-    <div class="container mx-auto px-4">
-      <h2 class="text-center text-3xl md:text-4xl font-bold text-gray-800 mb-12">
-        Patient <span class="text-orange-500">Stories</span>
-      </h2>
+  <section class="container mx-auto">
 
-      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 justify-items-center">
 
-        <div class="relative w-full max-w-[312px] h-[266px] bg-gradient-to-br from-orange-400 to-orange-600 rounded-[10px]   overflow-hidden shadow-md transition-transform duration-300 hover:-translate-y-1 cursor-pointer">
-          <img src="./assets/testimonials.png" alt="">
-          <img src="./assets/icons/yt-icon.png" class="absolute bottom-5 right-32" alt="">
+
+    <h2 class="text-2xl font-semibold text-center pt-12 pb-2">
+      <span class="text-[#6C3130]">Real Patients,</span>
+      <span class="text-brand">Real Stories</span>
+    </h2>
+    <!-- <div class="grid md:grid-cols-3 grid-cols-1 justify-items-center gap-10 mt-5 lg:px-0 px-5 ">
+
+
+      <div class="max-w-sm rounded overflow-hidden shadow-lg yt-video-card" data-yt-video="hwH9BO1QEL8" referrerPolicy="strict-origin-when-cross-origin">
+
+        <div class="w-full relative p-5">
+       
+
+     
+          <img class="w-full h-full object-cover rounded-2xl " src="./assets/testimonials/image 107 (1).png" alt="Sunset in the mountains">
+
+
+
         </div>
 
-        <!-- <div class="relative w-full max-w-[312px] h-[266px] bg-gradient-to-br from-orange-400 to-orange-600 rounded-[10px] border border-transparent hover:border-orange-300 overflow-hidden shadow-sm transition-all duration-300 hover:-translate-y-1 cursor-pointer">
-                    <div class="flex justify-between items-start p-5">
-                        <div class="w-2 h-2 bg-orange-800 rounded-full opacity-60"></div>
-                        <div class="text-white font-bold text-lg opacity-90 flex items-center">
-                            <svg class="h-6 w-6 mr-1" fill="currentColor" viewBox="0 0 20 20"><path d="M10 2a1 1 0 00-.707.293l-1 1A1 1 0 009 4v1a1 1 0 00.293.707l1 1A1 1 0 0011 6V5a1 1 0 00-.293-.707l-1-1A1 1 0 0010 2zM5 6a1 1 0 00-.707.293l-1 1A1 1 0 004 8v1a1 1 0 00.293.707l1 1A1 1 0 006 10V9a1 1 0 00-.293-.707l-1-1A1 1 0 005 6zM15 6a1 1 0 00-.707.293l-1 1A1 1 0 0014 8v1a1 1 0 00.293.707l1 1A1 1 0 0016 10V9a1 1 0 00-.293-.707l-1-1A1 1 0 0015 6zM3 12a1 1 0 00-.707.293l-1 1A1 1 0 002 14v1a1 1 0 00.293.707l1 1A1 1 0 004 16v-1a1 1 0 00-.293-.707l-1-1A1 1 0 003 12zM17 12a1 1 0 00-.707.293l-1 1A1 1 0 0016 14v1a1 1 0 00.293.707l1 1A1 1 0 0018 16v-1a1 1 0 00-.293-.707l-1-1A1 1 0 0017 12zM8 16a1 1 0 00-.707.293l-1 1A1 1 0 007 18v1a1 1 0 00.293.707l1 1A1 1 0 009 20v-1a1 1 0 00-.293-.707l-1-1A1 1 0 008 16zM12 16a1 1 0 00-.707.293l-1 1A1 1 0 0011 18v1a1 1 0 00.293.707l1 1A1 1 0 0013 20v-1a1 1 0 00-.293-.707l-1-1A1 1 0 0012 16z"/></svg>
-                            maAx
-                        </div>
-                    </div>
-                    <div class="text-center relative z-10 -mt-2">
-                        <p class="text-white text-4xl font-dancing-script opacity-90">Patient</p>
-                        <p class="text-white text-2xl font-bold uppercase tracking-wider leading-none text-shadow-sm">TESTIMONIAL</p>
-                    </div>
-                    <div class="absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-[45%] w-36 h-36 rounded-full border-4 border-white/30 overflow-hidden z-0 group">
-                        <img src="https://randomuser.me/api/portraits/women/2.jpg" alt="Patient Testimonial" class="w-full h-full object-cover grayscale opacity-70 group-hover:opacity-100 transition-opacity duration-300">
-                        <div class="absolute inset-0 flex items-center justify-center">
-                            <div class="w-12 h-12 bg-[#FF0000] rounded-full flex items-center justify-center shadow-lg scale-90 group-hover:scale-100 transition-transform duration-300">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-white fill-current pl-1" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
-                            </div>
-                        </div>
-                    </div>
-                </div> -->
+        <div class="px-6 py-4 flex gap-5">
 
-
-
-
-        <div class="relative w-full max-w-[312px] h-[266px] bg-gradient-to-br from-orange-400 to-orange-600 rounded-[10px]  overflow-hidden shadow-md transition-transform duration-300 hover:-translate-y-1 cursor-pointer">
-          <img src="./assets/testimonials.png" alt="">
-          <img src="./assets/icons/yt-icon.png" class="absolute bottom-5 right-32" alt="">
-        </div>
-        <div class="relative w-full max-w-[312px] h-[266px] bg-gradient-to-br from-orange-400 to-orange-600 rounded-[10px]   overflow-hidden shadow-md transition-transform duration-300 hover:-translate-y-1 cursor-pointer">
-          <img src="./assets/testimonials.png" alt="">
-          <img src="./assets/icons/yt-icon.png" class="absolute bottom-5 right-32" alt="">
-        </div>
-        <div class="relative w-full max-w-[312px] h-[266px] bg-gradient-to-br from-orange-400 to-orange-600 rounded-[10px] overflow-hidden shadow-md transition-transform duration-300 hover:-translate-y-1 cursor-pointer">
-          <img src="./assets/testimonials.png" alt="">
-          <img src="./assets/icons/yt-icon.png" class="absolute bottom-5 right-32" alt="">
+          <img src="./assets/icons/arrow.png" class="w-6 h-6" alt="">
+          <p class="text-[#525252] text-xl  font-medium ">
+            Successful Heart and lungs Treatment by Our Doctor
+          </p>
         </div>
 
       </div>
+      <div class="max-w-sm rounded overflow-hidden shadow-lg yt-video-card" data-yt-video="HPm9wgRENnM" referrerPolicy="strict-origin-when-cross-origin">
+
+        <div class="w-full relative p-5">
+        
+
+        
+          <img class="w-full h-full object-cover rounded-2xl " src="./assets/testimonial.png" alt="Sunset in the mountains">
+
+  
+
+        </div>
+
+        <div class="px-6 py-4 flex gap-5">
+
+          <img src="./assets/icons/arrow.png" class="w-6 h-6" alt="">
+          <p class="text-[#525252] text-xl  font-medium ">
+            Successful Heart and lungs Treatment by Our Doctor
+          </p>
+        </div>
+
+      </div>
+      <div class="max-w-sm rounded overflow-hidden shadow-lg yt-video-card" data-yt-video="8yc3498d-dA" referrerPolicy="strict-origin-when-cross-origin">
+
+        <div class="w-full relative p-5">
+        
+          <img class="w-full h-full object-cover rounded-2xl " src="./assets/testimonials/Mask group.png" alt="Sunset in the mountains">
+
+ 
+        </div>
+
+        <div class="px-6 py-4 flex gap-5">
+
+          <img src="./assets/icons/arrow.png" class="w-6 h-6" alt="">
+          <p class="text-[#525252] text-xl  font-medium ">
+            Successful Heart and lungs Treatment by Our Doctor
+          </p>
+        </div>
+
+      </div>
+    </div> -->
+
+
+    <div class=" container flex justify-center pt-10 gap-10 flex-wrap px-5 mx-auto">
+      <iframe width="450" height="315" src="https://www.youtube.com/embed/hwH9BO1QEL8?si=3oowtPoHMVTP3_kl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <iframe width="450" height="315" src="https://www.youtube.com/embed/HPm9wgRENnM?si=AmZT9pzbi90zVR5X" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <iframe width="450" height="315" src="https://www.youtube.com/embed/8yc3498d-dA?si=t9xSbGHsFuMe4NLI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </div>
+
+
+
+    <div class="w-full flex justify-center mt-10">
+      <a href="./patients-corner.php?type=videos" class="flex justify-center items-center gap-2 border border-[#f28c28] text-[#f28c28] 
+        px-5 py-2 rounded-full font-medium text-lg hover:bg-[#fff7ef] transition bg-white">
+        View All Patient Testimonials
+        <span class="text-lg">→</span>
+      </a>
+    </div>
+
   </section>
 
   <section class="max-w-6xl mx-auto px-6 py-12">
-    <!-- Heading -->
     <h2 class="text-2xl md:text-3xl font-semibold text-gray-700 mb-6">
       Frequently <span class="text-[#FEAE01]">Asked Questions</span>
     </h2>
 
-    <!-- 2 Column Grid -->
     <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-      <!-- LEFT COLUMN -->
+
+      <!-- LEFT -->
       <div class="space-y-4">
-        <!-- Accordion Item -->
+
         <div class="border border-[#FEAE01] rounded-lg bg-white">
-          <button
-            class="w-full flex justify-between items-center px-5 py-4"
-            onclick="toggleAccordion(this)">
-            <span class="text-gray-700 text-xl font-semibold">What is the Digital Marketing Masterclass?</span>
-
-            <span
-              class="w-7 h-7 border border-[#FEAE01] rounded-full flex items-center justify-center text-[#FEAE01] font-bold transition-all">
-              +
-            </span>
+          <button class="w-full flex justify-between items-center px-5 py-4" onclick="toggleAccordion(this)">
+            <span class="text-gray-700 text-lg font-semibold">What services are offered?</span>
+            <span class="accordion-icon w-7 h-7 border border-[#FEAE01] rounded-full flex items-center justify-center text-[#FEAE01] font-bold">+</span>
           </button>
-
-          <div class="hidden px-5 pb-4 text-gray-600 text-sm">
-            This is the answer section. Add your description here.
-          </div>
-        </div>
-
-        <!-- Copy same structure 3 more times -->
-        <div class="border border-[#FEAE01] rounded-lg bg-white">
-          <button
-            class="w-full flex justify-between items-center px-5 py-4"
-            onclick="toggleAccordion(this)">
-            <span class="text-gray-700 text-xl font-semibold">What is the Digital Marketing Masterclass?</span>
-            <span
-              class="w-7 h-7 border border-[#FEAE01] rounded-full flex items-center justify-center text-[#FEAE01] font-bold">+</span>
-          </button>
-          <div class="hidden px-5 pb-4 text-gray-600 text-sm">
-            Add your answer here.
+          <div class="accordion-content hidden px-5 pb-4 text-gray-600 text-sm">
+            We provide general medicine, surgery, cardiology, orthopedics, ENT, pediatrics, and more.
           </div>
         </div>
 
         <div class="border border-[#FEAE01] rounded-lg bg-white">
-          <button
-            class="w-full flex justify-between items-center px-5 py-4"
-            onclick="toggleAccordion(this)">
-            <span class="text-gray-700 text-xl font-semibold">What is the Digital Marketing Masterclass?</span>
-            <span
-              class="w-7 h-7 border border-[#FEAE01] rounded-full flex items-center justify-center text-[#FEAE01] font-bold">+</span>
+          <button class="w-full flex justify-between items-center px-5 py-4" onclick="toggleAccordion(this)">
+            <span class="text-gray-700 text-lg font-semibold">How to book appointment?</span>
+            <span class="accordion-icon w-7 h-7 border border-[#FEAE01] rounded-full flex items-center justify-center text-[#FEAE01] font-bold">+</span>
           </button>
-          <div class="hidden px-5 pb-4 text-gray-600 text-sm">
-            Add your answer here.
+          <div class="accordion-content hidden px-5 pb-4 text-gray-600 text-sm">
+            You can book online, call the hospital, or visit the reception directly.
           </div>
         </div>
 
         <div class="border border-[#FEAE01] rounded-lg bg-white">
-          <button
-            class="w-full flex justify-between items-center px-5 py-4"
-            onclick="toggleAccordion(this)">
-            <span class="text-gray-700 text-xl font-semibold">What is the Digital Marketing Masterclass?</span>
-            <span
-              class="w-7 h-7 border border-[#FEAE01] rounded-full flex items-center justify-center text-[#FEAE01] font-bold">+</span>
+          <button class="w-full flex justify-between items-center px-5 py-4" onclick="toggleAccordion(this)">
+            <span class="text-gray-700 text-lg font-semibold">Emergency available?</span>
+            <span class="accordion-icon w-7 h-7 border border-[#FEAE01] rounded-full flex items-center justify-center text-[#FEAE01] font-bold">+</span>
           </button>
-          <div class="hidden px-5 pb-4 text-gray-600 text-sm">
-            Add your answer here.
+          <div class="accordion-content hidden px-5 pb-4 text-gray-600 text-sm">
+            Yes, 24/7 emergency and ICU services are available.
           </div>
         </div>
+
+        <div class="border border-[#FEAE01] rounded-lg bg-white">
+          <button class="w-full flex justify-between items-center px-5 py-4" onclick="toggleAccordion(this)">
+            <span class="text-gray-700 text-lg font-semibold">Diagnostics available?</span>
+            <span class="accordion-icon w-7 h-7 border border-[#FEAE01] rounded-full flex items-center justify-center text-[#FEAE01] font-bold">+</span>
+          </button>
+          <div class="accordion-content hidden px-5 pb-4 text-gray-600 text-sm">
+            Yes, MRI, CT scan, X-ray, ultrasound, and lab tests are available.
+          </div>
+        </div>
+
       </div>
 
-      <!-- RIGHT COLUMN -->
+      <!-- RIGHT -->
       <div class="space-y-4">
+
         <div class="border border-[#FEAE01] rounded-lg bg-white">
-          <button
-            class="w-full flex justify-between items-center px-5 py-4"
-            onclick="toggleAccordion(this)">
-            <span class="text-gray-700 text-xl font-semibold">What if I miss a Live Class?</span>
-            <span
-              class="w-7 h-7 border border-[#FEAE01] rounded-full flex items-center justify-center text-[#FEAE01] font-bold">+</span>
+          <button class="w-full flex justify-between items-center px-5 py-4" onclick="toggleAccordion(this)">
+            <span class="text-gray-700 text-lg font-semibold">Specialist doctors?</span>
+            <span class="accordion-icon w-7 h-7 border border-[#FEAE01] rounded-full flex items-center justify-center text-[#FEAE01] font-bold">+</span>
           </button>
-          <div class="hidden px-5 pb-4 text-gray-600 text-sm">
-            Your answer here.
+          <div class="accordion-content hidden px-5 pb-4 text-gray-600 text-sm">
+            Yes, experienced specialists are available across all departments.
           </div>
         </div>
 
         <div class="border border-[#FEAE01] rounded-lg bg-white">
-          <button
-            class="w-full flex justify-between items-center px-5 py-4"
-            onclick="toggleAccordion(this)">
-            <span class="text-gray-700 text-xl font-semibold">What if I miss a Live Class?</span>
-            <span
-              class="w-7 h-7 border border-[#FEAE01] rounded-full flex items-center justify-center text-[#FEAE01] font-bold">+</span>
+          <button class="w-full flex justify-between items-center px-5 py-4" onclick="toggleAccordion(this)">
+            <span class="text-gray-700 text-lg font-semibold">Surgery available?</span>
+            <span class="accordion-icon w-7 h-7 border border-[#FEAE01] rounded-full flex items-center justify-center text-[#FEAE01] font-bold">+</span>
           </button>
-          <div class="hidden px-5 pb-4 text-gray-600 text-sm">
-            Your answer here.
+          <div class="accordion-content hidden px-5 pb-4 text-gray-600 text-sm">
+            Yes, general, laparoscopic, and advanced surgeries are performed.
           </div>
         </div>
 
         <div class="border border-[#FEAE01] rounded-lg bg-white">
-          <button
-            class="w-full flex justify-between items-center px-5 py-4"
-            onclick="toggleAccordion(this)">
-            <span class="text-gray-700 text-xl font-semibold">What if I miss a Live Class?</span>
-            <span
-              class="w-7 h-7 border border-[#FEAE01] rounded-full flex items-center justify-center text-[#FEAE01] font-bold">+</span>
+          <button class="w-full flex justify-between items-center px-5 py-4" onclick="toggleAccordion(this)">
+            <span class="text-gray-700 text-lg font-semibold">Insurance accepted?</span>
+            <span class="accordion-icon w-7 h-7 border border-[#FEAE01] rounded-full flex items-center justify-center text-[#FEAE01] font-bold">+</span>
           </button>
-          <div class="hidden px-5 pb-4 text-gray-600 text-sm">
-            Your answer here.
+          <div class="accordion-content hidden px-5 pb-4 text-gray-600 text-sm">
+            Yes, most major insurance providers are accepted.
           </div>
         </div>
 
         <div class="border border-[#FEAE01] rounded-lg bg-white">
-          <button
-            class="w-full flex justify-between items-center px-5 py-4"
-            onclick="toggleAccordion(this)">
-            <span class="text-gray-700 text-xl font-semibold">What if I miss a Live Class?</span>
-            <span
-              class="w-7 h-7 border border-[#FEAE01] rounded-full flex items-center justify-center text-[#FEAE01] font-bold">+</span>
+          <button class="w-full flex justify-between items-center px-5 py-4" onclick="toggleAccordion(this)">
+            <span class="text-gray-700 text-lg font-semibold">Where is hospital?</span>
+            <span class="accordion-icon w-7 h-7 border border-[#FEAE01] rounded-full flex items-center justify-center text-[#FEAE01] font-bold">+</span>
           </button>
-          <div class="hidden px-5 pb-4 text-gray-600 text-sm">
-            Your answer here.
+          <div class="accordion-content hidden px-5 pb-4 text-gray-600 text-sm">
+            Located in Shivamogga, Karnataka with easy access.
           </div>
         </div>
+
       </div>
+
     </div>
   </section>
 
@@ -748,7 +842,29 @@
       },
     });
   </script>
+  <script>
+    function toggleAccordion(button) {
+      const content = button.nextElementSibling;
+      const icon = button.querySelector("span:last-child");
 
+      // Close all others (optional UX)
+      document.querySelectorAll(".accordion-content").forEach((el) => {
+        if (el !== content) {
+          el.classList.add("hidden");
+        }
+      });
+
+      document.querySelectorAll(".accordion-icon").forEach((el) => {
+        if (el !== icon) {
+          el.innerText = "+";
+        }
+      });
+
+      // Toggle current
+      content.classList.toggle("hidden");
+      icon.innerText = content.classList.contains("hidden") ? "+" : "−";
+    }
+  </script>
   <script>
     const doctorSwiper = new Swiper(".doctorSwiper", {
       loop: false,
@@ -780,5 +896,5 @@
       },
     });
   </script>
-<?php require "./components/footer.php" ?>
+  <?php require "./components/footer.php" ?>
 </body>

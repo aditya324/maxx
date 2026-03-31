@@ -126,7 +126,7 @@
                     focuses on the healthcare needs of infants, children, and adolescents, covering
                     everything from routine wellness checkups and immunizations to the management
                     of acute illnesses, developmental concerns, and chronic pediatric conditions.
-                    At MaAx Hospital, our pediatric team provides child-friendly, compassionate care
+                    At maAx Hospital, our pediatric team provides child-friendly, compassionate care
                     supported by advanced diagnostic tools, neonatal and pediatric emergency services,
                     and evidence-based treatment approaches to ensure healthy growth and overall
                     well-being for children at every stage of development.

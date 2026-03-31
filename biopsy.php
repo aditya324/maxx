@@ -126,7 +126,7 @@
     is a diagnostic procedure in which a small sample of tissue is removed and
     examined to identify diseases, infections, inflammation, or cancer. It plays
     a crucial role in providing accurate, early diagnosis and guiding the most
-    effective treatment plan. MaAx Hospital offers various biopsy techniques,
+    effective treatment plan. maAx Hospital offers various biopsy techniques,
     including needle biopsy, surgical biopsy, and image-guided biopsy, ensuring
     safe, precise sampling with advanced technology for reliable results.
   </p>

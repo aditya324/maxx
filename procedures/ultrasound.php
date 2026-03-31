@@ -4,770 +4,218 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Ultrasound</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 </head>
 
-<body>
+<body class="bg-[#f4f4f4]">
     <?php require "./header.php" ?>
-    <!-- SLIDER WRAPPER -->
-    <div class="swiper mySwiper">
+ <div class="swiper mySwiper">
         <div class="swiper-wrapper">
 
-            <!-- SLIDE 01 -->
             <div class="swiper-slide">
-
-                <div class="flex flex-col lg:block relative min-h-[600px] lg:mt-0 mt-20">
-
-                    <div class="relative h-96 lg:h-[619px] bg-cover bg-center lg:absolute lg:inset-0  z-0 lg:mt-20"
-                        style="background-image: url('../assets/banners/medical-care.jpg');">
-                        <img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?q=80&w=2070&auto=format&fit=crop"
-                            class="hidden"
-                            onerror="this.parentElement.style.backgroundImage = `url('${this.src}')`">
+                <div class="flex flex-col lg:block relative lg:min-h-[600px]">
+                    <div
+                        class="relative h-[300px] sm:h-[380px] md:h-[450px] lg:h-[619px] bg-cover bg-center lg:absolute lg:inset-0 z-0"
+                        style="background-image: url('../assets/procedures/ultrasound.webp');">
 
                         <div class="absolute inset-0 bg-black/50 lg:bg-black/60"></div>
 
-                        <div
-                            class="absolute inset-0 flex flex-col justify-center items-center text-center px-4 lg:text-left lg:items-start lg:justify-center lg:container lg:mx-auto lg:px-6">
+                        <div class="absolute inset-0 flex flex-col justify-center items-center text-center px-4 lg:text-left lg:items-start lg:justify-center lg:container lg:mx-auto lg:px-6">
                             <div class="max-w-full">
-                                <h1 class="text-4xl md:text-4xl p-3 lg:text-4xl font-semibold rounded-md text-white w-full "
+                                <h1
+                                    class="text-2xl md:text-3xl p-3 lg:text-4xl xl:text-6xl font-semibold rounded-md text-white w-full"
                                     style="background: linear-gradient(90deg,rgba(245, 130, 32, 1) 0%, rgba(143, 76, 19, 1) 62%);">
-                                    High-Quality Ultrasound Imaging at<br>
-                                    maAx Super Specialty Hospital, Shimoga
+                                    Ultrasound   at<br>
+                                    maAx
                                 </h1>
-
-                                <p class="text-sm md:text-base lg:text-2xl p-1 bg-white w-2xl rounded-md  leading-relaxed mt-2 lg:mt-4 text-[#6C3130]">
-                                    <span class="text-[#F58220]">Real-time imaging for</span> precise and diagnosis.
-                                </p>
                             </div>
                         </div>
-
                     </div>
 
-                    <div
-                        class="lg:py-12 py-5 px-4 lg:bg-transparent lg:p-0 lg:relative lg:z-10 lg:container lg:mx-auto lg:flex lg:items-center lg:h-[600px] mt-9 ">
-
-                        <div
-                            class="w-full max-w-md mx-auto bg-white rounded-2xl shadow-xl p-6 md:p-8 lg:ml-auto lg:mr-0">
-                            <h2 class="text-center text-2xl font-bold text-orange-500 mb-6 lg:hidden">
-                                Book An Appointment
-                            </h2>
-                            <h2 class="hidden lg:block text-left text-xl font-bold text-gray-800 mb-6 uppercase">
-                                Talk to our <span class="text-orange-500">Health Advisor</span>
-                            </h2>
-
-                            <form class="space-y-3">
-                                <div>
-                                    <input type="text" placeholder="Full Name*"
-                                        class="w-full px-4 py-3 rounded-lg border border-gray-300 text-gray-700 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-orange-500 focus:border-transparent transition" />
-                                </div>
-
-                                <div>
-                                    <input type="email" placeholder="Email*"
-                                        class="w-full px-4 py-3 rounded-lg border border-gray-300 text-gray-700 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-orange-500 focus:border-transparent transition" />
-                                </div>
-
-                                <div
-                                    class="flex rounded-lg border border-gray-300 overflow-hidden focus-within:ring-2 focus-within:ring-orange-500 focus-within:border-transparent transition">
-                                    <div
-                                        class="bg-white border-r border-gray-300 px-3 py-3 flex items-center min-w-[90px] justify-between">
-                                        <span class="text-gray-700 text-sm font-medium">+91 IN</span>
-                                        <svg class="w-4 h-4 ml-1 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                                d="M19 9l-7 7-7-7"></path>
-                                        </svg>
-                                    </div>
-                                    <input type="tel" placeholder="Mobile Number*"
-                                        class="w-full px-4 py-3 text-gray-700 placeholder-gray-400 focus:outline-none" />
-                                </div>
-
-                                <div class="flex items-start gap-2 mt-2">
-                                    <input type="checkbox" id="consent"
-                                        class="mt-1 w-4 h-4 text-orange-500 border-gray-300 rounded focus:ring-orange-500">
-                                    <label for="consent" class="text-xs text-gray-600">
-                                        I consent maAx hospitals to contact me
-                                    </label>
-                                </div>
-
-                                <button type="button"
-                                    class="w-full bg-brown-800 hover:bg-brown-900 lg:bg-orange-500 lg:hover:bg-orange-600 text-white font-bold py-3 px-6 rounded-lg shadow-md transition duration-300 transform active:scale-95 mt-4 text-base">
-                                    <span class="lg:hidden">Book Now</span>
-                                    <span class=" lg:inline">Request a Call Back</span>
-                                </button>
-                            </form>
-                        </div>
+                    <div class="px-4 mt-6 sm:mt-8 md:mt-10 lg:bg-transparent lg:p-0 lg:relative lg:z-10 lg:container lg:mx-auto lg:flex lg:items-center lg:h-[600px]">
+                        <?php require "../components/speciality-form.php" ?>
                     </div>
                 </div>
             </div>
-            <div class="swiper-slide">
-
-                <div class="flex flex-col lg:block relative min-h-[600px] lg:mt-0 mt-20">
-
-                    <div class="relative h-96 lg:h-[619px] bg-cover bg-center lg:absolute lg:inset-0  z-0 lg:mt-20"
-                        style="background-image: url('../assets/banners/medical-care.jpg');">
-                        <img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?q=80&w=2070&auto=format&fit=crop"
-                            class="hidden"
-                            onerror="this.parentElement.style.backgroundImage = `url('${this.src}')`">
-
-                        <div class="absolute inset-0 bg-black/50 lg:bg-black/60"></div>
-
-                        <div
-                            class="absolute inset-0 flex flex-col justify-center items-center text-center px-4 lg:text-left lg:items-start lg:justify-center lg:container lg:mx-auto lg:px-6">
-                            <div class="max-w-full">
-                                <h1 class="text-4xl md:text-4xl p-3 lg:text-4xl font-semibold rounded-md text-white w-full "
-                                    style="background: linear-gradient(90deg,rgba(245, 130, 32, 1) 0%, rgba(143, 76, 19, 1) 62%);">
-                                    High-Quality Ultrasound Imaging at<br>
-                                    maAx Super Specialty Hospital, Shimoga
-                                </h1>
-
-                                <p class="text-sm md:text-base lg:text-2xl p-1 bg-white w-2xl rounded-md  leading-relaxed mt-2 lg:mt-4 text-[#6C3130]">
-                                    <span class="text-[#F58220]">Real-time imaging for</span> precise and diagnosis.
-                                </p>
-                            </div>
-                        </div>
-
-                    </div>
-
-                    <div
-                        class="lg:py-12 py-5 px-4 lg:bg-transparent lg:p-0 lg:relative lg:z-10 lg:container lg:mx-auto lg:flex lg:items-center lg:h-[600px] mt-9 ">
-
-                        <div
-                            class="w-full max-w-md mx-auto bg-white rounded-2xl shadow-xl p-6 md:p-8 lg:ml-auto lg:mr-0">
-                            <h2 class="text-center text-2xl font-bold text-orange-500 mb-6 lg:hidden">
-                                Book An Appointment
-                            </h2>
-                            <h2 class="hidden lg:block text-left text-xl font-bold text-gray-800 mb-6 uppercase">
-                                Talk to our <span class="text-orange-500">Health Advisor</span>
-                            </h2>
-
-                            <form class="space-y-3">
-                                <div>
-                                    <input type="text" placeholder="Full Name*"
-                                        class="w-full px-4 py-3 rounded-lg border border-gray-300 text-gray-700 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-orange-500 focus:border-transparent transition" />
-                                </div>
-
-                                <div>
-                                    <input type="email" placeholder="Email*"
-                                        class="w-full px-4 py-3 rounded-lg border border-gray-300 text-gray-700 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-orange-500 focus:border-transparent transition" />
-                                </div>
-
-                                <div
-                                    class="flex rounded-lg border border-gray-300 overflow-hidden focus-within:ring-2 focus-within:ring-orange-500 focus-within:border-transparent transition">
-                                    <div
-                                        class="bg-white border-r border-gray-300 px-3 py-3 flex items-center min-w-[90px] justify-between">
-                                        <span class="text-gray-700 text-sm font-medium">+91 IN</span>
-                                        <svg class="w-4 h-4 ml-1 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                                d="M19 9l-7 7-7-7"></path>
-                                        </svg>
-                                    </div>
-                                    <input type="tel" placeholder="Mobile Number*"
-                                        class="w-full px-4 py-3 text-gray-700 placeholder-gray-400 focus:outline-none" />
-                                </div>
-
-                                <div class="flex items-start gap-2 mt-2">
-                                    <input type="checkbox" id="consent"
-                                        class="mt-1 w-4 h-4 text-orange-500 border-gray-300 rounded focus:ring-orange-500">
-                                    <label for="consent" class="text-xs text-gray-600">
-                                        I consent maAx hospitals to contact me
-                                    </label>
-                                </div>
-
-                                <button type="button"
-                                    class="w-full bg-brown-800 hover:bg-brown-900 lg:bg-orange-500 lg:hover:bg-orange-600 text-white font-bold py-3 px-6 rounded-lg shadow-md transition duration-300 transform active:scale-95 mt-4 text-base">
-                                    <span class="lg:hidden">Book Now</span>
-                                    <span class=" lg:inline">Request a Call Back</span>
-                                </button>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="swiper-slide">
-
-                <div class="flex flex-col lg:block relative min-h-[600px] lg:mt-0 mt-20">
-
-                    <div class="relative h-96 lg:h-[619px] bg-cover bg-center lg:absolute lg:inset-0  z-0 lg:mt-20"
-                        style="background-image: url('../assets/banners/medical-care.jpg');">
-                        <img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?q=80&w=2070&auto=format&fit=crop"
-                            class="hidden"
-                            onerror="this.parentElement.style.backgroundImage = `url('${this.src}')`">
-
-                        <div class="absolute inset-0 bg-black/50 lg:bg-black/60"></div>
-
-                        <div
-                            class="absolute inset-0 flex flex-col justify-center items-center text-center px-4 lg:text-left lg:items-start lg:justify-center lg:container lg:mx-auto lg:px-6">
-                            <div class="max-w-full">
-                                <h1 class="text-4xl md:text-4xl p-3 lg:text-4xl font-semibold rounded-md text-white w-full "
-                                    style="background: linear-gradient(90deg,rgba(245, 130, 32, 1) 0%, rgba(143, 76, 19, 1) 62%);">
-                                    High-Quality Ultrasound Imaging at<br>
-                                    maAx Super Specialty Hospital, Shimoga
-                                </h1>
-
-                                <p class="text-sm md:text-base lg:text-2xl p-1 bg-white w-2xl rounded-md  leading-relaxed mt-2 lg:mt-4 text-[#6C3130]">
-                                    <span class="text-[#F58220]">Real-time imaging for</span> precise and diagnosis.
-                                </p>
-                            </div>
-                        </div>
-
-                    </div>
-
-                    <div
-                        class="lg:py-12 py-5 px-4 lg:bg-transparent lg:p-0 lg:relative lg:z-10 lg:container lg:mx-auto lg:flex lg:items-center lg:h-[600px] mt-9 ">
-
-                        <div
-                            class="w-full max-w-md mx-auto bg-white rounded-2xl shadow-xl p-6 md:p-8 lg:ml-auto lg:mr-0">
-                            <h2 class="text-center text-2xl font-bold text-orange-500 mb-6 lg:hidden">
-                                Book An Appointment
-                            </h2>
-                            <h2 class="hidden lg:block text-left text-xl font-bold text-gray-800 mb-6 uppercase">
-                                Talk to our <span class="text-orange-500">Health Advisor</span>
-                            </h2>
-
-                            <form class="space-y-3">
-                                <div>
-                                    <input type="text" placeholder="Full Name*"
-                                        class="w-full px-4 py-3 rounded-lg border border-gray-300 text-gray-700 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-orange-500 focus:border-transparent transition" />
-                                </div>
-
-                                <div>
-                                    <input type="email" placeholder="Email*"
-                                        class="w-full px-4 py-3 rounded-lg border border-gray-300 text-gray-700 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-orange-500 focus:border-transparent transition" />
-                                </div>
-
-                                <div
-                                    class="flex rounded-lg border border-gray-300 overflow-hidden focus-within:ring-2 focus-within:ring-orange-500 focus-within:border-transparent transition">
-                                    <div
-                                        class="bg-white border-r border-gray-300 px-3 py-3 flex items-center min-w-[90px] justify-between">
-                                        <span class="text-gray-700 text-sm font-medium">+91 IN</span>
-                                        <svg class="w-4 h-4 ml-1 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                                d="M19 9l-7 7-7-7"></path>
-                                        </svg>
-                                    </div>
-                                    <input type="tel" placeholder="Mobile Number*"
-                                        class="w-full px-4 py-3 text-gray-700 placeholder-gray-400 focus:outline-none" />
-                                </div>
-
-                                <div class="flex items-start gap-2 mt-2">
-                                    <input type="checkbox" id="consent"
-                                        class="mt-1 w-4 h-4 text-orange-500 border-gray-300 rounded focus:ring-orange-500">
-                                    <label for="consent" class="text-xs text-gray-600">
-                                        I consent maAx hospitals to contact me
-                                    </label>
-                                </div>
-
-                                <button type="button"
-                                    class="w-full bg-brown-800 hover:bg-brown-900 lg:bg-orange-500 lg:hover:bg-orange-600 text-white font-bold py-3 px-6 rounded-lg shadow-md transition duration-300 transform active:scale-95 mt-4 text-base">
-                                    <span class="lg:hidden">Book Now</span>
-                                    <span class=" lg:inline">Request a Call Back</span>
-                                </button>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- ADD MORE SLIDES HERE -->
-            <!-- <div class="swiper-slide">Your Slide 2 Content</div> -->
-            <!-- <div class="swiper-slide">Your Slide 3 Content</div> -->
-
         </div>
 
-        <!-- PAGINATION -->
         <div class="swiper-pagination"></div>
-
-        <!-- NAVIGATION -->
-        <!-- <div class="swiper-button-next"></div>
-    <div class="swiper-button-prev"></div> -->
     </div>
-    <section class="w-full bg-[#FFCDA6] py-10">
+    <section class="w-full py-10">
         <div class="container mx-auto px-5 lg:px-10 flex flex-col lg:flex-row gap-10">
 
-            <!-- LEFT MENU -->
-            <div class="w-full lg:w-1/4 flex flex-col gap-3">
+            <!-- ================= LEFT SIDEBAR ================= -->
+            <div class="w-full lg:w-1/4 space-y-6">
 
-                <h2 class="text-2xl font-semibold text-[#6C3130] mb-2">Diagnostic Services</h2>
+                <div class=" rounded-xl  p-5">
+                    <h3 class="text-lg font-bold text-[#6C3130] mb-4">Top Procedures & Treatments</h3>
 
-                <a href="./bronchoscopy.php" class="w-full flex items-center justify-between bg-gray-100 text-gray-700   font-medium py-3 px-4 rounded-md">
-                    <span>Bronchoscopy</span>
-                    <span class="text-xl">&gt;</span>
-                </a>
-
-                <a href="./cath-lab.php" class="w-full flex items-center justify-between bg-gray-100 text-gray-700  font-medium py-3 px-4 rounded-md">
-                    <span>Cath lab</span>
-                    <span class="text-xl">&gt;</span>
-                </a>
-
-                <a href="./dialysis.php" class="w-full flex items-center justify-between bg-gray-100 text-gray-700 font-medium py-3 px-4 rounded-md">
-                    <span>Dialysis</span>
-                    <span class="text-xl">&gt;</span>
-                </a>
-
-                <a href="./endoscopy.php" class="w-full flex items-center justify-between bg-gray-100 text-gray-700 font-medium py-3 px-4 rounded-md">
-                    <span>Endoscopy</span>
-                    <span class="text-xl">&gt;</span>
-                </a>
-
-                <a href="./ct-scan.php" class="w-full flex items-center justify-between bg-gray-100 text-gray-700 font-medium py-3 px-4 rounded-md">
-                    <span>CT Scan</span>
-                    <span class="text-xl">&gt;</span>
-                </a>
-
-                <a href="./mri-scan.php" class="w-full flex items-center justify-between bg-gray-100 text-gray-700 font-medium py-3 px-4 rounded-md">
-                    <span>MRI Scan</span>
-                    <span class="text-xl">&gt;</span>
-                </a>
-
-                <a href="./pulmanory-function-test.php" class="w-full flex items-center justify-between bg-gray-100 text-gray-700 font-medium py-3 px-4 rounded-md">
-                    <span>Pulmonary function test</span>
-                    <span class="text-xl">&gt;</span>
-                </a>
-
-                <a href="./tmt.php" class="w-full flex items-center justify-between bg-gray-100 text-gray-700 font-medium py-3 px-4 rounded-md">
-                    <span>TMT</span>
-                    <span class="text-xl">&gt;</span>
-                </a>
-
-                <a href="./ultrasound.php" class="w-full flex items-center justify-between bg-[#ec8b2a] text-white  font-medium py-3 px-4 rounded-md">
-                    <span>Ultrasound</span>
-                    <span class="text-xl">&gt;</span>
-                </a>
-
-            </div>
-
-            <!-- RIGHT CONTENT -->
-            <div class="w-full lg:w-2/3 space-y-6 ">
-
-                <h1 class="text-3xl md:text-4xl font-semibold text-[#6C3130] leading-tight">
-                    Ultrasound Services at
-                    <span class="text-[#ec8b2a]">maAx Super Specialty Hospital, Shivamoga</span>
-                </h1>
-
-                <p class="text-gray-700 leading-relaxed text-base">
-                    Ultrasound is a non-invasive diagnostic imaging test that uses high-frequency sound waves to create real-time images of internal organs and structures. At maAx Super Speciality Hospital, ultrasound examinations are performed to evaluate a wide range of medical conditions safely and accurately.
-                </p>
-
-                <p class="text-gray-700 leading-relaxed text-base">
-                    Because ultrasound does not use radiation, it is especially useful for repeated examinations and for sensitive assessments such as pregnancy and paediatric imaging.
-                </p>
-
-
-            </div>
-
-        </div>
-
-        <section class="w-full  py-14">
-            <div class="container mx-auto px-5 lg:px-10 flex flex-col lg:flex-row gap-20 items-start justify-center">
-
-                <!-- LEFT BOX -->
-                <div class="w-full lg:w-[350px] bg-[#663330] text-white rounded-2xl px-8 py-10 space-y-6">
-                    <h3 class="text-2xl font-bold text-center">WORKING HOURS</h3>
-
-                    <div class="space-y-3 text-base font-medium">
-                        <p>Monday..............Open 24 Hours</p>
-                        <p>Tuesday.............Open 24 Hours</p>
-                        <p>Wednesday......Open 24 Hours</p>
-                        <p>Thursday............Open 24 Hours</p>
-                        <p>Friday..................Open 24 Hours</p>
-                        <p>Saturday............Open 24 Hours</p>
-                        <p>Sunday...............Open 24 Hours</p>
+                    <div class="space-y-2 text-sm font-medium">
+                        <a href="./angiography.php" class="flex justify-between items-center bg-gray-100 px-4 py-2 rounded">Angiography <span>›</span></a>
+                        <a href="./biopsy.php" class="flex justify-between items-center bg-gray-100 px-4 py-2 rounded">Biopsy <span>›</span></a>
+                        <a href="./cesarian-section.php" class="flex justify-between items-center bg-gray-100 px-4 py-2 rounded">C-section <span>›</span></a>
+                        <a href="./dialysis.php" class="flex justify-between items-center bg-gray-100 px-4 py-2 rounded">Dialysis <span>›</span></a>
+                        <a href="./endoscopy.php" class="flex justify-between items-center bg-gray-100 px-4 py-2 rounded">Endoscopy <span>›</span></a>
+                        <a href="./eye-laser.php" class="flex justify-between items-center bg-gray-100 px-4 py-2 rounded">Eye Laser <span>›</span></a>
+                        <a href="./pacemaker.php" class="flex justify-between items-center bg-gray-100 px-4 py-2 rounded">Pacemaker Implant <span>›</span></a>
+                        <a href="./ultrasound.php" class="flex justify-between items-center bg-brand text-white px-4 py-2 rounded">Ultrasound <span>›</span></a>
+                        <a href="./joint-replacement.php" class="flex justify-between items-center bg-gray-100 px-4 py-2 rounded">Joint Replacement <span>›</span></a>
                     </div>
 
-                    <button class="w-full bg-[#ec8b2a] text-white font-semibold py-3 rounded-lg">
-                        Book An Appointment
-                    </button>
+                    <a href="../procedures.php" class="block mt-4 bg-[#6C3130] text-white text-center py-2 rounded">View All Procedures</a>
                 </div>
 
-                <!-- RIGHT CONTENT -->
-                <div class="w-full lg:w-2/3 space-y-6 flex flex-col ">
+                <!-- Working Hours -->
+                <div class="bg-[#6C3130] text-white rounded-xl p-5 text-sm">
+                    <h3 class="text-lg font-bold text-center mb-4">WORKING HOURS</h3>
+                    <div class="space-y-1">
+                        <p>Monday — Open 24 Hours</p>
+                        <p>Tuesday — Open 24 Hours</p>
+                        <p>Wednesday — Open 24 Hours</p>
+                        <p>Thursday — Open 24 Hours</p>
+                        <p>Friday — Open 24 Hours</p>
+                        <p>Saturday — Open 24 Hours</p>
+                        <p>Sunday — Open 24 Hours</p>
+                    </div>
+                    <button class="mt-4 w-full bg-[#ec8b2a] py-2 rounded font-semibold">Book An Appointment</button>
+                </div>
 
-                    <h2 class="text-3xl md:text-3xl font-semibold text-[#6C3130] leading-tight">
-                        When is an Ultrasound Recommended? </h2>
-                    <p class="text-gray-700 leading-relaxed text-base">
-                        An ultrasound may be advised when real-time imaging is required to evaluate symptoms or monitor internal organs. Common indications include:
-                    <ul class="list-disc">
-                        <li class="text-gray-700 leading-relaxed text-base">
-                            Abdominal pain or swelling </li>
-
-                        <li class="text-gray-700 leading-relaxed text-base">
-
-                            Liver, kidney, gallbladder, or pancreas evaluation </li>
-
-                        <li class="text-gray-700 leading-relaxed text-base">
-                            Pelvic pain or menstrual irregularities </li>
-
-                        <li class="text-gray-700 leading-relaxed text-base">
-                            Pregnancy assessment and fetal monitoring </li>
-                        <li class="text-gray-700 leading-relaxed text-base">
-                            Thyroid and neck swelling </li>
-                        <li class="text-gray-700 leading-relaxed text-base">
-                            Breast lump evaluation </li>
-                        <li class="text-gray-700 leading-relaxed text-base">
-                            Soft tissue swellings or cysts </li>
-                        <li class="text-gray-700 leading-relaxed text-base">
-                            Urinary tract symptoms </li>
-                        <li class="text-gray-700 leading-relaxed text-base">
-                            Blood flow assessment using Doppler studies </li>
-
-
-                    </ul>
-                    <h3 class="text-2xl md:text-3xl font-semibold text-[#6C3130] leading-tight">
-                        What Conditions Can Be Evaluated Through Ultrasound? </h3>
-                    <p class="text-gray-700 leading-relaxed text-base">
-                        Ultrasound is used to assess and monitor a wide range of conditions, including:
-                    <ul class="list-disc">
-                        <li class="text-gray-700 leading-relaxed text-base">
-                            Liver, gallbladder, and kidney disorders </li>
-
-                        <li class="text-gray-700 leading-relaxed text-base">
-
-                            Stones in the kidney or gallbladder </li>
-
-                        <li class="text-gray-700 leading-relaxed text-base">
-                            Abdominal and pelvic masses </li>
-
-                        <li class="text-gray-700 leading-relaxed text-base">
-                            Ovarian and uterine conditions </li>
-                        <li class="text-gray-700 leading-relaxed text-base">
-                            Pregnancy development and fetal well-being</li>
-                        <li class="text-gray-700 leading-relaxed text-base">
-                            Prostate and urinary tract conditions </li>
-                        <li class="text-gray-700 leading-relaxed text-base">
-                            Thyroid nodules</li>
-                        <li class="text-gray-700 leading-relaxed text-base">
-                            Vascular conditions using Doppler ultrasound</li>
-                        <li class="text-gray-700 leading-relaxed text-base">
-                            Fluid collections and cysts</li>
-                        <p class="text-gray-700 leading-relaxed text-base">The test provides valuable information about how the heart performs under stress.</p>
-
-                    </ul>
+                <!-- Callback Form -->
+                <div class="bg-white shadow-md rounded-xl p-5">
+                    <h3 class="text-[#ec8b2a] font-bold mb-3">Your health matters — get the right information today</h3>
+                    <form class="space-y-3">
+                        <input type="text" placeholder="Full Name" class="w-full border rounded px-3 py-2 text-sm">
+                        <input type="email" placeholder="Email" class="w-full border rounded px-3 py-2 text-sm">
+                        <input type="tel" placeholder="+91 — Mobile Number" class="w-full border rounded px-3 py-2 text-sm">
+                        <button class="w-full bg-[#ec8b2a] text-white py-2 rounded font-semibold">Request a Call Back</button>
+                    </form>
                 </div>
 
             </div>
-        </section>
 
+            <!-- ================= RIGHT CONTENT ================= -->
+            <div class="w-full lg:w-3/4 space-y-8">
 
-    </section>
-
-    <section class="container mx-auto px-5 lg:px-10 flex flex-col lg:flex-row gap-12 items-start justify-center">
-        <div class="flex-1 w-full space-y-10">
-            <div>
-                <h3 class="text-2xl md:text-3xl font-semibold text-[#6C3130] leading-tight">
-                    Types of Ultrasound Examinations </h3>
-                <ul class="list-disc">
-                    <li class="text-gray-700 leading-relaxed text-base">
-                        Abdominal ultrasound </li>
-
-                    <li class="text-gray-700 leading-relaxed text-base">
-
-                        Pelvic ultrasound </li>
-
-                    <li class="text-gray-700 leading-relaxed text-base">
-
-                        Strict safety and emergency protocols
-
-
-                    </li>
-
-                    <li class="text-gray-700 leading-relaxed text-base">
-                        Obstetric ultrasound</li>
-                    <li class="text-gray-700 leading-relaxed text-base">
-                        Comfortable testing environment </li>
-                    <li class="text-gray-700 leading-relaxed text-base">
-
-                        Doppler ultrasound for blood flow assessment </li>
-                    <li class="text-gray-700 leading-relaxed text-base">
-
-                        Soft tissue ultrasound </li>
-                    <li class="text-gray-700 leading-relaxed text-base">
-
-
-
-                        Breast and thyroid ultrasound
-                    </li>
-
-                    <p class="text-gray-700 leading-relaxed text-base">These examinations provide real-time diagnostic information to support clinical decisions.</p>
-
-                </ul>
-
-            </div>
-            <div>
-                <h3 class="text-2xl md:text-3xl font-semibold text-[#6C3130] leading-tight">
-                    How the Ultrasound Is Performed </h3>
-                <p class="text-gray-700 leading-relaxed text-base">
-                    Ultrasound examinations at maAx Super Speciality Hospital are performed by trained radiologists and technicians.
-                <p class="text-gray-700 leading-relaxed text-base">A gel is applied to the skin, and a handheld probe is moved over the area being examined. The procedure is painless and usually completed within 15 to 30 minutes, depending on the type of study.</p>
-                <p class="text-gray-700 leading-relaxed text-base">Patients may receive specific preparation instructions, such as fasting or bladder filling, based on the examination</p>
-
-            </div>
-
-            <div>
-                <h3 class="text-2xl md:text-3xl font-semibold text-[#6C3130] leading-tight">
-                    Safety, Monitoring, and Patient Comfort </h3>
-                <p class="text-gray-700 leading-relaxed text-base">
-                    Ultrasound is a safe diagnostic test suitable for patients of all age groups, including pregnant women and children.
-                <p class="text-gray-700 leading-relaxed text-base">A gel is applied to the skin, and a handheld probe is moved over the area being examined. The procedure is painless and usually completed within 15 to 30 minutes, depending on the type of study.</p>
-                <p class="text-gray-700 leading-relaxed text-base">At maAx, patient comfort and privacy are prioritised, and examinations are conducted following established safety and clinical protocols.</p>
-
-            </div>
-            <div>
-                <h3 class="text-2xl md:text-3xl font-semibold text-[#6C3130] leading-tight">
-                    Why Choose maAx Super Speciality Hospital for Ultrasound in Shivamogga? </h3>
-                <ul class="list-disc">
-                    <li class="text-gray-700 leading-relaxed text-base">
-                        Experienced radiology team </li>
-
-                    <li class="text-gray-700 leading-relaxed text-base">
-
-                        High-quality ultrasound imaging systems </li>
-
-                    <li class="text-gray-700 leading-relaxed text-base">
-
-                        Radiation-free diagnostic evaluation
-
-
-                    </li>
-
-                    <li class="text-gray-700 leading-relaxed text-base">
-                        Wide range of ultrasound services under one roof </li>
-                    <li class="text-gray-700 leading-relaxed text-base">
-                        Integrated clinical and diagnostic support </li>
-
-
-                    <p class="text-gray-700 leading-relaxed text-base">maAx Super Speciality Hospital provides dependable ultrasound services in Shivamogga, supporting accurate diagnosis with patient-centred care.</p>
-
-                </ul>
-            </div>
-            <div>
-                <h3 class="text-2xl md:text-3xl font-semibold text-[#6C3130] leading-tight">
-                    Advised an ultrasound or need diagnostic imaging support? </h3>
-
-
-
-
-                <ul class="list-disc">
-                    <li class="text-gray-700 leading-relaxed text-base">
-                        Why Choose maAx Super Speciality Hospital for Bronchoscopy in Shivamogga? </li>
-
-                    <li class="text-gray-700 leading-relaxed text-base">
-
-                        Experienced pulmonology team </li>
-
-                    <li class="text-gray-700 leading-relaxed text-base">
-
-                        Accurate, standardised testing protocols
-
-
-                    </li>
-
-                    <li class="text-gray-700 leading-relaxed text-base">
-                        Trained respiratory technicians </li>
-                    <li class="text-gray-700 leading-relaxed text-base">
-                        Comfortable testing environment </li>
-                    <li class="text-gray-700 leading-relaxed text-base">
-
-                        Integrated respiratory care services </li>
-
-                    <p class="text-gray-700 leading-relaxed text-base">maAx Super Speciality Hospital offers reliable Pulmonary Function Testing in Shivamogga, supporting accurate respiratory diagnosis and long-term lung care.</p>
-
-                </ul>
-
-                <section class="w-full  py-12">
-                    <div class="container mx-auto px-4">
-                        <!-- Top Heading -->
-                        <h3 class="text-2xl md:text-3xl font-semibold text-[#6C3130] leading-tight">
-                            Experiencing exertional chest pain or advised cardiac stress testing?
-
-                            </h2>
-
-                            <!-- Card -->
-                            <div
-                                class="mt-8  rounded-[20px]  flex flex-col md:flex-row overflow-hidden p-5">
-                                <!-- Left: Image -->
-                                <div class="md:w-[493px] md:h-[547px]">
-                                    <img
-                                        src="../assets/genrated-image.png"
-                                        alt="Doctor talking to patient"
-                                        class="w-full h-full object-cover" />
-                                </div>
-
-                                <!-- Right: Form -->
-                                <div class=" md:h-[547px] px-6 md:px-10 py-8 flex items-center">
-                                    <div class="w-full">
-                                        <p class="text-xs font-semibold tracking-[0.15em] text-gray-500 uppercase">
-                                            Talk to our <span class="text-[#F97316]">Health Advisor</span>
-                                        </p>
-
-                                        <form class="mt-6 space-y-4">
-                                            <!-- Full Name -->
-                                            <div class="flex flex-col gap-1">
-                                                <label
-                                                    for="fullName"
-                                                    class="text-sm font-medium text-gray-700">
-                                                    Full Name<span class="text-red-500">*</span>
-                                                </label>
-                                                <input
-                                                    id="fullName"
-                                                    type="text"
-                                                    class="h-11 w-full rounded-lg border border-gray-300 px-3 text-sm focus:outline-none focus:ring-2 focus:ring-[#F97316] focus:border-[#F97316]"
-                                                    placeholder="Enter your full name" />
-                                            </div>
-
-                                            <!-- Email -->
-                                            <div class="flex flex-col gap-1">
-                                                <label
-                                                    for="email"
-                                                    class="text-sm font-medium text-gray-700">
-                                                    Email<span class="text-red-500">*</span>
-                                                </label>
-                                                <input
-                                                    id="email"
-                                                    type="email"
-                                                    class="h-11 w-full rounded-lg border border-gray-300 px-3 text-sm focus:outline-none focus:ring-2 focus:ring-[#F97316] focus:border-[#F97316]"
-                                                    placeholder="Enter your email" />
-                                            </div>
-
-                                            <!-- Phone (Country + Number) -->
-                                            <div class="flex flex-col gap-1">
-                                                <label
-                                                    for="mobile"
-                                                    class="text-sm font-medium text-gray-700">
-                                                    Mobile Number<span class="text-red-500">*</span>
-                                                </label>
-
-                                                <div class="flex gap-2">
-                                                    <!-- Country Code -->
-                                                    <div class="w-28">
-                                                        <select
-                                                            class="h-11 w-full rounded-lg border border-gray-300 px-2 text-sm focus:outline-none focus:ring-2 focus:ring-[#F97316] focus:border-[#F97316]">
-                                                            <option value="+91">+91 IN</option>
-                                                            <option value="+1">+1 US</option>
-                                                            <option value="+44">+44 UK</option>
-                                                            <!-- add more if needed -->
-                                                        </select>
-                                                    </div>
-
-                                                    <!-- Mobile -->
-                                                    <input
-                                                        id="mobile"
-                                                        type="tel"
-                                                        class="h-11 flex-1 rounded-lg border border-gray-300 px-3 text-sm focus:outline-none focus:ring-2 focus:ring-[#F97316] focus:border-[#F97316]"
-                                                        placeholder="Enter your mobile number" />
-                                                </div>
-                                            </div>
-                                            <!-- Consent -->
-                                            <label class="flex items-start gap-2 text-xs text-gray-600 cursor-pointer">
-                                                <input
-                                                    type="checkbox"
-                                                    class="mt-[3px] h-4 w-4 rounded border-gray-300 text-[#F97316] focus:ring-[#F97316]" />
-                                                <span>I consent maxX hospitals to contact me</span>
-                                            </label>
-
-                                            <!-- Button -->
-                                            <button
-                                                type="submit"
-                                                class="mt-2 w-full h-11 rounded-lg bg-[#F97316] text-white text-sm font-semibold shadow-md hover:bg-[#ea6a0e] transition-colors">
-                                                Request a Call Back
-                                            </button>
-                                        </form>
-                                    </div>
-                                </div>
-                            </div>
+                <!-- Title -->
+                <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-6">
+                    <div>
+                        <h1 class="text-3xl md:text-4xl font-bold text-[#6C3130]">
+                            Ultrasound at <span class="text-[#ec8b2a]">maAx Super Speciality Hospital</span>
+                        </h1>
                     </div>
-                    <h2 class="text-2xl md:text-3xl font-semibold leading-snug text-gray-800">
-                        FAQs on Ultrasound at
-                        <span class="text-[#ec8b2a]">maAx Super Specialty Hospital, Shimoga</span>
+                </div>
+
+                <!-- What & Why -->
+                <div>
+                    <h2 class="text-xl font-bold text-[#6C3130] mb-2">What the Test Is & Why It’s Done</h2>
+                    <p class="text-gray-700 leading-relaxed">
+                        Ultrasound is a safe, non-invasive imaging technique that uses high-frequency sound waves to
+                        create real-time images of internal organs, tissues, and blood flow. At maAx Super Speciality
+                        Hospital, ultrasound is widely used for diagnosing a variety of medical conditions.
+                    </p>
+                    <p class="text-gray-700 leading-relaxed mt-3">
+                        It helps evaluate organs such as the liver, kidneys, heart, and reproductive system, and is also
+                        commonly used during pregnancy to monitor fetal development.
+                    </p>
+                </div>
+
+                <!-- How Performed -->
+                <div>
+                    <h2 class="text-xl font-bold text-[#6C3130] mb-2">How the Test Is Performed</h2>
+                    <ul class="list-disc list-inside text-gray-700 space-y-2">
+                        <li>A gel is applied to the skin over the area being examined.</li>
+                        <li>A handheld device called a transducer is moved over the area.</li>
+                        <li>Sound waves create images displayed on a monitor in real-time.</li>
+                    </ul>
+                    <p class="text-gray-700 leading-relaxed mt-3">
+                        The procedure is painless, typically takes 15–30 minutes, and does not involve radiation,
+                        making it safe for all age groups.
+                    </p>
+                </div>
+
+                <!-- Benefits & Risks -->
+                <div>
+                    <h2 class="text-xl font-bold text-[#6C3130] mb-4">Benefits & Possible Risks</h2>
+                    <div class="grid md:grid-cols-2 gap-6">
+
+                        <div class="bg-green-50 border border-green-200 rounded-xl p-4">
+                            <h3 class="font-semibold text-green-700 mb-2">Benefits</h3>
+                            <ul class="list-disc list-inside text-gray-700 text-sm space-y-1">
+                                <li>Completely safe with no radiation exposure</li>
+                                <li>Real-time imaging for accurate diagnosis</li>
+                                <li>Quick, painless, and non-invasive procedure</li>
+                            </ul>
+                        </div>
+
+                        <div class="bg-red-50 border border-red-200 rounded-xl p-4">
+                            <h3 class="font-semibold text-red-700 mb-2">Possible Limitations</h3>
+                            <ul class="list-disc list-inside text-gray-700 text-sm space-y-1">
+                                <li>Limited visibility in areas with gas or bone</li>
+                                <li>May require additional tests for detailed diagnosis</li>
+                                <li>Image quality may vary based on body type</li>
+                            </ul>
+                        </div>
+
+                    </div>
+
+                    <p class="text-gray-700 leading-relaxed mt-4">
+                        At maAx Super Speciality Hospital, advanced ultrasound technology ensures precise imaging and
+                        reliable results for better patient care.
+                    </p>
+                </div>
+
+                <!-- FAQs -->
+                <div>
+                    <h2 class="text-xl font-bold text-[#6C3130] mb-4">
+                        FAQs on Ultrasound at <span class="text-[#ec8b2a]">maAx Super Speciality Hospital</span>
                     </h2>
 
-                    <!-- ACCORDION BOX -->
-                    <div class="rounded-2xl border border-gray-300 divide-y">
+                    <div class="border rounded-xl divide-y">
 
-                        <details class="group">
-                            <summary class="flex justify-between items-center py-4 px-6 cursor-pointer font-medium
-                    text-gray-700 group-open:text-[#ec8b2a] group-open:bg-orange-50/70 rounded-t-2xl">
-                                <span>1. What is an ultrasound used for?</span>
-                                <span class="transition-transform group-open:rotate-180 text-xl group-open:text-[#ec8b2a]">▲</span>
+                        <details class="p-4 group">
+                            <summary class="cursor-pointer font-medium flex justify-between items-center">
+                                Is ultrasound safe?
+                                <span class="group-open:rotate-180 transition">⌃</span>
                             </summary>
-                            <div class="px-6 pb-4 pt-2 text-gray-600 leading-relaxed bg-orange-50/70 rounded-b-2xl">
-                                Ultrasound is used to examine internal organs, blood flow, pregnancy, and soft tissue conditions using sound waves.</div>
+                            <p class="mt-2 text-sm text-gray-600">Yes, ultrasound is completely safe as it uses sound waves instead of radiation.</p>
                         </details>
 
-                        <details class="group">
-                            <summary class="flex justify-between items-center py-4 px-6 cursor-pointer font-medium
-                    text-gray-700 group-open:text-[#ec8b2a] group-open:bg-orange-50/70">
-                                <span>2. Is ultrasound safe?</span>
-                                <span class="transition-transform group-open:rotate-180 text-xl group-open:text-[#ec8b2a]">▲</span>
+                        <details class="p-4 group">
+                            <summary class="cursor-pointer font-medium flex justify-between items-center">
+                                Do I need to prepare for an ultrasound?
+                                <span class="group-open:rotate-180 transition">⌃</span>
                             </summary>
-                            <div class="px-6 pb-4 pt-2 text-gray-600 leading-relaxed bg-orange-50/70">
-                                Yes. Ultrasound does not use radiation and is considered safe for all age groups. </div>
+                            <p class="mt-2 text-sm text-gray-600">Preparation depends on the type of scan. You may be asked to fast or drink water beforehand.</p>
                         </details>
 
-                        <details class="group">
-                            <summary class="flex justify-between items-center py-4 px-6 cursor-pointer font-medium
-                    text-gray-700 group-open:text-[#ec8b2a] group-open:bg-orange-50/70">
-                                <span>3. Is ultrasound painful?</span>
-                                <span class="transition-transform group-open:rotate-180 text-xl group-open:text-[#ec8b2a]">▲</span>
+                        <details class="p-4 group">
+                            <summary class="cursor-pointer font-medium flex justify-between items-center">
+                                How long does an ultrasound take?
+                                <span class="group-open:rotate-180 transition">⌃</span>
                             </summary>
-                            <div class="px-6 pb-4 pt-2 text-gray-600 leading-relaxed bg-orange-50/70">
-                                No. Ultrasound is a painless and non-invasive procedure. </div>
+                            <p class="mt-2 text-sm text-gray-600">Most ultrasound scans take around 15–30 minutes.</p>
                         </details>
 
-                        <details class="group">
-                            <summary class="flex justify-between items-center py-4 px-6 cursor-pointer font-medium
-                    text-gray-700 group-open:text-[#ec8b2a] group-open:bg-orange-50/70">
-                                <span>4. Is TMT safe?</span>
-                                <span class="transition-transform group-open:rotate-180 text-xl group-open:text-[#ec8b2a]">▲</span>
+                        <details class="p-4 group">
+                            <summary class="cursor-pointer font-medium flex justify-between items-center">
+                                Is ultrasound painful?
+                                <span class="group-open:rotate-180 transition">⌃</span>
                             </summary>
-                            <div class="px-6 pb-4 pt-2 text-gray-600 leading-relaxed bg-orange-50/70">
-                                Yes. TMT is a safe test when conducted under medical supervision with continuous monitoring.
-                            </div>
-                        </details>
-
-                        <details class="group">
-                            <summary class="flex justify-between items-center py-4 px-6 cursor-pointer font-medium
-                    text-gray-700 group-open:text-[#ec8b2a] group-open:bg-orange-50/70">
-                                <span>5. How long does an ultrasound take? </span>
-                                <span class="transition-transform group-open:rotate-180 text-xl group-open:text-[#ec8b2a]">▲</span>
-                            </summary>
-                            <div class="px-6 pb-4 pt-2 text-gray-600 leading-relaxed bg-orange-50/70">
-                                Most ultrasound examinations take 15 to 30 minutes.
-                            </div>
-                        </details>
-                        <details class="group">
-                            <summary class="flex justify-between items-center py-4 px-6 cursor-pointer font-medium
-                    text-gray-700 group-open:text-[#ec8b2a] group-open:bg-orange-50/70">
-                                <span>6. Is any preparation required before ultrasound? </span>
-                                <span class="transition-transform group-open:rotate-180 text-xl group-open:text-[#ec8b2a]">▲</span>
-                            </summary>
-                            <div class="px-6 pb-4 pt-2 text-gray-600 leading-relaxed bg-orange-50/70">
-                                Preparation depends on the type of ultrasound and will be explained before the test.
-                            </div>
+                            <p class="mt-2 text-sm text-gray-600">No, it is a painless procedure with only slight pressure from the transducer.</p>
                         </details>
 
                     </div>
-                </section>
+                </div>
+
             </div>
-            <!-- TITLE -->
-
-
-
-
-            <!-- BUTTON -->
-            <div class="w-full flex justify-center">
-                <button class="border border-[#ec8b2a] text-[#ec8b2a] rounded-lg py-3 px-10 font-semibold hover:bg-[#fff7ef] transition">
-                    Request a Call Back
-                </button>
-            </div>
-
         </div>
     </section>
 
-
-
-<?php require "../components/footer.php" ?>
+    <?php require "../components/footer.php" ?>
 </body>
-<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 <script>
     var swiper = new Swiper(".mySwiper", {
         autoplay: {
@@ -781,10 +229,6 @@
             el: ".swiper-pagination",
             clickable: true,
         },
-        // navigation: {
-        //   nextEl: ".swiper-button-next",
-        //   prevEl: ".swiper-button-prev",
-        // },
     });
 </script>
 

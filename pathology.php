@@ -126,7 +126,7 @@
                     is the medical specialty that focuses on the study and diagnosis of diseases
                     through laboratory analysis of blood, tissues, and body fluids. It plays a
                     critical role in identifying infections, cancers, metabolic disorders, and
-                    other medical conditions that guide treatment decisions. At MaAx Hospital,
+                    other medical conditions that guide treatment decisions. At maAx Hospital,
                     our pathology department uses advanced laboratory technologies, automated
                     testing systems, and expert analysis to deliver accurate, timely, and reliable
                     diagnostic results that support effective patient care.

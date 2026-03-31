@@ -126,7 +126,7 @@
                     involves advanced surgical procedures performed on the heart, lungs, and chest
                     structures to treat life-threatening cardiovascular and thoracic conditions.
                     These surgeries address issues such as coronary artery disease, valve disorders,
-                    lung tumors, congenital defects, and major chest trauma. MaAx Hospital provides
+                    lung tumors, congenital defects, and major chest trauma. maAx Hospital provides
                     comprehensive cardiac and thoracic surgical care using state-of-the-art
                     technology, minimally invasive techniques, and expert surgical teams to ensure
                     safe procedures, improved outcomes, and faster recovery for patients.

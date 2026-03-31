@@ -126,7 +126,7 @@
                     focuses on the diagnosis and treatment of eye diseases and vision disorders.
                     It includes medical and surgical management of conditions such as cataracts,
                     glaucoma, retinal disorders, corneal diseases, refractive errors, and diabetic
-                    eye disease. At MaAx Hospital, our ophthalmology team uses advanced diagnostic
+                    eye disease. At maAx Hospital, our ophthalmology team uses advanced diagnostic
                     imaging, laser treatments, and microsurgical techniques to deliver precise,
                     safe, and effective eye care that protects and enhances vision for patients
                     of all ages.

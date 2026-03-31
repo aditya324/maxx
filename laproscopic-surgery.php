@@ -7,7 +7,7 @@
     <title>Laparoscopic Surgery: Benefits & Recovery Time</title>
 
     <!-- SEO -->
-    <meta name="description" content="Learn about laparoscopic surgery, its benefits, recovery time, and common procedures at MaAx Super Speciality Hospital, Shivamogga." />
+    <meta name="description" content="Learn about laparoscopic surgery, its benefits, recovery time, and common procedures at maAx Super Speciality Hospital, Shivamogga." />
 </head>
 
 <body class="bg-gray-50 text-gray-800">
@@ -23,12 +23,12 @@
         </h1>
 
         <p class="text-center text-lg text-gray-600 mb-6">
-            Expert Care at MaAx Super Speciality Hospital, Shivamogga
+            Expert Care at maAx Super Speciality Hospital, Shivamogga
         </p>
 
         <div class="mb-8 flex justify-center w-full">
             <img src="./assets/blogs/laproscopic-surgery.webp"
-                 alt="Laparoscopic Surgery at MaAx Super Speciality Hospital"
+                 alt="Laparoscopic Surgery at maAx Super Speciality Hospital"
                  class="w-1/2 h-1/2 rounded-xl shadow align-middle" />
         </div>
 
@@ -39,7 +39,7 @@
         </p>
 
         <p class="mb-8">
-            At <strong>MaAx Super Speciality Hospital, Shivamogga</strong>, we deliver laparoscopic procedures
+            At <strong>maAx Super Speciality Hospital, Shivamogga</strong>, we deliver laparoscopic procedures
             using advanced technology and experienced surgical teams to ensure precision, safety, and compassionate care.
         </p>
 
@@ -113,11 +113,11 @@
         </ul>
 
         <h2 class="text-2xl font-semibold text-red-700 mb-4">
-            Safety & Quality at MaAx Super Speciality Hospital
+            Safety & Quality at maAx Super Speciality Hospital
         </h2>
 
         <p class="mb-6">
-            MaAx Super Speciality Hospital is a 24×7 multi-speciality hospital in Shivamogga,
+            maAx Super Speciality Hospital is a 24×7 multi-speciality hospital in Shivamogga,
             offering advanced surgical care supported by ICU, emergency services,
             diagnostics, and experienced multi-disciplinary teams.
         </p>

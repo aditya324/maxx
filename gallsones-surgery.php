@@ -8,7 +8,7 @@
 
     <!-- SEO -->
     <meta name="description"
-        content="Learn when gallstone surgery is required, symptoms, diagnosis, recovery, and treatment options at MaAx Super Speciality Hospital, Shivamogga." />
+        content="Learn when gallstone surgery is required, symptoms, diagnosis, recovery, and treatment options at maAx Super Speciality Hospital, Shivamogga." />
 </head>
 
 <body class="bg-gray-50 text-gray-800">
@@ -24,12 +24,12 @@
         </h1>
 
         <p class="text-center text-lg text-gray-600 mb-6">
-            Expert Care at MaAx Super Speciality Hospital, Shivamogga
+            Expert Care at maAx Super Speciality Hospital, Shivamogga
         </p>
 
         <div class="mb-8 flex justify-center w-full">
-            <img src="./assets/blogs/gallbller-surgery.webp"
-                alt="Gallstone Surgery at MaAx Super Speciality Hospital"
+            <img src="./assets/blogs/gallbaldder.webp"
+                alt="Gallstone Surgery at maAx Super Speciality Hospital"
                 class="w-1/3 h-[250px] rounded-xl shadow align-middle" />
         </div>
 
@@ -40,7 +40,7 @@
         </p>
 
         <p class="mb-8">
-            At <strong>MaAx Super Speciality Hospital, Shivamogga</strong>, our experienced surgeons
+            At <strong>maAx Super Speciality Hospital, Shivamogga</strong>, our experienced surgeons
             provide advanced diagnosis and minimally invasive gallstone treatment to ensure
             safe and effective outcomes.
         </p>
@@ -179,7 +179,7 @@
         </ul>
 
         <h2 class="text-2xl font-semibold text-red-700 mb-4">
-            Why Choose MaAx Super Speciality Hospital?
+            Why Choose maAx Super Speciality Hospital?
         </h2>
 
         <ul class="list-disc pl-6 mb-8 space-y-1">

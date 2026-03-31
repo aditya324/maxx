@@ -126,7 +126,7 @@
                     focuses on the diagnosis and treatment of conditions affecting the skin, hair,
                     and nails. It includes both medical and cosmetic solutions for issues such as
                     acne, allergies, infections, pigmentation, hair loss, and chronic skin diseases.
-                    At MaAx Hospital, our dermatology specialists use advanced diagnostic tools and
+                    At maAx Hospital, our dermatology specialists use advanced diagnostic tools and
                     modern therapeutic methods to provide safe, effective, and personalized skin
                     care aimed at restoring skin health and enhancing appearance.
                 </p>

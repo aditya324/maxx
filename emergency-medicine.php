@@ -127,7 +127,7 @@
                     treatment of patients experiencing acute illnesses or injuries. It plays a
                     critical role in managing time-sensitive conditions such as trauma, cardiac
                     emergencies, stroke, respiratory distress, poisoning, and severe infections.
-                    At MaAx Hospital, our emergency medicine team is equipped with advanced
+                    At maAx Hospital, our emergency medicine team is equipped with advanced
                     diagnostic tools, rapid response protocols, and 24/7 availability to provide
                     swift, life-saving care and ensure the best possible outcomes during critical
                     situations.

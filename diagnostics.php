@@ -19,25 +19,25 @@
       title: "Bronchoscopy",
       image: "./assets/branchoscopy.webp",
       alt: "Bronchoscopy Diagnostic Procedure",
-      link: "bronchoscopy.php"
+      link: "./procedures/bronchoscopy.php"
     },
     {
       title: "Cath Lab",
       image: "./assets/cath-lab.webp",
       alt: "Cardiac Catheterization Lab",
-      link: "procedures/cath-lab.php"
+      link: "./procedures/cath-lab.php"
     },
     {
       title: "Dialysis",
       image: "./assets/dialysis.webp",
       alt: "Dialysis Treatment Equipment",
-      link: "procedures/dialysis.php"
+      link: "./procedures/dialysis.php"
     },
     {
       title: "Endoscopy",
       image: "./assets/endoscopy.webp",
       alt: "Endoscopy Procedure",
-      link: "procedures/endoscopy.php"
+      link: "./procedures/endoscopy.php"
     },
     {
       title: "CT",

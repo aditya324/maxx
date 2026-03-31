@@ -127,7 +127,7 @@
                     technologies such as ultrasound, CT, and fluoroscopy to diagnose and treat a
                     variety of medical conditions without the need for open surgery. These targeted
                     procedures include angioplasty, embolization, biopsies, tumor ablation, and
-                    drainage treatments. At MaAx Hospital, our interventional radiology team offers
+                    drainage treatments. At maAx Hospital, our interventional radiology team offers
                     precise, safe, and effective therapies that reduce pain, shorten recovery time,
                     and significantly improve patient outcomes.
                 </p>

@@ -4,12 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Digestive Care</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 </head>
 
 <body>
     <?php require "./header.php" ?>
+
     <!-- SLIDER WRAPPER -->
     <div class="swiper mySwiper">
         <div class="swiper-wrapper">
@@ -20,21 +21,21 @@
                 <div class="flex flex-col lg:block relative min-h-[600px] lg:mt-0 ">
 
                     <div class="relative h-96 lg:h-[619px] bg-cover bg-center lg:absolute lg:inset-0  z-0 "
-                        style="background-image: url('../assets/banners/medical-care.jpg');">
-                        <img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?q=80&w=2070&auto=format&fit=crop"
-                            class="hidden"
-                            onerror="this.parentElement.style.backgroundImage = `url('${this.src}')`">
+                        style="background-image: url('../assets/digestive-care.jpg');">
+                        <img src="../assets/digestive-care.jpg"
+                        class="h-full w-full object-cover"
+                            >
 
                         <div class="absolute inset-0 bg-black/50 lg:bg-black/60"></div>
 
                         <div
                             class="absolute inset-0 flex flex-col justify-center items-center text-center px-4 lg:text-left lg:items-start lg:justify-center lg:container lg:mx-auto lg:px-6">
                             <div class="max-w-full">
-                                <h1 class="text-4xl md:text-4xl p-3 lg:text-6xl font-semibold rounded-md text-white w-full "
-                                    style="background: linear-gradient(90deg,rgba(245, 130, 32, 1) 0%, rgba(143, 76, 19, 1) 62%);">
-                                    Digestive Care at<br>
-                                    maAx Hospital
-                                </h1>
+                                <h1 class="text-2xl md:text-3xl p-3 lg:text-4xl xl:text-6xl font-semibold rounded-md text-white w-full"
+                                style="background: linear-gradient(90deg,rgba(245,130,32,1) 0%, rgba(143,76,19,1) 62%);">
+                                Digestive Care at<br>
+                                maAx Hospital
+                            </h1>
                             </div>
                         </div>
 
@@ -62,315 +63,171 @@
         <!-- <div class="swiper-button-next"></div>
     <div class="swiper-button-prev"></div> -->
     </div>
+
+    <!-- MAIN SECTION -->
     <section class="w-full bg-[#FFCDA6] py-10">
         <div class="container mx-auto px-5 lg:px-10 flex flex-col lg:flex-row gap-10">
 
             <!-- LEFT MENU -->
             <div class="w-full lg:w-1/4 flex flex-col gap-3">
 
-                <h2 class="text-2xl font-semibold text-[#6C3130] mb-2">Diagnostic Services</h2>
+    <h2 class="text-2xl font-semibold text-[#6C3130] mb-2">
+        Top Procedures & Treatments
+    </h2>
 
-                <a href="./heart-and-vascular-care.php" class="w-full flex items-center justify-between bg-gray-100 text-gray-700    font-medium py-3 px-4 rounded-md">
-                    <span>Heart & Vascular Care</span>
-                    <span class="text-xl">&gt;</span>
-                </a>
+    <!-- PRIMARY (Digestive Care) -->
+    <a href="./procedures/endoscopy.php"
+        class="w-full flex items-center justify-between bg-[#ec8b2a] text-white font-medium py-3 px-4 rounded-md">
+        <span>Endoscopy</span>
+        <span class="text-xl">&gt;</span>
+    </a>
 
-                <a href="./brain-and-nervecare.php" class="w-full flex items-center justify-between bg-gray-100 text-gray-700   font-medium py-3 px-4 rounded-md">
-                    <span>Brain Care</span>
-                    <span class="text-xl">&gt;</span>
-                </a>
+    <a href="./procedures/gallbladder.php"
+        class="w-full flex items-center justify-between bg-gray-100 text-gray-700 font-medium py-3 px-4 rounded-md">
+        <span>Gallbladder Removal</span>
+        <span class="text-xl">&gt;</span>
+    </a>
 
-                <a href="./general-medicine.php" class="w-full flex items-center justify-between bg-gray-100 text-gray-700 font-medium py-3 px-4 rounded-md">
-                    <span>Genral Medicine..</span>
-                    <span class="text-xl">&gt;</span>
-                </a>
+    <!-- OTHER (Support + Random Fill) -->
+    <a href="./procedures/ultrasound.php"
+        class="w-full flex items-center justify-between bg-gray-100 text-gray-700 font-medium py-3 px-4 rounded-md">
+        <span>Ultrasound</span>
+        <span class="text-xl">&gt;</span>
+    </a>
 
-                <a href="./harmone-care.php" class="w-full flex items-center justify-between bg-gray-100 text-gray-700   font-medium py-3 px-4 rounded-md">
-                    <span>Hormone Care</span>
-                    <span class="text-xl">&gt;</span>
-                </a>
+    <a href="./procedures/ct-scan.php"
+        class="w-full flex items-center justify-between bg-gray-100 text-gray-700 font-medium py-3 px-4 rounded-md">
+        <span>CT Scan</span>
+        <span class="text-xl">&gt;</span>
+    </a>
 
-                <a href="./kidney-care.php" class="w-full flex items-center justify-between bg-gray-100 text-gray-700  font-medium py-3 px-4 rounded-md">
-                    <span>Kidney Care</span>
-                    <span class="text-xl">&gt;</span>
-                </a>
+    <a href="./procedures/biopsy.php"
+        class="w-full flex items-center justify-between bg-gray-100 text-gray-700 font-medium py-3 px-4 rounded-md">
+        <span>Biopsy</span>
+        <span class="text-xl">&gt;</span>
+    </a>
 
-                <a href="./lung-care.php" class="w-full flex items-center justify-between bg-gray-100 text-gray-700 font-medium py-3 px-4 rounded-md">
-                    <span>Lung Care</span>
-                    <span class="text-xl">&gt;</span>
-                </a>
+    <a href="./procedures/mri-scan.php"
+        class="w-full flex items-center justify-between bg-gray-100 text-gray-700 font-medium py-3 px-4 rounded-md">
+        <span>MRI Scan</span>
+        <span class="text-xl">&gt;</span>
+    </a>
 
-                <a href="./skin-hair.php" class="w-full flex items-center justify-between bg-gray-100 text-gray-700  font-medium py-3 px-4 rounded-md">
-                    <span>Skin & Hair Care</span>
-                    <span class="text-xl">&gt;</span>
-                </a>
+    <!-- CTA -->
+    <a href="./procedures.php"
+        class="w-full flex items-center justify-between bg-[#763837] text-white font-medium py-3 px-4 rounded-md">
+        <span>View All Procedures</span>
+        <span class="text-xl">&gt;</span>
+    </a>
 
-                <a href="./bone-and-joint.php" class="w-full flex items-center justify-between bg-gray-100 text-gray-700 font-medium py-3 px-4 rounded-md">
-                    <span>Bone & Joint Care</span>
-                    <span class="text-xl">&gt;</span>
-                </a>
-
-                <a href="./women-health.php" class="w-full flex items-center justify-between bg-gray-100 text-gray-700 font-medium py-3 px-4 rounded-md">
-                    <span>Women’s Health</span>
-                    <span class="text-xl">&gt;</span>
-                </a>
-                <a href="./specialities.php" class="w-full flex items-center justify-between bg-[#763837] text-white font-medium py-3 px-4 rounded-md">
-                    <span>View All Specialties</span>
-                    <span class="text-xl">&gt;</span>
-                </a>
-            </div>
-
+</div>
 
             <!-- RIGHT CONTENT -->
-            <div class="w-full lg:w-2/3 space-y-6 ">
+            <div class="w-full lg:w-2/3 space-y-6">
 
-                <h1 class="text-3xl md:text-4xl font-semibold text-[#6C3130] leading-tight">
-                    Overview
-                    <span class="text-[#ec8b2a]">Dental, Jaw & Facial Surgery</span>
+                <h1 class="text-3xl md:text-4xl font-semibold text-[#6C3130]">
+                    Overview <span class="text-[#ec8b2a]">Digestive Care</span>
                 </h1>
 
-                <p class="text-gray-700 leading-relaxed text-base font-semibold">
-                    Oral health plays a crucial role in overall well-being, influencing nutrition, speech, confidence, and facial appearance. Dental, jaw, and facial conditions can impact both function and aesthetics, requiring specialized and comprehensive care.
+                <p class="text-gray-700 font-semibold">
+                    Digestive health is essential for overall well-being, as the digestive system is responsible for breaking down food, absorbing nutrients, and eliminating waste. Disorders of the digestive tract can affect daily comfort and long-term health.
                     <br><br>
-                    At MaAx Super Speciality Hospital, our Dental, Jaw & Facial Surgery Department (Dentistry & Maxillofacial Surgery) offers complete care for teeth, gums, jaws, and facial structures. We combine routine dental services with advanced maxillofacial surgical procedures to restore function, correct deformities, and enhance facial aesthetics. Our experienced team focuses on precision, patient comfort, and long-term outcomes.
+                    At maAx Hospital, our Digestive Care Department offers comprehensive diagnosis and treatment for a wide range of gastrointestinal conditions. Our specialists use advanced endoscopic techniques, imaging, and evidence-based treatments to provide accurate diagnosis and effective care. From common digestive issues to complex liver and intestinal disorders, we ensure personalized treatment and long-term management.
                 </p>
 
-                <h2 class="text-3xl md:text-4xl font-semibold text-[#6C3130] leading-tight">
-                    Treatments
-                    <span class="text-[#ec8b2a]">Provided</span>
+                <h2 class="text-3xl font-semibold text-[#6C3130]">
+                    Treatments <span class="text-[#ec8b2a]">Provided</span>
                 </h2>
 
                 <div class="space-y-2">
-                    <p class="text-gray-700 text-base font-semibold">
-                        <strong>General Dentistry –</strong> Fillings, root canal treatments, and preventive dental care.
-                    </p>
-                    <p class="text-gray-700 text-base font-semibold">
-                        <strong>Orthodontics –</strong> Braces, clear aligners, and bite correction.
-                    </p>
-                    <p class="text-gray-700 text-base font-semibold">
-                        <strong>Dental Implants –</strong> Permanent and natural-looking solutions for missing teeth.
-                    </p>
-                    <p class="text-gray-700 text-base font-semibold">
-                        <strong>Maxillofacial Surgery –</strong> Corrective jaw surgeries, facial trauma reconstruction, and deformity correction.
-                    </p>
-                    <p class="text-gray-700 text-base font-semibold">
-                        <strong>Cosmetic Dentistry –</strong> Teeth whitening, veneers, and smile design procedures.
-                    </p>
-                    <p class="text-gray-700 text-base font-semibold">
-                        <strong>Oral Cancer Screening & Surgery –</strong> Early detection and surgical management.
-                    </p>
-                    <p class="text-gray-700 text-base font-semibold">
-                        <strong>Pediatric Dentistry –</strong> Specialized, child-friendly dental care.
-                    </p>
-                    <p class="text-gray-700 text-base font-semibold">
-                        <strong>Emergency Dental Care –</strong> Immediate treatment for dental pain, infections, or facial trauma.
-                    </p>
+                    <p><strong>Acidity & GERD Management –</strong> Treatment for acid reflux, heartburn, and gastroesophageal reflux disease.</p>
+                    <p><strong>Gastritis & Ulcer Treatment –</strong> Diagnosis and care for stomach inflammation and ulcers.</p>
+                    <p><strong>Liver Disorders –</strong> Management of fatty liver, hepatitis, and liver-related conditions.</p>
+                    <p><strong>Endoscopy & Colonoscopy –</strong> Advanced diagnostic and therapeutic procedures.</p>
+                    <p><strong>Irritable Bowel Syndrome (IBS) –</strong> Management of chronic digestive discomfort and bowel issues.</p>
+                    <p><strong>Constipation & Diarrhea Care –</strong> Treatment for acute and chronic bowel irregularities.</p>
+                    <p><strong>Pancreatic Disorders –</strong> Diagnosis and treatment of pancreas-related conditions.</p>
+                    <p><strong>Digestive Cancer Screening –</strong> Early detection and preventive screenings.</p>
                 </div>
 
             </div>
 
-
-
-
-
-
-
-
-        </div>
-
-        <section class="w-full  py-14">
-            <div class="container mx-auto px-5 lg:px-10 flex flex-col lg:flex-row gap-20 items-start justify-center">
-
-                <!-- LEFT BOX -->
-                <div class="w-full lg:w-[350px] bg-[#663330] text-white rounded-2xl px-8 py-10 space-y-6">
-                    <h3 class="text-2xl font-bold text-center">WORKING HOURS</h3>
-
-                    <div class="space-y-3 text-base font-medium">
-                        <p>Monday..............Open 24 Hours</p>
-                        <p>Tuesday.............Open 24 Hours</p>
-                        <p>Wednesday......Open 24 Hours</p>
-                        <p>Thursday............Open 24 Hours</p>
-                        <p>Friday..................Open 24 Hours</p>
-                        <p>Saturday............Open 24 Hours</p>
-                        <p>Sunday...............Open 24 Hours</p>
-                    </div>
-
-                    <button class="w-full bg-[#ec8b2a] text-white font-semibold py-3 rounded-lg">
-                        Book An Appointment
-                    </button>
-                </div>
-
-                <!-- RIGHT CONTENT -->
-                <div class="w-full lg:w-2/3 space-y-6 flex flex-col ">
-
-                    <h2 class="text-3xl md:text-4xl font-semibold text-[#6C3130] leading-tight">
-                        Why Choose
-                        <span class="text-[#ec8b2a]">MaAx Super Speciality Hospital</span>
-                    </h2>
-
-                    <div class="space-y-4">
-                        <p class="text-gray-700 leading-relaxed text-base">
-                            <strong>Expert Specialists:</strong> Highly trained dentists and maxillofacial surgeons with extensive experience.
-                        </p>
-                        <p class="text-gray-700 leading-relaxed text-base">
-                            <strong>State-of-the-Art Facilities:</strong> Advanced digital imaging, modern dental units, and surgical suites.
-                        </p>
-                        <p class="text-gray-700 leading-relaxed text-base">
-                            <strong>Comprehensive Care:</strong> Complete services from preventive dentistry to complex facial surgeries.
-                        </p>
-                        <p class="text-gray-700 leading-relaxed text-base">
-                            <strong>Patient-Centric Approach:</strong> Focus on comfort, safety, and patient confidence.
-                        </p>
-                        <p class="text-gray-700 leading-relaxed text-base">
-                            <strong>Holistic Healing:</strong> Integrated care that balances functional restoration with aesthetic outcomes.
-                        </p>
-                    </div>
-
-                </div>
-
-
-
-
-
-
-
-            </div>
-        </section>
-
-
-    </section>
-    <h2 class="text-3xl md:text-3xl font-semibold text-[#6C3130] leading-tight text-center p-5">
-        Our
-        <span class="text-[#ec8b2a]">Doctors</span>
-    </h2>
-    <section class="flex justify-center">
-        <div class="w-[400px] rounded-[20px] border border-[#e4d5c6] bg-white shadow-md p-6 text-center">
-
-            <div class="flex justify-center -mt-2">
-                <div class="w-36 h-36 rounded-full bg-[#e9ecef] overflow-hidden">
-                    <img src="./assets/doctors/Dr Manjunath A Phasalkar.webp" alt="${doc.name}" class="w-full h-full object-cover" />
-                </div>
-            </div>
-
-            <div class="mt-4">
-                <h3 class="text-[20px] font-semibold text-[#5c2c20] leading-tight">
-                    Dr. Manjunath P. Hasalkar
-                </h3>
-
-                <p class="text-gray-700 text-[15px] mt-1">
-                    MBBS, MD, DM (Cardiology)
-                </p>
-
-                <p class="text-orange-500 text-[17px] font-semibold mt-2">
-                    Cardiology
-                </p>
-            </div>
-
-            <div class="grid grid-cols-2 rounded-xl overflow-hidden border border-orange-500 mt-6">
-                <a href="./dr-manjunath.php" class="bg-[#582F28] text-white py-3 text-sm font-medium">
-                    View Profile
-                </a>
-                <a href="./dr-manjunath.php" class="bg-white text-orange-600 py-3 text-sm font-semibold">
-                    Book Appointment
-                </a>
-            </div>
         </div>
     </section>
 
-    <div class="container w-full mx-auto">
+    <!-- FAQ -->
+    <div class="container w-full mx-auto mt-10">
         <h2 class="text-2xl md:text-3xl font-semibold leading-snug text-gray-800">
-            FAQs on Dental, Jaw & Facial Surgery at
-            <span class="text-[#ec8b2a]">MaAx Super Speciality Hospital</span>
+            FAQs on Digestive Care at
+            <span class="text-[#ec8b2a]">maAx Super Specialty Hospital, Shivamogga</span>
         </h2>
 
-        <!-- ACCORDION BOX -->
         <div class="rounded-2xl border border-gray-300 divide-y">
 
             <details class="group">
-                <summary class="flex justify-between items-center py-4 px-6 cursor-pointer font-medium
-                text-gray-700 group-open:text-[#ec8b2a] group-open:bg-orange-50/70 rounded-t-2xl">
-                    <span>1. What services are provided under Dental, Jaw & Facial Surgery?</span>
-                    <span class="transition-transform group-open:rotate-180 text-xl group-open:text-[#ec8b2a]">▲</span>
+                <summary class="flex justify-between items-center py-4 px-6 cursor-pointer font-medium text-gray-700 group-open:text-[#ec8b2a] group-open:bg-orange-50/70 rounded-t-2xl">
+                    <span>1. What symptoms indicate digestive problems?</span>
+                    <span class="transition-transform group-open:rotate-180">▲</span>
                 </summary>
-                <div class="px-6 pb-4 pt-2 text-gray-600 leading-relaxed bg-orange-50/70 rounded-b-2xl">
-                    The department offers general dentistry, orthodontics, dental implants, cosmetic dentistry, maxillofacial surgery, oral cancer treatment, pediatric dentistry, and emergency dental care.
+                <div class="px-6 pb-4 pt-2 bg-orange-50/70">
+                    Symptoms include abdominal pain, bloating, acidity, constipation, diarrhea, nausea, and unexplained weight loss.
                 </div>
             </details>
 
             <details class="group">
-                <summary class="flex justify-between items-center py-4 px-6 cursor-pointer font-medium
-                text-gray-700 group-open:text-[#ec8b2a] group-open:bg-orange-50/70">
-                    <span>2. Are dental implants safe and long-lasting?</span>
-                    <span class="transition-transform group-open:rotate-180 text-xl group-open:text-[#ec8b2a]">▲</span>
+                <summary class="flex justify-between items-center py-4 px-6 cursor-pointer font-medium text-gray-700 group-open:text-[#ec8b2a] group-open:bg-orange-50/70">
+                    <span>2. When should I consult a gastroenterologist?</span>
+                    <span class="transition-transform group-open:rotate-180">▲</span>
                 </summary>
-                <div class="px-6 pb-4 pt-2 text-gray-600 leading-relaxed bg-orange-50/70">
-                    Yes. Dental implants are a safe and durable solution for missing teeth when placed by trained specialists and maintained with proper oral hygiene.
+                <div class="px-6 pb-4 pt-2 bg-orange-50/70">
+                    If you have persistent digestive issues like acidity, abdominal pain, or irregular bowel habits, you should seek medical advice.
                 </div>
             </details>
 
             <details class="group">
-                <summary class="flex justify-between items-center py-4 px-6 cursor-pointer font-medium
-                text-gray-700 group-open:text-[#ec8b2a] group-open:bg-orange-50/70">
-                    <span>3. Is maxillofacial surgery painful?</span>
-                    <span class="transition-transform group-open:rotate-180 text-xl group-open:text-[#ec8b2a]">▲</span>
+                <summary class="flex justify-between items-center py-4 px-6 cursor-pointer font-medium text-gray-700 group-open:text-[#ec8b2a] group-open:bg-orange-50/70">
+                    <span>3. Are endoscopy procedures safe?</span>
+                    <span class="transition-transform group-open:rotate-180">▲</span>
                 </summary>
-                <div class="px-6 pb-4 pt-2 text-gray-600 leading-relaxed bg-orange-50/70">
-                    Procedures are performed under local or general anesthesia, ensuring patient comfort. Post-procedure discomfort is managed effectively with medication and follow-up care.
+                <div class="px-6 pb-4 pt-2 bg-orange-50/70">
+                    Yes. Endoscopy and colonoscopy are safe, minimally invasive procedures performed by experienced specialists.
                 </div>
             </details>
 
             <details class="group">
-                <summary class="flex justify-between items-center py-4 px-6 cursor-pointer font-medium
-                text-gray-700 group-open:text-[#ec8b2a] group-open:bg-orange-50/70">
-                    <span>4. Do you provide dental care for children?</span>
-                    <span class="transition-transform group-open:rotate-180 text-xl group-open:text-[#ec8b2a]">▲</span>
+                <summary class="flex justify-between items-center py-4 px-6 cursor-pointer font-medium text-gray-700 group-open:text-[#ec8b2a] group-open:bg-orange-50/70">
+                    <span>4. Can digestive problems be prevented?</span>
+                    <span class="transition-transform group-open:rotate-180">▲</span>
                 </summary>
-                <div class="px-6 pb-4 pt-2 text-gray-600 leading-relaxed bg-orange-50/70">
-                    Yes. Our pediatric dentistry services are designed to provide gentle, child-friendly dental care in a comfortable environment.
+                <div class="px-6 pb-4 pt-2 bg-orange-50/70">
+                    Yes. A healthy diet, regular exercise, hydration, and avoiding alcohol and smoking help maintain digestive health.
                 </div>
             </details>
 
             <details class="group">
-                <summary class="flex justify-between items-center py-4 px-6 cursor-pointer font-medium
-                text-gray-700 group-open:text-[#ec8b2a] group-open:bg-orange-50/70">
-                    <span>5. When should I seek emergency dental care?</span>
-                    <span class="transition-transform group-open:rotate-180 text-xl group-open:text-[#ec8b2a]">▲</span>
+                <summary class="flex justify-between items-center py-4 px-6 cursor-pointer font-medium text-gray-700 group-open:text-[#ec8b2a] group-open:bg-orange-50/70">
+                    <span>5. Do you provide long-term management for chronic conditions?</span>
+                    <span class="transition-transform group-open:rotate-180">▲</span>
                 </summary>
-                <div class="px-6 pb-4 pt-2 text-gray-600 leading-relaxed bg-orange-50/70">
-                    Emergency dental care is required for severe tooth pain, facial swelling, trauma, bleeding, or sudden dental injuries.
+                <div class="px-6 pb-4 pt-2 bg-orange-50/70">
+                    Yes. We offer ongoing care and monitoring for chronic digestive disorders like IBS, liver disease, and GERD.
                 </div>
             </details>
 
         </div>
     </div>
 
+    <?php require "./components/footer.php" ?>
 
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            autoplay: { delay: 5000, disableOnInteraction: false },
+            loop: true,
+            pagination: { el: ".swiper-pagination", clickable: true }
+        });
+    </script>
 
-
-
-<?php require "./components/footer.php" ?>
 </body>
-<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-
-<script>
-    var swiper = new Swiper(".mySwiper", {
-        autoplay: {
-            delay: 5000,
-            disableOnInteraction: false,
-            pauseOnMouseEnter: true
-        },
-        effect: "slide",
-        loop: true,
-        pagination: {
-            el: ".swiper-pagination",
-            clickable: true,
-        },
-        // navigation: {
-        //   nextEl: ".swiper-button-next",
-        //   prevEl: ".swiper-button-prev",
-        // },
-    });
-</script>
-
-</html>s
+</html>

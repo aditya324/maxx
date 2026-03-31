@@ -126,7 +126,7 @@
     is a surgical procedure performed to remove an inflamed or infected appendix,
     a condition known as appendicitis. It is a critical, time-sensitive treatment
     that prevents complications such as rupture, abscess formation, and
-    life-threatening infection. MaAx Hospital offers both laparoscopic
+    life-threatening infection. maAx Hospital offers both laparoscopic
     (minimally invasive) and open appendectomy procedures, ensuring precise
     diagnosis, safe removal, and faster recovery with advanced surgical
     techniques and expert postoperative care.

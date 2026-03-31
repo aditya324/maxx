@@ -93,7 +93,7 @@
                     <div class="flex items-start gap-2 mt-2">
                         <input type="checkbox" id="consent" class="mt-1 w-4 h-4 text-orange-500 border-gray-300 rounded focus:ring-orange-500">
                         <label for="consent" class="text-xs text-gray-600">
-                            I consent maAx hospitals to contact me
+                            I consent maAx Hospital to contact me
                         </label>
                     </div>
 
@@ -116,7 +116,7 @@
             </h3>
 
             <p class="text-[13px] lg:text-[14px] leading-relaxed text-gray-700">
-                The Department of Critical Care & ICU at maAx Hospitals delivers high-dependency care
+                The Department of Critical Care & ICU at maAx Hospital delivers high-dependency care
                 for patients with life-threatening illnesses and complex post-surgical needs. Our
                 multidisciplinary critical care team combines experienced intensivists, specialised
                 nurses, and advanced monitoring technologies to provide rapid interventions, continuous

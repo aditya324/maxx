@@ -8,7 +8,7 @@
 
     <!-- SEO -->
     <meta name="description"
-        content="Understand the difference between minimally invasive surgery and open surgery, benefits, risks, recovery, and expert guidance at MaAx Super Speciality Hospital, Shivamogga." />
+        content="Understand the difference between minimally invasive surgery and open surgery, benefits, risks, recovery, and expert guidance at maAx Super Speciality Hospital, Shivamogga." />
 </head>
 
 <body class="bg-gray-50 text-gray-800">
@@ -24,7 +24,7 @@
         </h1>
 
         <p class="text-center text-lg text-gray-600 mb-6">
-            Which Is Better for You? – Expert Insights from MaAx Super Speciality Hospital, Shivamogga
+            Which Is Better for You? – Expert Insights from maAx Super Speciality Hospital, Shivamogga
         </p>
 
         <div class="mb-8 flex justify-center w-full">
@@ -42,7 +42,7 @@
         <p class="mb-8">
             While <strong>Minimally Invasive Surgery (MIS)</strong> is preferred for many conditions today,
             <strong>open surgery</strong> remains essential in specific situations.
-            At <strong>MaAx Super Speciality Hospital, Shivamogga</strong>, our surgeons carefully evaluate
+            At <strong>maAx Super Speciality Hospital, Shivamogga</strong>, our surgeons carefully evaluate
             every patient to recommend the safest and most effective approach.
         </p>
 

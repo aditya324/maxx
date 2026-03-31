@@ -30,7 +30,62 @@
 <body class="bg-surface-soft font-sans">
   <?php require "./header.php" ?>
 
+ <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
 
+    <!-- SLIDE 01 -->
+    <div class="swiper-slide">
+
+        <div class="flex flex-col lg:block relative lg:min-h-[600px]">
+
+            <!-- IMAGE SECTION -->
+            <div class="relative h-[300px] sm:h-[380px] md:h-[450px] lg:h-[619px] 
+                        bg-cover bg-center lg:absolute lg:inset-0 z-0"
+                style="background-image: url('../assets/heart-vascularcare.webp');">
+
+                <!-- REMOVE THIS IMAGE (causing issues) -->
+                <!-- <img src="../assets/heart-vascularcare.webp"> -->
+
+                <!-- Overlay -->
+                <div class="absolute inset-0 bg-black/50 lg:bg-black/60"></div>
+
+                <!-- TEXT -->
+                <div class="absolute inset-0 flex flex-col justify-center items-center 
+                            text-center px-4 
+                            lg:text-left lg:items-start lg:justify-center 
+                            lg:container lg:mx-auto lg:px-6">
+
+                    <div class="max-w-full">
+                        <h1 class="text-2xl md:text-3xl p-3 lg:text-4xl xl:text-6xl font-semibold rounded-md text-white w-full"
+                            style="background: linear-gradient(90deg,rgba(245, 130, 32, 1) 0%, rgba(143, 76, 19, 1) 62%);">
+                            Heart Care at<br>
+                            maAx 
+                        </h1>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- FORM SECTION -->
+            <div class="px-4 mt-6 sm:mt-8 md:mt-10
+                        lg:bg-transparent lg:p-0 lg:relative lg:z-10 
+                        lg:container lg:mx-auto lg:flex lg:items-center lg:h-[600px]">
+
+                <?php require "./components/speciality-form.php" ?>
+            </div>
+
+        </div>
+    </div>
+
+</div>
+
+        <!-- PAGINATION -->
+        <div class="swiper-pagination"></div>
+
+        <!-- NAVIGATION -->
+        <!-- <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div> -->
+    </div>
   <section class="w-full  pb-10">
     <div
       class="relative w-full mx-auto h-[619px] bg-cover bg-center overflow-hidden"
@@ -125,7 +180,7 @@
           </span>
           is a diagnostic imaging technique used to visualise blood vessels and
           detect blockages or abnormalities. It plays a crucial role in preventing
-          heart attacks, strokes, and organ damage. MaAx Hospital offers both
+          heart attacks, strokes, and organ damage. maAx Hospital offers both
           coronary angiography (catheter-based) and CT angiography (non-invasive)
           with state-of-the-art technology for precise, safe diagnosis.
         </p>

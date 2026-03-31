@@ -126,7 +126,7 @@
                     is a specialized branch of surgery that focuses on treating conditions involving
                     the mouth, jaws, face, and neck. It includes procedures such as facial trauma
                     repair, corrective jaw surgery, removal of impacted teeth, treatment of oral
-                    cysts and tumors, and management of facial deformities. At MaAx Hospital, our
+                    cysts and tumors, and management of facial deformities. At maAx Hospital, our
                     oral and maxillofacial surgeons use advanced imaging, precision surgical
                     techniques, and minimally invasive approaches to ensure safe, effective, and
                     aesthetically superior outcomes for patients requiring facial and jaw surgeries.

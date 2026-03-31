@@ -25,7 +25,7 @@
       display: none;
       position: absolute;
       right: 0;
-      transform: translateX(20rem);
+      transform: translateX(25rem);
       top: 100%;
 
       margin-top: 12px;
@@ -41,7 +41,7 @@
 
       /* new: fixed height so panel doesn't resize — only Procedures scrolls */
       height: var(--mega-height);
-      align-items: flex-start;
+      align-items: center;
       /* keep column headers at top */
     }
 
@@ -173,7 +173,7 @@
    =============================== */
 
     /* Desktop (>=1300px) */
-    @media (min-width: 1300px) {
+    @media (min-width: 900px) {
       .hamburger-btn {
         display: none !important;
       }
@@ -188,7 +188,7 @@
     }
 
     /* Mobile / Tablet (<1300px) */
-    @media (max-width: 1299px) {
+    @media (max-width: 1100px) {
       .hamburger-btn {
         display: inline-flex !important;
       }
@@ -212,7 +212,7 @@
 
       <!-- LEFT: LOGOS -->
       <div class="flex items-center gap-6 shrink-0">
-        <a href="./index.php"><img src="./assets/logo/logo.png" class="h-full" alt="Maax Logo"></a>
+        <a href="./index.php"><img src="./assets/logo/logo.png" class="h-full" alt="maAx Logo"></a>
         <!-- <img src="./images/10th-anniversary.png" class="h-10" alt="10th Anniversary"> -->
       </div>
 
@@ -253,11 +253,11 @@
                 <li><a href="./digestive-care.php">Digestive System Care</a></li>
                 <li><a href="./general-and-laproscopic-surgery.php">General Surgeries & Allied</a></li>
                 <li><a href="./women-health.php">Women's Health (OBG / OBGYN)</a></li>
-                <li><a href="#">Eye Care</a></li>
-                <li><a href="#">Urinary & Men’s Health Care</a></li>
+                <!-- <li><a href="#">Eye Care</a></li> -->
+                <li><a href="./urology.php">Urinary & Men’s Health Care</a></li>
                 <li><a href="./plastic-surgery.php">Plastic & Reconstructive Care</a></li>
                 <li><a href="./invasive-and-non-invasive-cardiology.php">Intensive & Critical Care</a></li>
-                <li><a href="#">Surgery Support & Pain Care</a></li>
+                <!-- <li><a href="#">Surgery Support & Pain Care</a></li> -->
 
               </ul>
             </div>
@@ -287,11 +287,11 @@
                 <li><a href="./procedures/pediatric-surgery.php">Pediatric Surgery</a></li>
                 <li><a href="./procedures/physiotheraphy.php">Physiotherapy</a></li>
                 <li><a href="./procedures/sinus-surgery.php">Sinus Surgery</a></li>
-                <li><a href="#">Tonsil Removal</a></li>
-                <li><a href="#">Trauma Care</a></li>
-                <li><a href="#">Ultrasound</a></li>
-                <li><a href="#">Urology Surgery</a></li>
-                <li><a href="#">Valve Replacement</a></li>
+                <li><a href="./procedures/tonsil-removal.php">Tonsil Removal</a></li>
+                <li><a href="./procedures/trauma.php">Trauma Care</a></li>
+                <li><a href="./procedures/ultrasound.php">Ultrasound</a></li>
+                <li><a href="./procedures/urology-surgery.php">Urology Surgery</a></li>
+                <li><a href="./procedures/valve-replacement.php">Valve Replacement</a></li>
               </ul>
             </div>
 
@@ -307,7 +307,7 @@
                 <li><a href="./procedures/pulmanory-function-test.php">Pulmonary function test</a></li>
                 <li><a href="./procedures/tmt.php"></a></li>
                 <li><a href="./procedures/ultrasound.php">Ultrasound</a></li>
-                <li><a href="./procedu">X-RAY</a></li>
+                <li><a href="./procedures/x-ray.php">X-RAY</a></li>
               </ul>
             </div>
           </div>
@@ -320,6 +320,7 @@
           <a href="./cardiology.php" class="hover:text-[#a6533f]">Health Checkup</a>
         </li>
         <li><a href="./patients-corner.php" class="hover:text-[#a6533f]">Patient’s Corner</a></li>
+        <li><a href="/contact.php" class="hover:text-[#a6533f]">Contact Us</a></li>
       </ul>
 
     </div>
@@ -335,6 +336,7 @@
           <a href="./cardiology.php" class="hover:text-[#a6533f]">Health Checkup</a>
         </li>
         <li><a href="./patients-corner.php" class="block hover:text-[#a6533f]">Patient’s Corner</a></li>
+        <li><a href="/contact.php" class="block hover:text-[#a6533f]">Contact Us</a></li>
       </ul>
     </div>
   </nav>

@@ -127,7 +127,7 @@
                     recovering from injury, surgery, neurological conditions, or chronic pain.
                     It includes therapeutic exercises, manual therapy, electrotherapy, mobility
                     training, and personalized rehabilitation programs designed to enhance
-                    recovery and improve quality of life. At MaAx Hospital, our physiotherapy
+                    recovery and improve quality of life. At maAx Hospital, our physiotherapy
                     and rehabilitation team provides evidence-based, goal-oriented care tailored
                     to each patient’s unique needs to ensure safe and effective recovery.
                 </p>

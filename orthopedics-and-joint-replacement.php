@@ -128,7 +128,7 @@
                     of fractures, arthritis, sports injuries, spine disorders, and degenerative joint
                     diseases. Joint replacement procedures—such as knee, hip, and shoulder replacements—are
                     performed using modern, minimally invasive techniques for improved mobility, reduced
-                    pain, and faster recovery. At MaAx Hospital, our orthopedic team provides
+                    pain, and faster recovery. At maAx Hospital, our orthopedic team provides
                     comprehensive, patient-centered care to restore function and enhance quality of life.
                 </p>
             </div>

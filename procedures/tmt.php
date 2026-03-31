@@ -33,7 +33,7 @@
                                 <h1 class="text-4xl md:text-4xl p-3 lg:text-4xl font-semibold rounded-md text-white w-full "
                                     style="background: linear-gradient(90deg,rgba(245, 130, 32, 1) 0%, rgba(143, 76, 19, 1) 62%);">
                                     Cardiac Stress Testing at<br>
-                                    maAx Super Specialty Hospital, Shimoga
+                                    maAx Super Specialty Hospital, Shivamogga
                                 </h1>
 
                                 <p class="text-sm md:text-base lg:text-2xl p-1 bg-white w-2xl rounded-md  leading-relaxed mt-2 lg:mt-4 text-[#6C3130]">
@@ -85,7 +85,7 @@
                                     <input type="checkbox" id="consent"
                                         class="mt-1 w-4 h-4 text-orange-500 border-gray-300 rounded focus:ring-orange-500">
                                     <label for="consent" class="text-xs text-gray-600">
-                                        I consent maAx hospitals to contact me
+                                        I consent maAx Hospital to contact me
                                     </label>
                                 </div>
 
@@ -117,7 +117,7 @@
                                 <h1 class="text-4xl md:text-4xl p-3 lg:text-4xl font-semibold rounded-md text-white w-full "
                                     style="background: linear-gradient(90deg,rgba(245, 130, 32, 1) 0%, rgba(143, 76, 19, 1) 62%);">
                                     Cardiac Stress Testing at<br>
-                                    maAx Super Specialty Hospital, Shimoga
+                                    maAx Super Specialty Hospital, Shivamogga
                                 </h1>
 
                                 <p class="text-sm md:text-base lg:text-2xl p-1 bg-white w-2xl rounded-md  leading-relaxed mt-2 lg:mt-4 text-[#6C3130]">
@@ -169,7 +169,7 @@
                                     <input type="checkbox" id="consent"
                                         class="mt-1 w-4 h-4 text-orange-500 border-gray-300 rounded focus:ring-orange-500">
                                     <label for="consent" class="text-xs text-gray-600">
-                                        I consent maAx hospitals to contact me
+                                        I consent maAx Hospital to contact me
                                     </label>
                                 </div>
 
@@ -201,7 +201,7 @@
                                 <h1 class="text-4xl md:text-4xl p-3 lg:text-4xl font-semibold rounded-md text-white w-full "
                                     style="background: linear-gradient(90deg,rgba(245, 130, 32, 1) 0%, rgba(143, 76, 19, 1) 62%);">
                                     Cardiac Stress Testing at<br>
-                                    maAx Super Specialty Hospital, Shimoga
+                                    maAx Super Specialty Hospital, Shivamogga
                                 </h1>
 
                                 <p class="text-sm md:text-base lg:text-2xl p-1 bg-white w-2xl rounded-md  leading-relaxed mt-2 lg:mt-4 text-[#6C3130]">
@@ -253,7 +253,7 @@
                                     <input type="checkbox" id="consent"
                                         class="mt-1 w-4 h-4 text-orange-500 border-gray-300 rounded focus:ring-orange-500">
                                     <label for="consent" class="text-xs text-gray-600">
-                                        I consent maAx hospitals to contact me
+                                        I consent maAx Hospital to contact me
                                     </label>
                                 </div>
 
@@ -350,36 +350,7 @@
                 <p class="text-gray-700 leading-relaxed text-base">
                     By gradually increasing physical activity while monitoring the heart, doctors can identify signs of reduced blood supply to the heart or abnormal heart rhythms that may not be evident at rest.
                 </p>
-
-
-            </div>
-
-        </div>
-
-        <section class="w-full  py-14">
-            <div class="container mx-auto px-5 lg:px-10 flex flex-col lg:flex-row gap-20 items-start justify-center">
-
-                <!-- LEFT BOX -->
-                <div class="w-full lg:w-[350px] bg-[#663330] text-white rounded-2xl px-8 py-10 space-y-6">
-                    <h3 class="text-2xl font-bold text-center">WORKING HOURS</h3>
-
-                    <div class="space-y-3 text-base font-medium">
-                        <p>Monday..............Open 24 Hours</p>
-                        <p>Tuesday.............Open 24 Hours</p>
-                        <p>Wednesday......Open 24 Hours</p>
-                        <p>Thursday............Open 24 Hours</p>
-                        <p>Friday..................Open 24 Hours</p>
-                        <p>Saturday............Open 24 Hours</p>
-                        <p>Sunday...............Open 24 Hours</p>
-                    </div>
-
-                    <button class="w-full bg-[#ec8b2a] text-white font-semibold py-3 rounded-lg">
-                        Book An Appointment
-                    </button>
-                </div>
-
-                <!-- RIGHT CONTENT -->
-                <div class="w-full lg:w-2/3 space-y-6 flex flex-col ">
+<div class="w-full lg:w-full mt-10 space-y-6 flex flex-col ">
 
                     <h2 class="text-3xl md:text-3xl font-semibold text-[#6C3130] leading-tight">
                         When is a TMT Recommended? </h2>
@@ -438,12 +409,15 @@
                 </div>
 
             </div>
-        </section>
+
+        </div>
+
+       
 
 
     </section>
 
-    <section class="container mx-auto px-5 lg:px-10 flex flex-col lg:flex-row gap-12 items-start justify-center">
+    <section class="container mx-auto px-5 lg:px-10 flex flex-col lg:flex-row gap-12 items-start justify-center mt-10">
         <div class="flex-1 w-full space-y-10">
             <div>
                 <h3 class="text-2xl md:text-3xl font-semibold text-[#6C3130] leading-tight">
@@ -632,7 +606,7 @@
                     </div>
                     <h2 class="text-2xl md:text-3xl font-semibold leading-snug text-gray-800">
                         FAQs on Bronchoscopy at
-                        <span class="text-[#ec8b2a]">maAx Super Specialty Hospital, Shimoga</span>
+                        <span class="text-[#ec8b2a]">maAx Super Specialty Hospital, Shivamogga</span>
                     </h2>
 
                     <!-- ACCORDION BOX -->
@@ -710,7 +684,7 @@
 
 
 
-<?php require "./components/footer.php" ?>
+<?php require "../components/footer.php" ?>
 </body>
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 

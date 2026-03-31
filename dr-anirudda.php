@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Dr Aniruddha Udupi K | Doctor Profile</title>
+  <title>Dr Aniruddha Udupa K | Doctor Profile</title>
 </head>
 
 <body class="bg-surface-soft font-sans">
@@ -62,7 +62,7 @@
 <?php require "./components/footer.php" ?>
   <script>
     const doctor = {
-      name: "Dr Aniruddha Udupi K",
+      name: "Dr Aniruddha Udupa K",
       degree: "MBBS, MD (Pulmonology)",
       designation: "Chief Consultant – Pulmonology",
       specialty: "Pulmonology",

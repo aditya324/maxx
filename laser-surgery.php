@@ -127,7 +127,7 @@
                     treat a wide range of medical conditions with exceptional precision. It is
                     commonly used in ophthalmology, dermatology, urology, and general surgery to
                     remove tissue, treat abnormalities, and enhance healing with minimal
-                    bleeding, reduced pain, and faster recovery. MaAx Hospital provides advanced
+                    bleeding, reduced pain, and faster recovery. maAx Hospital provides advanced
                     laser-based treatments using state-of-the-art technology, ensuring accurate
                     targeting, enhanced safety, and superior clinical outcomes for patients.
                 </p>

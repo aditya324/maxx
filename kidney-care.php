@@ -20,20 +20,19 @@
                 <div class="flex flex-col lg:block relative min-h-[600px] lg:mt-0 ">
 
                     <div class="relative h-96 lg:h-[619px] bg-cover bg-center lg:absolute lg:inset-0  z-0 "
-                        style="background-image: url('../assets/banners/medical-care.jpg');">
-                        <img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?q=80&w=2070&auto=format&fit=crop"
-                            class="hidden"
-                            onerror="this.parentElement.style.backgroundImage = `url('${this.src}')`">
+                        style="background-image: url('../assets/kidney.jpg');">
+                        <img src="../assets/kidney.jpg"
+                            >
 
                         <div class="absolute inset-0 bg-black/50 lg:bg-black/60"></div>
 
                         <div
                             class="absolute inset-0 flex flex-col justify-center items-center text-center px-4 lg:text-left lg:items-start lg:justify-center lg:container lg:mx-auto lg:px-6">
                             <div class="max-w-full">
-                                <h1 class="text-4xl md:text-4xl p-3 lg:text-6xl font-semibold rounded-md text-white w-full "
+                               <h1 class="text-2xl md:text-3xl p-3 lg:text-4xl xl:text-6xl font-semibold rounded-md text-white w-full"
                                     style="background: linear-gradient(90deg,rgba(245, 130, 32, 1) 0%, rgba(143, 76, 19, 1) 62%);">
                                     kidney Care at<br>
-                                    maAx Hospital
+                                    maAx 
                                 </h1>
                             </div>
                         </div>
@@ -66,59 +65,58 @@
         <div class="container mx-auto px-5 lg:px-10 flex flex-col lg:flex-row gap-10">
 
             <!-- LEFT MENU -->
-            <div class="w-full lg:w-1/4 flex flex-col gap-3">
+           <div class="w-full lg:w-1/4 flex flex-col gap-3">
 
-                <h2 class="text-2xl font-semibold text-[#6C3130] mb-2">Diagnostic Services</h2>
+    <h2 class="text-2xl font-semibold text-[#6C3130] mb-2">
+        Top Procedures & Treatments
+    </h2>
 
-                <a href="./heart-and-vascular-care.php" class="w-full flex items-center justify-between bg-gray-100 text-gray-700    font-medium py-3 px-4 rounded-md">
-                    <span>Heart & Vascular Care</span>
-                    <span class="text-xl">&gt;</span>
-                </a>
+    <!-- PRIMARY (Kidney Care) -->
+    <a href="./procedures/dialysis.php"
+        class="w-full flex items-center justify-between bg-[#ec8b2a] text-white font-medium py-3 px-4 rounded-md">
+        <span>Dialysis</span>
+        <span class="text-xl">&gt;</span>
+    </a>
 
-                <a href="./brain-and-nervecare.php" class="w-full flex items-center justify-between bg-gray-100 text-gray-700   font-medium py-3 px-4 rounded-md">
-                    <span>Brain Care</span>
-                    <span class="text-xl">&gt;</span>
-                </a>
+    <!-- OTHER (Random Fill) -->
+    <a href="./procedures/ultrasound.php"
+        class="w-full flex items-center justify-between bg-gray-100 text-gray-700 font-medium py-3 px-4 rounded-md">
+        <span>Ultrasound</span>
+        <span class="text-xl">&gt;</span>
+    </a>
 
-                <a href="./general-medicine.php" class="w-full flex items-center justify-between bg-gray-100 text-gray-700 font-medium py-3 px-4 rounded-md">
-                    <span>Genral Medicine..</span>
-                    <span class="text-xl">&gt;</span>
-                </a>
+    <a href="./procedures/ct-scan.php"
+        class="w-full flex items-center justify-between bg-gray-100 text-gray-700 font-medium py-3 px-4 rounded-md">
+        <span>CT Scan</span>
+        <span class="text-xl">&gt;</span>
+    </a>
 
-                <a href="./harmone-care.php" class="w-full flex items-center justify-between bg-gray-100 text-gray-700   font-medium py-3 px-4 rounded-md">
-                    <span>Hormone Care</span>
-                    <span class="text-xl">&gt;</span>
-                </a>
+    <a href="./procedures/mri-scan.php"
+        class="w-full flex items-center justify-between bg-gray-100 text-gray-700 font-medium py-3 px-4 rounded-md">
+        <span>MRI Scan</span>
+        <span class="text-xl">&gt;</span>
+    </a>
 
-                <a href="./kidney-care.php" class="w-full flex items-center justify-between bg-[#ec8b2a] text-white  font-medium py-3 px-4 rounded-md">
-                    <span>Kidney Care</span>
-                    <span class="text-xl">&gt;</span>
-                </a>
+    <a href="./procedures/biopsy.php"
+        class="w-full flex items-center justify-between bg-gray-100 text-gray-700 font-medium py-3 px-4 rounded-md">
+        <span>Biopsy</span>
+        <span class="text-xl">&gt;</span>
+    </a>
 
-                <a href="./lung-care.php" class="w-full flex items-center justify-between bg-gray-100 text-gray-700 font-medium py-3 px-4 rounded-md">
-                    <span>Lung Care</span>
-                    <span class="text-xl">&gt;</span>
-                </a>
+    <a href="./procedures/angiography.php"
+        class="w-full flex items-center justify-between bg-gray-100 text-gray-700 font-medium py-3 px-4 rounded-md">
+        <span>Angiography</span>
+        <span class="text-xl">&gt;</span>
+    </a>
 
-                <a href="./skin-hair.php" class="w-full flex items-center justify-between bg-gray-100 text-gray-700 font-medium py-3 px-4 rounded-md">
-                    <span>Skin & Hair Care</span>
-                    <span class="text-xl">&gt;</span>
-                </a>
+    <!-- CTA -->
+    <a href="./procedures.php"
+        class="w-full flex items-center justify-between bg-[#763837] text-white font-medium py-3 px-4 rounded-md">
+        <span>View All Procedures</span>
+        <span class="text-xl">&gt;</span>
+    </a>
 
-                <a href="./bone-and-joint.php" class="w-full flex items-center justify-between bg-gray-100 text-gray-700 font-medium py-3 px-4 rounded-md">
-                    <span>Bone & Joint Care</span>
-                    <span class="text-xl">&gt;</span>
-                </a>
-
-                <a href="./women-health.php" class="w-full flex items-center justify-between bg-gray-100 text-gray-700 font-medium py-3 px-4 rounded-md">
-                    <span>Women’s Health</span>
-                    <span class="text-xl">&gt;</span>
-                </a>
-                <a href="./specialities.php" class="w-full flex items-center justify-between bg-[#763837] text-white font-medium py-3 px-4 rounded-md">
-                    <span>View All Specialties</span>
-                    <span class="text-xl">&gt;</span>
-                </a>
-            </div>
+</div>
 
             <!-- RIGHT CONTENT -->
             <div class="w-full lg:w-2/3 space-y-6 ">
@@ -131,7 +129,7 @@
                 <p class="text-gray-700 leading-relaxed text-base font-semibold">
                     The kidneys play a vital role in filtering waste products, balancing fluids, and regulating blood pressure. When kidney function declines, patients may face serious complications such as chronic kidney disease, the need for dialysis, or kidney transplantation.
                     <br><br>
-                    At MaAx Hospitals, our Kidney Care Department (Nephrology & Urology) offers comprehensive evaluation, diagnosis, and treatment for kidney-related disorders. We focus on preventive care, early detection, and advanced treatment options including dialysis, transplant programs, and minimally invasive urological surgeries. Our multidisciplinary approach ensures timely intervention and long-term renal health.
+                    At maAx Super Speciality Hospital, our Kidney Care Department (Nephrology & Urology) offers comprehensive evaluation, diagnosis, and treatment for kidney-related disorders. We focus on preventive care, early detection, and advanced treatment options including dialysis, transplant programs, and minimally invasive urological surgeries. Our multidisciplinary approach ensures timely intervention and long-term renal health.
                 </p>
 
                 <h2 class="text-3xl md:text-4xl font-semibold text-[#6C3130] leading-tight">
@@ -163,41 +161,11 @@
                     </p>
                 </div>
 
-            </div>
-
-
-
-
-        </div>
-
-        <section class="w-full  py-14">
-            <div class="container mx-auto px-5 lg:px-10 flex flex-col lg:flex-row gap-20 items-start justify-center">
-
-                <!-- LEFT BOX -->
-                <div class="w-full lg:w-[350px] bg-[#663330] text-white rounded-2xl px-8 py-10 space-y-6">
-                    <h3 class="text-2xl font-bold text-center">WORKING HOURS</h3>
-
-                    <div class="space-y-3 text-base font-medium">
-                        <p>Monday..............Open 24 Hours</p>
-                        <p>Tuesday.............Open 24 Hours</p>
-                        <p>Wednesday......Open 24 Hours</p>
-                        <p>Thursday............Open 24 Hours</p>
-                        <p>Friday..................Open 24 Hours</p>
-                        <p>Saturday............Open 24 Hours</p>
-                        <p>Sunday...............Open 24 Hours</p>
-                    </div>
-
-                    <button class="w-full bg-[#ec8b2a] text-white font-semibold py-3 rounded-lg">
-                        Book An Appointment
-                    </button>
-                </div>
-
-                <!-- RIGHT CONTENT -->
-                <div class="w-full lg:w-2/3 space-y-6 flex flex-col ">
+                <div class="w-full lg:w-full space-y-6 flex flex-col mt-10 ">
 
                     <h2 class="text-3xl md:text-4xl font-semibold text-[#6C3130] leading-tight">
                         Why Choose
-                        <span class="text-[#ec8b2a]">MaAx Hospitals</span>
+                        <span class="text-[#ec8b2a]">maAx Super Speciality Hospital</span>
                     </h2>
 
                     <div class="space-y-4">
@@ -220,12 +188,14 @@
 
                 </div>
 
-
-
-
             </div>
-        </section>
 
+
+
+
+        </div>
+
+       
 
     </section>
     <h2 class="text-3xl md:text-3xl font-semibold text-[#6C3130] leading-tight text-center p-5">
@@ -270,10 +240,10 @@
     </section>
 
 
-    <div class="container w-full mx-auto">
+    <div class="container w-full mx-auto mt-10">
         <h2 class="text-2xl md:text-3xl font-semibold leading-snug text-gray-800">
             FAQs on Kidney Care at
-            <span class="text-[#ec8b2a]">MaAx Super Specialty Hospital, Shimoga</span>
+            <span class="text-[#ec8b2a]">maAx Super Specialty Hospital, Shivamogga</span>
         </h2>
 
         <div class="rounded-2xl border border-gray-300 divide-y">
@@ -318,7 +288,7 @@
                     <span class="transition-transform group-open:rotate-180 text-xl group-open:text-[#ec8b2a]">▲</span>
                 </summary>
                 <div class="px-6 pb-4 pt-2 text-gray-600 leading-relaxed bg-orange-50/70">
-                    Yes. MaAx Hospitals offers complete kidney transplant care including evaluation, surgery, and long-term post-transplant follow-up.
+                    Yes. maAx Hospital offers complete kidney transplant care including evaluation, surgery, and long-term post-transplant follow-up.
                 </div>
             </details>
 

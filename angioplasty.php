@@ -126,7 +126,7 @@
     is a minimally invasive procedure used to open narrowed or blocked blood
     vessels, restoring normal blood flow to the heart or other organs. It is
     commonly performed to relieve chest pain, prevent heart attacks, and improve
-    overall circulation. MaAx Hospital provides advanced balloon angioplasty and
+    overall circulation. maAx Hospital provides advanced balloon angioplasty and
     stent placement using cutting-edge imaging and catheter-based techniques to
     ensure safe, effective, and quick recovery for patients.
   </p>
@@ -138,7 +138,7 @@
         class="w-full lg:w-[735px] h-64 md:h-80 lg:h-[704px]
              relative rounded-b-2xl lg:rounded-b-none lg:rounded-r-2xl overflow-hidden mt-4 lg:mt-0">
         <img
-          src="./assets/angiography.jpg"
+          src="./assets/procedures/Angioplasty.webp"
           alt="Patient undergoing CT scan"
           class="w-full h-full object-cover" />
 

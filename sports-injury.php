@@ -131,7 +131,7 @@
                 <p class="text-gray-700 leading-relaxed text-base font-semibold">
                     Bones and joints form the foundation of movement, stability, and strength. Conditions such as fractures, arthritis, ligament injuries, and degenerative joint disorders can significantly limit mobility and affect quality of life.
                     <br><br>
-                    At MaAx Super Speciality Hospital, our Bone, Joint & Sports Injury Care Department (Orthopaedics & Sports Medicine) is dedicated to restoring movement and function through advanced medical, surgical, and rehabilitative care. We manage traumatic injuries, sports-related conditions, and chronic orthopaedic disorders using both surgical and non-surgical techniques. Our structured rehabilitation programs help patients regain strength, flexibility, and confidence—whether they are athletes or active individuals.
+                    At maAx Super Speciality Hospital, our Bone, Joint & Sports Injury Care Department (Orthopaedics & Sports Medicine) is dedicated to restoring movement and function through advanced medical, surgical, and rehabilitative care. We manage traumatic injuries, sports-related conditions, and chronic orthopaedic disorders using both surgical and non-surgical techniques. Our structured rehabilitation programs help patients regain strength, flexibility, and confidence—whether they are athletes or active individuals.
                 </p>
 
                 <h2 class="text-3xl md:text-4xl font-semibold text-[#6C3130] leading-tight">
@@ -166,46 +166,11 @@
                     </p>
                 </div>
 
-            </div>
-
-
-
-
-
-
-
-
-
-        </div>
-
-        <section class="w-full  py-14">
-            <div class="container mx-auto px-5 lg:px-10 flex flex-col lg:flex-row gap-20 items-start justify-center">
-
-                <!-- LEFT BOX -->
-                <div class="w-full lg:w-[350px] bg-[#663330] text-white rounded-2xl px-8 py-10 space-y-6">
-                    <h3 class="text-2xl font-bold text-center">WORKING HOURS</h3>
-
-                    <div class="space-y-3 text-base font-medium">
-                        <p>Monday..............Open 24 Hours</p>
-                        <p>Tuesday.............Open 24 Hours</p>
-                        <p>Wednesday......Open 24 Hours</p>
-                        <p>Thursday............Open 24 Hours</p>
-                        <p>Friday..................Open 24 Hours</p>
-                        <p>Saturday............Open 24 Hours</p>
-                        <p>Sunday...............Open 24 Hours</p>
-                    </div>
-
-                    <button class="w-full bg-[#ec8b2a] text-white font-semibold py-3 rounded-lg">
-                        Book An Appointment
-                    </button>
-                </div>
-
-                <!-- RIGHT CONTENT -->
-                <div class="w-full lg:w-2/3 space-y-6 flex flex-col ">
+                 <div class="w-full lg:w-full mt-10 space-y-6 flex flex-col ">
 
                     <h2 class="text-3xl md:text-4xl font-semibold text-[#6C3130] leading-tight">
                         Why Choose
-                        <span class="text-[#ec8b2a]">MaAx Super Speciality Hospital</span>
+                        <span class="text-[#ec8b2a]">maAx Super Speciality Hospital</span>
                     </h2>
 
                     <div class="space-y-4">
@@ -228,16 +193,19 @@
 
                 </div>
 
-
-
-
-
-
-
-
-
             </div>
-        </section>
+
+
+
+
+
+
+
+
+
+        </div>
+
+      
 
 
     </section>
@@ -321,7 +289,7 @@
     <div class="container w-full mx-auto">
         <h2 class="text-2xl md:text-3xl font-semibold leading-snug text-gray-800">
             FAQs on General & Keyhole Surgery at
-            <span class="text-[#ec8b2a]">MaAx Super Speciality Hospital</span>
+            <span class="text-[#ec8b2a]">maAx Super Speciality Hospital</span>
         </h2>
 
         <!-- ACCORDION BOX -->
@@ -378,7 +346,7 @@
                     <span class="transition-transform group-open:rotate-180 text-xl group-open:text-[#ec8b2a]">▲</span>
                 </summary>
                 <div class="px-6 pb-4 pt-2 text-gray-600 leading-relaxed bg-orange-50/70">
-                    Yes. MaAx Super Speciality Hospital offers 24/7 emergency surgical care for trauma, acute abdominal pain, and other urgent conditions.
+                    Yes. maAx Super Speciality Hospital offers 24/7 emergency surgical care for trauma, acute abdominal pain, and other urgent conditions.
                 </div>
             </details>
 

@@ -127,7 +127,7 @@
     conditions affecting the brain, such as tumors, aneurysms, traumatic
     injuries, epilepsy, and structural abnormalities. These procedures require
     high precision, advanced imaging, and expert surgical skill to protect vital
-    brain functions and ensure optimal outcomes. MaAx Hospital provides
+    brain functions and ensure optimal outcomes. maAx Hospital provides
     state-of-the-art neurosurgical care, including minimally invasive techniques
     and microsurgical approaches, ensuring safe, effective treatment with
     comprehensive postoperative monitoring and rehabilitation.

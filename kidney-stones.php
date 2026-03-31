@@ -8,7 +8,7 @@
 
     <!-- SEO -->
     <meta name="description"
-        content="Learn about kidney stone surgery options, symptoms, diagnosis, recovery, and expert urology care at MaAx Super Speciality Hospital, Shivamogga." />
+        content="Learn about kidney stone surgery options, symptoms, diagnosis, recovery, and expert urology care at maAx Super Speciality Hospital, Shivamogga." />
 </head>
 
 <body class="bg-gray-50 text-gray-800">
@@ -24,12 +24,12 @@
         </h1>
 
         <p class="text-center text-lg text-gray-600 mb-6">
-            Expert Urology Care at MaAx Super Speciality Hospital, Shivamogga
+            Expert Urology Care at maAx Super Speciality Hospital, Shivamogga
         </p>
 
         <div class="mb-8 flex justify-center w-full">
             <img src="./assets/blogs/kidney-stones.webp"
-                 alt="Kidney Stone Surgery at MaAx Super Speciality Hospital"
+                 alt="Kidney Stone Surgery at maAx Super Speciality Hospital"
                  class="w-1/2 h-1/2 rounded-xl shadow align-middle" />
         </div>
 
@@ -40,7 +40,7 @@
         </p>
 
         <p class="mb-8">
-            At <strong>MaAx Super Speciality Hospital, Shivamogga</strong>, we provide advanced diagnostics
+            At <strong>maAx Super Speciality Hospital, Shivamogga</strong>, we provide advanced diagnostics
             and modern surgical techniques to treat kidney stones safely, effectively, and with minimal discomfort.
         </p>
 
@@ -170,7 +170,7 @@
         </ul>
 
         <h2 class="text-2xl font-semibold text-red-700 mb-4">
-            Why Choose MaAx Super Speciality Hospital?
+            Why Choose maAx Super Speciality Hospital?
         </h2>
 
         <ul class="list-disc pl-6 mb-8 space-y-1">

@@ -20,25 +20,22 @@
                 <div class="flex flex-col lg:block relative min-h-[600px] lg:mt-0 mt-20">
 
                     <div class="relative h-96 lg:h-[619px] bg-cover bg-center lg:absolute lg:inset-0  z-0 lg:mt-20"
-                        style="background-image: url('../assets/banners/medical-care.jpg');">
-                        <img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?q=80&w=2070&auto=format&fit=crop"
-                            class="hidden"
-                            onerror="this.parentElement.style.backgroundImage = `url('${this.src}')`">
+                        style="background-image: url('../assets/banners/ct-scan.webp');">
+                        <img src="../assets/banners/ct-scan.webp"
+                           >
 
                         <div class="absolute inset-0 bg-black/50 lg:bg-black/60"></div>
 
                         <div
                             class="absolute inset-0 flex flex-col justify-center items-center text-center px-4 lg:text-left lg:items-start lg:justify-center lg:container lg:mx-auto lg:px-6">
                             <div class="max-w-full">
-                                <h1 class="text-4xl md:text-4xl p-3 lg:text-4xl font-semibold rounded-md text-white w-full "
+                                <h1 class="text-xl md:text-2xl p-3 lg:text-3xl font-semibold rounded-md text-white w-full "
                                     style="background: linear-gradient(90deg,rgba(245, 130, 32, 1) 0%, rgba(143, 76, 19, 1) 62%);">
-                                    CT Scan at<br>
-                                    maAx Super Specialty Hospital, Shimoga
+                                    CT Scan at
+                                    maAx 
                                 </h1>
 
-                                <p class="text-sm md:text-base lg:text-2xl p-1 bg-white w-2xl rounded-md  leading-relaxed mt-2 lg:mt-4 text-[#6C3130]">
-                                    <span class="text-[#F58220]">Around the Clock High-Resolution</span> CT Imaging for Informed Clinical Decisions
-                                </p>
+                               
                             </div>
                         </div>
 
@@ -85,7 +82,7 @@
                                     <input type="checkbox" id="consent"
                                         class="mt-1 w-4 h-4 text-orange-500 border-gray-300 rounded focus:ring-orange-500">
                                     <label for="consent" class="text-xs text-gray-600">
-                                        I consent maAx hospitals to contact me
+                                        I consent maAx Super Speciality Hospital to contact me
                                     </label>
                                 </div>
 
@@ -117,7 +114,7 @@
                                 <h1 class="text-4xl md:text-4xl p-3 lg:text-4xl font-semibold rounded-md text-white w-full "
                                     style="background: linear-gradient(90deg,rgba(245, 130, 32, 1) 0%, rgba(143, 76, 19, 1) 62%);">
                                     CT Scan at<br>
-                                    maAx Super Specialty Hospital, Shimoga
+                                    maAx Super Specialty Hospital, Shivamogga
                                 </h1>
 
                                 <p class="text-sm md:text-base lg:text-2xl p-1 bg-white w-2xl rounded-md  leading-relaxed mt-2 lg:mt-4 text-[#6C3130]">
@@ -169,7 +166,7 @@
                                     <input type="checkbox" id="consent"
                                         class="mt-1 w-4 h-4 text-orange-500 border-gray-300 rounded focus:ring-orange-500">
                                     <label for="consent" class="text-xs text-gray-600">
-                                        I consent maAx hospitals to contact me
+                                        I consent maAx Super Speciality Hospital to contact me
                                     </label>
                                 </div>
 
@@ -201,7 +198,7 @@
                                 <h1 class="text-4xl md:text-4xl p-3 lg:text-4xl font-semibold rounded-md text-white w-full "
                                     style="background: linear-gradient(90deg,rgba(245, 130, 32, 1) 0%, rgba(143, 76, 19, 1) 62%);">
                                     CT Scan at<br>
-                                    maAx Super Specialty Hospital, Shimoga
+                                    maAx Super Specialty Hospital, Shivamogga
                                 </h1>
 
                                 <p class="text-sm md:text-base lg:text-2xl p-1 bg-white w-2xl rounded-md  leading-relaxed mt-2 lg:mt-4 text-[#6C3130]">
@@ -253,7 +250,7 @@
                                     <input type="checkbox" id="consent"
                                         class="mt-1 w-4 h-4 text-orange-500 border-gray-300 rounded focus:ring-orange-500">
                                     <label for="consent" class="text-xs text-gray-600">
-                                        I consent maAx hospitals to contact me
+                                        I consent maAx Super Speciality Hospital to contact me
                                     </label>
                                 </div>
 
@@ -349,34 +346,7 @@
                     A CT (Computed Tomography) scan is an advanced imaging test that produces detailed cross-sectional images of the body using X-ray technology. At maAx Super Speciality Hospital, CT scan services are available 24 hours a day, 7 days a week, ensuring uninterrupted diagnostic support for emergency cases, inpatients, and outpatient evaluations.
                 <p class="text-gray-700 leading-relaxed text-lg">
                     CT imaging plays a critical role in rapid diagnosis, trauma care, and assessment of complex medical conditions where timely imaging is essential.
-
-            </div>
-
-        </div>
-        <section class="w-full  py-14">
-            <div class="container mx-auto px-5 lg:px-10 flex flex-col lg:flex-row gap-20 items-start justify-center">
-
-                <!-- LEFT BOX -->
-                <div class="w-full lg:w-[350px] bg-[#663330] text-white rounded-2xl px-8 py-10 space-y-6">
-                    <h3 class="text-2xl font-bold text-center">WORKING HOURS</h3>
-
-                    <div class="space-y-3 text-base font-medium">
-                        <p>Monday..............Open 24 Hours</p>
-                        <p>Tuesday.............Open 24 Hours</p>
-                        <p>Wednesday......Open 24 Hours</p>
-                        <p>Thursday............Open 24 Hours</p>
-                        <p>Friday..................Open 24 Hours</p>
-                        <p>Saturday............Open 24 Hours</p>
-                        <p>Sunday...............Open 24 Hours</p>
-                    </div>
-
-                    <button class="w-full bg-[#ec8b2a] text-white font-semibold py-3 rounded-lg">
-                        Book An Appointment
-                    </button>
-                </div>
-
-                <!-- RIGHT CONTENT -->
-                <div class="w-full lg:w-2/3 space-y-6 flex flex-col ">
+ <div class="w-full lg:w-2/3 space-y-6 flex flex-col ">
 
                     <h2 class="text-3xl md:text-3xl font-semibold text-[#6C3130] leading-tight">
                         When is a CT Scan Recommended? </h2>
@@ -446,9 +416,10 @@
 
                     </ul>
                 </div>
-
             </div>
-        </section>
+
+        </div>
+       
 
 
     </section>
@@ -573,7 +544,7 @@
                     </div>
                     <h2 class="text-2xl md:text-3xl font-semibold leading-snug text-gray-800">
                         FAQs on CT scan at
-                        <span class="text-[#ec8b2a]">maAx Super Specialty Hospital, Shimoga</span>
+                        <span class="text-[#ec8b2a]">maAx Super Specialty Hospital, Shivamogga</span>
                     </h2>
                     <!-- ACCORDION BOX -->
                     <div class="rounded-2xl border border-gray-300 divide-y">
@@ -648,7 +619,7 @@
 
 
 
-<?php require "./components/footer.php" ?>
+<?php require "../components/footer.php" ?>
 </body>
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 

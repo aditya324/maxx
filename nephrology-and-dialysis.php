@@ -127,7 +127,7 @@
                     including chronic kidney disease, acute kidney injury, hypertension-related renal
                     issues, and electrolyte imbalances. Dialysis plays a crucial role in supporting
                     patients with reduced kidney function by removing waste and excess fluid from the
-                    body. At MaAx Hospital, our nephrology team provides advanced dialysis services,
+                    body. At maAx Hospital, our nephrology team provides advanced dialysis services,
                     including hemodialysis and peritoneal dialysis, along with comprehensive renal
                     care programs to ensure patient safety, comfort, and improved quality of life.
                 </p>

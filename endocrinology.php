@@ -127,7 +127,7 @@
                     the endocrine system, which regulates hormones controlling growth, metabolism,
                     reproductive health, and overall body function. Conditions such as diabetes,
                     thyroid disorders, PCOS, adrenal gland issues, and hormonal imbalances fall
-                    under endocrine care. At MaAx Hospital, our endocrinology specialists use
+                    under endocrine care. At maAx Hospital, our endocrinology specialists use
                     advanced diagnostic evaluations and evidence-based treatment plans to ensure
                     precise management and long-term health for patients with hormonal disorders.
                 </p>

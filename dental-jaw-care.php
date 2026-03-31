@@ -20,20 +20,19 @@
                 <div class="flex flex-col lg:block relative min-h-[600px] lg:mt-0 ">
 
                     <div class="relative h-96 lg:h-[619px] bg-cover bg-center lg:absolute lg:inset-0  z-0 "
-                        style="background-image: url('../assets/banners/medical-care.jpg');">
-                        <img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?q=80&w=2070&auto=format&fit=crop"
-                            class="hidden"
-                            onerror="this.parentElement.style.backgroundImage = `url('${this.src}')`">
+                        style="background-image: url('../assets/dental-jaw.jpg');">
+                        <img src="../assets/dental-jaw.jpg"
+                            class="h-full w-full object-cover">
 
                         <div class="absolute inset-0 bg-black/50 lg:bg-black/60"></div>
 
                         <div
                             class="absolute inset-0 flex flex-col justify-center items-center text-center px-4 lg:text-left lg:items-start lg:justify-center lg:container lg:mx-auto lg:px-6">
                             <div class="max-w-full">
-                                <h1 class="text-4xl md:text-4xl p-3 lg:text-6xl font-semibold rounded-md text-white w-full "
+                                <h1 class="text-2xl md:text-3xl p-3 lg:text-4xl xl:text-6xl font-semibold rounded-md text-white w-full"
                                     style="background: linear-gradient(90deg,rgba(245, 130, 32, 1) 0%, rgba(143, 76, 19, 1) 62%);">
                                     Dental, Jaw Care at<br>
-                                    maAx Hospital
+                                    maAx
                                 </h1>
                             </div>
                         </div>
@@ -68,57 +67,51 @@
             <!-- LEFT MENU -->
             <div class="w-full lg:w-1/4 flex flex-col gap-3">
 
-                <h2 class="text-2xl font-semibold text-[#6C3130] mb-2">Diagnostic Services</h2>
+    <h2 class="text-2xl font-semibold text-[#6C3130] mb-2">
+        Top Procedures & Treatments
+    </h2>
 
-                <a href="./heart-and-vascular-care.php" class="w-full flex items-center justify-between bg-gray-100 text-gray-700    font-medium py-3 px-4 rounded-md">
-                    <span>Heart & Vascular Care</span>
-                    <span class="text-xl">&gt;</span>
-                </a>
+    <!-- NO PRIMARY (since none exist in your data) -->
 
-                <a href="./brain-and-nervecare.php" class="w-full flex items-center justify-between bg-gray-100 text-gray-700   font-medium py-3 px-4 rounded-md">
-                    <span>Brain Care</span>
-                    <span class="text-xl">&gt;</span>
-                </a>
+    <!-- OTHER (Random Fill Only) -->
+    <a href="./procedures/angioplasty.php"
+        class="w-full flex items-center justify-between bg-[#ec8b2a] text-white font-medium py-3 px-4 rounded-md">
+        <span>Angioplasty</span>
+        <span class="text-xl">&gt;</span>
+    </a>
 
-                <a href="./general-medicine.php" class="w-full flex items-center justify-between bg-gray-100 text-gray-700 font-medium py-3 px-4 rounded-md">
-                    <span>Genral Medicine..</span>
-                    <span class="text-xl">&gt;</span>
-                </a>
+    <a href="./procedures/endoscopy.php"
+        class="w-full flex items-center justify-between bg-gray-100 text-gray-700 font-medium py-3 px-4 rounded-md">
+        <span>Endoscopy</span>
+        <span class="text-xl">&gt;</span>
+    </a>
 
-                <a href="./harmone-care.php" class="w-full flex items-center justify-between bg-gray-100 text-gray-700   font-medium py-3 px-4 rounded-md">
-                    <span>Hormone Care</span>
-                    <span class="text-xl">&gt;</span>
-                </a>
+    <a href="./procedures/knee-surgery.php"
+        class="w-full flex items-center justify-between bg-gray-100 text-gray-700 font-medium py-3 px-4 rounded-md">
+        <span>Knee Surgery</span>
+        <span class="text-xl">&gt;</span>
+    </a>
 
-                <a href="./kidney-care.php" class="w-full flex items-center justify-between bg-gray-100 text-gray-700  font-medium py-3 px-4 rounded-md">
-                    <span>Kidney Care</span>
-                    <span class="text-xl">&gt;</span>
-                </a>
+    <a href="./procedures/biopsy.php"
+        class="w-full flex items-center justify-between bg-gray-100 text-gray-700 font-medium py-3 px-4 rounded-md">
+        <span>Biopsy</span>
+        <span class="text-xl">&gt;</span>
+    </a>
 
-                <a href="./lung-care.php" class="w-full flex items-center justify-between bg-gray-100 text-gray-700 font-medium py-3 px-4 rounded-md">
-                    <span>Lung Care</span>
-                    <span class="text-xl">&gt;</span>
-                </a>
+    <a href="./procedures/ultrasound.php"
+        class="w-full flex items-center justify-between bg-gray-100 text-gray-700 font-medium py-3 px-4 rounded-md">
+        <span>Ultrasound</span>
+        <span class="text-xl">&gt;</span>
+    </a>
 
-                <a href="./skin-hair.php" class="w-full flex items-center justify-between bg-gray-100 text-gray-700  font-medium py-3 px-4 rounded-md">
-                    <span>Skin & Hair Care</span>
-                    <span class="text-xl">&gt;</span>
-                </a>
+    <!-- CTA -->
+    <a href="./procedures.php"
+        class="w-full flex items-center justify-between bg-[#763837] text-white font-medium py-3 px-4 rounded-md">
+        <span>View All Procedures</span>
+        <span class="text-xl">&gt;</span>
+    </a>
 
-                <a href="./bone-and-joint.php" class="w-full flex items-center justify-between bg-gray-100 text-gray-700 font-medium py-3 px-4 rounded-md">
-                    <span>Bone & Joint Care</span>
-                    <span class="text-xl">&gt;</span>
-                </a>
-
-                <a href="./women-health.php" class="w-full flex items-center justify-between bg-gray-100 text-gray-700 font-medium py-3 px-4 rounded-md">
-                    <span>Women’s Health</span>
-                    <span class="text-xl">&gt;</span>
-                </a>
-                <a href="./specialities.php" class="w-full flex items-center justify-between bg-[#763837] text-white font-medium py-3 px-4 rounded-md">
-                    <span>View All Specialties</span>
-                    <span class="text-xl">&gt;</span>
-                </a>
-            </div>
+</div>
 
             <!-- RIGHT CONTENT -->
             <div class="w-full lg:w-2/3 space-y-6 ">
@@ -131,7 +124,7 @@
                 <p class="text-gray-700 leading-relaxed text-base font-semibold">
                     Oral health plays a crucial role in overall well-being, influencing nutrition, speech, confidence, and facial appearance. Dental, jaw, and facial conditions can impact both function and aesthetics, requiring specialized and comprehensive care.
                     <br><br>
-                    At MaAx Super Speciality Hospital, our Dental, Jaw & Facial Surgery Department (Dentistry & Maxillofacial Surgery) offers complete care for teeth, gums, jaws, and facial structures. We combine routine dental services with advanced maxillofacial surgical procedures to restore function, correct deformities, and enhance facial aesthetics. Our experienced team focuses on precision, patient comfort, and long-term outcomes.
+                    At maAx Super Speciality Hospital, our Dental, Jaw & Facial Surgery Department (Dentistry & Maxillofacial Surgery) offers complete care for teeth, gums, jaws, and facial structures. We combine routine dental services with advanced maxillofacial surgical procedures to restore function, correct deformities, and enhance facial aesthetics. Our experienced team focuses on precision, patient comfort, and long-term outcomes.
                 </p>
 
                 <h2 class="text-3xl md:text-4xl font-semibold text-[#6C3130] leading-tight">
@@ -166,45 +159,11 @@
                     </p>
                 </div>
 
-            </div>
-
-
-
-
-
-
-
-
-        </div>
-
-        <section class="w-full  py-14">
-            <div class="container mx-auto px-5 lg:px-10 flex flex-col lg:flex-row gap-20 items-start justify-center">
-
-                <!-- LEFT BOX -->
-                <div class="w-full lg:w-[350px] bg-[#663330] text-white rounded-2xl px-8 py-10 space-y-6">
-                    <h3 class="text-2xl font-bold text-center">WORKING HOURS</h3>
-
-                    <div class="space-y-3 text-base font-medium">
-                        <p>Monday..............Open 24 Hours</p>
-                        <p>Tuesday.............Open 24 Hours</p>
-                        <p>Wednesday......Open 24 Hours</p>
-                        <p>Thursday............Open 24 Hours</p>
-                        <p>Friday..................Open 24 Hours</p>
-                        <p>Saturday............Open 24 Hours</p>
-                        <p>Sunday...............Open 24 Hours</p>
-                    </div>
-
-                    <button class="w-full bg-[#ec8b2a] text-white font-semibold py-3 rounded-lg">
-                        Book An Appointment
-                    </button>
-                </div>
-
-                <!-- RIGHT CONTENT -->
-                <div class="w-full lg:w-2/3 space-y-6 flex flex-col ">
+                <div class="w-full lg:w-full space-y-6 flex flex-col  mt-10">
 
                     <h2 class="text-3xl md:text-4xl font-semibold text-[#6C3130] leading-tight">
                         Why Choose
-                        <span class="text-[#ec8b2a]">MaAx Super Speciality Hospital</span>
+                        <span class="text-[#ec8b2a]">maAx Super Speciality Hospital</span>
                     </h2>
 
                     <div class="space-y-4">
@@ -227,14 +186,18 @@
 
                 </div>
 
-
-
-
-
-
-
             </div>
-        </section>
+
+
+
+
+
+
+
+
+        </div>
+
+
 
 
     </section>
@@ -242,35 +205,36 @@
         Our
         <span class="text-[#ec8b2a]">Doctors</span>
     </h2>
-    <section class="flex justify-center">
+    <section class="flex justify-center gap-8 flex-wrap">
 
+        <!-- Doctor 1 -->
         <div class="w-[400px] rounded-[20px] border border-[#e4d5c6] bg-white shadow-md p-6 text-center">
 
             <div class="flex justify-center -mt-2">
                 <div class="w-36 h-36 rounded-full bg-[#e9ecef] overflow-hidden">
-                    <img src="./assets/doctors/Dr Monika B Tahasildar.webp" alt="Dr. Monika S Tashildar" class="w-full h-full object-cover" />
+                    <img src="./assets/doctors/Dr Anubhav Jannu.webp" alt="Dr Anubhav Jannu" class="w-full h-full object-cover" />
                 </div>
             </div>
 
             <div class="mt-4">
                 <h3 class="text-[20px] font-semibold text-[#5c2c20] leading-tight">
-                    Dr. Monika S Tashildar
+                    Dr Anubhav Jannu
                 </h3>
 
                 <p class="text-gray-700 text-[15px] mt-1">
-                    MBBS, DVL
+                    MBBS, MDS
                 </p>
 
                 <p class="text-orange-500 text-[17px] font-semibold mt-2">
-                    Dermatology
+                    Maxillofacial Surgery
                 </p>
             </div>
 
             <div class="grid grid-cols-2 rounded-xl overflow-hidden border border-orange-500 mt-6">
-                <a href="./dr-monika.php" class="bg-[#582F28] text-white py-3 text-sm font-medium">
+                <a href="./dr-anubhav.php" class="bg-[#582F28] text-white py-3 text-sm font-medium">
                     View Profile
                 </a>
-                <a href="./dr-monika.php" class="bg-white text-orange-600 py-3 text-sm font-semibold">
+                <a href="./dr-anubhav.php" class="bg-white text-orange-600 py-3 text-sm font-semibold">
                     Book Appointment
                 </a>
             </div>
@@ -280,10 +244,10 @@
     </section>
 
 
-    <div class="container w-full mx-auto">
+    <div class="container w-full mx-auto mt-10">
         <h2 class="text-2xl md:text-3xl font-semibold leading-snug text-gray-800">
             FAQs on Dental, Jaw & Facial Surgery at
-            <span class="text-[#ec8b2a]">MaAx Super Speciality Hospital</span>
+            <span class="text-[#ec8b2a]">maAx Super Speciality Hospital</span>
         </h2>
 
         <!-- ACCORDION BOX -->
@@ -352,7 +316,7 @@
 
 
 
-<?php require "./components/footer.php" ?>
+    <?php require "./components/footer.php" ?>
 </body>
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 

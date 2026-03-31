@@ -126,7 +126,7 @@
                     focuses on the surgical treatment of disorders involving the hormone-producing
                     glands, including the thyroid, parathyroid, adrenal glands, and endocrine
                     pancreas. These procedures help diagnose and manage conditions such as tumors,
-                    hormonal imbalances, hyperthyroidism, and gland enlargement. At MaAx Hospital,
+                    hormonal imbalances, hyperthyroidism, and gland enlargement. At maAx Hospital,
                     our endocrine surgeons utilize advanced imaging, minimally invasive techniques,
                     and precise surgical methods to ensure safe, effective, and personalized care
                     for patients with complex endocrine diseases.

@@ -64,11 +64,11 @@
 
   <section class="w-full ">
     <div
-      class="relative w-full mx-auto h-[619px] bg-cover bg-center overflow-hidden"
-      style="background-image: url('./assets/banners/blur.jpg');">
+      class="relative w-full mx-auto pt-6 h-[669px] bg-cover bg-center overflow-hidden"
+      style="background-image: url('./assets/banners/blur.webp');">
 
       <!-- TOP PILL (HIDDEN ON MOBILE) -->
-      <div class="hidden md:flex justify-center mt-5 fixed w-full z-50">
+      <div class="hidden md:flex justify-center mt-5  w-full z-50">
         <div class="flex w-full max-w-[1020px] items-center justify-between bg-white shadow-md rounded-full px-4 md:px-6 py-3 gap-3 md:gap-6">
 
           <!-- Request Call Back -->
@@ -99,28 +99,48 @@
       </div>
 
       <!-- TEXT CONTENT -->
-      <div
-        class="relative z-20 px-4 pt-6 text-center
-             lg:text-left lg:absolute lg:top-1/2 lg:-translate-y-1/2 lg:left-36">
-        <h1 class="text-2xl sm:text-3xl md:text-4xl text-[#6C3130] font-semibold mb-3 drop-shadow-xl">
-          All-Inclusive Care
-          <span class="block sm:inline text-[#F58220]">ONE Trusted Hospital</span>
+      <div class="relative z-20 px-4  text-center lg:text-left lg:absolute lg:top-1/2 lg:-translate-y-1/2 lg:left-36 max-w-3xl">
+
+        <!-- Line 1 -->
+        <p class="text-lg sm:text-xl md:text-3xl text-[#6C3130] font-normal lg:mb-2 mb-0 drop-shadow">
+          Excellence in Healthcare.
+        </p>
+
+        <!-- Line 2 (highlighted orange) -->
+        <h1 class="text-2xl sm:text-3xl md:text-5xl font-extrabold text-[#F58220] leading-tight ">
+          Trusted by Families.
         </h1>
 
+        <!-- Line 3 -->
+        <h2 class="text-2xl sm:text-3xl md:text-4xl font-bold text-[#6C3130]  mb-3 ">
+          With WorldClass Doctors.
+        </h2>
+
+        <!-- Appointment CTA -->
         <p
-          class="text-lg sm:text-xl md:text-2xl xl:w-[650px]
+          class="text-lg sm:text-xl md:text-2xl xl:w-[550px]
                bg-[image:var(--gradient-brand)]
-               md:text-4xl font-semibold text-white inline-block px-3 py-3 rounded drop-shadow-xl">
-          World Class Care, Under One Roof
+               md:text-3xl font-semibold text-white inline-block px-3 py-1 rounded drop-shadow-xl">
+          For Appointments : 081 822 69400
         </p>
+
+        <!-- Address -->
+        <div class="mt-4 flex items-center justify-center lg:justify-start gap-2 text-[#6C3130] font-medium">
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-[#F58220]" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5A2.5 2.5 0 1 1 12 6a2.5 2.5 0 0 1 0 5.5z" />
+          </svg>
+          <span>RMR Road, Durgigudi Shivamogga</span>
+        </div>
+
       </div>
+
 
       <!-- SEARCH BAR -->
       <!-- SEARCH BAR -->
       <div
         class="absolute top-[58%] sm:top-[70%] left-0 w-full px-4 z-30
    lg:top-[80%] lg:left-1/2 lg:-translate-x-1/2
-   lg:px-0 lg:w-[1020px] lg:max-w-4xl ">
+   lg:px-0 lg:w-[1020px] lg:max-w-4xl mt-14 lg:mt-0  ">
 
         <div
           class="flex flex-col gap-3
@@ -140,16 +160,29 @@
                 class="w-full bg-white/70 backdrop-blur-md lg:bg-[#f4f4f4]
              border border-white/40 lg:border-0
              rounded-[10px] lg:rounded-full
-             px-4 lg:px-8 py-3 text-sm text-[#6C3130]
+             px-4 lg:px-8 py-3 text-lg text-[#6C3130]
              appearance-none outline-none cursor-pointer">
                 <option value="">Select Specialty</option>
-                <option value="./angiography.php">Cardiology</option>
-                <option value="/specialty/anaesthesia">Anaesthesia</option>
-                <option value="/specialty/dermatology">Dermatology</option>
-                <option value="/specialty/critical-care">Critical Care</option>
-                <!-- Add all specialties here -->
+                <option value="./heart-and-vascular-care.php">Heart &amp; Vascular Care</option>
+                <option value="./brain-and-nervecare.php">Brain &amp; Nerve Sciences</option>
+                <option value="./bone-and-joint.php">Bone, Joint &amp; Movement</option>
+                <option value="./ent.php">ENT</option>
+                <option value="./general-medicine.php">General Medicine &amp; Internal Care</option>
+                <option value="./child-care.php">Child &amp; Newborn Care</option>
+                <option value="./kidney-care.php">Kidney &amp; Dialysis Care</option>
+                <option value="./skin-hair.php">Skin &amp; Hair Care</option>
+                <option value="./harmone-care.php">Hormone Care</option>
+                <option value="./rehablitation-and-recovery.php">Physiotherapy &amp; Recovery Care</option>
+                <option value="./lung-care.php">Lung &amp; Breathing Care</option>
+                <option value="./dental-jaw-care.php">Dental, Jaw &amp; Facial Surgery</option>
+                <option value="./digestive-care.php">Digestive System Care</option>
+                <option value="./general-and-laproscopic-surgery.php">General Surgeries &amp; Allied</option>
+                <option value="./women-health.php">Women&#39;s Health (OBG / OBGYN)</option>
+                <option value="./urology.php">Urinary &amp; Men&#39;s Health Care</option>
+                <option value="./plastic-surgery.php">Plastic &amp; Reconstructive Care</option>
+                <option value="./invasive-and-non-invasive-cardiology.php">Intensive &amp; Critical Care</option>
               </select>
-
+  
               <span
                 class="pointer-events-none absolute right-4 lg:right-6 top-1/2 -translate-y-1/2 text-[#6C3130] text-xs">
                 ▼
@@ -163,7 +196,7 @@
                 class="w-full bg-white/70 backdrop-blur-md lg:bg-[#f4f4f4]
          border border-white/40 lg:border-0
          rounded-[10px] lg:rounded-full
-         px-4 lg:px-8 py-3 text-sm text-[#6C3130]
+         px-4 lg:px-8 py-3 text-lg text-[#6C3130]
          appearance-none outline-none cursor-pointer">
 
                 <option value="">Select Doctor</option>
@@ -177,11 +210,12 @@
                 <option value="./dr-akshey.php">Dr. Akshay Pai</option>
 
                 <!-- Endocrinology / Endocrine Surgery -->
-                <option value="./dr-praveen.php">Dr. Praveenkumar Devarabatti</option>
+                <option value="./dr-praveen.php">Dr. Praveenkumar Devarabhavi</option>
                 <option value="./dr-shreyamsa.php">Dr. Shreyamsa M</option>
+                <option value="./dr-nagendra.php">Dr. S. Nagendra</option>
 
                 <!-- Cardiology & CTVS -->
-                <option value="./dr-manjunath.php">Dr. Manjunath P. Hasalkar</option>
+                <option value="./dr-manjunath.php">Dr. Manjunath P. Pasalkar</option>
                 <option value="./dr-sudheer-m-bhat.php">Dr. Sudheer M Bhat</option>
 
                 <!-- Orthopedics -->
@@ -189,7 +223,7 @@
                 <option value="./dr-sukruth.php">Dr. Sukruth P Patel</option>
 
                 <!-- Pulmonology -->
-                <option value="./dr-anirudda.php">Dr. Aniruddha Udupi K</option>
+                <option value="./dr-anirudda.php">Dr. Aniruddha Udupa K</option>
 
                 <!-- Pediatrics -->
                 <option value="./dr-srinivas.php">Dr. Sreenivas Hatwar</option>
@@ -264,7 +298,7 @@
         class="mt-6 flex justify-center z-10
          lg:mt-0 lg:absolute lg:bottom-0 lg:right-10 lg:opacity-95">
         <img
-          src="./assets/banners/family-home.png"
+          src="./assets/banners/maax-family.webp"
           class="lg:w-[900px] lg:h-[560px] md:h-[400px] "
           alt="">
       </div>
@@ -309,30 +343,38 @@
         <div class="w-full flex justify-center lg:block hidden">
           <img
             src="./assets/banners/Frame 274.png"
-            class=" w-full h-full !important"
-            alt="">
+            alt=""
+            class="w-full h-full object-cover transition-all duration-500 ease-out group-hover:scale-105 group-hover:brightness-110">
         </div>
       </div>
-      <div class="hidden md:flex justify-between flex-wrap xl:px-0 px-5">
+      <div class="hidden md:grid grid-cols-3 gap-5 xl:px-0 px-5">
 
-        <div class="w-full max-w-[500px] bg-[#FE9C3E] rounded-2xl p-4 text-white">
+        <!-- CARD 1 -->
+        <div class="w-full max-w-[500px] bg-[#FE9C3E] rounded-2xl p-4 text-white
+              transition-all duration-300 ease-out
+              hover:-translate-y-2 hover:shadow-2xl hover:shadow-black/20
+              hover:scale-[1.02] cursor-pointer">
           <div class="flex items-start gap-3">
             <div>
               <div class="flex items-center gap-3">
-                <img src="./assets/icons/trophy-icon.png" alt="" class="w-8 h-8">
+                <img src="./assets/icons/trophy-icon.png" alt="" class="w-8 h-8 transition-transform duration-300 group-hover:rotate-6">
                 <h3 class="text-xl font-bold">
                   High Quality Medical Care
                 </h3>
               </div>
 
-              <p class="mt-2 text-base leading-relaxed">
-                At MaAx Hospitals, we deliver top-quality medical care with specialised services, advanced treatments, and expert support — all under one roof.
+              <p class="mt-2 text-base leading-relaxed opacity-90">
+                At MaAx Hospital, we deliver top-quality medical care with specialised services, advanced treatments, and expert support — all under one roof.
               </p>
             </div>
           </div>
         </div>
 
-        <div class="w-full max-w-[500px] bg-[#6C3130] rounded-2xl p-4 text-white">
+        <!-- CARD 2 -->
+        <div class="w-full max-w-[500px] bg-[#6C3130] rounded-2xl p-4 text-white
+              transition-all duration-300 ease-out
+              hover:-translate-y-2 hover:shadow-2xl hover:shadow-black/20
+              hover:scale-[1.02] cursor-pointer">
           <div class="flex items-start gap-3">
             <div>
               <div class="flex items-center gap-3">
@@ -342,14 +384,18 @@
                 </h3>
               </div>
 
-              <p class="mt-2 text-base leading-relaxed">
-                At MaAx Hospitals, we deliver top-quality medical care with specialised services, advanced treatments, and expert support — all under one roof.
+              <p class="mt-2 text-base leading-relaxed opacity-90">
+                At MaAx Hospital, we deliver top-quality medical care with specialised services, advanced treatments, and expert support — all under one roof.
               </p>
             </div>
           </div>
         </div>
 
-        <div class="w-full max-w-[500px] bg-[#FE9C3E] rounded-2xl p-4 text-white">
+        <!-- CARD 3 -->
+        <div class="w-full max-w-[500px] bg-[#FE9C3E] rounded-2xl p-4 text-white
+              transition-all duration-300 ease-out
+              hover:-translate-y-2 hover:shadow-2xl hover:shadow-black/20
+              hover:scale-[1.02] cursor-pointer">
           <div class="flex items-start gap-3">
             <div>
               <div class="flex items-center gap-3">
@@ -359,14 +405,15 @@
                 </h3>
               </div>
 
-              <p class="mt-2 text-base leading-relaxed">
-                At MaAx Hospitals, we deliver top-quality medical care with specialised services, advanced treatments, and expert support — all under one roof.
+              <p class="mt-2 text-base leading-relaxed opacity-90">
+                At MaAx Hospital, we deliver top-quality medical care with specialised services, advanced treatments, and expert support — all under one roof.
               </p>
             </div>
           </div>
         </div>
 
       </div>
+
 
       <!-- MOBILE: accordion style -->
       <div class="md:hidden w-full px-5 mt-6">
@@ -389,7 +436,7 @@
             </summary>
 
             <div class="px-4 pb-4 pt-1 text-sm leading-relaxed text-white">
-              At MaAx Hospitals, we deliver top-quality medical care
+              At MaAx Hospital, we deliver top-quality medical care
               with specialised services, advanced treatments, and
               expert support — all under one roof.
             </div>
@@ -413,7 +460,7 @@
             </summary>
 
             <div class="px-4 pb-4 pt-1 text-sm leading-relaxed text-[#6C3130] group-open:text-white">
-              At MaAx Hospitals, we deliver top-quality medical care with specialised services,
+              At MaAx Hospital, we deliver top-quality medical care with specialised services,
               advanced treatments, and expert support — all under one roof.
             </div>
           </details>
@@ -437,7 +484,7 @@
             </summary>
 
             <div class="px-4 pb-4 pt-1 text-sm leading-relaxed text-[#6C3130] group-open:text-white">
-              At MaAx Hospitals, we deliver top-quality medical care with specialised
+              At MaAx Hospital, we deliver top-quality medical care with specialised
               services, advanced treatments, and expert support — all under one roof.
             </div>
           </details>
@@ -578,6 +625,28 @@
           </div>
           <div class="flex justify-center">
             <a href="./ent.php"
+              class="px-5 py-2 rounded-full border border-[#e4d5c6] text-[#5c2c20] hover:bg-[#f7eee7] transition">
+              Read more
+            </a>
+          </div>
+        </div>
+
+      </div>
+
+
+      <div class="flex flex-wrap justify-center gap-3 mt-5">
+        <div class="card-hover max-w-xs mx-auto rounded-2xl border border-[#e4d5c6] p-5 shadow-sm bg-white">
+          <h3 class="text-center text-lg font-semibold text-[#5c2c20] mb-4">
+            General Medicine
+          </h3>
+          <div class="w-full h-40 overflow-hidden rounded-xl mb-4">
+            <img
+              src="./assets/procedure/genral-medicine.webp"
+              alt="Heart & Vascular Care"
+              class="w-full h-full object-cover" />
+          </div>
+          <div class="flex justify-center">
+            <a href="./general-medicine.php"
               class="px-5 py-2 rounded-full border border-[#e4d5c6] text-[#5c2c20] hover:bg-[#f7eee7] transition">
               Read more
             </a>
@@ -1002,7 +1071,7 @@
           </h2>
 
           <p class="text-sm md:text-base text-gray-200 leading-relaxed">
-            MaAx Hospital, Shimoga is equipped with state-of-the-art medical
+            MaAx Hospital, Shivamogga is equipped with state-of-the-art medical
             infrastructure, enabling precision diagnosis, advanced surgeries,
             and superior patient outcomes.
           </p>
@@ -1262,24 +1331,24 @@
 
   <section class="container mx-auto">
 
-   
 
-    <h2 class="text-2xl font-semibold text-center pt-8 pb-5">
+
+    <h2 class="text-2xl font-semibold text-center pt-12 pb-2">
       <span class="text-[#6C3130]">Real Patients,</span>
       <span class="text-brand">Real Stories</span>
     </h2>
-    <div class="grid md:grid-cols-3 grid-cols-1 justify-items-center gap-10 mt-5 lg:px-0 px-5 ">
+    <!-- <div class="grid md:grid-cols-3 grid-cols-1 justify-items-center gap-10 mt-5 lg:px-0 px-5 ">
 
 
-      <div class="max-w-sm rounded overflow-hidden shadow-lg yt-video-card" data-yt-video="hwH9BO1QEL8">
+      <div class="max-w-sm rounded overflow-hidden shadow-lg yt-video-card" data-yt-video="hwH9BO1QEL8" referrerPolicy="strict-origin-when-cross-origin">
 
         <div class="w-full relative p-5">
-          <!-- Gradient Overlay -->
+       
 
-          <!-- Image -->
+     
           <img class="w-full h-full object-cover rounded-2xl " src="./assets/testimonials/image 107 (1).png" alt="Sunset in the mountains">
 
-          <!-- Title -->
+
 
         </div>
 
@@ -1292,15 +1361,15 @@
         </div>
 
       </div>
-      <div class="max-w-sm rounded overflow-hidden shadow-lg yt-video-card" data-yt-video="HPm9wgRENnM">
+      <div class="max-w-sm rounded overflow-hidden shadow-lg yt-video-card" data-yt-video="HPm9wgRENnM" referrerPolicy="strict-origin-when-cross-origin">
 
         <div class="w-full relative p-5">
-          <!-- Gradient Overlay -->
+        
 
-          <!-- Image -->
+        
           <img class="w-full h-full object-cover rounded-2xl " src="./assets/testimonial.png" alt="Sunset in the mountains">
 
-          <!-- Title -->
+  
 
         </div>
 
@@ -1313,16 +1382,13 @@
         </div>
 
       </div>
-      <div class="max-w-sm rounded overflow-hidden shadow-lg yt-video-card" data-yt-video="8yc3498d-dA">
+      <div class="max-w-sm rounded overflow-hidden shadow-lg yt-video-card" data-yt-video="8yc3498d-dA" referrerPolicy="strict-origin-when-cross-origin">
 
         <div class="w-full relative p-5">
-          <!-- Gradient Overlay -->
-
-          <!-- Image -->
+        
           <img class="w-full h-full object-cover rounded-2xl " src="./assets/testimonials/Mask group.png" alt="Sunset in the mountains">
 
-          <!-- Title -->
-
+ 
         </div>
 
         <div class="px-6 py-4 flex gap-5">
@@ -1334,7 +1400,17 @@
         </div>
 
       </div>
+    </div> -->
+
+
+    <div class=" container flex justify-center pt-10 gap-10 flex-wrap px-5 mx-auto">
+      <iframe width="450" height="315" src="https://www.youtube.com/embed/hwH9BO1QEL8?si=3oowtPoHMVTP3_kl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <iframe width="450" height="315" src="https://www.youtube.com/embed/HPm9wgRENnM?si=AmZT9pzbi90zVR5X" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <iframe width="450" height="315" src="https://www.youtube.com/embed/8yc3498d-dA?si=t9xSbGHsFuMe4NLI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </div>
+
+
+
     <div class="w-full flex justify-center mt-10">
       <a href="./patients-corner.php?type=videos" class="flex justify-center items-center gap-2 border border-[#f28c28] text-[#f28c28] 
         px-5 py-2 rounded-full font-medium text-lg hover:bg-[#fff7ef] transition bg-white">
@@ -1345,32 +1421,32 @@
 
   </section>
 
-  <!-- YouTube Video Modal -->
-  <div id="ytVideoModal" class="fixed inset-0 bg-black/70 hidden items-center justify-center z-50">
+
+  <!-- <div id="ytVideoModal" class="fixed inset-0 bg-black/70 hidden items-center justify-center z-50">
     <div class="relative w-full max-w-3xl mx-4">
 
-      <!-- Close Button -->
+
       <button id="ytCloseModal" class="absolute -top-10 right-0 text-white text-3xl">&times;</button>
 
-      <!-- Video Container -->
+ 
       <div class="bg-black rounded-lg overflow-hidden aspect-video">
         <iframe id="ytYoutubeFrame"
           class="w-full h-full"
           src=""
           title="YouTube video player"
+          referrerPolicy="strict-origin-when-cross-origin"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen>
         </iframe>
       </div>
     </div>
-  </div>
-  <script>
+  </div> -->
+  <!-- <script>
     const ytModal = document.getElementById("ytVideoModal");
     const ytIframe = document.getElementById("ytYoutubeFrame");
     const ytCloseBtn = document.getElementById("ytCloseModal");
 
-    // Open modal on card click
     document.querySelectorAll(".yt-video-card").forEach(card => {
       card.addEventListener("click", () => {
         const videoId = card.getAttribute("data-yt-video");
@@ -1380,20 +1456,20 @@
       });
     });
 
-    // Close modal function
+ 
     function closeYtModal() {
       ytModal.classList.add("hidden");
       ytModal.classList.remove("flex");
-      ytIframe.src = ""; // stop video
+      ytIframe.src = ""; 
     }
 
     ytCloseBtn.addEventListener("click", closeYtModal);
 
-    // Close when clicking outside video
+ 
     ytModal.addEventListener("click", (e) => {
       if (e.target === ytModal) closeYtModal();
     });
-  </script>
+  </script> -->
 
 
   <section class="pt-24">
@@ -1500,7 +1576,7 @@
           <div class="absolute inset-0 bg-gradient-to-b from-[#f4f4f466] via-[#73737366] to-[#00000066]"></div>
 
           <!-- Image -->
-          <img class="w-full h-full object-cover" src="./assets/blogs/blog-1.jpg" alt="Sunset in the mountains">
+          <img class="w-full h-full object-cover" src="./assets/blogs/minimally-invasive-surgery.webp" alt="Sunset in the mountains">
 
           <!-- Title -->
           <p class="absolute bottom-10 text-center w-full bg-[#F6AC6C] text-lg p-2 text-[#6C3130] font-semibold">
@@ -1533,7 +1609,7 @@
   <section class="xl:max-w-[1500px] max-w-7xl mx-auto px-4 py-16 font-poppins pt-24">
     <div class="text-center mb-12">
       <h2 class="text-3xl md:text-4xl font-bold text-[#A85045]">
-        At maAx Hospitals, <span class="text-orange-500">Get Better in 3 Easy Steps</span>
+        At MaAx Hospital, <span class="text-orange-500">Get Better in 3 Easy Steps</span>
       </h2>
     </div>
 
@@ -1549,6 +1625,7 @@
       <div class="relative z-10 flex flex-col md:flex-row items-center md:items-center lg:items-end justify-between px-0 md:px-6 lg:px-10 pt-0 md:pt-14 pb-0 md:pb-0">
 
         <div class="w-full md:w-3/5 xl:w-1/2 space-y-6 order-2 md:order-1 pb-0 md:pb-14 mt-12 md:mt-0 px-4 md:px-0">
+          <img src="./assets/logo/logo-white.png" class="w-60 h-28 md:block hidden" alt="">
 
           <div class="bg-white p-5 rounded-xl shadow-md border border-gray-100 flex items-start gap-5 w-full md:max-w-md transition-transform hover:-translate-y-1 duration-300">
             <div class="bg-[#D66A6A] text-white text-3xl font-bold w-12 h-12 flex items-center justify-center rounded-lg shrink-0 leading-none">
@@ -1564,7 +1641,7 @@
             </div>
           </div>
 
-          <div class="bg-white p-5 rounded-xl shadow-md border border-gray-100 flex items-start gap-5 w-full md:max-w-md md:ml-6 lg:ml-12 xl:ml-28 transition-transform hover:-translate-y-1 duration-300">
+          <div class="bg-white p-5 rounded-xl shadow-md border border-gray-100 flex items-start gap-5 w-full md:max-w-md md:ml-2 lg:ml-8 xl:ml-20 transition-transform hover:-translate-y-1 duration-300">
             <div class="bg-[#A85045] text-white text-3xl font-bold w-12 h-12 flex items-center justify-center rounded-lg shrink-0 leading-none">
               2
             </div>
@@ -1578,7 +1655,7 @@
             </div>
           </div>
 
-          <div class="bg-white p-5 rounded-xl shadow-md border border-gray-100 flex items-start gap-5 w-full md:max-w-md md:ml-12 lg:ml-24 xl:ml-60 transition-transform hover:-translate-y-1 duration-300">
+          <div class="bg-white p-5 rounded-xl shadow-md border border-gray-100 flex items-start gap-5 w-full md:max-w-md md:ml-5 lg:ml-12 xl:ml-30 transition-transform hover:-translate-y-1 duration-300">
             <div class="bg-[#5D3333] text-white text-3xl font-bold w-12 h-12 flex items-center justify-center rounded-lg shrink-0 leading-none">
               3
             </div>

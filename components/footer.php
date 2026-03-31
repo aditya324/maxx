@@ -1,6 +1,6 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
-<footer class="bg-[#5B2B2B] text-white pt-14 pb-10">
+<footer class="bg-[#5B2B2B] text-white pt-14 pb-10 mt-18">
   <div class="container mx-auto px-6 lg:px-12">
 
     <!-- TOP GRID -->
@@ -22,16 +22,16 @@
         <div class="mt-6">
           <p class="text-sm font-medium mb-3">Follow us on</p>
           <div class="flex gap-3">
-            <a href="https://www.instagram.com/maax_hospital/?hl=en" target="_blank" class="w-8 h-8 flex items-center justify-center rounded-full bg-white text-[#5B2B2B] hover:bg-orange-400 hover:text-white transition">
+            <a href="https://www.instagram.com/maAx_hospital/?hl=en" target="_blank" class="w-8 h-8 flex items-center justify-center rounded-full bg-white text-[#5B2B2B] hover:bg-orange-400 hover:text-white transition">
               <i class="fab fa-instagram text-sm"></i>
             </a>
-            <a href="https://www.facebook.com/maaxhospitalshivamogga/" target="_blank" class="w-8 h-8 flex items-center justify-center rounded-full bg-white text-[#5B2B2B] hover:bg-orange-400 hover:text-white transition">
+            <a href="https://www.facebook.com/maAxhospitalshivamogga/" target="_blank" class="w-8 h-8 flex items-center justify-center rounded-full bg-white text-[#5B2B2B] hover:bg-orange-400 hover:text-white transition">
               <i class="fab fa-facebook-f text-sm"></i>
             </a>
-            <a href="https://x.com/maax_hospital/with_replies" target="_blank" class="w-8 h-8 flex items-center justify-center rounded-full bg-white text-[#5B2B2B] hover:bg-orange-400 hover:text-white transition">
+            <a href="https://x.com/maAx_hospital/with_replies" target="_blank" class="w-8 h-8 flex items-center justify-center rounded-full bg-white text-[#5B2B2B] hover:bg-orange-400 hover:text-white transition">
               <i class="fa-brands fa-x-twitter"></i>
             </a>
-            <a href="https://www.youtube.com/c/maaxhospital" target="_blank" class="w-8 h-8 flex items-center justify-center rounded-full bg-white text-[#5B2B2B] hover:bg-orange-400 hover:text-white transition">
+            <a href="https://www.youtube.com/c/maAxhospital" target="_blank" class="w-8 h-8 flex items-center justify-center rounded-full bg-white text-[#5B2B2B] hover:bg-orange-400 hover:text-white transition">
               <i class="fab fa-youtube text-sm"></i>
             </a>
           </div>
@@ -53,32 +53,60 @@
       </div>
 
       <!-- Column 3 -->
-      <div>
-        <h3 class="font-semibold text-lg mb-4">For Medical Professionals</h3>
-        <ul class="space-y-2 text-sm text-gray-200">
-          <li><a href="#" class="hover:text-orange-300">Apply For Medical Careers</a></li>
-
-        </ul>
-      </div>
+      
 
       <!-- Column 4 -->
       <div>
         <h3 class="font-semibold text-lg mb-4">For Corporates</h3>
         <ul class="space-y-2 text-sm text-gray-200">
-          <li><a href="#" class="hover:text-orange-300">Careers</a></li>
+          <!-- <li><a href="#" class="hover:text-orange-300">Careers</a></li> -->
           <li><a href="../about.php" class="hover:text-orange-300">About Us</a></li>
-          <li><a href="#" class="hover:text-orange-300">Sister Concerns</a></li>
+          <!-- <li><a href="#" class="hover:text-orange-300">Sister Concerns</a></li> -->
           <li><a href="./patients-corner.php?type=events" class="hover:text-orange-300">News & Events</a></li>
 
-          <li><a href="tel:+919876543210" class="hover:text-orange-300">Contact Us</a></li>
+          <li><a href="/contact.php" class="hover:text-orange-300">Contact Us</a></li>
         </ul>
       </div>
+
+      <!-- Column 3 -->
+<div>
+  <h3 class="font-semibold text-lg mb-4">Our Location</h3>
+  <ul class="space-y-3 text-sm text-gray-200">
+    
+    <li class="flex items-start gap-2">
+      <i class="fas fa-map-marker-alt mt-1 text-orange-400"></i>
+      <span>
+        RMR Road, Durgigudi <br />
+        Shivamogga
+      </span>
+    </li>
+
+    <!-- <li class="flex items-center gap-2">
+      <i class="fas fa-phone text-orange-400"></i>
+      <a href="tel:+919876543210" class="hover:text-orange-300">
+        +91 98765 43210
+      </a>
+    </li>
+
+    <li class="flex items-center gap-2">
+      <i class="fas fa-envelope text-orange-400"></i>
+      <a href="mailto:info@maAxhospital.com" class="hover:text-orange-300">
+        info@maAxhospital.com
+      </a>
+    </li> -->
+
+  </ul>
+</div>
     </div>
+
+    
+
+    
 
     <!-- SEARCH BAR -->
 
     <div class="border-t border-white/20 mt-12 pt-6 text-center text-sm text-gray-300">
-      © <span id="year"></span> Maax Hospital. All rights reserved.
+      © <span id="year"></span> maAx Hospital. All rights reserved.
       Made by <a href="https://sunrisedigital.co.in/" class="text-orange-400 font-medium">SunriseDigital</a>
     </div>
 

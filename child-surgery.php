@@ -33,7 +33,7 @@
                                 <h1 class="text-4xl md:text-4xl p-3 lg:text-4xl font-semibold rounded-md text-white w-full "
                                     style="background: linear-gradient(90deg,rgba(245, 130, 32, 1) 0%, rgba(143, 76, 19, 1) 62%);">
                                     Bronchoscopy Diagnosis at<br>
-                                    maAx Super Specialty Hospital, Shimoga
+                                    maAx Super Specialty Hospital, Shivamogga
                                 </h1>
 
                                 <p class="text-sm md:text-base lg:text-2xl p-1 bg-white w-2xl rounded-md  leading-relaxed mt-2 lg:mt-4 text-[#6C3130]">
@@ -85,7 +85,7 @@
                                     <input type="checkbox" id="consent"
                                         class="mt-1 w-4 h-4 text-orange-500 border-gray-300 rounded focus:ring-orange-500">
                                     <label for="consent" class="text-xs text-gray-600">
-                                        I consent maAx hospitals to contact me
+                                        I consent maAx Hospital to contact me
                                     </label>
                                 </div>
 
@@ -117,7 +117,7 @@
                                 <h1 class="text-4xl md:text-4xl p-3 lg:text-4xl font-semibold rounded-md text-white w-full "
                                     style="background: linear-gradient(90deg,rgba(245, 130, 32, 1) 0%, rgba(143, 76, 19, 1) 62%);">
                                     Bronchoscopy Diagnosis at<br>
-                                    maAx Super Specialty Hospital, Shimoga
+                                    maAx Super Specialty Hospital, Shivamogga
                                 </h1>
 
                                 <p class="text-sm md:text-base lg:text-2xl p-1 bg-white w-2xl rounded-md  leading-relaxed mt-2 lg:mt-4 text-[#6C3130]">
@@ -169,7 +169,7 @@
                                     <input type="checkbox" id="consent"
                                         class="mt-1 w-4 h-4 text-orange-500 border-gray-300 rounded focus:ring-orange-500">
                                     <label for="consent" class="text-xs text-gray-600">
-                                        I consent maAx hospitals to contact me
+                                        I consent maAx Hospital to contact me
                                     </label>
                                 </div>
 
@@ -201,7 +201,7 @@
                                 <h1 class="text-4xl md:text-4xl p-3 lg:text-4xl font-semibold rounded-md text-white w-full "
                                     style="background: linear-gradient(90deg,rgba(245, 130, 32, 1) 0%, rgba(143, 76, 19, 1) 62%);">
                                     Bronchoscopy Diagnosis at<br>
-                                    maAx Super Specialty Hospital, Shimoga
+                                    maAx Super Specialty Hospital, Shivamogga
                                 </h1>
 
                                 <p class="text-sm md:text-base lg:text-2xl p-1 bg-white w-2xl rounded-md  leading-relaxed mt-2 lg:mt-4 text-[#6C3130]">
@@ -253,7 +253,7 @@
                                     <input type="checkbox" id="consent"
                                         class="mt-1 w-4 h-4 text-orange-500 border-gray-300 rounded focus:ring-orange-500">
                                     <label for="consent" class="text-xs text-gray-600">
-                                        I consent maAx hospitals to contact me
+                                        I consent maAx Hospital to contact me
                                     </label>
                                 </div>
 
@@ -346,7 +346,7 @@
                 <p class="text-gray-700 leading-relaxed text-base font-semibold">
                     Children with congenital anomalies or surgical conditions require specialized expertise, gentle handling, and a child-friendly environment to ensure safety and comfort. Pediatric surgical care demands precision and compassion to address both medical and emotional needs.
                     <br><br>
-                    At MaAx Super Speciality Hospital, our Child Surgery Care Department (Pediatric Surgery) provides safe, effective, and compassionate surgical treatment for infants and children. Our pediatric surgeons are specially trained to perform delicate procedures with accuracy, minimal discomfort, and faster recovery. By combining advanced surgical techniques with family-centered care, we aim to make the surgical journey less stressful for both children and their parents.
+                    At maAx Super Speciality Hospital, our Child Surgery Care Department (Pediatric Surgery) provides safe, effective, and compassionate surgical treatment for infants and children. Our pediatric surgeons are specially trained to perform delicate procedures with accuracy, minimal discomfort, and faster recovery. By combining advanced surgical techniques with family-centered care, we aim to make the surgical journey less stressful for both children and their parents.
                 </p>
 
                 <h2 class="text-3xl md:text-4xl font-semibold text-[#6C3130] leading-tight">
@@ -378,6 +378,33 @@
                     </p>
                 </div>
 
+                <div class="w-full lg:w-full space-y-6 flex flex-col ">
+
+                    <h2 class="text-3xl md:text-4xl font-semibold text-[#6C3130] leading-tight">
+                        Why Choose
+                        <span class="text-[#ec8b2a]">maAx Super Speciality Hospital</span>
+                    </h2>
+
+                    <div class="space-y-4">
+                        <p class="text-gray-700 leading-relaxed text-base">
+                            <strong>Expert Pediatric Surgeons:</strong> Specialists with advanced training in pediatric surgical procedures.
+                        </p>
+                        <p class="text-gray-700 leading-relaxed text-base">
+                            <strong>Child-Friendly Environment:</strong> Designed to ensure comfort, safety, and reduced anxiety for children.
+                        </p>
+                        <p class="text-gray-700 leading-relaxed text-base">
+                            <strong>Advanced Surgical Facilities:</strong> Modern operation theatres with minimally invasive options.
+                        </p>
+                        <p class="text-gray-700 leading-relaxed text-base">
+                            <strong>Patient-Centric Approach:</strong> Parents and caregivers are involved in every step of care.
+                        </p>
+                        <p class="text-gray-700 leading-relaxed text-base">
+                            <strong>Holistic Healing:</strong> Integrated rehabilitation, follow-up care, and emotional support.
+                        </p>
+                    </div>
+
+                </div>
+
             </div>
 
 
@@ -393,69 +420,7 @@
 
         </div>
 
-        <section class="w-full  py-14">
-            <div class="container mx-auto px-5 lg:px-10 flex flex-col lg:flex-row gap-20 items-start justify-center">
 
-                <!-- LEFT BOX -->
-                <div class="w-full lg:w-[350px] bg-[#663330] text-white rounded-2xl px-8 py-10 space-y-6">
-                    <h3 class="text-2xl font-bold text-center">WORKING HOURS</h3>
-
-                    <div class="space-y-3 text-base font-medium">
-                        <p>Monday..............Open 24 Hours</p>
-                        <p>Tuesday.............Open 24 Hours</p>
-                        <p>Wednesday......Open 24 Hours</p>
-                        <p>Thursday............Open 24 Hours</p>
-                        <p>Friday..................Open 24 Hours</p>
-                        <p>Saturday............Open 24 Hours</p>
-                        <p>Sunday...............Open 24 Hours</p>
-                    </div>
-
-                    <button class="w-full bg-[#ec8b2a] text-white font-semibold py-3 rounded-lg">
-                        Book An Appointment
-                    </button>
-                </div>
-
-                <!-- RIGHT CONTENT -->
-               <div class="w-full lg:w-2/3 space-y-6 flex flex-col ">
-
-    <h2 class="text-3xl md:text-4xl font-semibold text-[#6C3130] leading-tight">
-        Why Choose
-        <span class="text-[#ec8b2a]">MaAx Super Speciality Hospital</span>
-    </h2>
-
-    <div class="space-y-4">
-        <p class="text-gray-700 leading-relaxed text-base">
-            <strong>Expert Pediatric Surgeons:</strong> Specialists with advanced training in pediatric surgical procedures.
-        </p>
-        <p class="text-gray-700 leading-relaxed text-base">
-            <strong>Child-Friendly Environment:</strong> Designed to ensure comfort, safety, and reduced anxiety for children.
-        </p>
-        <p class="text-gray-700 leading-relaxed text-base">
-            <strong>Advanced Surgical Facilities:</strong> Modern operation theatres with minimally invasive options.
-        </p>
-        <p class="text-gray-700 leading-relaxed text-base">
-            <strong>Patient-Centric Approach:</strong> Parents and caregivers are involved in every step of care.
-        </p>
-        <p class="text-gray-700 leading-relaxed text-base">
-            <strong>Holistic Healing:</strong> Integrated rehabilitation, follow-up care, and emotional support.
-        </p>
-    </div>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-            </div>
-        </section>
 
 
     </section>
@@ -500,7 +465,7 @@
     <div class="container w-full mx-auto">
         <h2 class="text-2xl md:text-3xl font-semibold leading-snug text-gray-800">
             FAQs on General & Keyhole Surgery at
-            <span class="text-[#ec8b2a]">MaAx Super Speciality Hospital</span>
+            <span class="text-[#ec8b2a]">maAx Super Speciality Hospital</span>
         </h2>
 
         <!-- ACCORDION BOX -->
@@ -557,7 +522,7 @@
                     <span class="transition-transform group-open:rotate-180 text-xl group-open:text-[#ec8b2a]">▲</span>
                 </summary>
                 <div class="px-6 pb-4 pt-2 text-gray-600 leading-relaxed bg-orange-50/70">
-                    Yes. MaAx Super Speciality Hospital offers 24/7 emergency surgical care for trauma, acute abdominal pain, and other urgent conditions.
+                    Yes. maAx Super Speciality Hospital offers 24/7 emergency surgical care for trauma, acute abdominal pain, and other urgent conditions.
                 </div>
             </details>
 
@@ -570,7 +535,7 @@
 
 
 
-<?php require "./components/footer.php" ?>
+    <?php require "./components/footer.php" ?>
 </body>
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 

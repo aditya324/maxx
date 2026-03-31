@@ -52,7 +52,7 @@
   </style>
 </head>
 
-<body class="w-full bg-gray-100 p-5">
+<body class="w-full bg-gray-100 p-5 ">
   <h2 class="text-2xl font-semibold text-center">
 
     <span class="text-brand  ">Hospital Tour</span>

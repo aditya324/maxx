@@ -92,7 +92,7 @@
                     <div class="flex items-start gap-2 mt-2">
                         <input type="checkbox" id="consent" class="mt-1 w-4 h-4 text-orange-500 border-gray-300 rounded focus:ring-orange-500">
                         <label for="consent" class="text-xs text-gray-600">
-                            I consent maAx hospitals to contact me
+                            I consent maAx Hospital to contact me
                         </label>
                     </div>
 
@@ -115,7 +115,7 @@
             </h3>
 
             <p class="text-[13px] lg:text-[14px] leading-relaxed text-gray-700">
-                The Department of Emergency Care at maAx Hospitals provides high-quality,
+                The Department of Emergency Care at maAx Hospital provides high-quality,
                 round-the-clock medical support for urgent and life-threatening conditions.
                 Our trained emergency physicians, trauma specialists, and rapid-response teams
                 work with advanced diagnostic and stabilisation technologies to deliver
