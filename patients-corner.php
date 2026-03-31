@@ -165,6 +165,21 @@
                 ],
                 trending: []
             },
+            podcasts: {
+                youtube: [{
+                        title: "maAx Hospital Podcast 1",
+                        url: "https://youtu.be/H58lLkRGOcE?si=K3Knue_PEJL3OvdN"
+                    },
+                    {
+                        title: "maAx Hospital Podcast 2",
+                        url: "https://youtu.be/gUicd2ju6fY?si=57QWQA7nl56e25re"
+                    },
+                    {
+                        title: "maAx Hospital Podcast 3",
+                        url: "https://youtu.be/1C2ZgwL7Ee8?si=FpocyLt0MAqeVMnS#"
+                    }
+                ]
+            },
 
             videos: {
                 youtube: [{
@@ -351,6 +366,11 @@
             <button class="secondary-tab" data-filter="instagram">Instagram</button>
         `;
                 activeFilter = "youtube";
+            } else if (activeType === "podcasts") {
+                secondaryTabs.innerHTML = `
+            <button class="secondary-tab active" data-filter="youtube">YouTube Podcasts</button>
+        `;
+                activeFilter = "youtube";
             } else if (activeType === "reviews") {
                 secondaryTabs.innerHTML = `
             <button class="secondary-tab active" data-filter="google">Google Reviews</button>
@@ -385,15 +405,15 @@
             /* -------- VIDEOS -------- */
             /* -------- VIDEOS -------- */
             /* -------- VIDEOS (UNIFIED CARDS) -------- */
-            if (activeType === "videos") {
-                const items = data.videos[activeFilter] || [];
+            if (activeType === "videos" || activeType === "podcasts") {
+                const items = data[activeType][activeFilter] || [];
 
                 cards.className =
                     "grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6";
 
                 if (!items.length) {
                     cards.innerHTML =
-                        `<p class="text-center text-gray-500 col-span-full">No videos available</p>`;
+                        `<p class="text-center text-gray-500 col-span-full">No content available</p>`;
                     return;
                 }
 
